@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-03T23:30:06.109399+00:00",
-  "coverage_note": "Feed cleaned pending next full run: stale and obvious non-vacancy articles removed. Next scheduled/manual search uses corrected filtering. One user-reported Saint Anthony's First Team Manager lead is pinned pending original advert verification.",
+  "coverage_note": "Cleaned current feed: unrelated and unverified old search noise removed. Saint Anthony's First Team Manager is pinned as a user-reported lead pending original advert verification. The next successful search run will populate newly discovered leads using the corrected filters.",
   "query_count": 40,
   "raw_result_count": 665,
-  "result_count": 13,
+  "result_count": 1,
   "errors": [],
   "items": [
     {
@@ -21,114 +21,6 @@
       "team": "Senior WOSFL",
       "location": "McKenna Park, Govan, Glasgow",
       "distance_miles": null
-    },
-    {
-      "title": "📅 Closing Date 📅 🔵⚪️ Senior Management 2027 🔵⚪️ Fianna Oileán an Ghuail CLG is currently seeking expressions of interest for the following management roles for the upcoming 2027 season: • Senior Men's Management • Reserve Men's Management If - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRnR5dk8ybVpwUVhOMzAyLTNTR1BTWlk0VHpvM2ttNVNmaU1BUGlsS3ctcUNwalZRUGhJLW96R1JPQk9LZTJtNGRpREhuWTFRSExPY281bGN5SVlnQndRMWlwUUc4VGg3a1NsTlpzLU9SNnI2c3IxSW84M19vYy1sZk1FTDJOemlnb2N5bmtXSFFFRnlqM1BWeWRyYzZpZ2x4Q2JvcGk0TVdmclpXRjdhblRveElXcGQtc2JGOEFhd245LU5fSTY5eFJ0bDNMVnR5SEM3eUNSNEszN09LQ1hXVlItczFWYTJfbVFEZ2lXQlhHZVMtRXZwV3lncS1zZkEw?oc=5",
-      "published": "Wed, 21 Oct 2026 20:38:20 GMT",
-      "snippet": "📅 Closing Date 📅 🔵⚪️ Senior Management 2027 🔵⚪️ Fianna Oileán an Ghuail CLG is currently seeking expressions of interest for the following management roles for the upcoming 2027 season: • Senior Men's Management • Reserve Men's Management If &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "𝙁𝙄𝙍𝙎𝙏 𝙏𝙀𝘼𝙈 𝙈𝘼𝙉𝘼𝙂𝙀𝙍 𝙐𝙋𝘿𝘼𝙏𝙀 Applications for the First Team Manager role have now closed, with a great deal of interest shown in the position. With fixtures continuing to come thick and fast over the next few weeks, we will wait until the midweek fixtur - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxOT3hnQW93RkZEWl9TV2lzOTRpR05VUE9FNFczMVRKbVpWT0EtQ1JCT09wMm5GYU1najZ6aVUzaU5nQzdLMEYyV0FGX0hSdXBsb0Z0VGNjTVF1cHdjeElSY1FGTTRYSnd5a05VS0dfclFZLVp3Y2I5VThwTk9aSDEzNk9WQ2dXM1RBNVRVZU1FYzl5Nl9RYzFpYjdMNEhkcXVsSUNQaEgyTzFDUE54a01mNm56TXdmS3BIZmg5UF9lZXRjdjZOV1JVREpLcm9yS0pCcjZsbTk2bmZWSnJTUFh4ZE9PWUhtOUN4dE5YRUNYZ0h6cjlQdEhhUFJMSTVIT25aaXhnMXlhWGtINHZyRHVaam93ZjdCYm5oTzRneU1TeFZ2bDZ2bXdoTmZDSzVTT1huWnYwcnQ3YmVzU0Q4U0pVUlk4d1dFck5wczhtcms4VGRINHNoZWtVVlBTcUpDWlFEUWpqOUJBMzlnUVM2ZzNySFEtbWVUWWNKcWxBZ3BhcFJUajNwYldzTVFXZFFVQkZiVzNzSlJOSkhtTXFfbnplVkFYSi1aaGtEdUlCcFdFMGtaRTRoMnA3S1FiMExQYWgzUEtMbFQ0YTFkdXJUa1NsTlRYWDZEczVmVXRwbUJvVXB3SzlZVmtOMXhPVE1UdWdHRG9iUFdoaUNseXR1b29wOGZMZFNfR0NkZzlxcV9DRG15WHFYT1piNzNQWUI?oc=5",
-      "published": "Wed, 21 Oct 2026 17:30:26 GMT",
-      "snippet": "𝙁𝙄𝙍𝙎𝙏 𝙏𝙀𝘼𝙈 𝙈𝘼𝙉𝘼𝙂𝙀𝙍 𝙐𝙋𝘿𝘼𝙏𝙀 Applications for the First Team Manager role have now closed, with a great deal of interest shown in the position. With fixtures continuing to come thick and fast over the next few weeks, we will wait until the midweek fixtur &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Hi there my name is Ryan Davidson am from Aberdeen and am looking for a new team to manage. Am willing to travel 07464845932 - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MeHdCNVR5LTZUSng0bFhVUkJZRTdMMzNnQjRQbXg0SmRWUkFEQUlONklIOUVwQ3FaUzZDRThnaVlURXdDWlZneHI2OExKWlI0QllSLVFsMmxSeUFoNEQwdk1HWHhVZjkwcmFOd05FMVVnUFBnbkhZV1pTdw?oc=5",
-      "published": "Wed, 21 Oct 2026 12:31:28 GMT",
-      "snippet": "Hi there my name is Ryan Davidson am from Aberdeen and am looking for a new team to manage. Am willing to travel 07464845932 &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Morton in the Community. . 𝐖𝐞 𝐚𝐫𝐞 𝐡𝐢𝐫𝐢𝐧𝐠! 📢 We are looking for a passionate and dedicated Family Support Coach to join Morton in the Community. The Family Support Coach will provide high-quality, relationship-based support to children, young people - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNS0ItR0dmTVEzM2RXV0NXc05sd3lZenozalJPV1MtNlNWZjFVWEdWRk85LXRiMUp3amZsYkg2RHUxLVZGVFRqMEhPNHVmQnhqOXJlYUo2YS00aWgxZ2M2NkZSdGd2c3lvbXdVY0JQUW94S0ROdmJJMTFNaTZCQng1MkdCVDg0NUM4bmhPelN2aWRRb2RTMl9DWTZOVUZZd0FsZUM0QS1YZUdOeXJfZ3VOZlVPckJpeDhOcVZPQm9JTzRIa3Fadld2dzFNWVNZT0gtWERnZGRHamhKQ0ZyZGpQeEpEdG1mbUNUTVFGNlR4anZtZmF5TG5rQ01oTng5eVpXUGxSdUxNN2dtbE9nLUJERWQySmNDUmxQcko3T2JxT0FaNUk0UERuS2VvWUNzT3MxMlRjTUdHVVp5UjVOSC1tdnpLbUlsYTl4OFlqaUtPUktsTEZLSEJjb2x4a2hteHBhUDRhSWtIbXFja1JkQWpJYVBCcTlILVFaRHFobHFfSXI?oc=5",
-      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
-      "snippet": "Morton in the Community. . 𝐖𝐞 𝐚𝐫𝐞 𝐡𝐢𝐫𝐢𝐧𝐠! 📢 We are looking for a passionate and dedicated Family Support Coach to join Morton in the Community. The Family Support Coach will provide high-quality, relationship-based support to children, young people &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaGhnaU1XLXZxdENieEp1MnNGTGtVU0xEVUlRN3NScFdiWjJkcksyeXh3Q2t1Y1BGUTJLMVRxbW1pTElPa3pFQTZxUlBldkZjbDctNWppRm1fbjlsNVJMaXZDbVhGLWFVbzNiSjhYZWhjWlpXNU9rSzFweVRvOTVIQU9WenYwMTRlcTNDY05qVThsTF9jbE5TaXl2UExVaFlsclF1S1dodWhtZFhIT3lWUS1peUxFbmdVQzJrV1I3dEZFZjR1TEhYX19KNXRuWVpuV2xKVlNlTGxqXzFwOHc?oc=5",
-      "published": "Tue, 27 Oct 2026 07:00:53 GMT",
-      "snippet": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"U20\" coach Glasgow",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "🧤 GOALKEEPING COACH REQUIRED! ⚽ Ready to make a difference between the posts? 🙌 Interested? Get in touch: mail@bscglasgow.co.uk #BSCGlasgow #GoalkeepingCoach #FootballCoach #YouthFootball #GlasgowFootball #WestEndGlasgow - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV0NLRHl6a0xEdVd4Q19NR3BUNDcxazJ1YVoycWdFY3dZNjcyYzhFQmFFR0wtUjFPUlBnWm5IV1VuN3NGMVJldjlyYVQ1N1dfZEkxa3RySERsQnppZ0VhdVBvR0xka1NCcnJZVmVoUmR2XzVkTXBlTktWSnhrMlUyck1QVWlMUEpodjZDdkdaWVhJUTNXaTV1YmZTXzFzUFRsU2dIY2RCaWRISmg0dk5RblJQSzV4bVViODk5T3Z0aDQzNnp5N1dDZElCOTNZYnhmV0RHR0RrX3hpTmYyQWc?oc=5",
-      "published": "Tue, 15 Sep 2026 07:00:00 GMT",
-      "snippet": "🧤 GOALKEEPING COACH REQUIRED! ⚽ Ready to make a difference between the posts? 🙌 Interested? Get in touch: mail@bscglasgow.co.uk #BSCGlasgow #GoalkeepingCoach #FootballCoach #YouthFootball #GlasgowFootball #WestEndGlasgow &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"U20\" coach Glasgow",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Football Coaches Wanted in East Dunbartonshire - Scottish Football Association",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOXhrUmUyeUFXWTMxeUhvcWhnZHI3NFRTNUxWQlhXM2NmWldfcS1JU2E4WS1OZnNoWkhYVnFQdThHaFIxNzRsVG9HRW9zajV1cTZUckxiUHlGV0pVZ1JYdW8xdm91SnNJcWxtSHVOTDU3R1dWdHhmd0sxMjBJVDltem4tWDUtcTJJVkFj?oc=5",
-      "published": "Tue, 02 Jun 2026 02:40:31 GMT",
-      "snippet": "Football Coaches Wanted in East Dunbartonshire &nbsp;&nbsp; Scottish Football Association",
-      "source": "Scottish Football Association",
-      "query": "\"looking for coaches\" football club Glasgow OR Renfrewshire OR Paisley",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Rangers wanted to sign St Mirren defender but he opted to stay in Paisley - Rangers News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXYtZFBPanZMSDVxWUt3MEFvbXlBbmRQeE9IQWFWTG5URXRJTGIyNWpGMlFtLWpacVlpWW5TT3dZcWVFRFhtaGpoeUtFNmJoVW5WUm56bWs5eTJSWGdBcWpJb2tvLUtnbEp1Ti11SWZnN3c5YVFwN28wS1NZUTFCUUNnRFQ1V1pFanE4R2NaeWx1ekNyUFk5ZkJmM1BGUlpLenRJQ1NQdFFJbE0waWc?oc=5",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-      "snippet": "Rangers wanted to sign St Mirren defender but he opted to stay in Paisley &nbsp;&nbsp; Rangers News",
-      "source": "Rangers News",
-      "query": "\"St Mirren\" academy coach vacancy Paisley",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Player Recruitment: East End United Blues ⚽️ Due to Kody moving pro-youth with St Mirren and Luca Smith moving to Greens, a space has opened up in our Blues squad! 💙 We are looking for a high-intermediate player to join us in the Glasgow Sunday Leag - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTGVRMnZOOUw1NnQ2SE1mQ1VucG9qV0g3YkRxMmRqSUJEMTZ4WWwxWVZhTFgyNDBqMl9hNkt3T1pYV0I2YnZLX2FVRVgxQUFGQXkxYlBqNmJobTlPeFh3THRPQTJDdnFIZ3JWVXp2UlhpUnM5bkxNd1R5eFotWldpVDVHSFItaXpGZ0hJSXFpby1LNm81YnFaNG5kNWFTeGlDT2VvZS1pYWw4TVk2NWFlZ05EWHdXbTJNaXJiaGM0bG43MFJOLVVqSlF4elhuWUZrLVhFcmNFMTR4cEhqNUZRdlF6WWtMZjRP?oc=5",
-      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-      "snippet": "Player Recruitment: East End United Blues ⚽️ Due to Kody moving pro-youth with St Mirren and Luca Smith moving to Greens, a space has opened up in our Blues squad! 💙 We are looking for a high-intermediate player to join us in the Glasgow Sunday Leag &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"U20\" coach Glasgow",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "**Manager Wanted – The Jersey Mixologist** I’m looking for someone to come in and take the lead running The Jersey Mixologist. It’s a hands-on role covering everything from weddings and private parties to corporate events, cocktail classes and some of Jer - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QeDZ6ZDIycS1DdWdBQmlnclc3VmZBZGdjUmFlYm9xSXBmWDY4WWNsWVNRZ2x3RUl0QmZVdVBJS1Z0YzNiQllUZ0E0ZFduQm5LcmdjZWhZeDBGZFNsY3MxX0FCdE95Q3VlczZoRi1ZZkphbDR5M1BTa2ljWG0?oc=5",
-      "published": "Sun, 20 Sep 2026 11:48:08 GMT",
-      "snippet": "**Manager Wanted – The Jersey Mixologist** I’m looking for someone to come in and take the lead running The Jersey Mixologist. It’s a hands-on role covering everything from weddings and private parties to corporate events, cocktail classes and some of Jer &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Kirkintilloch Athletic coach wanted for 2024 season - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcW9xT3haeTRxaUVGREtTLVVxMTlSUjJETHIyTmpqTWw5aDhFdWxVakZZZm9vMG5RR0g1Z0d5TlJIM0Q4VEREUEtLbUdhM3VJTHY5R3ltWDlUcWd4RmxZUXVPOXJHR2xiWjlPaWV4cEozcVJqQ2FHQ19Oc283NGdpUGdyYXA3RUtCZjZSNmdLczJTcmY2R0dKRTg4bXJ3Y3lWRVNvWlJfejJ3N3pwS3ZJYmNhckRWbmtiQ0ZMSnM5YkM1LTZQTE5MdllldjZWUGllR2M0ZENZc2ZsajRNVVBJ?oc=5",
-      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "snippet": "Kirkintilloch Athletic coach wanted for 2024 season &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
-    },
-    {
-      "title": "Bar Manager Wanted – Sports Bar I'm looking for the right person to come in and manage an established sports bar, with a good salary, performance-related bonuses and free accommodation with no household bills. Ideally, I'm looking for someone who's alre - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56OWtkQndpYjhZTUhzZi1LNngweWxnZ2Q3WjA5enlSaElCU01GRmJJNDhiTWY1YzlJX0RGRGU5Wm94TUZBVEJlUHlBNnloaUxURkpKZHN4VmxMQjRKa0xGN05ab3IxQU82TkxXOEFCeWUxamlQb0lLLTJB?oc=5",
-      "published": "Sun, 01 Nov 2026 23:48:35 GMT",
-      "snippet": "Bar Manager Wanted – Sports Bar I'm looking for the right person to come in and manage an established sports bar, with a good salary, performance-related bonuses and free accommodation with no household bills. Ideally, I'm looking for someone who's alre &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "verification_status": "Unverified lead — check original post, club and location"
     }
   ]
 }
