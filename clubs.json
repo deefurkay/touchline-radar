@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "centre": "Shawlands, Glasgow",
+  "radius_miles": 10,
+  "policy": "Use club home ground and regular training base, not vacancy-advert location. Include a club in the search only when at least one relevant base is confirmed within 10 miles. Keep uncertain clubs as provisional pending verification.",
+  "last_reviewed": "2026-11-03",
+  "clubs": [
+    {
+      "id": "pollok-fc",
+      "name": "Pollok FC",
+      "category": "Senior / U20",
+      "homeGround": "Newlandsfield Park, Newlandsfield Road, Glasgow G43 2XR",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Ground confirmed; training base to confirm",
+      "website": "https://www.pollokfc.com/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Senior club and U20 team. Club describes Newlandsfield as a short walk from the heart of Shawlands.",
+      "sources": [
+        "https://www.pollokfc.com/newlandsfield/",
+        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
+      ]
+    },
+    {
+      "id": "renfrew-fc",
+      "name": "Renfrew FC",
+      "category": "Senior / youth",
+      "homeGround": "New Western Park, Renfrew",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Ground identified; distance and training base to verify",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Potential local senior and youth pathway club.",
+      "sources": [
+        "https://www.troonfootballclub.co.uk/season-2026-27-explained/",
+        "https://www.beithjuniors.com/locationlist/1067"
+      ]
+    },
+    {
+      "id": "st-anthonys-fc",
+      "name": "St Anthony's FC",
+      "category": "Senior / youth",
+      "homeGround": "McKenna Park, Govan (confirm current use)",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Provisional; verify current ground and training base",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Include senior WOSFL and youth opportunities; confirm current base before classifying within radius.",
+      "sources": []
+    },
+    {
+      "id": "benburb-fc",
+      "name": "Benburb FC",
+      "category": "Senior / youth",
+      "homeGround": "New Tinto Park, Govan (confirm current use)",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Provisional; verify current ground and training base",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Potential local senior and youth pathway club.",
+      "sources": [
+        "https://awaydayparent.com/grounds/pollok-football-club-ground-pollok-football-club"
+      ]
+    },
+    {
+      "id": "giffnock-sc",
+      "name": "Giffnock SC",
+      "category": "Youth / development",
+      "homeGround": "GSC Auldhouse (team venue; confirm address)",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Venue identified; exact address and training base to verify",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Youth club with U20 football recorded in West of Scotland development fixtures.",
+      "sources": [
+        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
+      ]
+    },
+    {
+      "id": "st-cadocs-yc",
+      "name": "St Cadoc's Youth Club",
+      "category": "Youth / development",
+      "homeGround": "East Renfrewshire (exact venue to confirm)",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Provisional; exact venue and training base required",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Youth club candidate; do not include as in-radius until base is confirmed.",
+      "sources": [
+        "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league"
+      ]
+    },
+    {
+      "id": "rutherglen-glencairn",
+      "name": "Rutherglen Glencairn",
+      "category": "Senior / youth",
+      "homeGround": "Rutherglen (ground address to confirm)",
+      "trainingBase": "Confirm with club",
+      "distanceMiles": null,
+      "locationStatus": "Provisional; exact ground and training base required",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Potential nearby senior club; verify ground and regular training location.",
+      "sources": [
+        "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league"
+      ]
+    }
+  ]
+}
