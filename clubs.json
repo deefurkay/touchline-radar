@@ -2,7 +2,7 @@
   "schema_version": 1,
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
-  "policy": "Use each club's home ground and regular training base, not vacancy-advert location. Include relevant teams if either confirmed home ground or regular training base is within 10 miles of Shawlands. Keep provisional locations separate pending verification. Senior-only monitoring is limited to WOSFL Second Division and below; youth monitoring includes U18/U20/U21/reserve/development teams.",
+  "policy": "Include a team if its actual home ground OR regular training base is confirmed within 10 miles of Shawlands. Vacancy advert location is not required. For professional academies, apply the radius to the specific academy team's actual training base, not the club's stadium or first-team base. Keep uncertain venues provisional and do not count them as confirmed in-radius. Senior men's vacancies only: WOSFL Second Division and below. Youth: U18/U20/U21/reserve/development and professional academy coaching roles.",
   "last_reviewed": "2026-11-03",
   "clubs": [
     {
@@ -182,6 +182,107 @@
       "notes": "Senior division may be above the qualifying range; monitor only qualifying youth/development teams unless league status changes.",
       "sources": [
         "https://myfootygrounds.co.uk/LeagueMap.asp?League=WOSPREM"
+      ]
+    },
+    {
+      "id": "celtic-fc-academy",
+      "name": "Celtic FC Academy",
+      "category": "Professional academy · boys",
+      "homeGround": "Barrowfield Training Centre, London Road, Glasgow (academy and selected age groups)",
+      "trainingBase": "Barrowfield for U18 / junior groups; other age groups also use Lennoxtown and St Ninian's",
+      "distanceMiles": null,
+      "locationStatus": "Include for teams training at Barrowfield; verify team-specific base before classifying other age groups",
+      "website": "https://www.celticfc.com/academy/boys-academy/academy-faqs/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Professional academy. Celtic confirms U18, intermediate U13-U16, junior U10-U12 and development centres. The academy FAQs say U18s train at Barrowfield and Celtic Park; intermediate groups also use Lennoxtown and St Ninian's. Lennoxtown is outside the local search area, so include only relevant groups whose actual base is inside 10 miles.",
+      "sources": [
+        "https://www.celticfc.com/academy/boys-academy/academy-faqs/",
+        "https://www.celticfc.com/news/2023/september/15/celtic-s-fantastic-new-training-complex-gets-the-green-light/"
+      ]
+    },
+    {
+      "id": "queens-park-academy",
+      "name": "Queen's Park FC Academy",
+      "category": "Professional academy · boys",
+      "homeGround": "City Stadium / Lesser Hampden, Letherby Drive, Glasgow G42 9BA",
+      "trainingBase": "Lochinch Sports Pavilion and Lesser Hampden (team-specific base to verify)",
+      "distanceMiles": null,
+      "locationStatus": "Likely within 10 miles; confirm exact team training venue",
+      "website": "https://queensparkfc.co.uk/academy/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Club Academy Scotland Advanced Youth pathway includes U17 and U19 for 2026-27. Club identifies Lochinch and City Stadium/Lesser Hampden as academy locations. Include academy roles at those local bases.",
+      "sources": [
+        "https://queensparkfc.co.uk/academy/",
+        "https://queensparkfc.co.uk/working-together-with-queens-park-fc/",
+        "https://www.scottishfa.co.uk/en/news/club-academy-scotland-cas-leagues-get-underway-for-2026-2027-season/"
+      ]
+    },
+    {
+      "id": "partick-thistle-academy",
+      "name": "Partick Thistle FC · Thistle Weir Youth Academy",
+      "category": "Professional academy · boys and girls",
+      "homeGround": "Firhill, 80 Firhill Road, Glasgow G20 7AL",
+      "trainingBase": "Firhill / team-specific training venues to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Likely within 10 miles; confirm actual academy training venues",
+      "website": "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/",
+      "social": {
+        "facebook": "https://www.facebook.com/partickthistlefc/",
+        "instagram": "",
+        "x": "https://x.com/PartickThistle"
+      },
+      "notes": "Club states academy pathway U11-U18 in Club Academy Scotland. Club's official contact page lists Facebook and X accounts. Monitor academy recruitment and coaching vacancies.",
+      "sources": [
+        "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/",
+        "https://www.ptfc.co.uk/contact-us/"
+      ]
+    },
+    {
+      "id": "st-mirren-academy",
+      "name": "St Mirren FC Youth Academy",
+      "category": "Professional academy · boys",
+      "homeGround": "SMiSA Stadium, Greenhill Road, Paisley PA3 1RU",
+      "trainingBase": "Ralston training base, Paisley",
+      "distanceMiles": null,
+      "locationStatus": "Candidate within 10 miles; verify exact entrance and measure from Shawlands",
+      "website": "https://www.stmirren.com/teams/academy-staff",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Professional youth academy based at Ralston. Include academy roles only if the relevant team or role is based at Ralston or another confirmed venue within 10 miles.",
+      "sources": [
+        "https://www.stmirren.com/teams/academy-staff",
+        "https://www.stmirren.com/club/about",
+        "https://thescottishfootballpartnership.com/new-3g-surface-at-st-mirren-f-c-s-training-ground/"
+      ]
+    },
+    {
+      "id": "glasgow-city-academy",
+      "name": "Glasgow City FC · NextGen Academy",
+      "category": "Professional academy · girls and women",
+      "homeGround": "Petershill Park, 28 Adamswell Street, Glasgow G21 4DD (verify current programme venue)",
+      "trainingBase": "Team-specific academy training venue to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Provisional; verify training base and distance before inclusion",
+      "website": "https://glasgowcityfc.co.uk/blogs/latest/register-interest-in-the-glasgow-city-academy-programme",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Category One academy. Added to the candidate list because it is a professional academy in Glasgow; only monitor if the relevant coaching role is based within 10 miles of Shawlands.",
+      "sources": [
+        "https://glasgowcityfc.co.uk/blogs/latest/register-interest-in-the-glasgow-city-academy-programme"
       ]
     }
   ]
