@@ -43,6 +43,10 @@ QUERIES = [
  '"Stamperland FC" coach required',
  '"The W Academy" Glasgow coach vacancy',
  '"Glasgow City Academy" coach vacancy',
+ '"Harmony Row" football coach vacancy Glasgow',
+ '"Castlemilk Community FC" coach vacancy',
+ '"Park Villa Boys Club" coach vacancy Glasgow',
+ '"Hillwood Boys Club" coach vacancy Glasgow',
  'site:gadyfl.com coaches required Glasgow',
 ]
 def fetch(query):
