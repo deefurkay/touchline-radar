@@ -371,18 +371,20 @@
       "name": "Harmony Row Youth Club",
       "category": "Grassroots youth club",
       "homeGround": "8 Row Avenue, Govan, Glasgow G51 4SY",
-      "trainingBase": "8 Row Avenue / club facilities; verify football team base",
+      "trainingBase": "Braehead facilities; confirm specific football squad venue",
       "distanceMiles": null,
-      "locationStatus": "Address confirmed in Govan; measure distance and confirm football team base",
-      "website": "",
+      "locationStatus": "Official club and Govan address confirmed; verify football squad venue and radius",
+      "website": "https://harmonyrowyouthclub.co.uk/",
       "social": {
         "facebook": "",
         "instagram": "",
         "x": "",
         "verification": "Official social accounts not yet verified."
       },
-      "notes": "Youth sports club with football provision. Add to coaching-role watchlist; verify age groups and team base.",
-      "sources": []
+      "notes": "Football teams from age five upwards; club also emphasises coach education across age groups. Strong youth coaching employer candidate.",
+      "sources": [
+        "https://harmonyrowyouthclub.co.uk/"
+      ]
     },
     {
       "id": "pro-football-academy-glasgow-south",
@@ -420,6 +422,64 @@
         "verification": "Official profiles not yet verified."
       },
       "notes": "Southside youth football coaching provider; possible coaching employer, separate from club teams.",
+      "sources": []
+    },
+    {
+      "id": "castlemilk-community-fc",
+      "name": "Castlemilk Community FC",
+      "category": "Grassroots youth / community club",
+      "homeGround": "Castlemilk, Glasgow (team venue to confirm)",
+      "trainingBase": "Castlemilk community pitches; exact squad base to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Southside candidate; exact team venue and distance to verify",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Not yet verified."
+      },
+      "notes": "Listed in Glasgow youth football club directories and local leagues. Candidate for age-group coaching roles.",
+      "sources": [
+        "https://www.juniorgrassrootshub.com/glasgow-city-football"
+      ]
+    },
+    {
+      "id": "park-villa-bc",
+      "name": "Park Villa Boys Club",
+      "category": "Grassroots youth club",
+      "homeGround": "Govan, Glasgow (exact pitch address to confirm)",
+      "trainingBase": "Govan Sports Hub / associated facilities; team venue to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Govan club identified; exact team training base to verify",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Listed by sportscotland Govan Sports Hub."
+      },
+      "notes": "Youth football club associated with Govan Sports Hub. Candidate for youth coaching opportunities.",
+      "sources": [
+        "https://sportscotland.org.uk/clubs/community-sport-hubs/govan-sports-hub"
+      ]
+    },
+    {
+      "id": "hillwood-boys-club",
+      "name": "Hillwood Boys Club",
+      "category": "Grassroots youth club",
+      "homeGround": "40 Shields Court, Glasgow G53 6NZ",
+      "trainingBase": "To confirm by age group",
+      "distanceMiles": null,
+      "locationStatus": "Address identified; confirm team base and measure radius",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Business listing only; official social links not yet confirmed."
+      },
+      "notes": "South-west Glasgow youth football club. Candidate pending team venue and radius check.",
       "sources": []
     }
   ],
