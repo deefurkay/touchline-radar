@@ -2,7 +2,7 @@
   "schema_version": 1,
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
-  "policy": "Include a team if its actual home ground OR regular training base is confirmed within 10 miles of Shawlands. Vacancy advert location is not required. For professional academies, apply the radius to the specific academy team's actual training base, not the club's stadium or first-team base. Keep uncertain venues provisional and do not count them as confirmed in-radius. Senior men's vacancies only: WOSFL Second Division and below. Youth: U18/U20/U21/reserve/development and professional academy coaching roles. Grassroots community clubs and private football academies are labelled separately from professional academies. St Mirren Youth FC is a separate community organisation from St Mirren FC's professional academy.",
+  "policy": "Search within 10 miles of Shawlands based on the actual home ground or regular training base of the specific team. Do not infer a team's base from a club's postal address or unrelated venue. Keep unknown distances provisional. Include U18/U20/U21/reserve/development teams; professional academies; grassroots youth clubs; and relevant local private football coaching employers. Senior men's clubs only when in WOSFL Second Division or below. Treat social handles as verified only where linked by official club or trusted local authority directory.",
   "last_reviewed": "2026-11-03",
   "clubs": [
     {
@@ -290,20 +290,21 @@
       "id": "pollok-united",
       "name": "Pollok United",
       "category": "Grassroots / youth / adult",
-      "homeGround": "Corkerhill, Glasgow Southside (specific facility addresses on club site)",
-      "trainingBase": "Multiple club facilities in Corkerhill; team-specific base to confirm",
+      "homeGround": "Nethercraigs Sports Complex, 355 Corkerhill Road, Glasgow G52 1RR",
+      "trainingBase": "Three facilities in Corkerhill; confirm team-specific pitch",
       "distanceMiles": null,
-      "locationStatus": "Southside club; verify specific team venue and 10-mile distance",
-      "website": "https://pollokunited.org.uk/",
+      "locationStatus": "Address confirmed in Corkerhill; exact team bases and radius still to measure",
+      "website": "https://www.pollokunited.org.uk/",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": "",
-        "verification": "Official website identified; social profile URLs not yet verified."
+        "facebook": "https://www.facebook.com/PollokUnited",
+        "instagram": "https://www.instagram.com/pollokunited/",
+        "x": "https://x.com/PollokUtdS_A",
+        "verification": "Glasgow Life directory lists these official account handles."
       },
-      "notes": "Large grassroots club with pathways from early years through adults; include age groups and coaching roles only where team base is within radius.",
+      "notes": "18 teams across age groups and abilities; explicitly welcomes people interested in coaching. Corkerhill base. Strong target for coaching opportunities.",
       "sources": [
-        "https://pollokunited.org.uk/"
+        "https://www.pollokunited.org.uk/",
+        "https://glasgowlife.sportsuite.co.uk/directory/pollok-united-scio"
       ]
     },
     {
@@ -364,6 +365,62 @@
         "https://stmirrenyfc.org/meet-the-teams/",
         "https://stmirrenyfc.org/about-the-club/"
       ]
+    },
+    {
+      "id": "harmony-row-yc",
+      "name": "Harmony Row Youth Club",
+      "category": "Grassroots youth club",
+      "homeGround": "8 Row Avenue, Govan, Glasgow G51 4SY",
+      "trainingBase": "8 Row Avenue / club facilities; verify football team base",
+      "distanceMiles": null,
+      "locationStatus": "Address confirmed in Govan; measure distance and confirm football team base",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official social accounts not yet verified."
+      },
+      "notes": "Youth sports club with football provision. Add to coaching-role watchlist; verify age groups and team base.",
+      "sources": []
+    },
+    {
+      "id": "pro-football-academy-glasgow-south",
+      "name": "Pro Football Academy – Glasgow South",
+      "category": "Private football academy",
+      "homeGround": "Goals, 941 Pollokshaws Road, Glasgow G41 2DX",
+      "trainingBase": "Goals Glasgow South",
+      "distanceMiles": null,
+      "locationStatus": "Published training venue in south Glasgow; confirm straight-line radius",
+      "website": "https://profootballacademy.com/uk/locations/glasgow-south/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official location page verified; social profiles not verified."
+      },
+      "notes": "Coaching programme for ages 5–14. Professional coaching employer, not a club or professional academy.",
+      "sources": [
+        "https://profootballacademy.com/uk/locations/glasgow-south/"
+      ]
+    },
+    {
+      "id": "first-touch-football",
+      "name": "1st Touch Football",
+      "category": "Private football coaching",
+      "homeGround": "2 Hazelden Park, Giffnock, Glasgow G44 3HQ (listed address)",
+      "trainingBase": "Multiple Southside venues; verify session-specific base",
+      "distanceMiles": null,
+      "locationStatus": "Giffnock address identified; verify active coaching venue and radius",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official profiles not yet verified."
+      },
+      "notes": "Southside youth football coaching provider; possible coaching employer, separate from club teams.",
+      "sources": []
     }
   ],
   "reference_policy": "Only list links that directly relate to the named club or academy. Generic league pages and unrelated club directories are not club references. If no direct source has been verified, leave sources empty and mark the entry provisional."
