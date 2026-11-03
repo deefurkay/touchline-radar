@@ -23,6 +23,18 @@ QUERIES = [
  'site:twitter.com football coach vacancy Glasgow club',
  'site:instagram.com football "coach wanted" Glasgow',
  'site:linkedin.com/jobs football coach Glasgow Scotland',
+ '"Pollok FC" coach OR manager vacancy OR recruitment',
+ '"St Anthonys" coach OR manager vacancy football',
+ '"St Cadocs" coach OR manager vacancy football',
+ '"Giffnock Soccer Centre" coach OR vacancy',
+ '"Finnart FC" coach OR manager vacancy',
+ '"Glasgow United FC" coach OR manager vacancy',
+ '"Stamperland FC" coach OR vacancy',
+ '"Pollok United" football coach vacancy',
+ '"Queens Park" academy coach vacancy Glasgow',
+ '"Partick Thistle" academy coach vacancy',
+ '"Celtic" academy coach vacancy Glasgow',
+ '"St Mirren" academy coach vacancy Paisley',
  'site:gadyfl.com coaches required Glasgow',
 ]
 def fetch(query):
@@ -43,10 +55,10 @@ for query in QUERIES:
   for item in fetch(query): unique.setdefault(item["url"].split("&ved=")[0],item)
  except Exception as exc: errors.append({"query":query,"error":str(exc)[:250]})
 # Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
-intent=re.compile(r"\\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|manager required|assistant manager|head coach|coach wanted|manager wanted|applications? (are )?open|apply now|trial(s)? for)\\b",re.I)
-football=re.compile(r"\\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves)\\b",re.I)
-noise=re.compile(r"\\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball)\\b",re.I)
-local=re.compile(r"\\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|bearsden|milngavie|scotland)\\b",re.I)
+intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|manager required|assistant manager|head coach|coach wanted|manager wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
+football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves)\b",re.I)
+noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball)\b",re.I)
+local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|bearsden|milngavie|scotland)\b",re.I)
 filtered=[]
 for item in unique.values():
  text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source",""),item.get("query","")])
