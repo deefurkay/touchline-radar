@@ -2,7 +2,7 @@
   "schema_version": 1,
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
-  "policy": "Include a team if its actual home ground OR regular training base is confirmed within 10 miles of Shawlands. Vacancy advert location is not required. For professional academies, apply the radius to the specific academy team's actual training base, not the club's stadium or first-team base. Keep uncertain venues provisional and do not count them as confirmed in-radius. Senior men's vacancies only: WOSFL Second Division and below. Youth: U18/U20/U21/reserve/development and professional academy coaching roles.",
+  "policy": "Include a team if its actual home ground OR regular training base is confirmed within 10 miles of Shawlands. Vacancy advert location is not required. For professional academies, apply the radius to the specific academy team's actual training base, not the club's stadium or first-team base. Keep uncertain venues provisional and do not count them as confirmed in-radius. Senior men's vacancies only: WOSFL Second Division and below. Youth: U18/U20/U21/reserve/development and professional academy coaching roles. Grassroots community clubs and private football academies are labelled separately from professional academies. St Mirren Youth FC is a separate community organisation from St Mirren FC's professional academy.",
   "last_reviewed": "2026-11-03",
   "clubs": [
     {
@@ -284,6 +284,85 @@
       "notes": "Category One academy. Added to the candidate list because it is a professional academy in Glasgow; only monitor if the relevant coaching role is based within 10 miles of Shawlands.",
       "sources": [
         "https://glasgowcityfc.co.uk/blogs/latest/register-interest-in-the-glasgow-city-academy-programme"
+      ]
+    },
+    {
+      "id": "pollok-united",
+      "name": "Pollok United",
+      "category": "Grassroots / youth / adult",
+      "homeGround": "Corkerhill, Glasgow Southside (specific facility addresses on club site)",
+      "trainingBase": "Multiple club facilities in Corkerhill; team-specific base to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Southside club; verify specific team venue and 10-mile distance",
+      "website": "https://pollokunited.org.uk/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official website identified; social profile URLs not yet verified."
+      },
+      "notes": "Large grassroots club with pathways from early years through adults; include age groups and coaching roles only where team base is within radius.",
+      "sources": [
+        "https://pollokunited.org.uk/"
+      ]
+    },
+    {
+      "id": "stamperland-fc",
+      "name": "Stamperland FC",
+      "category": "Grassroots / youth / girls",
+      "homeGround": "East Renfrewshire / South Glasgow (multiple venues)",
+      "trainingBase": "Muirend / Clarkston area; squad-specific bases to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Likely relevant Southside candidate; verify exact squad venue within 10 miles",
+      "website": "https://www.stamperlandfc.co.uk/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official club website states Facebook and Twitter channels; exact links not yet resolved."
+      },
+      "notes": "Community youth club serving South Glasgow and East Renfrewshire, with boys and girls sections up to U19. Monitor relevant age-group coach roles only where actual base qualifies.",
+      "sources": [
+        "https://www.stamperlandfc.co.uk/about"
+      ]
+    },
+    {
+      "id": "w-academy",
+      "name": "The W Academy",
+      "category": "Private football academy",
+      "homeGround": "Shawholm, 2060 Pollokshaws Road, Glasgow G43 1AT",
+      "trainingBase": "Shawholm facility",
+      "distanceMiles": null,
+      "locationStatus": "Address in Shawlands area; verify whether coaching vacancies are relevant and within radius",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Business listing located; official social profile URLs not yet verified."
+      },
+      "notes": "Private academy rather than club. Added as an optional coaching-employer lead because it operates a football academy locally. Keep separate from club and professional academy categories.",
+      "sources": []
+    },
+    {
+      "id": "st-mirren-youth-fc",
+      "name": "St Mirren Youth FC",
+      "category": "Community grassroots youth club (not St Mirren FC academy)",
+      "homeGround": "The Tyres, India Tyres Playing Fields, Inchinnan, Renfrewshire",
+      "trainingBase": "India Tyres Playing Fields in spring/summer/autumn; multiple Renfrewshire venues in winter",
+      "distanceMiles": null,
+      "locationStatus": "Likely beyond 10 miles for main base; retain as provisional until measured",
+      "website": "https://stmirrenyfc.org/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official website verified; social links not yet confirmed."
+      },
+      "notes": "Separate volunteer-run community youth club, not the professional St Mirren FC academy. Do not include in active radius search unless a team-specific winter venue is confirmed within 10 miles.",
+      "sources": [
+        "https://stmirrenyfc.org/meet-the-teams/",
+        "https://stmirrenyfc.org/about-the-club/"
       ]
     }
   ],
