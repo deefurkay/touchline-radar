@@ -1,11 +1,27 @@
 {
   "generated_at": "2026-11-03T23:30:06.109399+00:00",
-  "coverage_note": "Filtered candidate recruitment posts from public search-indexed results. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.",
+  "coverage_note": "Filtered candidate recruitment posts from public search-indexed results. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. A user-reported Saint Anthony's FC First Team Manager lead is pinned pending independent verification.",
   "query_count": 40,
   "raw_result_count": 665,
-  "result_count": 226,
+  "result_count": 151,
   "errors": [],
   "items": [
+    {
+      "id": "user-reported-saint-anthonys-first-team-manager-20261103",
+      "title": "Saint Anthony's FC — First Team Manager",
+      "url": "https://www.facebook.com/SaintAnthonysFC/",
+      "published": "Reported by user · 3 November 2026",
+      "snippet": "User-reported vacancy. The advert has not yet been independently located or verified. Check the club's official Facebook page and contact the club before applying. Note: the club website currently lists a June 2026 appointment of Barry McColgan, so this may be a newer advert or a different first-team role.",
+      "source": "User-reported · Saint Anthony's FC",
+      "query": "User supplied lead",
+      "verification_status": "User-reported — original advert still to verify",
+      "lead_type": "user_reported",
+      "club": "Saint Anthony's FC",
+      "role": "First Team Manager",
+      "team": "Senior WOSFL",
+      "location": "McKenna Park, Govan, Glasgow",
+      "distance_miles": null
+    },
     {
       "title": "Courses applications now open at our partner Glasgow Clyde College - Celtic FC",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZjV2azEydmtLQ2k4Z01HRXdSWTVWTWFUeU1FVVlFWm5WazlCY0pRSFl0amszMS10ZjNKS3J0OEdDX2w3ZDloRGVTbkxxRHE3cXRxaTNDcnB3UEpwNkZxbzhTRm9scHpxVFYxY01YQWVNYVVRMEw1YzJLbERCazVSMzNydnNsaHBuSGlHeDB2bmowRVdQRFpSNWhkaG1SNkZqMXEwWEplZHhWV29NY2dKU2k0cw?oc=5",
