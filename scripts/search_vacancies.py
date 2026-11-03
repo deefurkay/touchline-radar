@@ -35,6 +35,14 @@ QUERIES = [
  '"Partick Thistle" academy coach vacancy',
  '"Celtic" academy coach vacancy Glasgow',
  '"St Mirren" academy coach vacancy Paisley',
+ '"Harmony Row" football coach vacancy Glasgow',
+ '"Pro Football Academy" Glasgow South coach jobs',
+ '"1st Touch Football" Glasgow coach vacancy',
+ '"Pollok United" coach wanted Glasgow',
+ '"Giffnock SC" coaching vacancy',
+ '"Stamperland FC" coach required',
+ '"The W Academy" Glasgow coach vacancy',
+ '"Glasgow City Academy" coach vacancy',
  'site:gadyfl.com coaches required Glasgow',
 ]
 def fetch(query):
@@ -58,7 +66,7 @@ for query in QUERIES:
 intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|manager required|assistant manager|head coach|coach wanted|manager wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
 football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves)\b",re.I)
 noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball)\b",re.I)
-local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|bearsden|milngavie|scotland)\b",re.I)
+local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|harmony row|pro football academy|1st touch|bearsden|milngavie|scotland)\b",re.I)
 filtered=[]
 for item in unique.values():
  text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source",""),item.get("query","")])
