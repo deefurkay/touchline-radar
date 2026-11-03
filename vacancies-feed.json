@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-03T23:30:06.109399+00:00",
-  "coverage_note": "Cleaned current feed: unrelated and unverified old search noise removed. Saint Anthony's First Team Manager is pinned as a user-reported lead pending original advert verification. The next successful search run will populate newly discovered leads using the corrected filters.",
+  "coverage_note": "Saint Anthony's first-team managerial departure is linked to the club's own announcement supplied by the user. Treat as a confirmed manager vacancy lead; check for separate application instructions and closing date.",
   "query_count": 40,
   "raw_result_count": 665,
   "result_count": 1,
@@ -9,16 +9,16 @@
     {
       "id": "user-reported-saint-anthonys-first-team-manager-20261103",
       "title": "Saint Anthony's FC — First Team Manager",
-      "url": "https://www.facebook.com/SaintAnthonysFC/",
-      "published": "Reported by user · 3 November 2026",
-      "snippet": "User-reported vacancy. The advert has not yet been independently located or verified. Check the club's official Facebook page and contact the club before applying. Note: the club website currently lists a June 2026 appointment of Barry McColgan, so this may be a newer advert or a different first-team role.",
-      "source": "User-reported · Saint Anthony's FC",
+      "url": "https://www.theants.co.uk/ants-part-ways-with-mccolgan/",
+      "published": "User supplied official club announcement · 3 November 2026",
+      "snippet": "Official club article supplied by the user: 'Ants part ways with McColgan'. This is direct evidence of a first-team managerial departure and should trigger a senior manager vacancy lead. Separate application instructions and closing date still need to be captured if published separately.",
+      "source": "Official Saint Anthony's FC website · user supplied",
       "query": "User supplied lead",
-      "verification_status": "User-reported — original advert still to verify",
-      "lead_type": "user_reported",
+      "verification_status": "Official managerial departure confirmed by club link; application details to verify",
+      "lead_type": "official_departure",
       "club": "Saint Anthony's FC",
       "role": "First Team Manager",
-      "team": "Senior WOSFL",
+      "team": "Senior First Team",
       "location": "McKenna Park, Govan, Glasgow",
       "distance_miles": null
     }
