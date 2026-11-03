@@ -34,7 +34,7 @@ def fetch(query):
   title=(node.findtext("title") or "").strip(); link=(node.findtext("link") or "").strip()
   if not title or not link: continue
   source_node=node.find("source")
-  snippet=re.sub(r"\\s+"," ",re.sub(r"<[^>]+>"," ",node.findtext("description") or "")).strip()
+  snippet=re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",node.findtext("description") or "")).strip()
   found.append({"title":title,"url":link,"published":(node.findtext("pubDate") or "").strip(),"snippet":snippet[:500],"source":(source_node.text or "").strip() if source_node is not None else "","query":query})
  return found
 unique={}; errors=[]
