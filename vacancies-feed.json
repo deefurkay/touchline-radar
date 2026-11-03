@@ -1,9 +1,1360 @@
 {
-  "generated_at": "2026-11-03T23:08:49.974897+00:00",
+  "generated_at": "2026-11-03T23:30:06.109399+00:00",
   "coverage_note": "Filtered candidate recruitment posts from public search-indexed results. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.",
-  "query_count": 16,
-  "raw_result_count": 430,
-  "result_count": 0,
+  "query_count": 40,
+  "raw_result_count": 665,
+  "result_count": 226,
   "errors": [],
-  "items": []
+  "items": [
+    {
+      "title": "Courses applications now open at our partner Glasgow Clyde College - Celtic FC",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZjV2azEydmtLQ2k4Z01HRXdSWTVWTWFUeU1FVVlFWm5WazlCY0pRSFl0amszMS10ZjNKS3J0OEdDX2w3ZDloRGVTbkxxRHE3cXRxaTNDcnB3UEpwNkZxbzhTRm9scHpxVFYxY01YQWVNYVVRMEw1YzJLbERCazVSMzNydnNsaHBuSGlHeDB2bmowRVdQRFpSNWhkaG1SNkZqMXEwWEplZHhWV29NY2dKU2k0cw?oc=5",
+      "published": "Wed, 31 Jan 2024 08:00:00 GMT",
+      "snippet": "Courses applications now open at our partner Glasgow Clyde College &nbsp;&nbsp; Celtic FC",
+      "source": "Celtic FC",
+      "query": "\"U18\" football coach wanted Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Russell Martin turns down immediate new job abroad two months on from Rangers sacking - talkSPORT",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaHQtZWgwZnBLWlNzRG5CZ1dnbWJWd01VYmt1WmdvdENVbUtjMm45WEtsZWpsd0Q0MUVvUURNN0pBc1h0dldaY291TS1aRmRrcHllTkRHT0VMc0NZOHk1SjJhdlZ1aElSR2QyOFd2bUF2MC1MRjZKN2dOWkZjdzJ3VWNTQXc1Tnk5ekpUYnEwYWZaQQ?oc=5",
+      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
+      "snippet": "Russell Martin turns down immediate new job abroad two months on from Rangers sacking &nbsp;&nbsp; talkSPORT",
+      "source": "talkSPORT",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Who are the leading candidates for the Celtic job? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlRkl2Z1pRZFo0bE5WMG4xQkszeHdtNlBRUWdJVDZtODhlM0ZFOXJNYlE3YklxYnVDaVNOQjlUVUlwOVJrQ1R1MThfbnl2WFgydC1KXzJKaThPUjdkTGVUbTZKZTNBM2c?oc=5",
+      "published": "Wed, 29 Oct 2025 07:00:00 GMT",
+      "snippet": "Who are the leading candidates for the Celtic job? &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Edinburgh College U20s are recruiting! ⚽ Join our new squad in the East of Scotland Development League — message Aaron at 07802370769 to get involved 💪 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EbGZIR2ZWOWo3N0NrNmdMN0NBUUxoc1VhYXVtQ3BlMmJNY0hNMlhvNjIwWUs2RnM0QnpmbUVtajZ6NUZFX2R1ay1ZYTd6VmM5WUhBTjc3V3lnbFozanJXWUJYQlhBQWdFM2laSC1JZ3MxazZuM3FQSkFDMA?oc=5",
+      "published": "Wed, 29 Oct 2025 07:00:00 GMT",
+      "snippet": "Edinburgh College U20s are recruiting! ⚽ Join our new squad in the East of Scotland Development League — message Aaron at 07802370769 to get involved 💪 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "\"If all of that is true, why did the club allow him to stay in position?\" 🍀 Tom English and James Gregg react to Dermot Desmond's explosive statement following Brendan Rodgers' Celtic exit 💥 Hear more on the Football Daily podcast 📲 #BBCFootball #CelticFC - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWFpuSER3QjVfTlRYV00wRWVHZnFrQkVvSnJUeUVSSlZKMVc3QXhwcTVoTkNyVjVTNmJMVWdIWEM4TW1CdFBWSzF2SkRfM0h0NWhpbmVmaWVkQkhhbzA2c1RjZWJwUXczR1lqYTRzSTA1akVzb3QzWFhON0RONmlaRk1OT2ZBR05uSzVFNW5jYkdBT0pNY2F5TlV4dDlGeW0yMVlWR2UyZHBNQldvU2dDbnJIeldJbnlqM1l3ZktCZEdJWldWUlBnZTFqY0ZkZFdWTGlSSUh3TQ?oc=5",
+      "published": "Wed, 29 Oct 2025 07:00:00 GMT",
+      "snippet": "\"If all of that is true, why did the club allow him to stay in position?\" 🍀 Tom English and James Gregg react to Dermot Desmond's explosive statement following Brendan Rodgers' Celtic exit 💥 Hear more on the Football Daily podcast 📲 #BBCFootball #CelticFC &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish roots 🍊 A new chapter in Tangerine 🏃‍♂️ Ready to hit the ground running We caught up with Daniel Bennie following his move to United! 🎙️ 🔗 https://tinyurl.com/4jtm42ne - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWlJjRGVzb0htN0RrTkVXUDN0NVdQN0M0TW9oaVA2cWxVazJVOHNNX1BHLVpkd2xGa0tEaWVIYjRQdVNRTGRoN0ttcWE2bXhHWUZ4ODdiTVBRTWNkeUY3R29ILWxnRE1wOXZUdjUzMGI4QVZ5dDcxYlc2TEs3UW5sVDFTamNqQ3JveklybFM2S2d1RWsySElUWGVWeWg1U29Wck5abTYzZVdXT0hfS1N5Sm1HcjhOQ0lZY2NCYjU5VnJ2c21HOUk3RDVUeGN6SnFPOFV3X1dDeW85d0t3V1U2QUkwckNLeGs?oc=5",
+      "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "snippet": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish roots 🍊 A new chapter in Tangerine 🏃‍♂️ Ready to hit the ground running We caught up with Daniel Bennie following his move to United! 🎙️ 🔗 https://tinyurl.com/4jtm42ne &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "We’re hiring! 👋 We’re looking for a goalkeeper coach to join us for the 26/27 season. Tuesdays, Thursdays and Saturdays availability. This is a paid role. All the details 👇 - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMekVURDRZVEx6OThETFN5X1R5S2o5Q1Q5eklTcDY3RmZZTXBWWTFYaFlrNHBERmdtajZzUlUta2RFdm1HbHNDOHhvVWprcjl5eXc?oc=5",
+      "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+      "snippet": "We’re hiring! 👋 We’re looking for a goalkeeper coach to join us for the 26/27 season. Tuesdays, Thursdays and Saturdays availability. This is a paid role. All the details 👇 &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Well done Fleetwood from northampton town fan 👏 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9udWp1UlNLOHlzRW5kdllIc3lKZWNlak5QXzNNUWZsYThveGxNMDhEZU54bzlfM2dRaGJLNDM4bnAwTFhSTjBCS2hDbHdkMDB2Vzdab1ZQZ0RmTnE4djRHcTlMMTFCZjVDaUJSQURaT3liVV9UbHhQclNXaw?oc=5",
+      "published": "Wed, 28 Oct 2026 00:32:32 GMT",
+      "snippet": "Well done Fleetwood from northampton town fan 👏 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Glasgow Darts Hub - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00V3Z0NGg2NGFSdEJJNjR6UG9GSjMyYkcyUjNFdk9PVjZNbThwLWJ6QTl6ZkVQRlA1ZlJCNlZWYjhjX0JXNFlaOFlDSWhlYlFxQTBDWnVQekRfekl2aEJJ?oc=5",
+      "published": "Wed, 27 Nov 2024 15:16:31 GMT",
+      "snippet": "Glasgow Darts Hub &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Tommy Hamilton was an all-round sportsman who spent time at Manchester United in his youth and also played senior GAA with his native Wicklow. - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcTlZZWpJOW9wM3FLc2lCMlhMOGZCUUJsMEJQdDR0WkdRdm5Ndkc3YmpTOXJWWFZ0enYtdzY5ckNwSkkxY3dIR1VDMEhUQXdTUlp5MjhtXzVweUZ5akxoeDE3STJtS0JUSzN2eklPZU9KaDJvR1FfUTFlRUVIaG9FMHhvTGlkaFNFTjBkbmlwRHduM20zb3FaNHBsY2JnMDhwRlNoUU8taFlPMU9NTm54RTJEWTVWSWlLYjFaNFJTYUlOUnJaUUFUNzVqLWhZR3lqZV90bFJPaw?oc=5",
+      "published": "Wed, 27 Aug 2025 07:00:00 GMT",
+      "snippet": "Tommy Hamilton was an all-round sportsman who spent time at Manchester United in his youth and also played senior GAA with his native Wicklow. &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sean Crighton comes on board as B Team Head Coach - Queen's Park Football Club",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHBDTk5wNGlIcjJFY2pyaVIxNEdCNzNYY0lKYWJuUC1DTi1kSS1YRDBlWFc5TTh4TlN2cGZLTHN6S3RIM2NWM2ZTZWh4cUJTZWsyQ0JwZlludmFsN3ZlNDNxQVF6R2llRVkyeTdXdWR0U1RPY2tYaFNWNlhXQVpnMlk3Yw?oc=5",
+      "published": "Wed, 26 Jun 2024 15:52:41 GMT",
+      "snippet": "Sean Crighton comes on board as B Team Head Coach &nbsp;&nbsp; Queen's Park Football Club",
+      "source": "Queen's Park Football Club",
+      "query": "\"Queens Park\" academy coach vacancy Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🗨 \"I'm so happy to be at this Club, where I always watched on television when Ki & Du-ri Cha played.\" Watch Hyeokkyu Kwon's first media conference as a #CelticFC player! 🎙 #WelcomeKwon🇰🇷🍀 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMEJSWFRrd0VLQ294QUw5eHNEaGNNVDFvQnQtVDlYZGVqUldBS21PQThnTFgxU0FHM1FVSEc4Y2Y2Z0lHdEFyVTc2eHNuOGE0N25GbUpyRGpaR0Z4REJDa1pJX2xxODQwU0ppSmNFbnpURkx0cHZ0MXZ0dHJqejZOTkd5al9wS01PY1p3LXVqOEhXMjg2ZlAxZzRXUE93UGdpRjA0Qm5uTVdNM1BtUll4S0ZyNGM1ZkVnQklCU2V3QlFucFFUVFZtMHBQRU1teHFTenRn?oc=5",
+      "published": "Wed, 26 Jul 2023 07:00:00 GMT",
+      "snippet": "🗨 \"I'm so happy to be at this Club, where I always watched on television when Ki & Du-ri Cha played.\" Watch Hyeokkyu Kwon's first media conference as a #CelticFC player! 🎙 #WelcomeKwon🇰🇷🍀 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Danny Röhl appointed new Rangers head coach and succeeds Russell Martin at Scottish Premiership club - Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdzBkcmRQUjQ4eVVubXE0U0ZGcnBQSGI2ZUtjeDdZaXFRNnAwMmQ4VHktS193MlAwdjRmTXNBWm8tdkllakFWMzA1NklPNmh0SVRtV09BSXBmOWxHaU9RVGw2R2pDUDhuVFRlQlZLWHRqTEstU0F1Q2VTZ3pydE5kZnEzeDN4bkhLcnBEcXVsaVVtT2p1LVppZWJHT05IRm0yWExwZ1k2cTRDZ3M2Y2FkNkxWbUxGaFlrczYyZFRQSjlPZ1R1MFRYMkJaUjNPSmgyWEd1UW9NZjhCSDAwaXptZEs4VQ?oc=5",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "snippet": "Danny Röhl appointed new Rangers head coach and succeeds Russell Martin at Scottish Premiership club &nbsp;&nbsp; Sky Sports",
+      "source": "Sky Sports",
+      "query": "\"assistant coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Bar Manager Pelynt Social Club Pelynt PL13 2LG Job details Pay From £30,000 a year Permanent Full-time Benefits Employee discount On-site parking Full job description About Us Pelynt Social Club is a welcoming, community-focused members’ club offeri - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5yUnQtb1M3SzhmSEExR2dHN3pzYmcwa1R1T3ExX1NEcGlGdDEzOGExWFZIQ1NPVU5pMmkwaVh1Z3RHVnFRdjBoZ1RBa2poWWtMak5KRTM2M3pITWtwcDhmWXc5dl9adXBFMElxc3MwMDBtY1VPb2hzMEhLQlg?oc=5",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "snippet": "Bar Manager Pelynt Social Club Pelynt PL13 2LG Job details Pay From £30,000 a year Permanent Full-time Benefits Employee discount On-site parking Full job description About Us Pelynt Social Club is a welcoming, community-focused members’ club offeri &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "📅 Closing Date 📅 🔵⚪️ Senior Management 2027 🔵⚪️ Fianna Oileán an Ghuail CLG is currently seeking expressions of interest for the following management roles for the upcoming 2027 season: • Senior Men's Management • Reserve Men's Management If - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRnR5dk8ybVpwUVhOMzAyLTNTR1BTWlk0VHpvM2ttNVNmaU1BUGlsS3ctcUNwalZRUGhJLW96R1JPQk9LZTJtNGRpREhuWTFRSExPY281bGN5SVlnQndRMWlwUUc4VGg3a1NsTlpzLU9SNnI2c3IxSW84M19vYy1sZk1FTDJOemlnb2N5bmtXSFFFRnlqM1BWeWRyYzZpZ2x4Q2JvcGk0TVdmclpXRjdhblRveElXcGQtc2JGOEFhd245LU5fSTY5eFJ0bDNMVnR5SEM3eUNSNEszN09LQ1hXVlItczFWYTJfbVFEZ2lXQlhHZVMtRXZwV3lncS1zZkEw?oc=5",
+      "published": "Wed, 21 Oct 2026 20:38:20 GMT",
+      "snippet": "📅 Closing Date 📅 🔵⚪️ Senior Management 2027 🔵⚪️ Fianna Oileán an Ghuail CLG is currently seeking expressions of interest for the following management roles for the upcoming 2027 season: • Senior Men's Management • Reserve Men's Management If &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "𝙁𝙄𝙍𝙎𝙏 𝙏𝙀𝘼𝙈 𝙈𝘼𝙉𝘼𝙂𝙀𝙍 𝙐𝙋𝘿𝘼𝙏𝙀 Applications for the First Team Manager role have now closed, with a great deal of interest shown in the position. With fixtures continuing to come thick and fast over the next few weeks, we will wait until the midweek fixtur - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxOT3hnQW93RkZEWl9TV2lzOTRpR05VUE9FNFczMVRKbVpWT0EtQ1JCT09wMm5GYU1najZ6aVUzaU5nQzdLMEYyV0FGX0hSdXBsb0Z0VGNjTVF1cHdjeElSY1FGTTRYSnd5a05VS0dfclFZLVp3Y2I5VThwTk9aSDEzNk9WQ2dXM1RBNVRVZU1FYzl5Nl9RYzFpYjdMNEhkcXVsSUNQaEgyTzFDUE54a01mNm56TXdmS3BIZmg5UF9lZXRjdjZOV1JVREpLcm9yS0pCcjZsbTk2bmZWSnJTUFh4ZE9PWUhtOUN4dE5YRUNYZ0h6cjlQdEhhUFJMSTVIT25aaXhnMXlhWGtINHZyRHVaam93ZjdCYm5oTzRneU1TeFZ2bDZ2bXdoTmZDSzVTT1huWnYwcnQ3YmVzU0Q4U0pVUlk4d1dFck5wczhtcms4VGRINHNoZWtVVlBTcUpDWlFEUWpqOUJBMzlnUVM2ZzNySFEtbWVUWWNKcWxBZ3BhcFJUajNwYldzTVFXZFFVQkZiVzNzSlJOSkhtTXFfbnplVkFYSi1aaGtEdUlCcFdFMGtaRTRoMnA3S1FiMExQYWgzUEtMbFQ0YTFkdXJUa1NsTlRYWDZEczVmVXRwbUJvVXB3SzlZVmtOMXhPVE1UdWdHRG9iUFdoaUNseXR1b29wOGZMZFNfR0NkZzlxcV9DRG15WHFYT1piNzNQWUI?oc=5",
+      "published": "Wed, 21 Oct 2026 17:30:26 GMT",
+      "snippet": "𝙁𝙄𝙍𝙎𝙏 𝙏𝙀𝘼𝙈 𝙈𝘼𝙉𝘼𝙂𝙀𝙍 𝙐𝙋𝘿𝘼𝙏𝙀 Applications for the First Team Manager role have now closed, with a great deal of interest shown in the position. With fixtures continuing to come thick and fast over the next few weeks, we will wait until the midweek fixtur &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Hi there my name is Ryan Davidson am from Aberdeen and am looking for a new team to manage. Am willing to travel 07464845932 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MeHdCNVR5LTZUSng0bFhVUkJZRTdMMzNnQjRQbXg0SmRWUkFEQUlONklIOUVwQ3FaUzZDRThnaVlURXdDWlZneHI2OExKWlI0QllSLVFsMmxSeUFoNEQwdk1HWHhVZjkwcmFOd05FMVVnUFBnbkhZV1pTdw?oc=5",
+      "published": "Wed, 21 Oct 2026 12:31:28 GMT",
+      "snippet": "Hi there my name is Ryan Davidson am from Aberdeen and am looking for a new team to manage. Am willing to travel 07464845932 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "With his side bottom of the EFL, ex-Celtic star loses first managerial job - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SbkVRM0RBSy02UjhHOVhQVVEwOVNUUmxMclptMWQ0ejliSGFvbm1BaEFXLW00ajVCRjNFVDZmaS1BQkc1WHNfQjZmWHRYT3hIUDhETFJzR1RTelFQRmFFTnpBbTVxRE42eDd1UWxKbDIzZHlpSk5jZjhPbDl2UQ?oc=5",
+      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "snippet": "With his side bottom of the EFL, ex-Celtic star loses first managerial job &nbsp;&nbsp; Yahoo",
+      "source": "Yahoo",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Warburton flies to Spain for Jota talks Rangers boss Mark Warburton has flown to Spain to hold talks with transfer target Jota Peleteiro. The winger is currently on loan at Eibar from Brentford and Warburton hopes to persude him to move to Ibrox in January. Wa - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVGhwVWRiYktobktmQzc4UHBHcnhrb2JxY0RvakVmelgtQ2YxRjN4alhCdHhodFBHdEJBbmJhTFNxb3Z4N1Q2SGg2aEZ5SVQ3QS1qWUdFWVEzUTRkVHZEUGZmWTJxYjBvMEJwUlZuZkNIc0haRzFFUndIWU9Mck44R00yNVJHNzc5MzhsaTlzWFQtMzNzQnBjLV9pbEpYUjVPVFpVbGp3ZnA5R3pydmR3LU5ydDEtUGR2amo1dU1ZNll2TkJ4endDTFZGYjlsdWdGWGd4clc3c2M0VlhKN055Sw?oc=5",
+      "published": "Wed, 21 Dec 2016 08:00:00 GMT",
+      "snippet": "Warburton flies to Spain for Jota talks Rangers boss Mark Warburton has flown to Spain to hold talks with transfer target Jota Peleteiro. The winger is currently on loan at Eibar from Brentford and Warburton hopes to persude him to move to Ibrox in January. Wa &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "BSC Glasgow - Sport for Youths and Adults (@bscglasgowsports) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92SnlMZTJLY3BvcUZrWjJISmpkQkFOc09BVHhkaUdNUi1heXoyWGpzdGlTNUdfWDd0TlRUeVFIcEk1Zlk4MmFOYUhwX2M5WEc0UFlZMURn?oc=5",
+      "published": "Wed, 20 Oct 2021 23:04:10 GMT",
+      "snippet": "BSC Glasgow - Sport for Youths and Adults (@bscglasgowsports) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "News - Glasgow and District Youth Football League - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQ2RLZmtVVWEyb3FacVl2Wjh5MktCUUtFUlVWNFd5NnA1cmhPNEZZcVc0MFBTQ3U1WFdmZlMxR3BKSjhXY2ozM29MeGs5X0laelNFZEhPUkVCUldxZi1YN1REaXlZdUtsYy1DVlh5WkRKSlFiZEJJcWZPR3JGdy01cA?oc=5",
+      "published": "Wed, 20 Nov 2024 21:45:48 GMT",
+      "snippet": "News - Glasgow and District Youth Football League &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Thug football coach who applied for EKFC manager's job jailed for beating up partner - Daily Record",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHVzbnV3OExDTlFqMGJlZE81eEJveG5aOHEzOVdLMWZ0OTQzcWxEXzd0aE1pd1JZLVZSMDRhTWw4S3hUYjM5cWgxWV9ETllWcnJqNFozdWEwcGZFSHp0akJCQU9pX1M2XzB5ekx5c1pOWTYzZ2pnVkg4WHd0S28yR0RJeHJHUm1KdFNORFdBZ9IBlAFBVV95cUxOanJlYWc4dzVtZ05sa280TEhVdFJSXzBKV0hKQWxlVkU4akhJWUdEQW5mMG8xdXZwU2pUay1nTG9xaF9mZndWR3ZaT2JTRmM4bEJUWG1waTE4WC1EQ1BrdE1Xc3Fub243TnlQd3pKWG9DRF9NcGkxSWhMN2NMeHRnQWdqMi1iSE53YmJFM0ROZHNld3Jl?oc=5",
+      "published": "Wed, 18 Mar 2020 07:00:00 GMT",
+      "snippet": "Thug football coach who applied for EKFC manager's job jailed for beating up partner &nbsp;&nbsp; Daily Record",
+      "source": "Daily Record",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Stuart Roy (@stuart.roy2) - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90X0JLa3dCdVp1TkVONER6SW9iWDVzQk52UlA2cTN2UFBNZndVa0FPMmJxeC1lbW1lVjh3VlBoUmI1cHVJYWNEY2NnN2RVZw?oc=5",
+      "published": "Wed, 18 Aug 2021 03:04:40 GMT",
+      "snippet": "Stuart Roy (@stuart.roy2) &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Thorniewood United FC (@thorniewoodfc) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ka0VTcldjSkVVRUFMVU9LY1BXWnlvRGozRzdfZWdBLThlWklRRGxGT3lxeWhnMjN1d01kYm1CSVh0YkNMT05ZeTJPX2stMTQwVEE?oc=5",
+      "published": "Wed, 17 Sep 2025 17:50:58 GMT",
+      "snippet": "Thorniewood United FC (@thorniewoodfc) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Kevin Muscat: Rangers in talks to appoint Shanghai Port boss as Russell Martin's successor at Ibrox - Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbzlfOGtWYXAwNDNDTzRYNGVsTks0UjZqcUFmOVoxTjlhd3lBLW9kdEtkWklDeXU1elplMmp1eTlWX2xYbkxsRWhocm1MY3lxeFlBX203ckd3YjZNazJWdjN3Qms3OFRjRkJpMEF0NExQUzdKNjJQUkJlMTh6VXlqQWUxUEtqUEgyaXUzTU9kMTVQN2lBM0VqYnJhNExqN1ZlekEyYzJCQlBlN3hLazByVUdqT1F0bkRrWmtBLXUzWTFhQmJ4UzgzaWpoTGVBSGZTZVZSQVZacG5pX29INk9V?oc=5",
+      "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+      "snippet": "Kevin Muscat: Rangers in talks to appoint Shanghai Port boss as Russell Martin's successor at Ibrox &nbsp;&nbsp; Sky Sports",
+      "source": "Sky Sports",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Next Rangers manager odds: Kevin Muscat the new front-runner - Ladbrokes",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kbkF0a3VTSHhlUUVXajMxcVlHU2JnNnJqZ0tZRDcxWDRKNHBTaDlSYkwtWFhwVWFETHhOV1c3SFFuNHlfb0p5M1owSno1ZjlkRjVRNHlfRnlWbHpEdXY2RU84ZnpuREJvd1BKaw?oc=5",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "snippet": "Next Rangers manager odds: Kevin Muscat the new front-runner &nbsp;&nbsp; Ladbrokes",
+      "source": "Ladbrokes",
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Hearts head coach Derek McInnes rages at 'disgusting' Celtic penalty - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44OVk1V3Q3ZS1pai1pVGM3UVJPSmhFT3VfemxSWHlRei1CMk5jSWpydlB2YjJwUlh0ME9oekpTVTFPMDBNS01VSThFTVBjWFYzRzE2UWxidnI5V3NnWU9HODVmdWNyb0E?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "snippet": "Hearts head coach Derek McInnes rages at 'disgusting' Celtic penalty &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "FSM Southglade Football Centre NOW RECRUITING - All positions Full time and part time hours available in all roles Flexible shift patterns and competitive pay Centre Manager Overseeing all the operations of the Football centre, financial reporting, including - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaFItd0puY29KRDBYZTJ1Y3VxTzRvbTdLYzN1SmhmWm5zaHBoOHA2S2NVUHhzd191bmN4OV8zSmZuZ1F4SDI0aW8xVzIxaEpyQlJLdW9GTzRveUhDMi1FektwamRBRFV3MFhSSE16TlpMVFBlQmd6aUJpSkk5OTBES0dFUW5jTWdxVjU2alpmU1Nxd3hDbG5ib29GR05BNXBKVy0tOUJfUTdNSTJVa2Y3M3Q5OE10bjRENm41bDZreVRjalk2bVRmbFpiYnpYVFFjMGdfekVpR2xwd051ekVQLUlSV0g?oc=5",
+      "published": "Wed, 13 Jul 2022 07:00:00 GMT",
+      "snippet": "FSM Southglade Football Centre NOW RECRUITING - All positions Full time and part time hours available in all roles Flexible shift patterns and competitive pay Centre Manager Overseeing all the operations of the Football centre, financial reporting, including &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "duns.active.schools - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xOUtTYk40YVI0aUNLNXFra1hSdDJNXzdfa1pxWUhMMGsxZXNRWEpYTTgzYnUyMmZuaXdNQVJlUzFNRGxCMDh3dl9hQjdwVDVDaHJDYlZDM1U2UQ?oc=5",
+      "published": "Wed, 12 Nov 2025 06:46:53 GMT",
+      "snippet": "duns.active.schools &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "UEFA Goalkeeping B Licence - Available Now ⤵️ A UEFA Goalkeeping B licence holder must have a clear understanding of how to develop young Goalkeepers transitioning through the pathway and coach adult Goalkeepers in either the amateur or professi - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EQ3pVa29xNC1OdmNfOXdwRVk5VFhyblRkeDd0My14eXY5amRoVl8yazdmOWNWclM0R2tBN3B6cnF6RUhCQ1d5aElWRmJQZUNJMmc?oc=5",
+      "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "snippet": "UEFA Goalkeeping B Licence - Available Now ⤵️ A UEFA Goalkeeping B licence holder must have a clear understanding of how to develop young Goalkeepers transitioning through the pathway and coach adult Goalkeepers in either the amateur or professi &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sebastien Pocognoli Scotland backroom staff revealed including Everton, Tottenham and ex-Rangers men - The Scotsman",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVDh5T25JeFduS2J6Z2dkLWdUS3ExQk85QUdiellxdkJRUjhrVjFCQzE5dkxuVFNZWHhjdTJyNEtleENHYjl6amtVaXdSV3U4cGxBRHhqRHZoOGlpempLMW5TSUlqYklleTFsZWJ0dW5pa3hkcHFRRVpzX2JyUGdlZzQ5bEpxZ0F2Y1ROVlVZbjR3MTNLeS16bGpYdXFOX0wwZzBVQ3Y0bUJGVnhJMzVUTzlmS240cXNabExycUQzLV9PeVVoVzJfcDdSV2RhQWFNR3ZVeThLUEY4TThUWHljNUIwblY3alZGZElBWGNDVkxPbmc?oc=5",
+      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "snippet": "Sebastien Pocognoli Scotland backroom staff revealed including Everton, Tottenham and ex-Rangers men &nbsp;&nbsp; The Scotsman",
+      "source": "The Scotsman",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Leanne Ross made permanent Glasgow City head coach - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xb2MtdEVUWTFIamNselZkd2I0bUFPbWpRNXNFM2pMQ2NoSURnaEZBMDVhTGNxWXRCUGZ6U3A1aXVobGZSeUk2MWNzcS1MRjA2T2xJQnN3?oc=5",
+      "published": "Wed, 08 Mar 2023 08:00:00 GMT",
+      "snippet": "Leanne Ross made permanent Glasgow City head coach &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Scottish gossip: Benitez, Hjerto-Dahl, Dragojevic, Chermiti, Duran - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14T2Y5THR2RTVPM0N0c1kxMkZ1NENKUGowbUh2TV9jMXZwY2FjSVgyR2pQZjlFSk14U1hJLVRfNUFGUFd5QWdxdmlfS0h2QWJNZDlwNmlGNXBqR1VNQUpvT002VDVoVWc?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "snippet": "Scottish gossip: Benitez, Hjerto-Dahl, Dragojevic, Chermiti, Duran &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sir Kenny Dalglish spotted playing golf weeks after Celtic & Scotland legend revealed cancer diagnosis. - The Sun Sports. Photo 📸 Credit: PA - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTzFUbDRidkVsbU95Q2FyRlExR3lKN1ZYVDNvUHNMMXZjWHp0bWJZaEx0bFhSZV9ySzZQRGxycHptOEFKQ3g0b0ROUDFiaDRKeEFpOXpUMXhOdXhyREkxQlVScjlmYWhYZ2FHY0NCNERRZEpiRjNiU1Bfb3VyRlZ1TkZfMTdJaXllUTdxN1MxLW05TEZ6NC00cnQ0Ry1mOXRJZy1FOFdhMWc4ZnJLa0pBVzM2TEVWZnprb1V0b2RLY0lxRVIwOTFCNlJRZjQtOTBxNTN4Q3Z5YXpfWWE1RlE?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "snippet": "Sir Kenny Dalglish spotted playing golf weeks after Celtic & Scotland legend revealed cancer diagnosis. - The Sun Sports. Photo 📸 Credit: PA &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Greg Liebelt will miss Glasgow football and vice versa - Great Falls Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTVdjZG8yMl9la1dSNERfUUw2SXBnVnkwRjFxaF9wbFJyVUJ5S3RMTjBZa3AxRzk0WlVzLW1LTnVNTWNxdWxHRlQ3dS1uaHMxRFJGYnZEUlVrbHh0MXZHeGwzc0lmQTJPa0ZtdU16R1RLbGRLTl9jT3VuN3ZJV1ZrWWlLWjFaX2l0MkVBWDItZHRyZk5rNnhfakRkWnBOa0N4MURfeWxsakhDOVYtLTZaeXBaSnBjVlg2VGpVLWQyTGFUZXQxaDRNeTlOX1prS2xTM1pGanJ3?oc=5",
+      "published": "Wed, 06 Dec 2017 08:00:00 GMT",
+      "snippet": "Greg Liebelt will miss Glasgow football and vice versa &nbsp;&nbsp; Great Falls Tribune",
+      "source": "Great Falls Tribune",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "France appoint three assistant coaches including Julien Bonnaire - Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVWVhZTlGeFp0WXRHSjZEWG9ELTQ3czJCMVN0Y1lVUDF1X29VRXlMOGllMHZGaWxEcWYzUER3OTMyWjYtejJUR1lwYmJMMjA1elVVaFAzdG16SzV3eGl3Vl9acXVpR2FfMElXODRZSzQyaWNZLU9aZzVVaFJ5a0Y4cE8tZEFidkhtTU1BWW5VMlJ4SDUxajc5Y2ZVQXhLcy1GMENvd1JTSnhJblFJQmVXd25zd0dsSmd6a0ZJQVo2TQ?oc=5",
+      "published": "Wed, 03 Jan 2018 08:00:00 GMT",
+      "snippet": "France appoint three assistant coaches including Julien Bonnaire &nbsp;&nbsp; Sky Sports",
+      "source": "Sky Sports",
+      "query": "\"U18\" football coach wanted Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sir Kenny Dalglish was given a hero's welcome at Parkhead tonight ahead of Celtic vs Aberdeen 👏 The 75-year-old announced earlier this summer that he was undergoing treatment for cancer. A legend at both Celtic and Liverpool, and a true Scottish football - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZHoxSlNwSm13MXVFN2xIcHhpZXk2RkNIaTIwdlBKN3YtaG9ZVWFIMThBT1NvWjRMZFQzR3NVRkwtQ1ZONGpWelZ2OGNBemFJdWZtQWVMelhrT2ZTMVJxc1dQSlk4Zk1NZVBZa3dFRUk2UlM0MTVDS0R6OVZ6dURRUkVwRlJoZ1VkWF94Y2JDcldYQjlaYjJnY3VFaEN0MHVOc3NzUTBlZzlGSXRmZTdoeU9OTzZmTWNpNkM4c3JHMTZ6TFdoZm9rU2xURm54Z0Z2OXctYzQtNllKOVdnanlZ?oc=5",
+      "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "snippet": "Sir Kenny Dalglish was given a hero's welcome at Parkhead tonight ahead of Celtic vs Aberdeen 👏 The 75-year-old announced earlier this summer that he was undergoing treatment for cancer. A legend at both Celtic and Liverpool, and a true Scottish football &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Heard whispers about this earlier but nothing concrete. There is now some substance to the Gvidas Gineitis to Celtic story... Torino boss Ignazio Abate has now spoken publicly about the situation, saying: \"It’s finally over,' following weeks of negotiations which - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9KbWZ3UnJUc1p2QTJpR21KbnJaNm1LTDBxcXNaQlNTYW9EOEhlLXZjdjVGbV9CdUt0OENKakZnV2JjcVlNTkZXUVpCZ0wyTWNEcXRtNjZmWGQ2bC1PcDdSOGk3WUFScVhNR1p1RlJKYzMtRzhTVTh1UXlvRQ?oc=5",
+      "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "snippet": "Heard whispers about this earlier but nothing concrete. There is now some substance to the Gvidas Gineitis to Celtic story... Torino boss Ignazio Abate has now spoken publicly about the situation, saying: \"It’s finally over,' following weeks of negotiations which &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "ULM Head Coach Bryant Vincent’s Salary, Career Record, Age & Resume - HERO Sports",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa2tpTTQ1aHV6al9CWFlIbjRMX0d0cVkxa1JfbmpoVzZMQTFMN3NFNFBMZ1pNc28yWGxqS24tVmgwMzhSb0QwdjROWHNYVmVaMHdVTVVNc2lycHpRcDdPaVZiY3ZNRTluZ3RIXzNfVUM1UUVYMXgyRDVsNGh6STBxekVDbTcxSzU4bWZESUhlR0hqc1BmMElIQUdjSQ?oc=5",
+      "published": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "snippet": "ULM Head Coach Bryant Vincent’s Salary, Career Record, Age & Resume &nbsp;&nbsp; HERO Sports",
+      "source": "HERO Sports",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "University of Stirling Ladies GAA (@stiruni_ladiesgaa) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tUElHY1pjZXJPbVIzcUZHT3oycHZFRG5lZ0RlbVFaa0VoWmlJZV8yNmZ2U3VlTUdRR0p6YXZpbjFPd2NXVTQ5TV9iRUhFUmR5WWhoMXBHaw?oc=5",
+      "published": "Tue, 30 Oct 2018 17:41:10 GMT",
+      "snippet": "University of Stirling Ladies GAA (@stiruni_ladiesgaa) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Coaching Opportunities at Queen’s University GAA Clubs Queen’s Sport and Queen’s GAA Clubs are inviting applications and expressions of interest in a variety of management and coaching roles for 2017/18 academic year. http://queens.gaa.ie/ Queen’s Sp - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOVZHSzFqOFh0aEgxMGFXQUoyeTlZOURsY2hlQlg4NV9PcmFGMVZZU0w5VjAwYzZPcDIzUENxUk1XZnN2aDUwTXlJLVR5S01mYXlJWmQ4VXFqZWYyQ3dwYVFoUk8yMEk1LXJxYVRIek9wZWRqRzlKX2szNUwxNXh0TEJEdlJVWExQWjJWWWFSRFExdFpVN080NTVOMG5qSGpiWjlqRmtZWVE1S1BETWxyVXZ1Z2JUT0ktdlBHZmtkT0RXWWdJbmxkT0tlNGxJcFozbkM2X21B?oc=5",
+      "published": "Tue, 30 May 2017 07:00:00 GMT",
+      "snippet": "Coaching Opportunities at Queen’s University GAA Clubs Queen’s Sport and Queen’s GAA Clubs are inviting applications and expressions of interest in a variety of management and coaching roles for 2017/18 academic year. http://queens.gaa.ie/ Queen’s Sp &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Morton in the Community. . 𝐖𝐞 𝐚𝐫𝐞 𝐡𝐢𝐫𝐢𝐧𝐠! 📢 We are looking for a passionate and dedicated Family Support Coach to join Morton in the Community. The Family Support Coach will provide high-quality, relationship-based support to children, young people - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNS0ItR0dmTVEzM2RXV0NXc05sd3lZenozalJPV1MtNlNWZjFVWEdWRk85LXRiMUp3amZsYkg2RHUxLVZGVFRqMEhPNHVmQnhqOXJlYUo2YS00aWgxZ2M2NkZSdGd2c3lvbXdVY0JQUW94S0ROdmJJMTFNaTZCQng1MkdCVDg0NUM4bmhPelN2aWRRb2RTMl9DWTZOVUZZd0FsZUM0QS1YZUdOeXJfZ3VOZlVPckJpeDhOcVZPQm9JTzRIa3Fadld2dzFNWVNZT0gtWERnZGRHamhKQ0ZyZGpQeEpEdG1mbUNUTVFGNlR4anZtZmF5TG5rQ01oTng5eVpXUGxSdUxNN2dtbE9nLUJERWQySmNDUmxQcko3T2JxT0FaNUk0UERuS2VvWUNzT3MxMlRjTUdHVVp5UjVOSC1tdnpLbUlsYTl4OFlqaUtPUktsTEZLSEJjb2x4a2hteHBhUDRhSWtIbXFja1JkQWpJYVBCcTlILVFaRHFobHFfSXI?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "snippet": "Morton in the Community. . 𝐖𝐞 𝐚𝐫𝐞 𝐡𝐢𝐫𝐢𝐧𝐠! 📢 We are looking for a passionate and dedicated Family Support Coach to join Morton in the Community. The Family Support Coach will provide high-quality, relationship-based support to children, young people &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "[Sportsleaders] Executive Director - Performance and Operations - Boxing Australia Limited. Canberra location. Full Time. Closing 16 Nov 2026. Apply@ https://buff.ly/oMUvDoI (see more peak body jobs: http://bit.ly/2HU8YNN) #sportspeople #sportjobs - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcmpVcjM0S1oyNENXNmoycXRhb2RqMVNqMVRyN21rUnhMSktCVmVzSGdwbTBITTl0MnlRaWplUUoxSGY4WjZMY1M2RVhlVFpfMVk3Q1J6dGhTNXB6cXU4cTEtc1ZpemhLMjJLVnFWMmcxcGI3YTJyUVlHMXNnbW52Q25ueFpzNks1MThPX2pBZklCOG12a1NqWDhBdVVlM2ZveVJldFlxYk04RzJmeHVwYnNkdVBRM3dTSFQ5T20xWHJfb2tsRzZEaFh3T0ZZcnQtZVhDM3R1bldkUQ?oc=5",
+      "published": "Tue, 27 Oct 2026 07:43:04 GMT",
+      "snippet": "[Sportsleaders] Executive Director - Performance and Operations - Boxing Australia Limited. Canberra location. Full Time. Closing 16 Nov 2026. Apply@ https://buff.ly/oMUvDoI (see more peak body jobs: http://bit.ly/2HU8YNN) #sportspeople #sportjobs &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaGhnaU1XLXZxdENieEp1MnNGTGtVU0xEVUlRN3NScFdiWjJkcksyeXh3Q2t1Y1BGUTJLMVRxbW1pTElPa3pFQTZxUlBldkZjbDctNWppRm1fbjlsNVJMaXZDbVhGLWFVbzNiSjhYZWhjWlpXNU9rSzFweVRvOTVIQU9WenYwMTRlcTNDY05qVThsTF9jbE5TaXl2UExVaFlsclF1S1dodWhtZFhIT3lWUS1peUxFbmdVQzJrV1I3dEZFZjR1TEhYX19KNXRuWVpuV2xKVlNlTGxqXzFwOHc?oc=5",
+      "published": "Tue, 27 Oct 2026 07:00:53 GMT",
+      "snippet": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Brian Greenhoff, the former Manchester United and England defender, passed away at the age of 60 on May 22, 2013. Greenhoff was a key figure for Manchester United in the 1970s, making over 270 appearances for the club between 1970 and 1979. He play - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWXhDTjZnQlBhM2dydWp1RG5LT3k2M0wzTU9oZmd0d2xpT2dVaG9waEwyZmZVWEFFdFI4eDhvTVhEdnlVOGtWOWMtRlQxY19sVEpyZkRfemlFYVl4WnJKZVU5V0xiNXdVRlpDb3RheDJLa2FTd2drbmFUb1ZoTWk1QjdCaXhnTVcwX3ZsTHk5MHkxeV9VS0kyUnA3Vk1TRy1PcWk2X004d1FqaU5fSkhQMmNLN1VKNmV6OTlBVktMdFpkZ01VQkF6X01Tdm9SbXkya19sbmFPVlowcjQ1MFE?oc=5",
+      "published": "Tue, 25 Feb 2025 08:00:00 GMT",
+      "snippet": "Brian Greenhoff, the former Manchester United and England defender, passed away at the age of 60 on May 22, 2013. Greenhoff was a key figure for Manchester United in the 1970s, making over 270 appearances for the club between 1970 and 1979. He play &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sir Kenny Dalglish arriving with his wife, Marina, at the 2026 PFA Awards 🙌 Great to see him looking well after announcing earlier this summer that he's undergoing treatment for cancer ❤️ - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWE1kTUNxZ1JrVEhBbU5NamozZGkyeDVLbmhJSWlZUnVEelJJNlAzd2p0RTZPdGllcGRVLWNqQjdXZ1hRdnEtSkwxbVdVa05GM2ZoT3B2Y0dQbzlCT0lQQnh3ZnV1Y0ljN0FseEw0VVZGT2JhRjkzdGp1TTZaOXlScUl5NGg2NGdDS3A0dUZEU0xmbHJsaUIzR0RMdGY2cVRhQ1pybl9GeXo0VDRsVlAxUXFvak9nckVBbk1Id3RtWWFYaEI5RnoxWDEzTHQ0aE1pOFBiaEUwYnZsdw?oc=5",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "snippet": "Sir Kenny Dalglish arriving with his wife, Marina, at the 2026 PFA Awards 🙌 Great to see him looking well after announcing earlier this summer that he's undergoing treatment for cancer ❤️ &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Photo by Tonbridge Juddians RFC (@tonbridgejuddiansrfc) · August 25, 2026 - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DOEN1VFVmMm9kYV9yRTBPS2JfdGt6akd4blF4dVBzN1VQVEhTckNLS21JMFUtOWNUNGRjcl9YVU9EZmItaGMzS0wxdWNCQmlxMUE?oc=5",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "snippet": "Photo by Tonbridge Juddians RFC (@tonbridgejuddiansrfc) · August 25, 2026 &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Nawrocki permanent exit mooted as Just & Ashia linked with Glasgow moves - gossip - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56d0NIM0t0MEVkSzhSd0g2aUZoU3ozSDk4TXpWanhQMU1OUnN5V3hmNzNlYzFqS3hhOXNIdV9KTGtDYWlEMlRFa2VZOEpjcFBKeXJ5YUVFcU1SbmpVTU1GSFlmTllTcW8?oc=5",
+      "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+      "snippet": "Nawrocki permanent exit mooted as Just & Ashia linked with Glasgow moves - gossip &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "⚽ Looking for a new team and some proper fun? Come join the action at Broomhill Sports Club (BSC Glasgow). Whether you’re trying a sport for the first time or ready to show off your keepie-uppie skills, there’s a place for you here. New friends, great coaching - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWlF0RUNSdFhQTXZSSmwzUWFnS2hRZ3F3Nm4zdU1RREw2cUJZRFZkelJaODdlbWVqN0NTMjFUSFdwcU5UQ0p6MlI5dGp2M0MySENCUC12QWdqeEdveUlqUnZDVnhXemFjcDIxUFJBUzVYWmxYV3hrbFNpT2Vka2JkYWwyeGJfeVJ0OVdxU0tJNWtRUXA1UTZfdHNlQTh0OXUxXzFhNEJKUlU5VjducUMyTGhfdkg3UWczaVc1dVBzOXVaQ3FjdUhlOC1sTkxqV1NINXh2RlFxbU9EbVg4MWE0?oc=5",
+      "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+      "snippet": "⚽ Looking for a new team and some proper fun? Come join the action at Broomhill Sports Club (BSC Glasgow). Whether you’re trying a sport for the first time or ready to show off your keepie-uppie skills, there’s a place for you here. New friends, great coaching &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Celtic Soccer Academy & Glasgow Clyde College’s Football Coaching Programmes open for applications - Celtic FC",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU2xaUUNROEFBOUVOQW5rbDkwbXFwYkpKWkxvXzhUWmxYUmkyandjaGNHYUxYdWd5OXRJNUx1TDU5bENfV24ybW80MmEyTTdYdXlkVF9fTzdPOWwyQ2dyX1JrQnlJdWlqTEtidzV2Ukk1Tk1MUGw3NV9aRnQyMnM1N0NHSTFXZGxSQy00R2FxVFhHSEtRNkg1UFJ0ZE1uOUFUMVo0aXk3VkNDdWNJS29MU2tQbElmZlBHN0tnWTZMQWI2dDBnYS11ZjJ4Qm43dmljcnZKRXZRUUZQMWc?oc=5",
+      "published": "Tue, 21 Mar 2023 07:00:00 GMT",
+      "snippet": "Celtic Soccer Academy & Glasgow Clyde College’s Football Coaching Programmes open for applications &nbsp;&nbsp; Celtic FC",
+      "source": "Celtic FC",
+      "query": "\"U18\" football coach wanted Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Factfile | Philippe Clement - Norwich City Football Club",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJTk9pSFJMLW1QME1mc3NzR0MwTFdSaGw1WDkyWmo3UzBsRTl5eFBFUl9XUUd1bEFRRTVnTmJaVDNCS1hTOEw5Q1dNem8yczExdGxoZjc2R3RTaWV6MUdsUXlEckNDUDZKTW5XRA?oc=5",
+      "published": "Tue, 18 Nov 2025 08:00:00 GMT",
+      "snippet": "Factfile | Philippe Clement &nbsp;&nbsp; Norwich City Football Club",
+      "source": "Norwich City Football Club",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🚨 Last chance! Applications close TOMORROW 🚨 We’re looking for a passionate and driven Development Manager (Football & Facilities) to join the AoC Sport team! ⚽️🏟️ If you’re ready to shape the future of college football across England—supporting facil - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52SXh3VnFicTBNTmFsRUNwRkE5ZnMxNG1sNW56WThUNDBzNDJCWUJ5MWtnaGZfMlFjTEk3Z3FseUItMGFEbkxDVE5JcG9rVGQ2cWc?oc=5",
+      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "snippet": "🚨 Last chance! Applications close TOMORROW 🚨 We’re looking for a passionate and driven Development Manager (Football & Facilities) to join the AoC Sport team! ⚽️🏟️ If you’re ready to shape the future of college football across England—supporting facil &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Businessman who faked bizarre Airbnb deal forged licence for top football coaching job - Daily Record",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa0tIekV5NUdROXprcDhSajI5dmRCZk9oODRpWTl6aWRHTXg3REpjdjJRNW54NXgxT21URkNwUWRRYmhEb0EyQndxQkpYZmJyUS1BekoydlZqSEMyLXFXZjhTOWZRZGZYVW9SQUwxQVBEbEEzQWtMVG5wSVhHQy1FcG5NUFRLWEXSAYwBQVVfeXFMTkphNzh5TW51UHlqc19UM3FlWkFPUkdaWDdGQmc0eUZRT3VncnM1TmlFN28xdE9YYkhHaUZaYWZsVmMxdVk3SC04dC05WW5vdFFWWXkwV3pSOVhzTXpSUk9pcVNkd3l4UHZhSTJxQkFoamJmbTgyTVBIa0NiZkxiaUhha1p0R0JyYXI2RUI?oc=5",
+      "published": "Tue, 16 May 2023 07:00:00 GMT",
+      "snippet": "Businessman who faked bizarre Airbnb deal forged licence for top football coaching job &nbsp;&nbsp; Daily Record",
+      "source": "Daily Record",
+      "query": "\"looking for coaches\" football club Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Edinburgh businessman who faked Airbnb deal also forged licence for top football coaching job - Edinburgh Live",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZnAzeEdKMVFwUjV3U0FtRWVpUVpveWJVSE9EZ1lvNDV0UjhIX2RkNTRia2RuMUkyVDVjNmFlOWl0cGJaekFWNS05UEVXa1Fua1EzQXFmR1VDWjZHUFdsNWJKcjUzS0lrMTh0bm85TTZvclFEb0FoYjJQZlJHbU54OXYxY1NueWtiY1dOdUtRLW4teEMwYW9ST0tLcWxJSHll0gGmAUFVX3lxTE1QSXRabTZjVVgtNjBhWFE2dlZwcmZFTnBUMFBlR0IzWldZUWRkSWk2Mk5Qc0N3RU5Ub05CTm9vWlVTaDdzS0Zid2hOdGFCNnpaQml2S29pQ3FNbXNqNndVT3N3Zmg1eXFDeEg0NXZhMExzMTZlWkVoaGxOV0N4RDc2dXhOd3l4SS1DQW55dG54d3Q1TlhNbE9rcDNXOG1sMnU2eGU5Ymc?oc=5",
+      "published": "Tue, 16 May 2023 07:00:00 GMT",
+      "snippet": "Edinburgh businessman who faked Airbnb deal also forged licence for top football coaching job &nbsp;&nbsp; Edinburgh Live",
+      "source": "Edinburgh Live",
+      "query": "\"looking for coaches\" football club Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Login - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9jc0pUOEliQzRZbTc5ZFBHR1hIMDhJMlN2cTY2cXgtb0FDWHVGckJiN1lMa2tXWk9ieVNuS2hSV2hYQQ?oc=5",
+      "published": "Tue, 16 Mar 2021 23:59:44 GMT",
+      "snippet": "Login &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Register - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9aU012Z1RSY3lXSGVqVXFjczRfeTZpVDU2enluWHZNbWVkMlYtQmE1ZFhoUVA4cW1URVVBaEgyVHZWMjJNRlE?oc=5",
+      "published": "Tue, 16 Mar 2021 23:55:14 GMT",
+      "snippet": "Register &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Musselburgh Windsor U18 YPL Girls (@musselburghwindsoru18yplgirls) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OYXY2VS14NW44Ync4Y3c5emtrY0xGMjU4RmlYbDFKZFd2TWktWmltSS1VSW1EbVpGTy1YS0Jlc0ppVzJlMFdLMV8tWkRWdzc2ZWNTUzRVbEt0amlLWHpSMGNGSGEyd1U?oc=5",
+      "published": "Tue, 16 Dec 2025 09:20:19 GMT",
+      "snippet": "Musselburgh Windsor U18 YPL Girls (@musselburghwindsoru18yplgirls) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Former Celtic Duo Join Brendan Rodgers In Saudi - Celts Are Here",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0VRSG9uZVZ3VnFwNldMNGRoODZOcFg0LWVITHRGZHpnNV9tOEF5dmpjMWRzMlZ5OE1ES1p4YUFlSmtuTDRJTW1rVDVsTGtyR1A2OE0weXRzQk55X0NHaGxEdm0yQVdlWnFxUU1HODNuTk0xMm9UeUtTMXZwaGpIRzRLMFBuNGZ4Zm1zX256OA?oc=5",
+      "published": "Tue, 16 Dec 2025 08:00:00 GMT",
+      "snippet": "Former Celtic Duo Join Brendan Rodgers In Saudi &nbsp;&nbsp; Celts Are Here",
+      "source": "Celts Are Here",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🧤 GOALKEEPING COACH REQUIRED! ⚽ Ready to make a difference between the posts? 🙌 Interested? Get in touch: mail@bscglasgow.co.uk #BSCGlasgow #GoalkeepingCoach #FootballCoach #YouthFootball #GlasgowFootball #WestEndGlasgow - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV0NLRHl6a0xEdVd4Q19NR3BUNDcxazJ1YVoycWdFY3dZNjcyYzhFQmFFR0wtUjFPUlBnWm5IV1VuN3NGMVJldjlyYVQ1N1dfZEkxa3RySERsQnppZ0VhdVBvR0xka1NCcnJZVmVoUmR2XzVkTXBlTktWSnhrMlUyck1QVWlMUEpodjZDdkdaWVhJUTNXaTV1YmZTXzFzUFRsU2dIY2RCaWRISmg0dk5RblJQSzV4bVViODk5T3Z0aDQzNnp5N1dDZElCOTNZYnhmV0RHR0RrX3hpTmYyQWc?oc=5",
+      "published": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "snippet": "🧤 GOALKEEPING COACH REQUIRED! ⚽ Ready to make a difference between the posts? 🙌 Interested? Get in touch: mail@bscglasgow.co.uk #BSCGlasgow #GoalkeepingCoach #FootballCoach #YouthFootball #GlasgowFootball #WestEndGlasgow &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Glasgow football head coach retires - WBKO",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wYm1WTHB6bVZ2ZWtqT0E0SURsMzhXS3FISVExY0w1bno3TjlCSG14b2ZiZkhXeG5EUXM2dUcwRE5IYlNhSWtSM2MwWHNNUWhHNEc1ZFIyN0JlOXhrUzRJSEFiWFpTY3I0RGJDaG1paTBicWxxR2ww0gGLAUFVX3lxTE1rbFJVTE12WHVzdUtXeGl6RTJRT3gxZkNYMXI0TGlTLXotT3dhME8yRzNudkhpUURPVEVsSG4zX2htWm1xVXJ5cU5mTFVCYmE2SUc0Uk1BN09nRGhrWU1yR0E2RkxwYzJUNFBrVzJ4VnpxNE1RVVBPWU04dlROMC1lVnpDS3NhZS12NG8?oc=5",
+      "published": "Tue, 14 Jan 2025 08:00:00 GMT",
+      "snippet": "Glasgow football head coach retires &nbsp;&nbsp; WBKO",
+      "source": "WBKO",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "WE'RE HIRING | SENIOR FOOTBALL DEVELOPMENT OFFICER Broxburn United Sports Club is delighted to announce an exciting opportunity to join our team as a Senior Football Development Officer. This new position has been made possible through the - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT2F6LWFpVXVkeDI2NUZCWU9RMHVSMFAzOUd4ZXcyV05tYWpBaVdUN0ctczVJa1RTMHRZVHlQLWNDa3UtVGdfMEtOZkd2V2ZQTWdRQ3F4bGREVDhIX2YzVWFubDVra0JXUXAwdFM3ckt6TWx2Tmd6TGxsUWhlOVhucDRUVUhPcVV2VVU2bndKRGZxUUEzQUctUjNUVlo2X3dHVF9sUEtyUUJkNWlUdVJnZ0RxWnBWQ21remJpQWlhVDdFTkExdmRmTlpLaGtqaWZ5NnR3Wm8xNUhuckxQ?oc=5",
+      "published": "Tue, 13 Oct 2026 09:49:54 GMT",
+      "snippet": "WE'RE HIRING | SENIOR FOOTBALL DEVELOPMENT OFFICER Broxburn United Sports Club is delighted to announce an exciting opportunity to join our team as a Senior Football Development Officer. This new position has been made possible through the &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🎤 Robbie Williams says he’ll “ride again” with Take That someday — but not right now. He’s focused on new solo music, including his upcoming album Britpop, while still leaving the door open for the band’s future. 🔗 Read more on 98FM.com #RobbieWilliams - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWnl5Z245bzVxMjhiS3pGTy1zSTBKaDB6My1UQkJNbFp5Yl9sdWNId0F3eUF2S2o4NDVDQUVDcl9xTUtkanVKb050Y1JzS2lOU0VEb0kxSExmRjdrV2oyWl8xbmNSb292S093bDBIdi10SUowMThURldJVEVEbVQ2OUM5c0tBLUo2V290T0xOY1lLRHNINHcxSHlST0tfby03c0lHWUkxVjdUeHJRdnJrSVcweEZIRE54c2E3bXJRaFAyYjNmR293aTdTb2I4T3M?oc=5",
+      "published": "Tue, 13 Jan 2026 08:00:00 GMT",
+      "snippet": "🎤 Robbie Williams says he’ll “ride again” with Take That someday — but not right now. He’s focused on new solo music, including his upcoming album Britpop, while still leaving the door open for the band’s future. 🔗 Read more on 98FM.com #RobbieWilliams &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Volleyball Ireland. . A few words from Ireland U20 Men Head Coach Andrei Molnar on what he expects from this tournament. #Raisingthegame - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVh3YVUyS0VIWE1YLUpURmFJQ1p2TzhfdmZlbjhXQ2JZNHRXSFZzMWdySWhsX3VxSFhrRk5MYlU2MTAyc1RIX1VWYXRkNkgzUUNOek8tR2kxSEQ2Z3Fxak1rd09oR3ZxNVFmYzVmZGhjX29lMXdVbTVvRF9MQUlDNHJFSlJIX1VRa2drTm5ZVzliSTBhV0VzVUlvSWM2STlMdjBzMUh2MEEyc0xqMkNoZ0dvNTVxVXBOZVJ1LXFrMDRMZ3p4dnBuOGhPUHhTY1NFT2ZkWXEteFRudmtRMENwNA?oc=5",
+      "published": "Tue, 12 Apr 2022 07:00:00 GMT",
+      "snippet": "Volleyball Ireland. . A few words from Ireland U20 Men Head Coach Andrei Molnar on what he expects from this tournament. #Raisingthegame &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "On this day in 1912 Belfast born Mickey Hamill became the first Man United player to be capped for Ireland. He is pictured on the left with England's Bob Crompton, Wales' Billy Meredith and Jimmy Campbell of Scotland and would lead Ireland to victory for the f - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQlRrWHZiVmFjTzVjX3I1U0FVQzd3X25HQzZ2eVhqb2d2NkZPdjNlWi14WV9Obm1LbmgwRXdVU3ZIMjhZMUZKRkdlY3A5bmE3d3pNZXdWOHFXRHJ3Z2RoaFduMTV2eVVYenVDSjJrdmVnLWJmSnAtZjZvVnZBZE9SYkljc1B3QmtyMmVJNFozSUNJTzJybkZyUXQ4ano0T004SlpWS1h3cm51eHJtOERBQmFaVU14OGNXeGhxdW5XSHZzNlE5Z011cmxDQWVNaGJlRmQyc0pB?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "snippet": "On this day in 1912 Belfast born Mickey Hamill became the first Man United player to be capped for Ireland. He is pictured on the left with England's Bob Crompton, Wales' Billy Meredith and Jimmy Campbell of Scotland and would lead Ireland to victory for the f &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Ready for First Team Manager 2026 on the 10th July? - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMWFFbVFwSlZkeEVsMWR2VDFiQjhNN2N1aklDd3VSZlRDMHdKdkJJWEtPR01hSHJIQmNETFRsaFhIYVIwWTdEZG5hRjBjYjZfSGJuMllHTkdfMWRBbXpsM1NabWQxVV9ydzZ4c2YxRUcyZ0ZGWXZrY0F6QjNXYjJwWTRqYWVtRHZ4TWF4d2lOakhSYzNQdEM0R2ZBM1l3aWhOdTNCMmFWRFRESnF2c0o5MUtpaXpHQi1NVFhjYUNxaw?oc=5",
+      "published": "Tue, 08 Jul 2025 07:00:00 GMT",
+      "snippet": "Ready for First Team Manager 2026 on the 10th July? &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Ange Postecoglou becomes first Australian to manage in the Premier League after accepting Tottenham job - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdFRNbnpURW8zWE1rdUY3QTh6NXhXVjJBY20xUlVyd0E0ZkRSWlVYTkItZFQ3LUNkbUpCRXNDZUthME1lY2w1anpyN0VZVnN1dTd1cTFIVGFzekg2LWxZMEgtOVhkVG54WXZsaUdsT1J0aUVJOXdPa0ViNlFEdEtmT0ZvbHN4RHBuMTEwb3RjOVVFT2N2TFNKSXhYWEhtS1d3dl9kT2xEbXI4aVkwRlhoVGd6bTNaeURSTWl6SzhUTnBiU2pIQVBqOG95OUdKcExwbHoxMzln?oc=5",
+      "published": "Tue, 06 Jun 2023 07:00:00 GMT",
+      "snippet": "Ange Postecoglou becomes first Australian to manage in the Premier League after accepting Tottenham job &nbsp;&nbsp; Sky News",
+      "source": "Sky News",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "ULM names Glasgow native Bryant Vincent as interim AD - Bowling Green Daily News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WZUUtQ09ndGNuczNPLTJIc1RpN0ZNbkUxdEd0YVRtZlpsXzUta0xtU09qeXV0VGhpa1I0SWliVHFtaTVlRzQ0RzhTdDdLWHgzWXhmMDloSG5fQUUzT2RvS2J6REF4Q1lpbWZWa3JBZw?oc=5",
+      "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+      "snippet": "ULM names Glasgow native Bryant Vincent as interim AD &nbsp;&nbsp; Bowling Green Daily News",
+      "source": "Bowling Green Daily News",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "My great grandfathers family very sad incident and also mentioned his elder brother injured the same day at wales wood colliery. - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZdFQxS1pLSzJ3YWZrd2U4aS1pbHl3d0JQc0Z5ZjlYZG5ZVF83Zk9qWDk4VFZUanBMT3FsbmtzMmFoM3E1VThEVzBkZTVnNEN1NWRkTk1aSllVcTBvbTFyUTJUeVJHeEw3RUEtM3p5dE5Wd1BpLXYzMXlBVQ?oc=5",
+      "published": "Tue, 04 Feb 2025 08:00:00 GMT",
+      "snippet": "My great grandfathers family very sad incident and also mentioned his elder brother injured the same day at wales wood colliery. &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Soccer 7s Downloads - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxNC1IUFZCTHVuYTdBTWlEZWp1Rnd4OGcxQl9VVGxGekR2ZUlqbUxlMzF4NTR4WVJzSURaQjhuVlBFTUt2NndTaVFCeTJ2UQ?oc=5",
+      "published": "Tue, 03 Aug 2021 02:18:18 GMT",
+      "snippet": "Soccer 7s Downloads &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Glasgow head coach Dave Rennie approached in relation to the upcoming vacancy of All Blacks coach - Fijivillage",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWERRWUJ3LUw4cHRZMDR4cWpyTWRRa2hkT0VaU0ZhWDJRWWhrckw3NHY3QzI3YXFiVHptZTlZN01YVDNuWEd5cmRKbWNJTTJ4cFJzQy1yeDE5c3phMDlTYjdFRHhBOUN3MkRYVVJaVXlqRGE2QVF0Vm82T2pfck5XN3BwZFpVLUpVaDg1enRJUy1sMVFJLWNVRmRvMF9oNWg1bTVqTzRZcmNxUzY5cWFteFFpOUVwUWMtU0FSZHZ3S2ZRc3ZFYkt6Yzhxdy1WNFB0YW1maHZB?oc=5",
+      "published": "Tue, 02 Mar 2021 16:58:30 GMT",
+      "snippet": "Glasgow head coach Dave Rennie approached in relation to the upcoming vacancy of All Blacks coach &nbsp;&nbsp; Fijivillage",
+      "source": "Fijivillage",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sir Kenny Dalglish has revealed he is undergoing treatment for cancer. The 75-year-old former Scotland, Celtic and Liverpool great was moved to issue a statement after mistakenly posting on social media. “As my inadvertent social media post has indicated, I - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSktyaktndTNIdWxwSGtqcGl0dGdiMUFTWHJwTndPZnBTR0VfZkpfRllpcVpKRk5sX1hoSzVybk9vQWM0bnlHVHJ3RHBZbVhEcWllY01mSEpheFh5UWZBZi1tWWdGeU4tNHFReUxhSm9hNXZDTmpWZGFLMnJhZWRqazVtRWZ4bmlUZjItbDFoQzBRTDdNT2Z3MEl5LXJyVmZIb25sWUpXZ3g0UTczcjl2c2V3WTJEOGRPT2U3MWdDb1F6aElZUnFQXzlJYi04OVgtb3c?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "snippet": "Sir Kenny Dalglish has revealed he is undergoing treatment for cancer. The 75-year-old former Scotland, Celtic and Liverpool great was moved to issue a statement after mistakenly posting on social media. “As my inadvertent social media post has indicated, I &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Our Galanos House is more than just a care home – it’s a community where everyone looks out for one another. Residents are all part of the Armed Forces community, creating a unique sense of camaraderie. Staff and residents featured in Natalie Cassidy’s ‘C - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNekdQV1J3SVVtVGlhUDdNQzRHYWQ2WnpFcHJPWEhlSkducjhTNEhNNjRIVTZPOHhKbEkwSzNHR19jLUQ3eklMUjJ1RGlzaDJOdVAwTTd0VnVvNmhTWXZIQmZ2eDBIY2FDcVVPU0FOSTdSbzBLa3FoZnBSLXUtNmJiZ1A1dXRLQ0otV08yUG0zTFpBbjlvcnR0MEFIUU9FTUNmbnZiUTE2SkZVU0I5alpnZEtVRlQxeW5YbDh4b0ZmdGh0bjhCVmZxRDRuX2dXa0RGYkVrQ0JPeWhuSTlKWUtuUTNmNA?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "snippet": "Our Galanos House is more than just a care home – it’s a community where everyone looks out for one another. Residents are all part of the Armed Forces community, creating a unique sense of camaraderie. Staff and residents featured in Natalie Cassidy’s ‘C &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Football Coaches Wanted in East Dunbartonshire - Scottish Football Association",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOXhrUmUyeUFXWTMxeUhvcWhnZHI3NFRTNUxWQlhXM2NmWldfcS1JU2E4WS1OZnNoWkhYVnFQdThHaFIxNzRsVG9HRW9zajV1cTZUckxiUHlGV0pVZ1JYdW8xdm91SnNJcWxtSHVOTDU3R1dWdHhmd0sxMjBJVDltem4tWDUtcTJJVkFj?oc=5",
+      "published": "Tue, 02 Jun 2026 02:40:31 GMT",
+      "snippet": "Football Coaches Wanted in East Dunbartonshire &nbsp;&nbsp; Scottish Football Association",
+      "source": "Scottish Football Association",
+      "query": "\"looking for coaches\" football club Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Brian Rice: Hamilton Academical appoint former St Mirren assistant as head coach - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXV1dGWm11a2hKVnRJVTVCT3BOUmNra2ZOeG96NFVCZXlrbm5zNzBKalZ2RjVRb0U5UEJEREdlWU9lV1BJc095Wm1wWVdMYnp2TWkzcmpoX3A?oc=5",
+      "published": "Thu, 31 Jan 2019 08:00:00 GMT",
+      "snippet": "Brian Rice: Hamilton Academical appoint former St Mirren assistant as head coach &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Midland Soccer Club team returns from Scotland with new passion for the game - Midland Daily News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnYwVVpKNmluSXMyRl9ISDROMTNqRFpHQ1B1V0FKVUVxX2tZTG5CVml1eGRTQ0xvbk1yTnZSRmN5eTlqaWhMZUk2SWdLTm9SMGlySFAteFNnbHlKZkQyTjFpT2M0eVlHMVFoQmlOeTdRZXl0MXppQlR1bDlMOVpERi1qQ2NMVm9zWGs3OE96OVNYUDZwVTlvRHUxemV4NE0wRU9J?oc=5",
+      "published": "Thu, 31 Aug 2023 07:00:00 GMT",
+      "snippet": "Midland Soccer Club team returns from Scotland with new passion for the game &nbsp;&nbsp; Midland Daily News",
+      "source": "Midland Daily News",
+      "query": "\"Pollok United\" coach wanted Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Royal Albert - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KMnVRUHJZNUhZWVBoTnVTSHNER3Q0cmtRMzRwQkxIY2JOb0VIZGd2M1N5OFhSZ2VmRzIzYmJIdENQSkdwVFpkbjhJVnVWUEZmeEY0?oc=5",
+      "published": "Thu, 29 Oct 2015 05:27:21 GMT",
+      "snippet": "Royal Albert &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "My name is Ryan.I am a an 18-year-old player currently looking for opportunities to join a U20 or senior squad for the upcoming season. I have been playing football since 7 years old and have continuously represented my school teams throughout my educati - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YQ21kMlBMb2tpMlRzeUdnMVVkT0YzbXB0N21iVTQ5TTRBTE9BY0lPMUdyeVhDYWQxVFplNFhxSHVqTkw5bEJlejVhWlNkMU5mTzAyUVU4OXlWMFF4dTdrbGxLWnNPUHBSTHBoZ0pza2p4TUsxUWRsLV9WQQ?oc=5",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "snippet": "My name is Ryan.I am a an 18-year-old player currently looking for opportunities to join a U20 or senior squad for the upcoming season. I have been playing football since 7 years old and have continuously represented my school teams throughout my educati &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Vacancy: First Team Head of Sports Science - Partick Thistle FC",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNXlSTS1nWWd2U0VIMUN4UmxuaVBrcjR2MjVxLWkyUWItQWVpWmlkSWRLaGZHVU9XdXc0MjNNNVZXMlg4UGhVSHYyUElSVWdHSmktRERyTk42R1pMWGdwM20xV2dhQXV0cVBwc19lX3lhdVdBTENGMkh0X2lzbEQ4aQ?oc=5",
+      "published": "Thu, 28 Aug 2025 07:00:00 GMT",
+      "snippet": "Vacancy: First Team Head of Sports Science &nbsp;&nbsp; Partick Thistle FC",
+      "source": "Partick Thistle FC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Shocking moment Scots football coach HEADBUTTS his own boss in heated bust-up during warm-up - The Scottish Sun",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY0VvYVctSm9GZ1BoVDhzNnZIRWhWVjlJbm56RC1rRGtqQ0paTXpZLXZuTkNmd1dtaGxLM0xGMlcwZjlndFFWcDczR0FDOXFuN2ZwUWMzNFB6dXRPMlBPVkI1WUEwUlFiMTlYMjgtRWlPZ2JTWGJTRDlEcEQ4ZF8yNWZHOGJ2akxHa21QSkh1YTRvNkE?oc=5",
+      "published": "Thu, 27 Feb 2025 08:00:00 GMT",
+      "snippet": "Shocking moment Scots football coach HEADBUTTS his own boss in heated bust-up during warm-up &nbsp;&nbsp; The Scottish Sun",
+      "source": "The Scottish Sun",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Mark Wilson appointed Thistle Weir Youth Academy under-18s Head Coach - PTFC.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzdUN3E3ZXdRcGhfU0xRa0NIR2dZUmNTcXo5Tjk3NmNqZ3hCZ0c0YUgyRDhubEZQVWE3TnNRbWdBM3pwMlRJLUVJSThZSmZBa0c5OHVQcGV6a19WdUFORHZwV3VEMG03c29XV0UtWGI1OXlqdXhaakw5LWo0ZTZqV0tJbmN0cUxRYnZiSndSZzgyTS13OFRoeUF3R096Y3NKZzV4SUdR?oc=5",
+      "published": "Thu, 26 Oct 2023 07:00:00 GMT",
+      "snippet": "Mark Wilson appointed Thistle Weir Youth Academy under-18s Head Coach &nbsp;&nbsp; PTFC.co.uk",
+      "source": "PTFC.co.uk",
+      "query": "\"Partick Thistle\" academy coach vacancy",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "New Hearts boss Vrancken ready to challenge Old Firm - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04TlhiTllNanhvem9ZckVMc0tzdHRyN0FiaGtGV0lwTFdEQmhrUnFWZHhwSHhWSU92cUhPOFlmTXUwT1MtaExEeDJzRUFqbWp1Wk5UbmxlVXFYU1ByNjNlT3h3STVfQk0?oc=5",
+      "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "snippet": "New Hearts boss Vrancken ready to challenge Old Firm &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Best of luck to former Ayr head coach Kenny Murray who takes the reins of Glasgow Warriors tonight in the absence of Dave Rennie! #pinkandblack #MillbraeMade - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZmVtb29RTHk3eFVZY1ZNbVBWQi1IanBCWGRldUM5aTh5VkwtcVo4c0lhRWV5MEFmX0daalBhZ1JNckNOaHljQzlENFlRWjdiUlhRWkJEOVZSUnpsN1diVVZ4YmFRaDI1NE5CenJuYUFCQXBRaEhWQmdjT1BYSTZvS21fM1pIN3hwcmRpMS1PeVA5QlhIV21LTzRyRGxCbHBnQmE4QW5iWVhJMVd0SjNnTnVaS2xJT2VGczlMWnY4MDd2N2I0V25hR2c0WURCTGxHT2VrNEVYZlJDdw?oc=5",
+      "published": "Thu, 24 Jan 2019 08:00:00 GMT",
+      "snippet": "Best of luck to former Ayr head coach Kenny Murray who takes the reins of Glasgow Warriors tonight in the absence of Dave Rennie! #pinkandblack #MillbraeMade &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Fullname: Joseph Cassidy aka: Joe Cassidy Born: 17 July 1872 [SF:Confirmed with Birth Cert] Birthplace: Dalziel, Motherwell Died: 7 Aug 1941 Place of Death: Chicago, Illinois, USA Signed: 27 May 1893 (loan); 3 June 1893 (permanent) Left: Mar 1895 (to Ne - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcGgzQWdYOVdwbkRSVHlKRnVkc2YweDVXRlV2T0hZT1k2bExqNWJUN3h5YnBzWjVucF9RSnY3Z3BJWGY0TkxpWFFObHRwdVdQZnZHX2h3ZjNaUG1uOTQ3dThSeEp2RzI2TXdEM0xIWmRLMmNHamxCX2o3Vld1UE5HZVZEY0N3by15VlVCY05FMW1WTW13WmVxOUNSaWZmTGdlaTF3YlZEUEd1YXdKdkl0dnFkREpIMFpwWHhBWnhlazRIOUo1YXhFd3BGSXhMR19GWXJyZExRVm5DNGgwbU1ZeENZeDQ1VjdpLVd2VzI3eGhjcWc?oc=5",
+      "published": "Thu, 23 Dec 2021 08:00:00 GMT",
+      "snippet": "Fullname: Joseph Cassidy aka: Joe Cassidy Born: 17 July 1872 [SF:Confirmed with Birth Cert] Birthplace: Dalziel, Motherwell Died: 7 Aug 1941 Place of Death: Chicago, Illinois, USA Signed: 27 May 1893 (loan); 3 June 1893 (permanent) Left: Mar 1895 (to Ne &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Scotland XV coaching team 🏉 Bob McKillop will once again lead the Scotland Club XV as Head Coach for the 2027 season, supported by the same coaching team of Scott Wight, Andy Hill and Andy Henderson. Full article linked below ⬇️ - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX19LdC1lQ1ZEUFQwS3dYQUwtVDMzZTdoc3hDYURGNHJiU0tkc0FDcWtveTVfTjNMbnFyenUwUkQ4cDVFZWZZM1hlVDBvVXNVOUVSblNubGFQNnNCYlA3NlcybzhmWU1JbWhTbnRFenhUV3BYbGJyNHNMUXJmcy0zaXM5WlEwOUJ5ajI1S3dDZ1NrWExFSm52ZWFGeUkyd1UwNWUxWVdoem5vcjU5RGNXc3RxdGkyeDBQelBkQmhYa0tuak1ORmM4SGdIMUlxMm1RanAtNGluNm5hbk0?oc=5",
+      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "snippet": "Scotland XV coaching team 🏉 Bob McKillop will once again lead the Scotland Club XV as Head Coach for the 2027 season, supported by the same coaching team of Scott Wight, Andy Hill and Andy Henderson. Full article linked below ⬇️ &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Austin Sime, a Technician at our South Street branch in Glasgow, certainly had a weekend to remember. On Sunday, Austin lined up for Auchinleck Talbot against Celtic in the Scottish Cup. While the result didn’t go his way, it was an incredible experience and - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQVVGYTJabGtQNFYzeDF1enB3WmYxcDRqNDVITjBrWXZFRW12Z3drNFhwTDRKMXZfRVF1dWxSVVFLb2lZN21uOGFhTFFEY1RiRFFna3pCRFEzXzBOaFJrNm5qZC0xY1pRZ3pDZG1maF82QlhPZTVad3pGemZjTlNaR1JmOGhsRzNCYnAzcXZBUWt2M3I1TGZIZERldDJ2OGZudmd2Q3dVQVFPQTJ4MUNxS2hJM2dlQmdYNk1kc0ZaOWlMamJ4WWZWUW40ZnlLdFo1R0piOTdaR24?oc=5",
+      "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+      "snippet": "Austin Sime, a Technician at our South Street branch in Glasgow, certainly had a weekend to remember. On Sunday, Austin lined up for Auchinleck Talbot against Celtic in the Scottish Cup. While the result didn’t go his way, it was an incredible experience and &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🚨𝗨𝗡𝗗𝗘𝗥 𝟮𝟬𝗦 𝗛𝗘𝗔𝗗 𝗖𝗢𝗔𝗖𝗛🚨 We’re pleased to announce the appointment of Garry Banks as our new Under 20s Head Coach. Garry joins the club from Forfar United Juniors and has over 12 years coaching experience with clubs including Fairmuir Boys C - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMizwNBVV95cUxQLWlUel9LZXVyOFNJQy1RSE5CUjROOG9tN2pxOVUyOHZhdG5RbW82RGhhMUZoc0pPNDNwUE5TSUZ6WWdSZ0RocjNOUlhvSzA4eEptdzl6MldBbnMwNXE2TS14V2d2Q043TUNlenNNTHZhcVU3UGZtem50czZWUEVlUVBsdnIwUmJ6aTQ1ZnJ2MWpJWFpEVDdGQ1Jxcm9xYjVscy1ObFV5LTJEdkxkY3Q1N1V2YzQ1NDZNc3dySk1tcHUtaTZpN3RwcVFkZTRXb1dQQURmXzJwd2dtci14WXN1eUZ2OHlUWU9Fd3JsOUw0OGpoWlNMN0lWam9XTWNvY1o5LWhWZHNHZzlGcy1mT0MxQXRxVjIwYUNXTExkVjlGSFhSbmY2VFE2ZmlPNkNzc3djeGFJY2VFSnZuMjh5c0RDTERlTkpBSzUwVExRQ1J2SE1Dd2FiQzc5QVpBRDlkaExkaG9SQlJWSU52SllYSlFVVTNiMUdXUTFrLW1pbHNweTgzUE8yOE5xUi1na2xKTlpMLUt6d2RXYlNLOERaaDYwenZuS3VRY2I2dkxPb0JpZkV3UWwxQlZZdWIzSVV1b3Btak9DNzJwUXN4OTV3cGpJ?oc=5",
+      "published": "Thu, 21 Mar 2024 07:00:00 GMT",
+      "snippet": "🚨𝗨𝗡𝗗𝗘𝗥 𝟮𝟬𝗦 𝗛𝗘𝗔𝗗 𝗖𝗢𝗔𝗖𝗛🚨 We’re pleased to announce the appointment of Garry Banks as our new Under 20s Head Coach. Garry joins the club from Forfar United Juniors and has over 12 years coaching experience with clubs including Fairmuir Boys C &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "GADYFL League Tables 2026/2027 - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UQjZpOWRzNHV2cWhad3RudDI0bTk5RmJ5TjBLelBjUGtkclVHckNBUzJ5THEzVjFMU2NNbkp4bFBoRDJmekRrYmZiS01OeGxYbjBkWnZB?oc=5",
+      "published": "Thu, 20 Aug 2026 22:55:42 GMT",
+      "snippet": "GADYFL League Tables 2026/2027 &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Robbie Keane back in football as he lands major new role after Celtic job snub - The Scottish Sun",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYUlYNXlGMXNfNzJmUWVxRW80YWxVV2lIWjI5Ynd6V1VYb1RzUGJnekJQSnlaWW10ZVp3MkxkczNRWktmcUNacThHNTRjWVBQclZscmtIXy1fcG9yNlBxTWhiTUhReHk1TzBxWmJfSWVXbld4X1Q4Wjk1bEdvYk5JLXhDNm5LR2dqcXNZQTN4Z1huTnktWEIyQU9TMjV0UHBUb1hFSEdn?oc=5",
+      "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "snippet": "Robbie Keane back in football as he lands major new role after Celtic job snub &nbsp;&nbsp; The Scottish Sun",
+      "source": "The Scottish Sun",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "JOIN @wwfcfdn TEAM ⚽🔥 They’re on the lookout for an ambitious, adaptable and forward-thinking Goalkeeper Coach to join their Elite Development Academy (Part-Time). This is your chance to support and develop talented young players — pushing them to - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RQ0x0SDlGMTNnYTJnYWxXTHE5dDZqZXRRSWhOYXdmckpQVWdmVGhKN3FXektkYjI5UFNhbzlsa0s0VTRIQlZPdS03em9fc3VlTEE?oc=5",
+      "published": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "snippet": "JOIN @wwfcfdn TEAM ⚽🔥 They’re on the lookout for an ambitious, adaptable and forward-thinking Goalkeeper Coach to join their Elite Development Academy (Part-Time). This is your chance to support and develop talented young players — pushing them to &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Barren County Schools names John Myers as next head football coach - WCLU Radio",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnVQVm5MYzVVUGZGdlJabEZua2NlQWU2U1V4dTFhOUpsamFSb1ItV21MeWc0WnBZaGt2WVpJVWlsamhGWFNXNGdWNXc5b1duZl84RUFJT2pwbzNJT0t6R2lsNHZnb1ZYYVI0SDcxbkhuWnp4Q0RxTl9UazlpZy1oLWlpQmNwaDdIbFdxTUdGVTQ0VTFiellESU43ZGIyYU5mYTM4VXBHdw?oc=5",
+      "published": "Thu, 18 Jan 2024 08:00:00 GMT",
+      "snippet": "Barren County Schools names John Myers as next head football coach &nbsp;&nbsp; WCLU Radio",
+      "source": "WCLU Radio",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Patrick Barnett, Somer Hoerster named Glasgow Scotties’ football, volleyball coaches - MontanaSports.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZVQ5R19rSFFiUVhHVzVfZWUwYWVwVkhWNENoM0YtRnpocWppbGZRUno1TXB0VlRBYV9TVW1CS1VaeGpZV2ZTMGV6dTVxU1NoSXhBWGxueHl1RlZoakxMX0Z2V3VqVURUTmZqWkFVYmYxbW5wS0I1eE1FdDBUbGVjY2c2bXdqTkc5WnRVdVFWdUZMdWVGX2p0MnhZejJIMDhuN0ZEbXlNWFJDejBaWDI4WV9HOUhPTlQ2elh6ZGVfdVlPZ0lDc0RDa2tfYVp1amgw?oc=5",
+      "published": "Thu, 17 May 2018 07:00:00 GMT",
+      "snippet": "Patrick Barnett, Somer Hoerster named Glasgow Scotties’ football, volleyball coaches &nbsp;&nbsp; MontanaSports.com",
+      "source": "MontanaSports.com",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Rangers: Why Steven Gerrard rejected Ibrox return and who could succeed Russell Martin as head coach? - Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbGVEa2VYc2ZnQ2xyTTdLellEY044OEttNThnQVRHSE94eW9wMHBzTUFjdUlJZmtLdHVCUmh1bnJtMUtlMkQxQjR2SjYwbmFKcThFWkdzTjJwcnVHbWdlZ3R4MzdHdVJsaGltbDJMMGpUZ2NwSHBSY19DTmI5SnE4SjFBVkZWYUFfR3NiVk5IZm5JTWkyTjFNaWVBZTBUWWRXUUpoWjUwT1l3OXptc3RhVmc4VGFXUHVwZ1lOMS10bWw3emhlYm8waTBFYmN0X2ZVNDd0V0d4ZGVwUklKd0daM2NB?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "snippet": "Rangers: Why Steven Gerrard rejected Ibrox return and who could succeed Russell Martin as head coach? &nbsp;&nbsp; Sky Sports",
+      "source": "Sky Sports",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Rangers: Kevin Muscat close to deal to be head coach - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kVmlQdWY4Tzg0dUNTazVkLWt2M3VPaVpWV0RhVDJyQmZKV2diTVdXdEtGZWlXNUdQQUlXejJXaDUwV01DMWxwc1FUTVRhbFl2dU5UdV9vLXE2ZzdlQURzVlV1cjVkeE0?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "snippet": "Rangers: Kevin Muscat close to deal to be head coach &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Bizarre twist in Rangers manager hunt as Steven Gerrard becomes favourite for job despite turning down opportunity to make emotional return - Goal.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVTkyLTdPWlJhVmR3bWdmOVh2dGJjcFYwMW03cFhScUtRdklaQmwzb2RyTDRSbUZvSHBPcDlpU0pyNHZqSTNjTkJBbzlFZHNQWjdrRUpoZTR4MExkZDNBOTRSLVBNbFZjYUpMaE1rUDMtZmFVZTdUck1IM1V3LUJPTjNWZXFtSUQtYW1Zc1hIQmd5QnRieHpib181LU9qN0VnRGdtUk1ZMHItUDRZamh1UXlMazVqeFdxNXVLazFrdzQ3NXRLQi1mLXNvQ0o1WldhdGxTc2lkaW52TEpJ?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "snippet": "Bizarre twist in Rangers manager hunt as Steven Gerrard becomes favourite for job despite turning down opportunity to make emotional return &nbsp;&nbsp; Goal.com",
+      "source": "Goal.com",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Rangers launch job hunt but warn candidates 'must be able to work in costume' - The Scottish Sun",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlNwVHlsdGppZ3l3UWp1VHI0TTFCR3ltX1FiS3FTalNCTGJmaEZzNGFVQS01YmZMUkxmQllNNkRFRkRxSERfZzF5VFEtXzVwZ1dsU3N5c0RTaWw0c2w1RGp3SkZLTk1UMEtIS0VtTHVtZEwxOUxIOG1oZm1BbHpQYkU2b3RkbGxvR0dpM05pc2JlZFMxTmdqRA?oc=5",
+      "published": "Thu, 15 Jun 2023 07:00:00 GMT",
+      "snippet": "Rangers launch job hunt but warn candidates 'must be able to work in costume' &nbsp;&nbsp; The Scottish Sun",
+      "source": "The Scottish Sun",
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Hello radio fans. Bit of a weird request this. Does anyone have any audio of the Real Radio South Wales to Heart transition. I seem to remember it being done rather well and want to share it with a community radio station who would like to rebrand. Thanks! - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVVldwQXcwSC10R1h5STNPS0NNbTRDUnpIcG1kekN6VFI1X0pia0ZSZGloZ2NlandKczFFS1V3ZVRsZWR6TUdQekpQVzFYWlJrMS1BaktZS3R1bEhlWmlhcGNvRVAtQ2xIZm1pZkJOeGhVOUo0?oc=5",
+      "published": "Thu, 15 Dec 2022 08:00:00 GMT",
+      "snippet": "Hello radio fans. Bit of a weird request this. Does anyone have any audio of the Real Radio South Wales to Heart transition. I seem to remember it being done rather well and want to share it with a community radio station who would like to rebrand. Thanks! &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "There’s certainly been a change of direction from Celtic in their transfer policy this summer. They now seem to be targeting players of genuine quality, that you know will instantly improve the team, whereas a lot of the of the ones in recent seasons, you’d maybe - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcFprYm93OXM3d1h3VnNTQ3g1NGpIa1FOaXp5TjNOemVKSmU0dUVQeUh2Rzl3WjlRSXVMMG1qdGdteW1HMlhqSDNiNU56YlNSSl9EdTViNkdGMnVMbGd1ajd3NkRwa3NMX2FneGVRUE0wU0hpRWpacXNIc0hleTdPNlJaSGxPTk1wUFYyMEZyY25tR0ZpaFhpZWoyeXBIWGFFREdxcFltcVZSdzdvQnM0N01RWGlOSXFRUmF1QTgtZXlaT1FMQWYzN0F3dHVrY1k3TFBnNV9nX0lJUlZhT3c?oc=5",
+      "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "snippet": "There’s certainly been a change of direction from Celtic in their transfer policy this summer. They now seem to be targeting players of genuine quality, that you know will instantly improve the team, whereas a lot of the of the ones in recent seasons, you’d maybe &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Stephen Robinson leaves St Mirren to take Aberdeen job - Renfrewshire 24 News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yd0Y0a3BIdUlZMGVIOTF2RnV0R0xNN2JQV3pLVnU4ZjNpellZQ2FrNldxOGlQSHgxQmNXU2FCcVNwUUFoa3pvc1gxSlotb2tiUHBzLUl2endBaERPNUVEYw?oc=5",
+      "published": "Thu, 12 Mar 2026 07:00:00 GMT",
+      "snippet": "Stephen Robinson leaves St Mirren to take Aberdeen job &nbsp;&nbsp; Renfrewshire 24 News",
+      "source": "Renfrewshire 24 News",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Eileen Gleeson: Ex-Glasgow City manager appointed head of women's football at FAI - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SQ09ZbWlMOVF2OTBsQVZYbWJ0dGhiOWRKX09WNGhxSWp4dmRId194eVZNTFVPX25MV0k5NmVuYW1ZcFNvNEd3UnZ5aTR6Wk84YTI3N2tB?oc=5",
+      "published": "Thu, 12 Jan 2023 08:00:00 GMT",
+      "snippet": "Eileen Gleeson: Ex-Glasgow City manager appointed head of women's football at FAI &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Tir Conaill Football Club (@tirconaillfc) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NdUhza0xXZVQ1bUFKa09sUmw2WGZGUXF4N2wxUzR1R0EwUTRMb2VjWDZLdGxEN2prQUpkVnZ2Z1ZBa3dwc2gtSS1ONUtEUEZV?oc=5",
+      "published": "Thu, 11 Jun 2026 12:58:56 GMT",
+      "snippet": "Tir Conaill Football Club (@tirconaillfc) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Rangers wanted to sign St Mirren defender but he opted to stay in Paisley - Rangers News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXYtZFBPanZMSDVxWUt3MEFvbXlBbmRQeE9IQWFWTG5URXRJTGIyNWpGMlFtLWpacVlpWW5TT3dZcWVFRFhtaGpoeUtFNmJoVW5WUm56bWs5eTJSWGdBcWpJb2tvLUtnbEp1Ti11SWZnN3c5YVFwN28wS1NZUTFCUUNnRFQ1V1pFanE4R2NaeWx1ekNyUFk5ZkJmM1BGUlpLenRJQ1NQdFFJbE0waWc?oc=5",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "snippet": "Rangers wanted to sign St Mirren defender but he opted to stay in Paisley &nbsp;&nbsp; Rangers News",
+      "source": "Rangers News",
+      "query": "\"St Mirren\" academy coach vacancy Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Morton in the Community seeks coaches for girls squad - here's the details - Greenock Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLW5hbkY0dXhzazhici00YjB2UUx6dGpPX2p2d3BTY0JDQlZnd3VzbTdzM1RUckFFMGthMDlaTXNiUmI3RU5uRGZHZTZlOWpkdmd5RXdDd2NwMTdJNmR6d1N2dWVIZVE1bGRnUHJyLTUwR2NYRFFaT3BCTU1TQXdCM3ZwX2xxaEdITU1RQUFwV0RNcnJxLUFLY1dDMA?oc=5",
+      "published": "Thu, 09 Jan 2025 08:00:00 GMT",
+      "snippet": "Morton in the Community seeks coaches for girls squad - here's the details &nbsp;&nbsp; Greenock Telegraph",
+      "source": "Greenock Telegraph",
+      "query": "\"looking for coaches\" football club Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "**Ally McCoist shared a great story about Paul Gascoigne - and why you should never trust Gazza with translation duties.** McCoist was a teammate of the pair when he was at Glasgow Rangers under Walter Smith, and he told Alan Brazil how Gazza wound u - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KZGpCSjdOUEpmQXBQYmgwTkhtT2RmcjBQLW5sQzR2eDNpaFkzLUxLNFJWSF9QLVUzMVdfRmRmMjljYXdQSHJoNERTdWlyX0Rtek44V1lteUtaNzRDMjFNd0FlOEZwcFo2ZjhpQ1YwZEk4T2NERUVOeA?oc=5",
+      "published": "Thu, 07 Sep 2023 07:00:00 GMT",
+      "snippet": "**Ally McCoist shared a great story about Paul Gascoigne - and why you should never trust Gazza with translation duties.** McCoist was a teammate of the pair when he was at Glasgow Rangers under Walter Smith, and he told Alan Brazil how Gazza wound u &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Alan Stubbs emerges as front-runner for St Mirren job to replace Jack Ross - Daily Mail",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUxfUEpWcm5SN3V4c2dvWWJabTFjYWlqYm9Ecl9Qb2QzTmoySnhadTVwM05lY2xqVUhWYnoxSjNXUHZfZEdFZmltZmhGYlVOMzNmRUE2OVhtUHhZeDdpWkNvYXlWTmVrNUhLMnFJRXZDZEo2RG0tbkdzM2pVQWtCeW9HMXJpUXRwSUl3WTk4T1FJUFc0N0taWlg2RWxjMVFPN2tDYlFNZjJtZ1hjOGJTbms3Y0dqeTIyUlpyNNIBwgFBVV95cUxOMWw1U3VvLVhJb3dLSTE0dzBpeGVmUXhIeWUyNlN0dlVNRDVOcDZNcVpXS2dObjN1WTROYUxlZ05EVVZFc3d1NWowaGRoakRRc0QxXy1SSkZGbkhyR3FCa0s3b25pRjdBVVVjT1UwVXYxT0luNk14MUgzSmIyUWFzNE53MEpCWThpTXIzUm04MWY4bjdTeEFfQ0QxcjhRMkNFbnQ2UDZOcnphcFU3eHhGVExpbmlNQmJ4RTBnQ1B1bDRnUQ?oc=5",
+      "published": "Thu, 07 Jun 2018 07:00:00 GMT",
+      "snippet": "Alan Stubbs emerges as front-runner for St Mirren job to replace Jack Ross &nbsp;&nbsp; Daily Mail",
+      "source": "Daily Mail",
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "East Fife Football Club has now received over 20 applications for the vacant First-Team Manager position. A closing date of noon on Sunday 9th October has been set for applications to be received after which time the board of directors will consider all applica - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQmZNM0NhNzhHM0RKWV8tbEp5ekpEbEdFVHFVemZnMlV1SkFxeXI1X2RzdksyVmZpTVJmUlR0UHhsR1BSZTl0c1QtTmh1YWNUWG9TTUIwNVRYNlBvY2hMNFlDTHV5OU1LMnhYQjNCSkxQWm9mTzJMNVBJVzI3Szl3SzRpYU0zN0xrTWF1VTBaVXFkVkVYa2J2MkMzeDVaS3IxN3lQLV9mT2JScWM4SmNFUFVNaEI1N0ZNUUp5ZTZfcG51SU53NHlvU0NRU196dlJWWGxjb0VR?oc=5",
+      "published": "Thu, 06 Oct 2022 07:00:00 GMT",
+      "snippet": "East Fife Football Club has now received over 20 applications for the vacant First-Team Manager position. A closing date of noon on Sunday 9th October has been set for applications to be received after which time the board of directors will consider all applica &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Scott Brown Linked With Surprise Return To Management - Celts Are Here",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kaEkwU0l1TGZqb3EzeUxHTUNSWG5Zb2lfV3Fndlh0SS1SSm5qaF94OWdvOFF5U25YWjlDNm12dXdRUzhUVzlEMk01ZFFXck5nTW5kcDVyV041WWVLUUFRdEloV0JQMW1ySnJWZHRqX084UQ?oc=5",
+      "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "snippet": "Scott Brown Linked With Surprise Return To Management &nbsp;&nbsp; Celts Are Here",
+      "source": "Celts Are Here",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Teams announced for U18 men’s and women’s fixtures - Glasgow Warriors",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMVpac0l2VEJwcUdkTFBMaVhCSXl6eDFOZ2hMc09TamxEbmdITTNHNkEwR3k2VzlkeU5SRWdhR1VkOElQMmJpdDhDRDZ4TDFqQVQ0aW1fSS1HTFEzMlpmR1NtbWVhTXlGb3RwQVdaZDJxLXdZek1UaEpRSk5iY3Jfc1hzU3Q2cjZSZ21RWVVLOXdVWG5TV3k0SmFjaw?oc=5",
+      "published": "Thu, 05 Mar 2026 08:00:00 GMT",
+      "snippet": "Teams announced for U18 men’s and women’s fixtures &nbsp;&nbsp; Glasgow Warriors",
+      "source": "Glasgow Warriors",
+      "query": "\"U18\" football coach wanted Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Rangers Confirm Russell Martin As Head Coach - Rangers Football Club",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWhLMmtJVFVxUlQyYV9jV3lEdDhhUktyOFpvaFYxUjZndlJSN3RQZnhYTkd2SzY5SFIta2dmajREbl9LcVJsTzZTTkNWQmx4SXFueUFJOUxWai1RRWh0dmtMaEdQd0kyMy12czBhYlE3cnRLN0lvQ0pOekJCOGRqNUN5SzRxOXJYNjU5MUROSmxQdUduekJTZjNUamFtSG5ESEQw?oc=5",
+      "published": "Thu, 05 Jun 2025 07:00:00 GMT",
+      "snippet": "Rangers Confirm Russell Martin As Head Coach &nbsp;&nbsp; Rangers Football Club",
+      "source": "Rangers Football Club",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Craig McLeish promoted to First Team Transition Phase Head Coach - St.Mirren Football Club",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa1lvd2NXNTJERmFhNUR0cmF4dFJZbVNqYnNiSEMyZTAwM0s5ZlE1OGdKWHNONDZMdk8wOEJRR2YtZVdfXzk4X2tVMzh3UDlob1loVVRSYnZqWWlOa3RHWjNrMndHRmwwYW5tLWJQX0U1dXRuMElGQXM2S1luZEZZZ1pZb1FScnI5Mm9HaTljOGg5bUxlUUNONU9HOUx4bjZN?oc=5",
+      "published": "Thu, 05 Feb 2026 08:00:00 GMT",
+      "snippet": "Craig McLeish promoted to First Team Transition Phase Head Coach &nbsp;&nbsp; St.Mirren Football Club",
+      "source": "St.Mirren Football Club",
+      "query": "\"St Mirren\" academy coach vacancy Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Head Coach Fergus Pringle has named his Scotland Men U20 side to face Ireland U20 in a friendly at Meggetland, Edinburgh tomorrow (kick off 3.30pm) 🏉 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMUtMNUlxRXRKRUtsRlJLR3cxUmdPUEJvZEJLUFREd2VDc3N1SDB2Z1V0Tk02VVl0cGRNYzU2ZGRVN2lpSlF4a1R4TFFtZi01YjZvMy1wQm1XejdxdThuMzNrN21hTjFTTDFVWjU5T0ZId0Z1LWI3N1BtY1I0WHhPb2JjUmNOSzdIWEVudU1wNlVvNXAxdFdkS0pKVEx3RmVBRnJmOVM2TTZZQzRhUFNTWEtjdC1fX1pxSFl2a3pNT2RMSEEtU3pJNjhXMHpaR0FOcHpsOUM2QVZfSFU?oc=5",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "snippet": "Head Coach Fergus Pringle has named his Scotland Men U20 side to face Ireland U20 in a friendly at Meggetland, Edinburgh tomorrow (kick off 3.30pm) 🏉 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "The assistant manager: explained - Coaches' Voice",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWjJBTGEzZ2VralBLX2FESFZhRDRYa1RzNVF1SGF2SGNyVTJWRktleXRzMG1jTzNJZkJyQ1lZbE1DRlZHUU5ocDVkQTFOMmhIb1dqdFVnSGxOdnhOX2RPT09oRmJwSUZXWU15SlY0SHdtT2lOSkZycHl6dFdTR3FNWXZLNTdON09lb05r?oc=5",
+      "published": "Thu, 03 Nov 2022 07:00:00 GMT",
+      "snippet": "The assistant manager: explained &nbsp;&nbsp; Coaches' Voice",
+      "source": "Coaches' Voice",
+      "query": "\"assistant coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "One of our own 💙 We would also like to congratulate Ronan Ferns on signing his 3 year pro contract with Celtic FC Go smash it big fella 🍀 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMnpId0tvWHRiUk9DdGNITC1lWmJQUFM5VGU0TnZ2RzVNbTZEZDJ5LUQ2SGU1eUNOSTZsUjI1dFhKVXBlZy1zM0FnYlp3VlVxRFV4bGVfS0RsREdEQmRiOGZUeGJvR0VLNnlIa2ItMVFsOTFqdm9LbzdLRDVRTE1qZTdtT0cwZEtvcXY0N2JndFo4Z2l0Y3hIc3oxQ09rS0NHRjI4WXI1eTF5UWpnSXhGM0pJYTh6anFvU1Jia2l1aEZOamdrSjNKaU05dy1Xa3A0SmRoV0FQb01wekNB?oc=5",
+      "published": "Thu, 03 Aug 2023 07:00:00 GMT",
+      "snippet": "One of our own 💙 We would also like to congratulate Ronan Ferns on signing his 3 year pro contract with Celtic FC Go smash it big fella 🍀 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Haven't been here in a while. Sure could use a good social media person for this great team. Any takers? - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR0czaVQ0eE9KZGFnRVgtUlRFeVhpTUNKc1psTmlSQXlHakZ0QjVVMVZHQmVPN1ZMdU9jNUpKcGZkb3ZmMWk4SkNWNDdyRmVzR04yYUdiS05KY2NQc25CSUU1YU9LRkUxNWo3ZGM1Yk9yeEs0ZVUzRzU0Y2RPS1FkYW1rQWhIRXdOck0wcEZxeFBMNThtbFAtSVp2ZU5YSURwZHJyaDFRM1R3YlVTc2tCZlc5RTBsQmNLZ0UtUUlQZzFjUFdyOWVmb2h1V3hSazBwZ1cyZ3pPZVZ5WWlYNElNSHYyZw?oc=5",
+      "published": "Thu, 01 Dec 2022 08:00:00 GMT",
+      "snippet": "Haven't been here in a while. Sure could use a good social media person for this great team. Any takers? &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "The young English coach closest to Celtic's bench, the legend says: The right choice - vijesti.me",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ2RDNGlBVi1BVzU2dVdtcWpUdTA3dWlfbDFBZ1R6UTQxMjNhSnptWEgxMmRzN3ptU0xoeG1qb2VXWlQtZVFZMnR6NGg2WjZ5dWlBODJNNDJoUENFNnZaQkJDSlhieVpaWUowSXNxdVV1UHlqNVJ5WUpYQUlaaUxIOG15SlFKNkcxQWR3UGtrdWtnS1U2TlJ3eS1LNDN3dkd6SUhPbjlYM3lNNURPY2QtcEdVVTAyNVctdHhRaDgyMVRYQ2xrbU8xZ19MMmg5WjhVMVHSAbwBQVVfeXFMUEZxR29lU25rRXpXMVJydkFGemVydF9qYUJsVERIZFVNZFUwLVpRMlBfdW93dUp0b3plZWpYcTlQaTFST3BBWWVCT2lOX3BQVk5fLWo1OVdIa3lNc3ZweEtyVmFGZ3VqeUFVTEl4b1FmZ1V5eERFTWdydkdJd2NYY2RZamFwMDg5X0JrVXpERkJrZHh6S2VSQWNwMURVZmJoY3FKUmVaMlloYW9Vd2lPY0V6dmRSQzVsNlRTeWk?oc=5",
+      "published": "Thu, 01 Apr 2021 07:00:00 GMT",
+      "snippet": "The young English coach closest to Celtic's bench, the legend says: The right choice &nbsp;&nbsp; vijesti.me",
+      "source": "vijesti.me",
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Steve Clarke Is Out The Race, Robbie Keane Is In?,Martin O’Neill May Be Back? But Are We All Hoping For A Mystery Name? - Read Celtic",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOHV2Rl8tTm5nSEp4R2NFSG5iSjM5cmctUWlsNEs3MjlEUXZtb3RyV1hsQ3oxWFRCcVlRVjd1TDRaRl8xWnU1WXBYRk8zdnlFam5STlN3NGpTeTZoTEQyMzFfR3p0aGxSTTdrMjk1djhPSEpoeXFKdkpJMjdZUnBDUGdLc3ZCcm80SGdoeURzd3JNam9pNVlzRjRDSDIzdVJoTG8zc1hfTmxrSS1aYVF4UWV6dmRTQ2N6VVdRLUhTbExZUnNZWmF1YTVvd0FYbEdMLUJvaWEwaGE0WjFaWXV4YlFB?oc=5",
+      "published": "Sun, 31 May 2026 07:00:00 GMT",
+      "snippet": "Steve Clarke Is Out The Race, Robbie Keane Is In?,Martin O’Neill May Be Back? But Are We All Hoping For A Mystery Name? &nbsp;&nbsp; Read Celtic",
+      "source": "Read Celtic",
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "AMBASSADOR TONGA. - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xQ2FCSzV3bmRMbEhuUFNrem4xS0M1UWl2dUdoVC1XNEE2anl1UElha2RLZHItVmVoWGVRNXhSci1iS3pHZDdPNmJUNFBZU3JNVkpnTzJtalU3WU9nRzdESGR5WGVnSndtanp3TWV2VUtDSDR6cVVDV0tUNA?oc=5",
+      "published": "Sun, 31 Aug 2025 07:00:00 GMT",
+      "snippet": "AMBASSADOR TONGA. &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Thomas Kelly - Contact us - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wek5nRXpYblJKQUFaRHJ6bmI5UUVFeUJlOVJjX3ZORDZ0TFNDdVlidXl4LWF1TDlkY0QtVUFoWWNOOVo0ZUkyNV8zZ1pUQQ?oc=5",
+      "published": "Sun, 30 May 2021 22:00:59 GMT",
+      "snippet": "Thomas Kelly - Contact us &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "** COACH RECRUITMENT ** * GIRLS ACADEMY * Due to the continued success and growth of our girls academy. We are keen to add additional coaches for the 2024/25 season If you are a motivated and commitment coach who’s ready to support, develop a - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWnpQYi1KM2l6SktBYVd1SDF4V2dZM3l1WC0zdWNtckNOUmVOMnRCRXVqUkQ5Y3ZFeWZkS3hFZmR6bGl4NFlZdW5XcjAxbG9fMW85ZEJtYWx6MkNxelh6eU1xcWZSdGZvTzkwdHk3VVFVSEozWTNoQmRxd19YRjBWMngzcVBmYjZpLW1QVzFyeVViMm1NSmpCc2pVbDV5WjI2VVhzaVBSNzJjSGJ6UmZYRS1HNjhwNVd2aXJZXzNqN0szNmRRbmFmM281dnZheVpwV0Y1Szc4eEp3Ylo2UHlGdw?oc=5",
+      "published": "Sun, 28 Jul 2024 07:00:00 GMT",
+      "snippet": "** COACH RECRUITMENT ** * GIRLS ACADEMY * Due to the continued success and growth of our girls academy. We are keen to add additional coaches for the 2024/25 season If you are a motivated and commitment coach who’s ready to support, develop a &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Today head Coach Herbert Mcpherson and Goalkeeper Coach Leon Roberts were a part of Guyana Football Federation Inc. Continuous Professional Development (CPD) Program with the National U-20 team at the National Training Center (NTC). The Guyan - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbVRsV3JDUEsybDUzUGI2OHJOSkQyaEhBV0hkcDZiMkhseHJ1UXR1d1hocDBmNEc3eDRGQ3ZZQVh4dFFFRjhLNTdMYVJ2Z09EOHMxSS1EMld6WEY2N0NoWi1VVGZXQTJiVnVHay1Na0p6ejNGQ1p4MTNmeU5fYWhld1RMTng2QW9qVnVBRm9SUG4xZEdwTHByQnNiSmswMnd6d2hnZU94Q0E4YlZWUW9ILUdvSVFRcUx0VW1KdlBIVkcyMVFLLVJmR3pLQUU5RFBua2lqVkRYSlUzLURR?oc=5",
+      "published": "Sun, 28 Jan 2024 08:00:00 GMT",
+      "snippet": "Today head Coach Herbert Mcpherson and Goalkeeper Coach Leon Roberts were a part of Guyana Football Federation Inc. Continuous Professional Development (CPD) Program with the National U-20 team at the National Training Center (NTC). The Guyan &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Player Recruitment: East End United Blues ⚽️ Due to Kody moving pro-youth with St Mirren and Luca Smith moving to Greens, a space has opened up in our Blues squad! 💙 We are looking for a high-intermediate player to join us in the Glasgow Sunday Leag - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTGVRMnZOOUw1NnQ2SE1mQ1VucG9qV0g3YkRxMmRqSUJEMTZ4WWwxWVZhTFgyNDBqMl9hNkt3T1pYV0I2YnZLX2FVRVgxQUFGQXkxYlBqNmJobTlPeFh3THRPQTJDdnFIZ3JWVXp2UlhpUnM5bkxNd1R5eFotWldpVDVHSFItaXpGZ0hJSXFpby1LNm81YnFaNG5kNWFTeGlDT2VvZS1pYWw4TVk2NWFlZ05EWHdXbTJNaXJiaGM0bG43MFJOLVVqSlF4elhuWUZrLVhFcmNFMTR4cEhqNUZRdlF6WWtMZjRP?oc=5",
+      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
+      "snippet": "Player Recruitment: East End United Blues ⚽️ Due to Kody moving pro-youth with St Mirren and Luca Smith moving to Greens, a space has opened up in our Blues squad! 💙 We are looking for a high-intermediate player to join us in the Glasgow Sunday Leag &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Carl Robinson set for St Mirren next manager talks as approach for Neil Lennon stalls - Daily Record",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYThLSFJCNUtsS3JmdE1lREtwYll6clNZWlZUeDVFRUhZeWVubi1rTnhUb1hYaXhXOVdXYXJxVzdEdEVmR2JKYm0zQW8zNi1VWDFfRlNacWV6N0dWblJxZG4xdTNuakVFVWtlMUMyRVl6aklqZVR2Q2lVQ0pZRzZyZTAzR3dMbWhWOUFUR1RsRFJTeGx5T3RHY1g3TjlGZEJEeVN2Mkh0ONIBrAFBVV95cUxQc3l2QnFpYmdObGprZ0FDZnhjaUlRMkVqb3dlTF9UVlF2RFJabG5IZGlhR1JOMGpWU0FNTkFvaDB3ZmszUnVYNGY2MGFrZWgwQXp3elA3R2h5bnZ3NG5SZGgzZVp5eDF3S0RJNU9oVjdHWlNKOUxxZVB6Zi1vNmVwVjlrMDRYV0tycVRBdVNXeVdwSmV0VktoSnlEOWExeHdwRWU5eGdsQUpzRmFf?oc=5",
+      "published": "Sun, 22 Mar 2026 07:00:00 GMT",
+      "snippet": "Carl Robinson set for St Mirren next manager talks as approach for Neil Lennon stalls &nbsp;&nbsp; Daily Record",
+      "source": "Daily Record",
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "**Manager Wanted – The Jersey Mixologist** I’m looking for someone to come in and take the lead running The Jersey Mixologist. It’s a hands-on role covering everything from weddings and private parties to corporate events, cocktail classes and some of Jer - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QeDZ6ZDIycS1DdWdBQmlnclc3VmZBZGdjUmFlYm9xSXBmWDY4WWNsWVNRZ2x3RUl0QmZVdVBJS1Z0YzNiQllUZ0E0ZFduQm5LcmdjZWhZeDBGZFNsY3MxX0FCdE95Q3VlczZoRi1ZZkphbDR5M1BTa2ljWG0?oc=5",
+      "published": "Sun, 20 Sep 2026 11:48:08 GMT",
+      "snippet": "**Manager Wanted – The Jersey Mixologist** I’m looking for someone to come in and take the lead running The Jersey Mixologist. It’s a hands-on role covering everything from weddings and private parties to corporate events, cocktail classes and some of Jer &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "vildhjarta (@vildhjartaofficial) - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rRzdqZFl0NzFLZW1PU2VHS3h5R3RadzNhYVNxRVdlbkJyakkxdTlhcFdEX1lKLU5lUW5mTXRkX29jX3ZMSk8zaVJDSTgtU0VST3N0dmZmZm1KNGZsUlhONWVkaVp0azh1?oc=5",
+      "published": "Sun, 19 Feb 2023 16:45:08 GMT",
+      "snippet": "vildhjarta (@vildhjartaofficial) &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "vildhjarta (@vildhjartaofficial) - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zUUhLdGF5SmdCUjB5dEZkaC1Ja3ZIVGJYdldsQnJtYlpMMmlaVEtMaFRsN0tfWlNWS3gxV2swYWhHQmRRZGtVUk1sNk51WFJRTUM1d3ZFblJqazVRcTlNUmpkS1dDV2VB?oc=5",
+      "published": "Sun, 19 Feb 2023 07:32:41 GMT",
+      "snippet": "vildhjarta (@vildhjartaofficial) &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Contact me for more information plenty of opportunities within the management/coaching team - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUENkb09nU3o1TFZLN29KSXFOcDJtQXBac2kzdUpOWnNrZzZyWWhFSWxONElhVVB5VHI0VURueXRIUEtTcDc4SW1tSFI5MWlyUlZKZUYtc0FLMHR1Sl9nbnp4dFVUUHBHOWJ5Q0Njbzh5eG04TzhqZ2MyQlg2dXo4dQ?oc=5",
+      "published": "Sun, 18 Oct 2026 15:47:47 GMT",
+      "snippet": "Contact me for more information plenty of opportunities within the management/coaching team &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Royal Albert - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GZmlHelVtS19xbDljaURpNDQyQThKUVJlWm1jZndUUU1sZUxOcnA0UHpDZUhvZ19pbTlrREUwMmQwRHBRWElCOVM5ZFExcjZJMkplVGp0c1lqd1lf?oc=5",
+      "published": "Sun, 18 Feb 2024 05:46:46 GMT",
+      "snippet": "Royal Albert &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "This story about Gazza as a \"translator\" is gold. Ally McCoist shared a great story on how Walter Smith once made the mistake of trusting Paul Gascoigne to relay instructions in Italian to Gennaro Gattuso during their Rangers days. With an Old Firm match agai - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX1E5U2xCWXdZLWhkNGFlMFdWTzlBd3VVWmVWXzVzLVdwVlhTOW1lRWJ5WTk4ZmRvQm1kdWNwazdzX1cyeXBLQVhQT0RuZU5aa3dyZjVYYUVRaVhHbkVwNlg3NnBkbE9pVVpsdHI3OG1pMXowSmZJbTMzQ2NvNWlIVnQzQ18yR2VsUWZqOUotNEhUdDJCRkN0UlFiNDE4VkhMdXMtNDMyRm9UMG1wRWpkYXFFSDNzWGFmRktmLVl1MFBHSk1QQjJyc3pwOGRCQzVGdlM5bDVNODJsU2Y4VVkxeW1B?oc=5",
+      "published": "Sun, 17 Nov 2024 08:00:00 GMT",
+      "snippet": "This story about Gazza as a \"translator\" is gold. Ally McCoist shared a great story on how Walter Smith once made the mistake of trusting Paul Gascoigne to relay instructions in Italian to Gennaro Gattuso during their Rangers days. With an Old Firm match agai &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Kirkintilloch Athletic coach wanted for 2024 season - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcW9xT3haeTRxaUVGREtTLVVxMTlSUjJETHIyTmpqTWw5aDhFdWxVakZZZm9vMG5RR0g1Z0d5TlJIM0Q4VEREUEtLbUdhM3VJTHY5R3ltWDlUcWd4RmxZUXVPOXJHR2xiWjlPaWV4cEozcVJqQ2FHQ19Oc283NGdpUGdyYXA3RUtCZjZSNmdLczJTcmY2R0dKRTg4bXJ3Y3lWRVNvWlJfejJ3N3pwS3ZJYmNhckRWbmtiQ0ZMSnM5YkM1LTZQTE5MdllldjZWUGllR2M0ZENZc2ZsajRNVVBJ?oc=5",
+      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "snippet": "Kirkintilloch Athletic coach wanted for 2024 season &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Russell Martin: From Player to Rangers Head Coach - Rangers Football Club",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSDZsZU1hQmt2Yl9zUU94VXRoakpqaWJwa1hkLWtabFZUWDJHOENQVDhVeVphWEs4eWJOQkdpODAyLU9BaklxNlJvNDFTaXVBUjNrNUdKYjJsTExzOFpKaGtCZTQtM2Q1cV90WEN4cnp4WS1ucXBRNEtTZFFuYnlLZG9vc0VyN3JhNGhhQlJDSm1nU2xfV1E1SUFBeWF6UWU2cEhxa2c5eVA?oc=5",
+      "published": "Sun, 15 Jun 2025 07:00:00 GMT",
+      "snippet": "Russell Martin: From Player to Rangers Head Coach &nbsp;&nbsp; Rangers Football Club",
+      "source": "Rangers Football Club",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Kilsyth Athletic Football Club (@kilsyth_athletic_fc) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQcEVwR2wtQWlEZldtc0NSak1BT3Y5SDdUTHkwclhGYjRpN1J2bEg1UGgybG5CRVNPdjVMZ3hIdjF0Q1hPaTBJT0Z5QmpEMGh1T1VldmJJWHpYZw?oc=5",
+      "published": "Sun, 12 Apr 2020 10:38:06 GMT",
+      "snippet": "Kilsyth Athletic Football Club (@kilsyth_athletic_fc) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Bar Manager Wanted at Moniques! We're hiring a talented Bar Manager for our Gibraltar location! Perfect role if you live for great cocktails, perfect coffee, and keeping everything running smoothly. Must-haves: ✅Fluent English ✅Proven experience with stock c - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tblVqQ2ZTTEdfaHoxSERHZzRva0RxbW85WS1tamY4Z2J0ZXRobjRfS0hRLWd1a1g3MFpiU1d2Nm8xZWFtdEZfX25NUVB0Qzg5cnRGQUtsZzhxcjhHMGJWU2xOUmdKSTd4Ynh2bGVOQXI0bmRwZUI4M2Nn?oc=5",
+      "published": "Sun, 11 Jan 2026 08:00:00 GMT",
+      "snippet": "Bar Manager Wanted at Moniques! We're hiring a talented Bar Manager for our Gibraltar location! Perfect role if you live for great cocktails, perfect coffee, and keeping everything running smoothly. Must-haves: ✅Fluent English ✅Proven experience with stock c &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sponsors - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NdlEyYV9KOEtlU2Q3aWRfY3ZfY2I0dktvSmU3cFV1a2hQZFFwX1d1UmhwZk5jUlhhS3JhaFpGMU5mS2d4NVhFUHptMXo4eHht?oc=5",
+      "published": "Sun, 09 May 2021 07:47:42 GMT",
+      "snippet": "Sponsors &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Club Statement - Russell Martin - Rangers Football Club",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnVYNVdZRDhnMExvQmlUaTZZS3JkaTBMbmVFaURpZVNnaGdkWG8waEQwZWoyb1RYWFk1NUg0VkdzZHBzODF5cEFRNXVLcy1pd3E2M1c0dTYtYzhEZU80eUU0Q3Zud1UyeUcxZUIxSVVzN0VOMU5XTlhIeVAyVXFGTHdQa0hKTlpXbnRwRTFuUQ?oc=5",
+      "published": "Sun, 05 Oct 2025 07:00:00 GMT",
+      "snippet": "Club Statement - Russell Martin &nbsp;&nbsp; Rangers Football Club",
+      "source": "Rangers Football Club",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Bar Manager Wanted – Sports Bar I'm looking for the right person to come in and manage an established sports bar, with a good salary, performance-related bonuses and free accommodation with no household bills. Ideally, I'm looking for someone who's alre - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56OWtkQndpYjhZTUhzZi1LNngweWxnZ2Q3WjA5enlSaElCU01GRmJJNDhiTWY1YzlJX0RGRGU5Wm94TUZBVEJlUHlBNnloaUxURkpKZHN4VmxMQjRKa0xGN05ab3IxQU82TkxXOEFCeWUxamlQb0lLLTJB?oc=5",
+      "published": "Sun, 01 Nov 2026 23:48:35 GMT",
+      "snippet": "Bar Manager Wanted – Sports Bar I'm looking for the right person to come in and manage an established sports bar, with a good salary, performance-related bonuses and free accommodation with no household bills. Ideally, I'm looking for someone who's alre &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sadly this needs to be the headline tomorrow and please for fecksake take maloney with him 🍀 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mSmc4OUZRVU10LTZHSkdWSzQ4U21IM3lDSnhCY1R6b0t1SG5qbGhRdkdMNDQ4QTJuMjJ4S3p4MU82VzhraWtYUUlaeXJ6M1VMNFVWLXNUQjRydDdUNmlJSVVYX0FqRHlTSTk4eE1FZVU3YW42eTdmaDRIMA?oc=5",
+      "published": "Sun, 01 Nov 2026 14:34:34 GMT",
+      "snippet": "Sadly this needs to be the headline tomorrow and please for fecksake take maloney with him 🍀 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Milot Rashica wins today's man of the match award! 🏆 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeGZnbjBMa3k3MXBZdlU1ZENMRGdVTTlWZmZObUhQYW92TXV6T01VQmJJUm00elZaUXhwcldSTzlCdHFvN2hYeFV2OVp6QS1CUEw4enpqSmkzSTBqbVNvb0J6ZXVrUWh1ZWJqQ3RQalI1VDh3RmlKYzdybXhRTklZYV9NVzFmQWxYekVqUnFFRURsTEJIQTZtV3Z1NV9veVl1SzRUYnJ2bGF4ZjEwWEI0TU1DakpqRWVuS01xNjBfNA?oc=5",
+      "published": "Sat, 28 Aug 2021 07:00:00 GMT",
+      "snippet": "Milot Rashica wins today's man of the match award! 🏆 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Celtic Soccer Academy & Glasgow Clyde College’s football coaching programmes open for applications - Celtic FC",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaWtQR25HRV9yRVF2aE4ybTJBTE9mVE1ZMjFmTW14dUU0Z2VTMU1QZzViR2tFbkFQM2dyQ3lleWU5SER4Q1psUVpPVG9hNW52MVYxX3BhRUlMZ3BkZWh1NUNVYllkY21KVzF5cDZ6cTBVdjNaYU9ZRDRDRERnTF96WUZZR1owbktTbGhNT3JPN1NVYnJBTDMtcDg0ajJSS1dBQXRQWGNTUi1kTGRKWlBOcjR1eFYzOHVzaGpXUWg3aDAxRFhEclE5aFJNR2NLWEVpNTk4eE9NVTlOMVJmcHNv?oc=5",
+      "published": "Sat, 26 Feb 2022 08:00:00 GMT",
+      "snippet": "Celtic Soccer Academy & Glasgow Clyde College’s football coaching programmes open for applications &nbsp;&nbsp; Celtic FC",
+      "source": "Celtic FC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "fulltime in dingwall , county 0 rangers 2 roofe and tav the scorers , what did you make of the game bears ? good to see kemar back and a goal too , also lawrence back , can see the boys are starting to grow as a unit , but we need to be more clinical , to many c - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYTVJUVJPUnprR3hUTS1kd2FkVzdwT0RvMHZfVGJTX0tfaS1VWV8zUER0YmhHalptbC16c0tqTENvV2dvOTVuMzIzZ0w4dUxPYWlnQWd1MXVsU1lRV0hMNjY2bmhYSURRVjNiNWJiNnNfXzcwbHhiRmRQaW5wTERqNS1jcnlpTkE4a201N1ZPbExoYjFvM3Zsb2cya1dtSDZSVG9ESVpTVjIwWkpXb0doOHJPOG9VQzdDVXp6ODBwcEVpWTJqZnF0SzJpUmFpdzRQVFUtTlR5SHNCV0lvekp5Rkk5Q056U01YY1plRDl5MjRMYXMteFRBXw?oc=5",
+      "published": "Sat, 26 Aug 2023 07:00:00 GMT",
+      "snippet": "fulltime in dingwall , county 0 rangers 2 roofe and tav the scorers , what did you make of the game bears ? good to see kemar back and a goal too , also lawrence back , can see the boys are starting to grow as a unit , but we need to be more clinical , to many c &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🔵 What Derek McInnes Asked of His Rangers Stars Before Emphatic Ibrox Win Derek McInnes had a clear message for his Rangers players before they stepped onto the pitch at Ibrox, and the response on the field gave supporters plenty to celebrate. With pres - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSFctdE53elNtWFZxM1RhdlM4aUlZTnd6bjI3YTV0SjlFMVo0S1ltU3RHYkdtM1J3LUYzbU1GTkY1U2dIdjBPQVFxYXozMTNOdDIzanhUdXY5Z2VnSk9RWV81T1JJa3lNVkE2OW5qRzNTQXdWdk1BOG43UHBCR284LWtIcFZ4ZVRjM0wtd2kzWFdYaUlXRkQwelVzMG91bkRNUVN6QmlsR1N1dTFWUnVDN2diWVVtMGpUaEhjTE1rWXd1cEhCeEQycUY2WXZfeG9tdEw0WEl2LUMxZw?oc=5",
+      "published": "Sat, 24 Oct 2026 18:56:29 GMT",
+      "snippet": "🔵 What Derek McInnes Asked of His Rangers Stars Before Emphatic Ibrox Win Derek McInnes had a clear message for his Rangers players before they stepped onto the pitch at Ibrox, and the response on the field gave supporters plenty to celebrate. With pres &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "🧤 We’re Hiring: Goalkeeping Coach Wanted! 🧤 Do you have a goalkeeper’s mindset and a passion for coaching? We’re on the lookout for a dedicated Goalkeeping Coach to join the Coerver Coaching Singapore team starting 1st August 2025. ⚽ You’ll work w - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CbVNTREZkZmVaOFhhdjMxSGx1YkN3NVRGeFVxU2JjZ25SanUtTG1ON195d3lMT2o3b3FHVVNlckY3TTJrbHBlQ1ZPaGFacFhUOXc?oc=5",
+      "published": "Sat, 24 May 2025 07:00:00 GMT",
+      "snippet": "🧤 We’re Hiring: Goalkeeping Coach Wanted! 🧤 Do you have a goalkeeper’s mindset and a passion for coaching? We’re on the lookout for a dedicated Goalkeeping Coach to join the Coerver Coaching Singapore team starting 1st August 2025. ⚽ You’ll work w &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Andriy Kanchelkis, Manchester City 2000/01 Season...Former Utd, Everton, Rangers, Southampton Winger - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZmM3anRFZFZJTm5xVkpSWFNrMDJMZkxPYUxzdWhoaTBCQWJkVnJEQW1XT3g1QW9pQkxRZjZ3M0pEdnVxRFJsWVFkWmw5dXgwSnlnNGY1eXJBbUIzakJuOE92d0xsQUhMNG8tNnhwU21OWnVXMUp5aTNZQ3VSNFVqVUd3V21EelpCUlNNNU80RU1TcVQwQUxXbjZsVVNEb1JTTnhDeW9WZ3gtTS1YV3FQVTZfYUV5a0h3YUR0Zi1zMFJibUgwWGxycW9yY2JFcVNlNGVqbU1zd0tvYVRKVFVJczhVSWtnaEVFR3pURE1B?oc=5",
+      "published": "Sat, 24 Jan 2026 08:00:00 GMT",
+      "snippet": "Andriy Kanchelkis, Manchester City 2000/01 Season...Former Utd, Everton, Rangers, Southampton Winger &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Downloads - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10bU5kbzc2aWVaWnF6TWQ0Z0FhdURhWGZQYmdCV1FJT1NqR0NPbnk0ak9sQi05X1FNZnQ5OWx4WVJCYTFWWEgzMTczai0wdw?oc=5",
+      "published": "Sat, 22 May 2021 19:13:46 GMT",
+      "snippet": "Downloads &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Coaches Required - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1IYS0zMjFiU0dtWHN0SXM1NE9IRlgycnVvdDNaeW9UU01udGVjTVExYUtGelNyaU1BbWRGenZYZU5DdF9FdEZj?oc=5",
+      "published": "Sat, 22 May 2021 08:06:07 GMT",
+      "snippet": "Coaches Required &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Dunboyne Wildcats (@dunboynewildcats) - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zNmc2bzlNRmd2a2JiSnJtejlmY3BKSkpQU1FOSHpwNEVfeVdoWkhud1FxSXR4b2YtVHFjWWFGYUhyZGRpamRNY2g4T3BjWHhlZTBCbEhR?oc=5",
+      "published": "Sat, 22 Jun 2024 12:09:16 GMT",
+      "snippet": "Dunboyne Wildcats (@dunboynewildcats) &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "site:instagram.com football \"coach wanted\" Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Celtic granted permission to speak to Wilfried Nancy - Scottish gossip - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tLV84aW55djlRVVZtb045eHExRWl2STlNUzVCOHBzc1pjcVowcS1pOHMwcUs4WG0wb0JXWUJRQi1KN3BlMXFIS1kwaFFDLUE5VkphcGVoZ1FPVjJ4R3hCd3gxOF9VT2JOT3c?oc=5",
+      "published": "Sat, 15 Nov 2025 08:00:00 GMT",
+      "snippet": "Celtic granted permission to speak to Wilfried Nancy - Scottish gossip &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Five next Rangers manager candidates including Hearts boss amid Danny Rohl exit talks - GlasgowWorld",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOU0JlYnFieHhLS2d3Y2xwYlVGTmJZUDZSS2hXMENGRllwY3Z2dVZfV0tJUWc4b2dTaVpiR1JjOF8wNklvbG5HSmlfRURfbmtRWEd4UnBtTV9fRVF5WUhWLTc4aFVBY0VWS3Z5bXQzclZJcU1TZHRCbUVoMW9lQU9sVWt2ZWxMQ1ZZTjhZNGFCcXJsMlhWMXlFM1VZLUxET3VVcDh3Y2ZFTU5lTHFzMWRpNTRiR0lpMkluOEttWENaVDZDYjR1cUNNdi13cE1fdFhWM0s3cm9FZjk1QXowVEcwQndjXzdtTWlNVUN6TTQ1MnU?oc=5",
+      "published": "Sat, 13 Jun 2026 07:00:00 GMT",
+      "snippet": "Five next Rangers manager candidates including Hearts boss amid Danny Rohl exit talks &nbsp;&nbsp; GlasgowWorld",
+      "source": "GlasgowWorld",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Glasgow and District Youth Football League - Glasgow and District Youth Football League",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBXb3hGaGRCOGlsVllaWl9IWVFGd0MtQW8wNXVERjRNdGs4YzhzeXU3QU9fYUdoU3pqRGJV?oc=5",
+      "published": "Sat, 12 Sep 2020 11:48:29 GMT",
+      "snippet": "Glasgow and District Youth Football League &nbsp;&nbsp; Glasgow and District Youth Football League",
+      "source": "Glasgow and District Youth Football League",
+      "query": "site:gadyfl.com coaches required Glasgow",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Sunday Conversation: Bob Connors healthy, happy as superintendent in Glasgow - Great Falls Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVnJnM3I5LVF1YXM3WDNZSlB0d1J4cDBNYmdURmxPdWdUVEdvV2hGcGFXQzMzMmdIcVNYNFVCSFd5dE1uQ3BuSlVlZk1uMjJ1YTFSVEdIcHYtMVNrVWY3M2gwbEV0eGZ5YWplY0czZmtUQW0zbFpYTUJ2ZTlfeTZuSkc2cnlUMjlDMGgxSHpMbzg0ZFM3YlIyOV9aVmpCM09RQjhYc3lybnA4eFJkM2FlT3ZVaTg0TTBVQnZybWZ6QnBoRDZ1NER3RHVxOUs0aGlQMFN3ZA?oc=5",
+      "published": "Sat, 12 Jan 2019 08:00:00 GMT",
+      "snippet": "Sunday Conversation: Bob Connors healthy, happy as superintendent in Glasgow &nbsp;&nbsp; Great Falls Tribune",
+      "source": "Great Falls Tribune",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Alan Hudson's son back in football with Glasgow Rangers connection - The Sentinel",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0t2bGJjYkQwUXBxZUxxRWNBWXhDUmt2ZmlybVprVTN4dEIyeFBCOExsSV9LdlBKWGh4clRLNjExaFNhV3l2SDR5VGUzR2phdE5mWEVpeXJDTE4xa1RkTjdaZ1BkQW05WVpESWxYc2dpTlItR2lmQ2w2dk4tUnFZcHAzdjRKUkxwX3p1VdIBkgFBVV95cUxNUWU5ek9fTk5qN2pLUGFLNGpPNkJBSFVES0VIbXdzWV83eG84Q09zbnY4TTlyQmpLbVpHbEZDb2doS0trcGtBWjlUR3hQbXJJMUJiSDZ0UW9JdmVRQU1NU0x3RUVMTFFnbWx0LV9LNVluZC1ubGVPaVl0cHVja0E1eFhJY0g4QlpSOERKYXBwcnlqQQ?oc=5",
+      "published": "Sat, 09 Sep 2017 07:00:00 GMT",
+      "snippet": "Alan Hudson's son back in football with Glasgow Rangers connection &nbsp;&nbsp; The Sentinel",
+      "source": "The Sentinel",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "verification_status": "Unverified lead — check original post, club and location"
+    },
+    {
+      "title": "Well, that's that one officially and for many of us, disappointingly put to bed. Boca Juniors have confirmed that Marcelo Saracchi has completed a permanent move to MLS side Houston Dynamo on a 4 year contract. I know plenty of us were still holding onto a w - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14ZmU4Ump6aktqZ3ZxX2ZjNTkyRW1QTDJkSDRfWm94MFNhRnlYaUhtb1ZtNHIxcFpPN09HWEF4RGNKTFlVMnVoM1ZSOHEwSFJEQVUtbnVheHBvUHZhNGlPLTN2b0dGay00eklWYUJQdWhZRVJicF9rTEM1Zw?oc=5",
+      "published": "Sat, 08 Aug 2026 07:00:00 GMT",
+      "snippet": "Well, that's that one officially and for many of us, disappointingly put to bed. Boca Juniors have confirmed that Marcelo Saracchi has completed a permanent move to MLS side Houston Dynamo on a 4 year contract. I know plenty of us were still holding onto a w &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "verification_status": "Unverified lead — check original post, club and location"
+    }
+  ]
 }
