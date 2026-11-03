@@ -2,7 +2,7 @@
   "schema_version": 1,
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
-  "policy": "Search within 10 miles of Shawlands based on the actual home ground or regular training base of the specific team. Do not infer a team's base from a club's postal address or unrelated venue. Keep unknown distances provisional. Include U18/U20/U21/reserve/development teams; professional academies; grassroots youth clubs; and relevant local private football coaching employers. Senior men's clubs only when in WOSFL Second Division or below. Treat social handles as verified only where linked by official club or trusted local authority directory.",
+  "policy": "Search within 10 miles of Shawlands based on the actual home ground or regular training base of the specific team. Do not infer a team's base from a club's postal address or unrelated venue. Keep unknown distances provisional. Include senior men's teams at ALL league levels, with no WOSFL division restriction; U18/U20/U21/reserve/development teams; professional academies; grassroots youth clubs; and relevant local private football coaching employers. Treat social handles as verified only where linked by official club or trusted local authority directory.",
   "last_reviewed": "2026-11-03",
   "clubs": [
     {
