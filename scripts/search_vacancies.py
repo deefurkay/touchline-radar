@@ -43,6 +43,13 @@ QUERIES = [
  '"Stamperland FC" coach required',
  '"The W Academy" Glasgow coach vacancy',
  '"Glasgow City Academy" coach vacancy',
+ '"Saint Anthony\'s FC" "first team manager"',
+ '"Saint Anthonys FC" "manager wanted"',
+ '"The Ants" "first team manager" Glasgow',
+ '"first team manager wanted" football Glasgow',
+ '"first team manager vacancy" WOSFL Scotland',
+ '"manager required" "West of Scotland" football',
+ '"seeking a manager" WOSFL Glasgow',
  '"Harmony Row" football coach vacancy Glasgow',
  '"Castlemilk Community FC" coach vacancy',
  '"Park Villa Boys Club" coach vacancy Glasgow',
@@ -73,13 +80,13 @@ noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gael
 local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|harmony row|pro football academy|1st touch|bearsden|milngavie|scotland)\b",re.I)
 filtered=[]
 for item in unique.values():
- text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source",""),item.get("query","")])
+ text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source","")])
  if noise.search(item.get("title","")): continue
  if not intent.search(text) or not football.search(text): continue
  if not local.search(text): continue
  item["verification_status"]="Unverified lead — check original post, club and location"
  filtered.append(item)
-items=sorted(filtered,key=lambda x:x.get("published",""),reverse=True)
-payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Filtered candidate recruitment posts from public search-indexed results. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.","query_count":len(QUERIES),"raw_result_count":len(unique),"result_count":len(items),"errors":errors,"items":items[:150]}
+# Discard stale indexed results and sort newest first.\nfrom email.utils import parsedate_to_datetime\nnow=datetime.now(timezone.utc)\ndef recent(item):\n try: return (now-parsedate_to_datetime(item.get("published","")).astimezone(timezone.utc)).days <= 180\n except Exception: return False\nfiltered=[x for x in filtered if recent(x)]\nitems=sorted(filtered,key=lambda x:x.get("published",""),reverse=True)
+payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.","query_count":len(QUERIES),"raw_result_count":len(unique),"result_count":len(items),"errors":errors,"items":items[:150]}
 Path("vacancies-feed.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 print(f"Wrote {len(payload['items'])} candidate links; {len(errors)} query errors.")
