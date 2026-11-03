@@ -22,8 +22,7 @@
       "notes": "Include youth and U20 opportunities. Do not include senior team vacancies under the current senior WOSFL division rule without separately confirming league eligibility.",
       "sources": [
         "https://www.pollokfc.com/newlandsfield/",
-        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/",
-        "https://slfl.co.uk/clubs/pollok/"
+        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
       ]
     },
     {
@@ -40,11 +39,8 @@
         "instagram": "",
         "x": ""
       },
-      "notes": "Senior team and youth pathway; current WOSFL division and age-group structure should be checked each season.",
-      "sources": [
-        "https://wosfdl.com/fixtures",
-        "https://www.comet.wosfl.co.uk/"
-      ]
+      "notes": "Senior team and youth pathway; current WOSFL division and age-group structure should be checked each season. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
+      "sources": []
     },
     {
       "id": "st-cadocs-yc",
@@ -62,8 +58,7 @@
       },
       "notes": "Official club site confirms U20s and senior team. Youth roles are in scope; senior vacancies only if the senior team meets the WOSFL Second Division and below rule.",
       "sources": [
-        "https://www.stcadocs.co.uk/",
-        "https://www.wosfdl.com/fixtures"
+        "https://www.stcadocs.co.uk/"
       ]
     },
     {
@@ -83,8 +78,7 @@
       "notes": "Club confirms a men's team in WOSFL Division Four, plus broad youth pathways. Strong candidate for both youth and qualifying senior monitoring.",
       "sources": [
         "https://pages.giffnocksoccercentre.com/home",
-        "https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC053323",
-        "https://wosfdl.com/fixtures"
+        "https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC053323"
       ]
     },
     {
@@ -122,7 +116,6 @@
       },
       "notes": "Senior club listed in WOSFL Second Division. Greenfield also lists Glasgow United Seniors, amateurs and kids academy.",
       "sources": [
-        "https://www.beithjuniors.com/location/1067/28",
         "https://greenfieldfootballcentre.co.uk/",
         "https://find-and-update.company-information.service.gov.uk/company/SC711300"
       ]
@@ -141,10 +134,8 @@
         "instagram": "",
         "x": ""
       },
-      "notes": "Retain as a youth/development candidate only until relevant age groups and base are verified.",
-      "sources": [
-        "https://www.beithjuniors.com/locationlist/1067"
-      ]
+      "notes": "Retain as a youth/development candidate only until relevant age groups and base are verified. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
+      "sources": []
     },
     {
       "id": "benburb-fc",
@@ -160,10 +151,8 @@
         "instagram": "",
         "x": ""
       },
-      "notes": "Senior division may fall outside the user's qualifying WOSFL tier; retain only for youth teams if a qualifying base is confirmed.",
-      "sources": [
-        "https://www.strochs.com/fixtures/1010"
-      ]
+      "notes": "Senior division may fall outside the user's qualifying WOSFL tier; retain only for youth teams if a qualifying base is confirmed. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
+      "sources": []
     },
     {
       "id": "rutherglen-glencairn",
@@ -179,10 +168,8 @@
         "instagram": "",
         "x": ""
       },
-      "notes": "Senior division may be above the qualifying range; monitor only qualifying youth/development teams unless league status changes.",
-      "sources": [
-        "https://myfootygrounds.co.uk/LeagueMap.asp?League=WOSPREM"
-      ]
+      "notes": "Senior division may be above the qualifying range; monitor only qualifying youth/development teams unless league status changes. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
+      "sources": []
     },
     {
       "id": "celtic-fc-academy",
@@ -285,5 +272,6 @@
         "https://glasgowcityfc.co.uk/blogs/latest/register-interest-in-the-glasgow-city-academy-programme"
       ]
     }
-  ]
+  ],
+  "reference_policy": "Only list links that directly relate to the named club or academy. Generic league pages and unrelated club directories are not club references. If no direct source has been verified, leave sources empty and mark the entry provisional."
 }
