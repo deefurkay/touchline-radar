@@ -90,7 +90,23 @@ for item in unique.values():
  if not local.search(text): continue
  item["verification_status"]="Unverified lead — check original post, club and location"
  filtered.append(item)
-# Discard stale indexed results and sort newest first.\nfrom email.utils import parsedate_to_datetime\nnow=datetime.now(timezone.utc)\ndef recent(item):\n try: return (now-parsedate_to_datetime(item.get("published","")).astimezone(timezone.utc)).days <= 180\n except Exception: return False\nfiltered=[x for x in filtered if recent(x)]\nitems=sorted(filtered,key=lambda x:x.get("published",""),reverse=True)
+# Discard stale indexed results and sort newest first.
+from email.utils import parsedate_to_datetime
+now=datetime.now(timezone.utc)
+def recent(item):
+ try:
+  return (now-parsedate_to_datetime(item.get('published','')).astimezone(timezone.utc)).days <= 180
+ except Exception:
+  return False
+filtered=[x for x in filtered if recent(x)]
+items=sorted(filtered,key=lambda x:x.get('published',''),reverse=True)
+# Preserve manually verified / user-reported leads across scheduled runs.
+try:
+ old=json.loads(Path('vacancies-feed.json').read_text(encoding='utf-8'))
+ pinned=[x for x in old.get('items',[]) if x.get('lead_type') in ('user_reported','official_departure')]
+except Exception:
+ pinned=[]
+items=pinned+[x for x in items if x.get('url') not in {p.get('url') for p in pinned}]
 payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.","query_count":len(QUERIES),"raw_result_count":len(unique),"result_count":len(items),"errors":errors,"items":items[:150]}
 Path("vacancies-feed.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 print(f"Wrote {len(payload['items'])} candidate links; {len(errors)} query errors.")
