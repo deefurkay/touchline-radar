@@ -17,7 +17,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Official club contact page confirms Facebook, X and Instagram as official channels; exact profile URLs still to resolve."
       },
       "notes": "Include youth and U20 opportunities. Do not include senior team vacancies under the current senior WOSFL division rule without separately confirming league eligibility.",
       "sources": [
@@ -35,9 +36,10 @@
       "locationStatus": "Home ground address identified; calculate distance and confirm training base",
       "website": "",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/SaintAnthonysFC/",
         "instagram": "",
-        "x": ""
+        "x": "https://x.com/SaintAnthonysFC",
+        "verification": "Handles listed by Glasgow Life."
       },
       "notes": "Senior team and youth pathway; current WOSFL division and age-group structure should be checked each season. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
       "sources": []
@@ -52,9 +54,10 @@
       "locationStatus": "Southside venues identified; verify team-specific base",
       "website": "https://www.stcadocs.co.uk/",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/StCadocsYC/",
         "instagram": "",
-        "x": ""
+        "x": "https://x.com/StCadocsSeniors",
+        "verification": "Profiles listed by club directory."
       },
       "notes": "Official club site confirms U20s and senior team. Youth roles are in scope; senior vacancies only if the senior team meets the WOSFL Second Division and below rule.",
       "sources": [
@@ -72,8 +75,9 @@
       "website": "https://pages.giffnocksoccercentre.com/home",
       "social": {
         "facebook": "",
-        "instagram": "",
-        "x": ""
+        "instagram": "https://www.instagram.com/giffnocksoccercentre/",
+        "x": "",
+        "verification": "Instagram handle listed by East Renfrewshire events directory."
       },
       "notes": "Club confirms a men's team in WOSFL Division Four, plus broad youth pathways. Strong candidate for both youth and qualifying senior monitoring.",
       "sources": [
@@ -91,9 +95,10 @@
       "locationStatus": "Published academy address; verify club team base and distance",
       "website": "",
       "social": {
-        "facebook": "https://www.facebook.com/Finnartfootballacademy",
+        "facebook": "https://www.facebook.com/Finnartfootballacademy/",
         "instagram": "",
-        "x": "https://x.com/Finnartstarwos"
+        "x": "https://x.com/Finnartstarwos",
+        "verification": "Handles listed by Glasgow Life."
       },
       "notes": "Glasgow Life directory lists Facebook name Finnartfootballacademy and X @Finnartstarwos. Verify current account URLs and which teams share this base.",
       "sources": [
@@ -112,7 +117,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Not yet verified."
       },
       "notes": "Senior club listed in WOSFL Second Division. Greenfield also lists Glasgow United Seniors, amateurs and kids academy.",
       "sources": [
@@ -132,7 +138,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Official website links to Facebook and X, exact profile URLs not yet resolved."
       },
       "notes": "Retain as a youth/development candidate only until relevant age groups and base are verified. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
       "sources": []
@@ -147,9 +154,10 @@
       "locationStatus": "Ground address identified; verify whether within 10 miles of Shawlands",
       "website": "",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/benburbfootballclub/",
         "instagram": "",
-        "x": ""
+        "x": "https://x.com/BenburbFc",
+        "verification": "Handles listed by Glasgow Life."
       },
       "notes": "Senior division may fall outside the user's qualifying WOSFL tier; retain only for youth teams if a qualifying base is confirmed. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
       "sources": []
@@ -166,7 +174,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Not yet verified."
       },
       "notes": "Senior division may be above the qualifying range; monitor only qualifying youth/development teams unless league status changes. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
       "sources": []
@@ -183,7 +192,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "https://x.com/CelticSocAcad",
+        "verification": "Academy X account linked from Celtic Soccer Academy official staff page."
       },
       "notes": "Professional academy. Celtic confirms U18, intermediate U13-U16, junior U10-U12 and development centres. The academy FAQs say U18s train at Barrowfield and Celtic Park; intermediate groups also use Lennoxtown and St Ninian's. Lennoxtown is outside the local search area, so include only relevant groups whose actual base is inside 10 miles.",
       "sources": [
@@ -203,7 +213,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Academy-specific profiles not yet verified."
       },
       "notes": "Club Academy Scotland Advanced Youth pathway includes U17 and U19 for 2026-27. Club identifies Lochinch and City Stadium/Lesser Hampden as academy locations. Include academy roles at those local bases.",
       "sources": [
@@ -222,9 +233,10 @@
       "locationStatus": "Likely within 10 miles; confirm actual academy training venues",
       "website": "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/",
       "social": {
-        "facebook": "https://www.facebook.com/partickthistlefc/",
+        "facebook": "",
         "instagram": "",
-        "x": "https://x.com/PartickThistle"
+        "x": "",
+        "verification": "Academy-specific profiles not yet verified."
       },
       "notes": "Club states academy pathway U11-U18 in Club Academy Scotland. Club's official contact page lists Facebook and X accounts. Monitor academy recruitment and coaching vacancies.",
       "sources": [
@@ -244,7 +256,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Academy-specific profiles not yet verified."
       },
       "notes": "Professional youth academy based at Ralston. Include academy roles only if the relevant team or role is based at Ralston or another confirmed venue within 10 miles.",
       "sources": [
@@ -265,7 +278,8 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "x": ""
+        "x": "",
+        "verification": "Academy-specific profiles not yet verified."
       },
       "notes": "Category One academy. Added to the candidate list because it is a professional academy in Glasgow; only monitor if the relevant coaching role is based within 10 miles of Shawlands.",
       "sources": [
