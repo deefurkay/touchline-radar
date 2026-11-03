@@ -44,5 +44,5 @@ for query in QUERIES:
  except Exception as exc: errors.append({"query":query,"error":str(exc)[:250]})
 items=sorted(unique.values(),key=lambda x:x.get("published",""),reverse=True)
 payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Candidate links from public search-indexed results. Not exhaustive social-media access. Each lead is unverified.","query_count":len(QUERIES),"result_count":len(items),"errors":errors,"items":items[:250]}
-Path("vacancies-feed.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+Path("vacancies-feed.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 print(f"Wrote {len(payload['items'])} candidate links; {len(errors)} query errors.")
