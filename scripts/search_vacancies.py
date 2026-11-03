@@ -42,7 +42,20 @@ for query in QUERIES:
  try:
   for item in fetch(query): unique.setdefault(item["url"].split("&ved=")[0],item)
  except Exception as exc: errors.append({"query":query,"error":str(exc)[:250]})
-items=sorted(unique.values(),key=lambda x:x.get("published",""),reverse=True)
-payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Candidate links from public search-indexed results. Not exhaustive social-media access. Each lead is unverified.","query_count":len(QUERIES),"result_count":len(items),"errors":errors,"items":items[:250]}
+# Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
+intent=re.compile(r"\\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|manager required|assistant manager|head coach|coach wanted|manager wanted|applications? (are )?open|apply now|trial(s)? for)\\b",re.I)
+football=re.compile(r"\\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves)\\b",re.I)
+noise=re.compile(r"\\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball)\\b",re.I)
+local=re.compile(r"\\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|bearsden|milngavie|scotland)\\b",re.I)
+filtered=[]
+for item in unique.values():
+ text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source",""),item.get("query","")])
+ if noise.search(item.get("title","")): continue
+ if not intent.search(text) or not football.search(text): continue
+ if not local.search(text): continue
+ item["verification_status"]="Unverified lead — check original post, club and location"
+ filtered.append(item)
+items=sorted(filtered,key=lambda x:x.get("published",""),reverse=True)
+payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Filtered candidate recruitment posts from public search-indexed results. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.","query_count":len(QUERIES),"raw_result_count":len(unique),"result_count":len(items),"errors":errors,"items":items[:150]}
 Path("vacancies-feed.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 print(f"Wrote {len(payload['items'])} candidate links; {len(errors)} query errors.")
