@@ -2,140 +2,186 @@
   "schema_version": 1,
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
-  "policy": "Use club home ground and regular training base, not vacancy-advert location. Include a club in the search only when at least one relevant base is confirmed within 10 miles. Keep uncertain clubs as provisional pending verification.",
+  "policy": "Use each club's home ground and regular training base, not vacancy-advert location. Include relevant teams if either confirmed home ground or regular training base is within 10 miles of Shawlands. Keep provisional locations separate pending verification. Senior-only monitoring is limited to WOSFL Second Division and below; youth monitoring includes U18/U20/U21/reserve/development teams.",
   "last_reviewed": "2026-11-03",
   "clubs": [
     {
       "id": "pollok-fc",
       "name": "Pollok FC",
-      "category": "Senior / U20",
-      "homeGround": "Newlandsfield Park, Newlandsfield Road, Glasgow G43 2XR",
-      "trainingBase": "Confirm with club",
+      "category": "U20 / youth",
+      "homeGround": "Newlandsfield Park, Newlandsfield Road, Shawlands, Glasgow G43 2XR",
+      "trainingBase": "To confirm",
       "distanceMiles": null,
-      "locationStatus": "Ground confirmed; training base to confirm",
+      "locationStatus": "Home ground confirmed in Shawlands; training base to confirm",
       "website": "https://www.pollokfc.com/",
       "social": {
         "facebook": "",
         "instagram": "",
         "x": ""
       },
-      "notes": "Senior club and U20 team. Club describes Newlandsfield as a short walk from the heart of Shawlands.",
+      "notes": "Include youth and U20 opportunities. Do not include senior team vacancies under the current senior WOSFL division rule without separately confirming league eligibility.",
       "sources": [
         "https://www.pollokfc.com/newlandsfield/",
-        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
-      ]
-    },
-    {
-      "id": "renfrew-fc",
-      "name": "Renfrew FC",
-      "category": "Senior / youth",
-      "homeGround": "New Western Park, Renfrew",
-      "trainingBase": "Confirm with club",
-      "distanceMiles": null,
-      "locationStatus": "Ground identified; distance and training base to verify",
-      "website": "",
-      "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": ""
-      },
-      "notes": "Potential local senior and youth pathway club.",
-      "sources": [
-        "https://www.troonfootballclub.co.uk/season-2026-27-explained/",
-        "https://www.beithjuniors.com/locationlist/1067"
+        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/",
+        "https://slfl.co.uk/clubs/pollok/"
       ]
     },
     {
       "id": "st-anthonys-fc",
       "name": "St Anthony's FC",
-      "category": "Senior / youth",
-      "homeGround": "McKenna Park, Govan (confirm current use)",
-      "trainingBase": "Confirm with club",
+      "category": "Senior WOSFL / youth",
+      "homeGround": "McKenna Park, 2 Fulbar Road, Glasgow",
+      "trainingBase": "To confirm",
       "distanceMiles": null,
-      "locationStatus": "Provisional; verify current ground and training base",
+      "locationStatus": "Home ground address identified; calculate distance and confirm training base",
       "website": "",
       "social": {
         "facebook": "",
         "instagram": "",
         "x": ""
       },
-      "notes": "Include senior WOSFL and youth opportunities; confirm current base before classifying within radius.",
-      "sources": []
-    },
-    {
-      "id": "benburb-fc",
-      "name": "Benburb FC",
-      "category": "Senior / youth",
-      "homeGround": "New Tinto Park, Govan (confirm current use)",
-      "trainingBase": "Confirm with club",
-      "distanceMiles": null,
-      "locationStatus": "Provisional; verify current ground and training base",
-      "website": "",
-      "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": ""
-      },
-      "notes": "Potential local senior and youth pathway club.",
+      "notes": "Senior team and youth pathway; current WOSFL division and age-group structure should be checked each season.",
       "sources": [
-        "https://awaydayparent.com/grounds/pollok-football-club-ground-pollok-football-club"
-      ]
-    },
-    {
-      "id": "giffnock-sc",
-      "name": "Giffnock SC",
-      "category": "Youth / development",
-      "homeGround": "GSC Auldhouse (team venue; confirm address)",
-      "trainingBase": "Confirm with club",
-      "distanceMiles": null,
-      "locationStatus": "Venue identified; exact address and training base to verify",
-      "website": "",
-      "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": ""
-      },
-      "notes": "Youth club with U20 football recorded in West of Scotland development fixtures.",
-      "sources": [
-        "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
+        "https://wosfdl.com/fixtures",
+        "https://www.stanthonysfc.com/"
       ]
     },
     {
       "id": "st-cadocs-yc",
       "name": "St Cadoc's Youth Club",
-      "category": "Youth / development",
-      "homeGround": "East Renfrewshire (exact venue to confirm)",
-      "trainingBase": "Confirm with club",
+      "category": "U20 / youth",
+      "homeGround": "The Pitches, 137 Shawbridge Street, Pollokshaws, Glasgow G43 1QQ (listed venue)",
+      "trainingBase": "Eastwood Park, G46 6UG (club venue listing); confirm age-group bases",
       "distanceMiles": null,
-      "locationStatus": "Provisional; exact venue and training base required",
+      "locationStatus": "Southside venues identified; verify team-specific base",
+      "website": "https://www.stcadocs.co.uk/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Official club site confirms U20s and senior team. Youth roles are in scope; senior vacancies only if the senior team meets the WOSFL Second Division and below rule.",
+      "sources": [
+        "https://www.stcadocs.co.uk/",
+        "https://www.wosfdl.com/fixtures"
+      ]
+    },
+    {
+      "id": "giffnock-sc",
+      "name": "Giffnock Soccer Centre",
+      "category": "Senior WOSFL / youth",
+      "homeGround": "GSC Auldhouse, 180 Thornliebank Road, Thornliebank, Glasgow G46 7RQ",
+      "trainingBase": "Eastwood Park, G46 6UG",
+      "distanceMiles": null,
+      "locationStatus": "Club confirms match and training venues; verify exact straight-line distance from Shawlands",
+      "website": "https://pages.giffnocksoccercentre.com/home",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Club confirms a men's team in WOSFL Division Four, plus broad youth pathways. Strong candidate for both youth and qualifying senior monitoring.",
+      "sources": [
+        "https://pages.giffnocksoccercentre.com/home",
+        "https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC053323",
+        "https://wosfdl.com/fixtures"
+      ]
+    },
+    {
+      "id": "finnart-fc",
+      "name": "Finnart FC / Finnart Football Academy",
+      "category": "Senior / youth",
+      "homeGround": "Glasgow Green Football Centre, 40 Kings Drive, Glasgow G40 1HB (academy directory)",
+      "trainingBase": "Confirm current senior and youth team bases",
+      "distanceMiles": null,
+      "locationStatus": "Published academy address; verify club team base and distance",
+      "website": "",
+      "social": {
+        "facebook": "https://www.facebook.com/Finnartfootballacademy",
+        "instagram": "",
+        "x": "https://x.com/Finnartstarwos"
+      },
+      "notes": "Glasgow Life directory lists Facebook name Finnartfootballacademy and X @Finnartstarwos. Verify current account URLs and which teams share this base.",
+      "sources": [
+        "https://glasgowlife.sportsuite.co.uk/directory/finnart-football-academy1"
+      ]
+    },
+    {
+      "id": "glasgow-united-fc",
+      "name": "Glasgow United FC",
+      "category": "Senior WOSFL / youth",
+      "homeGround": "Greenfield Park, 401 Old Shettleston Road, Glasgow G32 7JN",
+      "trainingBase": "Greenfield Football Centre, 127 Duror Street, Glasgow G32 6AT (facility address; confirm team-specific base)",
+      "distanceMiles": null,
+      "locationStatus": "Ground and facility addresses identified; verify distance and team base",
+      "website": "https://greenfieldfootballcentre.co.uk/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Senior club listed in WOSFL Second Division. Greenfield also lists Glasgow United Seniors, amateurs and kids academy.",
+      "sources": [
+        "https://www.beithjuniors.com/location/1067/28",
+        "https://greenfieldfootballcentre.co.uk/",
+        "https://find-and-update.company-information.service.gov.uk/company/SC711300"
+      ]
+    },
+    {
+      "id": "renfrew-fc",
+      "name": "Renfrew FC",
+      "category": "Youth / development",
+      "homeGround": "New Western Park, Renfrew (exact address to confirm)",
+      "trainingBase": "To confirm",
+      "distanceMiles": null,
+      "locationStatus": "Provisional; exact venue and relevant age-group base required",
       "website": "",
       "social": {
         "facebook": "",
         "instagram": "",
         "x": ""
       },
-      "notes": "Youth club candidate; do not include as in-radius until base is confirmed.",
+      "notes": "Retain as a youth/development candidate only until relevant age groups and base are verified.",
       "sources": [
-        "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league"
+        "https://www.beithjuniors.com/locationlist/1067"
+      ]
+    },
+    {
+      "id": "benburb-fc",
+      "name": "Benburb FC",
+      "category": "Youth / development",
+      "homeGround": "New Tinto Park, 282 Craigton Road, Glasgow G51 4XG",
+      "trainingBase": "To confirm",
+      "distanceMiles": null,
+      "locationStatus": "Ground address identified; verify whether within 10 miles of Shawlands",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": ""
+      },
+      "notes": "Senior division may fall outside the user's qualifying WOSFL tier; retain only for youth teams if a qualifying base is confirmed.",
+      "sources": [
+        "https://www.strochs.com/fixtures/1010"
       ]
     },
     {
       "id": "rutherglen-glencairn",
       "name": "Rutherglen Glencairn",
-      "category": "Senior / youth",
-      "homeGround": "Rutherglen (ground address to confirm)",
-      "trainingBase": "Confirm with club",
+      "category": "Youth / development",
+      "homeGround": "Hamish B Allan Stadium, Rutherglen (exact address to confirm)",
+      "trainingBase": "To confirm",
       "distanceMiles": null,
-      "locationStatus": "Provisional; exact ground and training base required",
+      "locationStatus": "Provisional; verify exact ground and training base",
       "website": "",
       "social": {
         "facebook": "",
         "instagram": "",
         "x": ""
       },
-      "notes": "Potential nearby senior club; verify ground and regular training location.",
+      "notes": "Senior division may be above the qualifying range; monitor only qualifying youth/development teams unless league status changes.",
       "sources": [
-        "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league"
+        "https://myfootygrounds.co.uk/LeagueMap.asp?League=WOSPREM"
       ]
     }
   ]
