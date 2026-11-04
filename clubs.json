@@ -234,6 +234,26 @@
       ]
     },
     {
+      "id": "glasgow-dukes",
+      "name": "Glasgow Wellington FC (The Glasgow Dukes)",
+      "category": "Senior men's amateur football",
+      "homeGround": "Greenfield Football Centre, 127 Duror Street, Glasgow G32 6TP",
+      "trainingBase": "Ibrox Training Complex, Thursday evenings; home matches at Greenfield Football Centre",
+      "distanceMiles": null,
+      "locationStatus": "Official club site confirms training and match venues; measure each venue from Shawlands",
+      "website": "https://glasgowdukes.co.uk/",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/GlasgowDukes/",
+        "x": "",
+        "verification": "Official website links to club social accounts"
+      },
+      "notes": "Monitor men's amateur first-team coaching and management opportunities. Training and match venues differ, so verify the base attached to any role.",
+      "sources": [
+        "https://glasgowdukes.co.uk/"
+      ]
+    },
+    {
       "id": "harmony-row-yc",
       "name": "Harmony Row Youth Club",
       "category": "Grassroots youth club",
@@ -275,6 +295,26 @@
       ]
     },
     {
+      "id": "little-dynamos",
+      "name": "Little Dynamos Football",
+      "category": "Boys grassroots / volunteer-led football academy",
+      "homeGround": "Barlia Football Complex, Glenwood Business Centre, Castlemilk Drive, Glasgow G45 9UH",
+      "trainingBase": "Barlia Football Complex, Castlemilk",
+      "distanceMiles": null,
+      "locationStatus": "Glasgow Life directory confirms male football provision and Castlemilk base; distance to measure",
+      "website": "https://glasgowlife.sportsuite.co.uk/directory/little-dynamos-football",
+      "social": {
+        "facebook": "https://www.facebook.com/Amateur-Sports-Team/Little-dynamos-568398129991239/",
+        "instagram": "",
+        "x": "",
+        "verification": "Glasgow Life directory lists Facebook page"
+      },
+      "notes": "Volunteer-led boys' football academy with stated local coaching/volunteering opportunities. Monitor coaching recruitment; boys' provision only.",
+      "sources": [
+        "https://glasgowlife.sportsuite.co.uk/directory/little-dynamos-football"
+      ]
+    },
+    {
       "id": "maryhill-fc",
       "name": "Maryhill FC",
       "category": "Senior men's football · WOSFL",
@@ -293,6 +333,26 @@
       "sources": [
         "https://www.beithjuniors.com/location/1067/27",
         "https://www.scottishjuniorfa.com/scottish-community-fa/clubs/ground-locations/"
+      ]
+    },
+    {
+      "id": "muirend-afc",
+      "name": "Muirend AFC",
+      "category": "Senior men's amateur / U21 football",
+      "homeGround": "Bogton Playing Fields, Glasgow G44 3HQ",
+      "trainingBase": "Southside of Glasgow; training listed on Mondays, exact venue to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Southside location and team details listed; verify current activity and exact training venue",
+      "website": "",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "No official social profile verified"
+      },
+      "notes": "Monitor adult men's and U21 coaching opportunities. Current listing is third-party and should be reconfirmed with the club.",
+      "sources": [
+        "https://www.playerwanted.co.uk/team/www-clubwebsite-co-uk-muirendafc"
       ]
     },
     {
