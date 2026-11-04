@@ -133,7 +133,7 @@ $('vacancies').innerHTML=rows.length?rows.sort((a,b)=>(b.date||'').localeCompare
 let selectedLead=0;
 function renderDiscovered(){
  const box=$('discovered');if(!box)return;
- const excluded=/\\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\\b/i;
+ const excluded=/\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b/i;
  discovered=discovered.filter(x=>!excluded.test([x.title,x.club,x.team,x.role,x.snippet,x.source].join(' ')));
  if(!discovered.length){box.innerHTML='<div class="empty">No new leads in the latest completed search. Some clubs publish only on social media, so an empty feed is not proof that no vacancies exist.</div>';return;}
  if(selectedLead>=discovered.length)selectedLead=0;
