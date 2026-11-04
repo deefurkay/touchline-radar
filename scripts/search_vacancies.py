@@ -83,6 +83,12 @@ DIRECT_SOURCES = [
  ("Rossvale FC Academy work with us","https://rossvalefcacademy.co.uk/work-with-us/"),
 ]
 
+# Add every club's own website to the daily direct-page watchlist.
+for c in WATCH_CLUBS:
+ site=c.get("website","")
+ if site and site.startswith("https://"):
+  DIRECT_SOURCES.append((c["name"]+" official website",site))
+
 def fetch_direct_pages():
  from html.parser import HTMLParser
  class PageText(HTMLParser):
@@ -140,7 +146,7 @@ for query in QUERIES:
 for direct_item in fetch_direct_pages(): unique.setdefault(direct_item['url'],direct_item)
 
 # Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
-intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|academy coach(es)?|soccer coach(es)?|football coach(es)?|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
+intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|looking to add|wanted|seeking|join (our|the)|join our coaching staff|coach(es)? required|volunteer coach|academy coach(es)?|soccer coach(es)?|football coach(es)?|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|seeking a coach|coach vacancy|coaching staff|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
 football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\b",re.I)
 club_names=[c.get("name","") for c in WATCH_CLUBS if c.get("name")]
 club_pattern=re.compile("|".join(re.escape(n) for n in sorted(club_names,key=len,reverse=True)),re.I) if club_names else None
