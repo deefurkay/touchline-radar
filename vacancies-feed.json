@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T08:32:18.739807+00:00",
-  "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
+  "generated_at": "2026-11-04T09:29:00.296Z",
+  "coverage_note": "Only posts with explicit coaching or football management recruitment wording are shown. General club updates, player recruitment, camps and off-pitch volunteering are excluded. Leads still require checking against the original advert and the 10-mile Shawlands scope.",
   "query_count": 152,
   "club_watchlist_count": 34,
   "discovery_sources": [
@@ -10,7 +10,7 @@
     "club websites and news"
   ],
   "raw_result_count": 3277,
-  "result_count": 27,
+  "result_count": 6,
   "errors": [
     {
       "source": "Petershill FC official website",
@@ -18,39 +18,6 @@
     }
   ],
   "items": [
-    {
-      "title": "Let their football journey begin ⚽️💙 Looking for a fun way to introduce your little one to football? Our 1st Touch Tots classes at @goalsshawlands are the perfect place to build confidence, develop new skills, make friends and most importantly, have fun! 🤩 📅 S - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZFBlZjI0eWhQanNrVU90S0VaZk9CUE9qOU1YaWNUVXFObEJ4S0k4YXBBbDMxVlBSeXpuZUZKdGdNWFhDOVFiVzJhUm1aSEYwVU5NUUtWUmRqNTlDamtnZ2VLRjd5SkNEZTloV013UGFsbUJER1ZRNEhHcVppbC1KNkpQbDNBSnR6SHJZQVcxVG1sTXdNbUcyQnVXMGR4TXJCLVRQTS01QUNyRVNtbVFIc045XzBFWmJabDNhdzZHbjJOVU5hMUlFUlI3d2wwcFhUOG1ZZktzU25GQTZfRTRDbUpZM3RtNGpJ?oc=5",
-      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "snippet": "Let their football journey begin ⚽️💙 Looking for a fun way to introduce your little one to football? Our 1st Touch Tots classes at @goalsshawlands are the perfect place to build confidence, develop new skills, make friends and most importantly, have fun! 🤩 📅 S &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"1st Touch Football\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "Join the 1st Touch Team ⚽️💙 From our first classes at 18 months right through to team football, we offer a range of sessions and clear pathways to help your child develop at every stage! Interested in joining us? Get in touch today for more information! 🙌🏼 #fo - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZVlic1lWenowakE0RG8tVXQyWEVXZE93QWE4RU5lMnBxVkc3V1ZFSUJoVnJMXy1sVUphVm5VQ084SDVTZFpFNVdvZGZOMVp6bC01UWdDZ2tSMDJJc3BMeUQ4NVY5TmNnNTRtcmtTU2dsM1RXQmpBcTZscng4cjZzWWNvbFJDZWlXRktQblFnTWZZUnY1Sm9tVWN2ckFjNHBCQmJqT2tyZDE2SGpkYk14cHVIenpOX015WDVpZzItQ2t5Y19UaTBJbXV3aWFWZGxTd3psSzN3ZVVmTTdLVF8zLWVteFdwWVQt?oc=5",
-      "published": "Wed, 21 Oct 2026 14:54:09 GMT",
-      "snippet": "Join the 1st Touch Team ⚽️💙 From our first classes at 18 months right through to team football, we offer a range of sessions and clear pathways to help your child develop at every stage! Interested in joining us? Get in touch today for more information! 🙌🏼 #fo &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"1st Touch Football\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "SAINT ANTHONY’S NEEDS MORE THAN 11 PLAYERS There’s a lot more to running a football club than what happens on the pitch and The Ants are looking for more people to become part of the team behind the team. Whether you can spare a few hours oc - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc1RsSnUyRG5UMFBWaWZ5QkRHYlVfNlFZdzk0S0FfODFGZ09LXzE3ejUxUkZzbjRTYVdrYXlqQ29YRVpuQ1BuN2FwWDN1eDgxMzR0X290VnFNU3FMdFlKb0d1NnBLVmVvQUhuOEFaNHllWmVxTXhGTlZBNXA1bGpRellwcHhwWmY4alNLTG5zSndwTWx5UEM1X3gyRGRIRVhSMHRteTlNbGR4MWRyM08xQmE3SkxZdVJENXV3OFNkSmN6ZVdINkZiN3J2eVZzNG55NTJrRGxBSl9XRDY1LVE?oc=5",
-      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "snippet": "SAINT ANTHONY’S NEEDS MORE THAN 11 PLAYERS There’s a lot more to running a football club than what happens on the pitch and The Ants are looking for more people to become part of the team behind the team. Whether you can spare a few hours oc &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"St Anthony's FC\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
     {
       "id": "user-reported-saint-anthonys-first-team-manager-20261103",
       "title": "Saint Anthony's FC — First Team Manager",
@@ -68,28 +35,6 @@
       "distance_miles": null
     },
     {
-      "title": "Saturday's result wasn't the start we wanted, but football always gives you another chance. Tonight, we return to McKenna Park for our first home league match of the 2026/27 season as we welcome Giffnock Soccer Centre. The players will be looking to bounc - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTdKeGdNc2NZWkZSZlVmbzAyWlBKdjNRY3hibTh5SG1lWEJJb0pGUGVEemw1dk5uRC0zV3NMSjVjOEhDMzV3S0YzODFFQkFjcUhkX2cxb0pKTWFaNlM4OTFRY0p3ZGgteXNzM1FKaEtjajlaSDl6Y0ZWTFIyckFXZFE3OXVSUlNseUNHTmR5UGsxZGVLV3FyUFpUamhoMzMwcjhxSTJva3I4MnRQZGxPZzhxVlZBbTVMY202RkJfT2MtWW9GVzlMMi0ybjJZSXM5V2pkWGNPal9qNU12NEE?oc=5",
-      "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-      "snippet": "Saturday's result wasn't the start we wanted, but football always gives you another chance. Tonight, we return to McKenna Park for our first home league match of the 2026/27 season as we welcome Giffnock Soccer Centre. The players will be looking to bounc &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"Giffnock Soccer Centre\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "Giffnock Soccer Centre",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "Saturday's result wasn't the start we wanted, but football always gives you another chance. Tonight, we return to McKenna Park for our first home league match of the 2026/27 season as we welcome Giffnock Soccer Centre. The players will be looking to bounc - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iZm11aTlsWFItc2lyRGNfb1ZmRFJZNUplcFQ0M0VpODJuZnJyUVFpbWV2and3WEJyQnF4S1Rla0tVYUh5MUhhNUczM3ZxNzRLZG5wTWRLTk45Qk5NbTN5ZlNiQUx4NlNTWGF3elZ3cDhJYUFhdmc?oc=5",
-      "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-      "snippet": "Saturday's result wasn't the start we wanted, but football always gives you another chance. Tonight, we return to McKenna Park for our first home league match of the 2026/27 season as we welcome Giffnock Soccer Centre. The players will be looking to bounc &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"Giffnock Soccer Centre\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "Giffnock Soccer Centre",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
       "title": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with - Facebook",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaGhnaU1XLXZxdENieEp1MnNGTGtVU0xEVUlRN3NScFdiWjJkcksyeXh3Q2t1Y1BGUTJLMVRxbW1pTElPa3pFQTZxUlBldkZjbDctNWppRm1fbjlsNVJMaXZDbVhGLWFVbzNiSjhYZWhjWlpXNU9rSzFweVRvOTVIQU9WenYwMTRlcTNDY05qVThsTF9jbE5TaXl2UExVaFlsclF1S1dodWhtZFhIT3lWUS1peUxFbmdVQzJrV1I3dEZFZjR1TEhYX19KNXRuWVpuV2xKVlNlTGxqXzFwOHc?oc=5",
       "published": "Tue, 27 Oct 2026 07:00:53 GMT",
@@ -97,29 +42,7 @@
       "source": "Facebook",
       "query": "site:facebook.com football \"U20\" coach Glasgow",
       "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "1st Touch Football. Strike · U Sure Do. September and October Camps ⚽️ Looking for something to keep the kids active, entertained and developing their football skills while they’re off school? Our September & October camps are now OPEN FOR BOOKINGS - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX2ZxZUduUFJrSlFrc2tXS01aU0VNQU1pOElic0xXazlaRS1veHBjQ3BELWpHY0Q4T2JjaktmRWhZYVhpS2ktYVF4QWVLSUwwbFhtYjBzUHMyVFlCR1BqcDNlNHlhNlJEcDhVNkhzQTc4SlZlX1llZ2RKSk02NTJ5NkZLTEdwQUVBeWNpWFNraFJGVjJuaW5EdVZUWGs2Z0NxVmxkbnBURWJwWnFCUjNtX3M4dHRIODhhbklWcm9ZbFpwUkVzVDBxRVJpSDNrZkt4RlV5Q1J5V0NNeW04bjBxT3ZDazVsQ0RRcnc?oc=5",
-      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
-      "snippet": "1st Touch Football. Strike · U Sure Do. September and October Camps ⚽️ Looking for something to keep the kids active, entertained and developing their football skills while they’re off school? Our September & October camps are now OPEN FOR BOOKINGS &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"1st Touch Football\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "1st Touch Football",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "⚽ BSC Glasgow October Week Football Camp ⚽ Looking for something to keep the kids active during the October Week holiday? Come along to BSC Glasgow’s October Week Football Camp at Peterson Park for some fun, friendly football sessions. 📍 Peterso - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbjR6MTFWaUxiSHgxWF9NVVliYjhBMWprb28yU0JYVzhlSDhHcnpnZ2JtazV2czlwTmlTdXlQRU9aQmxjY012XzlHaV80WlV1NmloQ2dQQ0hpclRoNnFzUjFCcENqQmNlYkNyVk9IN1RwOERGS1B6azRnbmFqSUlCS254Q2FRWjhiTHFLU2hjbEpza3lPTzdidDFMbTZTNnByeVRzaWxUNm1Ca0dWemRtUGFXOWFvWUo5TUJlM3YxTmhucW1ZN0NTMWdWc1lENGhDU0hwUTFzakpzVUxUUFE?oc=5",
-      "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-      "snippet": "⚽ BSC Glasgow October Week Football Camp ⚽ Looking for something to keep the kids active during the October Week holiday? Come along to BSC Glasgow’s October Week Football Camp at Peterson Park for some fun, friendly football sessions. 📍 Peterso &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "verification_status": "Explicit coaching/management recruitment wording found — verify original advert and details",
       "discovery_method": "Club watchlist"
     },
     {
@@ -130,52 +53,8 @@
       "source": "Facebook",
       "query": "site:facebook.com football \"manager wanted\" Glasgow club",
       "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "verification_status": "Explicit coaching/management recruitment wording found — verify original advert and details",
       "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "1st Touch Football. Bag Raiders · Shooting Stars. Football coach by title, whatever the team needs by necessity 🤣⚽️ First aider, DJ, entertainer, judge… you name it, our coaches have done it! #footballcoach #footballcoaching #coaching #football #glasgow - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQckJlanZjT2RXeUg5R1ZOdnZUelpPWDVQa1lnbm1ZRGZHZS1tTTBkNmVTT0RlWEUtX3VOSk1EWlBuUTBlR1AxRE9pNmlXSUdERVd3YURLNnNBeHktNVgxbnFvLWlOanhIZkJsT2FveWQxZlpsN2l1UVpsdkc1Z2pROTJSejZvZnlIWWRDTllja2J0Y25tTDVRMWd2R0o4elFnS1VlZ1p6YUQ0TEpSNzYtaFhCbG1RNnFOR0x6NzFBUmhidFU5M1VJV1RwaUpHTWdfb0ZhTXpNZXpPZHczQm9V?oc=5",
-      "published": "Tue, 01 Sep 2026 07:00:00 GMT",
-      "snippet": "1st Touch Football. Bag Raiders · Shooting Stars. Football coach by title, whatever the team needs by necessity 🤣⚽️ First aider, DJ, entertainer, judge… you name it, our coaches have done it! #footballcoach #footballcoaching #coaching #football #glasgow &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"1st Touch Football\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "1st Touch Football",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "1st Touch Football. Bag Raiders · Shooting Stars. Jobs I didn’t know I would have as a football coach, part 2🤣⚽️ The list just keeps getting longer … #footballcoach #football #footballcoaching #coaching #glasgow - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONVd6QlBlXzNNQVVZSmMzQm1KeTlPejNweElIZVRzaGZyTzNlbkdxaVlnaHh2YzlfeW5EU1h6N21NWjgxb1M1NXppMHNJWUlzMjF6QzNQWDFVWGR4c19fLTFaekNIS2loaHFqQVcwS1VHS1JKeTcxYVBwSTZhYzF1UEczeUhYMUVNNEZ5Y1U0N2kxM2xHd20tR0ljNlBxLWhZeWNRa0x1XzBDbkwxOVpaaUMya0RabEtXYkpwaDFtMDkydjhqOUZsYXhCUHdWcmRDdVduY1FzcEZjNktiWFZJVkdKaEkyYkRxQmc?oc=5",
-      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
-      "snippet": "1st Touch Football. Bag Raiders · Shooting Stars. Jobs I didn’t know I would have as a football coach, part 2🤣⚽️ The list just keeps getting longer … #footballcoach #football #footballcoaching #coaching #glasgow &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"1st Touch Football\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "1st Touch Football",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "Celebrity Charity Football Match ⚽️ Looking for a fun, affordable family day out? Come along and see stars from BBC Scotland’s River City and special guests take on Allied Vehicles in a charity football match! There will also be live entertainment from Champi - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlVkRMRC0yaWJocnl6WXdTeThPRVBsSHItQlphQTJfWllpMmtXSmhWODE0SmtMM1d0RUlnTTJ0VUt5cGE4c2J1TV9SbTBtT2pHYm4xa3hhcEVJZkI0eGxhWjdLM0t1Yzh5dkJuVmRTYzlMSFJNbFRMT1BDeEE?oc=5",
-      "published": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "snippet": "Celebrity Charity Football Match ⚽️ Looking for a fun, affordable family day out? Come along and see stars from BBC Scotland’s River City and special guests take on Allied Vehicles in a charity football match! There will also be live entertainment from Champi &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"Glasgow Perthshire FC\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "⚽️ Play for BSC Glasgow this season! ⚽️ We are recruiting players for ALL age groups: U5 to U18 & Adult Amateur! Sign up now for 'The Next Challenge' at the SFA Quality Mark Platinum Legacy club. Email admin@bscglasgow.co.uk for details. #BSCRecrui - Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OLXhUcXNkM2tia2NNU0FCd2JUeUVpSzliV3RBUVF5ZU1POU1JZEhjNXVTd1FRLTREVWlfSHh4c0RRaWxEZkJteDA3S0hLNDhoZk9PWWd6MkQ5Zw?oc=5",
-      "published": "Sun, 26 Jul 2026 07:00:00 GMT",
-      "snippet": "⚽️ Play for BSC Glasgow this season! ⚽️ We are recruiting players for ALL age groups: U5 to U18 & Adult Amateur! Sign up now for 'The Next Challenge' at the SFA Quality Mark Platinum Legacy club. Email admin@bscglasgow.co.uk for details. #BSCRecrui &nbsp;&nbsp; Instagram",
-      "source": "Instagram",
-      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"BSC Glasgow\" (coach OR manager OR vacancy OR wanted)",
-      "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
     },
     {
       "title": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for a passionate, motivated and experienced Goalkeeping Coach to join our coaching team. You'll lead weekly Sunday sessions at Peterson Park, helping develop our - Facebook",
@@ -185,18 +64,7 @@
       "source": "Facebook",
       "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
       "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "GET CREATIVE WITH BSC GLASGOW! We're looking for enthusiastic Social Media Volunteers with a flair for photography, videography and content creation! From football matches and training sessions to dance classes, there's a huge variety of Get in touch a - X",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01bm5QSFB4SlU3Q1FQeWhMa1RRTF9tVjlwbWd4bjRGd3JDNjJ6YTZiZGVDTURFRlRXZVhaWWxFMG9IZE1rRHNfbmFKUVBiNXJmbjJQeDA0cGNZbHlCQmM1Ug?oc=5",
-      "published": "Sun, 01 Nov 2026 08:01:06 GMT",
-      "snippet": "GET CREATIVE WITH BSC GLASGOW! We're looking for enthusiastic Social Media Volunteers with a flair for photography, videography and content creation! From football matches and training sessions to dance classes, there's a huge variety of Get in touch a &nbsp;&nbsp; X",
-      "source": "X",
-      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"BSC Glasgow\" (coach OR manager OR vacancy OR wanted)",
-      "club": "BSC GLASGOW",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "verification_status": "Explicit coaching/management recruitment wording found — verify original advert and details",
       "discovery_method": "Club watchlist"
     },
     {
@@ -207,63 +75,8 @@
       "source": "X",
       "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"BSC Glasgow\" (coach OR manager OR vacancy OR wanted)",
       "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "verification_status": "Explicit coaching/management recruitment wording found — verify original advert and details",
       "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "1st Touch Football. Chris Lorenzo · Fancy Footwork. Looking for a tots football class in Glasgow? ⚽️ At 1st Touch, we introduce little ones to football from as young as 18 months! Our weekly tots and pre school classes run every Thursday 💙 These classes are - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQR0VSN1N5Z0lRNGpyZko2M0o4T0xLazcxQ2lnOGlONzFQVi1BMnZINy1hM2lSV1JKS0ZNTW1QSFp6MGhnVW1Sck9FNk9mYUxQX2cyOGtSRG1Xa0xZYlpiV2RLSUhPdlBLbzFPXzYtSEw4Y19uZzh1RlFxTmdmQU5xSlBfME1xZXBVQlBrRXhrLUUtU0lnU3NnUmpTaTdHLTg0UEwtUXNWb2xTb3l2S1JmQTVsZkh4aEQyNHYxNEdZVm5Sb2UwV19JSmlEYmNtSW5Rb2NlSDFVTnlHQkZYX2p1Zko1U2FGMTJ4V0E?oc=5",
-      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "snippet": "1st Touch Football. Chris Lorenzo · Fancy Footwork. Looking for a tots football class in Glasgow? ⚽️ At 1st Touch, we introduce little ones to football from as young as 18 months! Our weekly tots and pre school classes run every Thursday 💙 These classes are &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"1st Touch Football\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "1st Touch Football",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "Stamperland 2014’s are looking for a few new players as they transition into 11 a side football. My son plays for them and it’s a great team. If anyone’s son or daughter wants to find out more the coaches contact details are in the flyer. - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xZVdjNHVjQ0FiUFdTOE5HSG1DOHpHWDgyR1AzT3VkQ3ktU0RBYzZxS0wwRG9TOFI1dld6OTVHZDlMaEg1TnFfR2RVb1RqVmtVN3k1OUE2M2dCUWF4eU05cWtVR1M3Nms1Q2k1ME1fMW9QMnhJTG1TLVNjWVo?oc=5",
-      "published": "Sat, 13 Jun 2026 07:00:00 GMT",
-      "snippet": "Stamperland 2014’s are looking for a few new players as they transition into 11 a side football. My son plays for them and it’s a great team. If anyone’s son or daughter wants to find out more the coaches contact details are in the flyer. &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"Stamperland FC\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "⚽ BSC Glasgow October Week Football Camp ⚽ Looking for something to keep the kids active during the October Week holiday? Come along to BSC Glasgow’s October Week Football Camp at Peterson Park for some fun, friendly football sessions. 📍 Peterso - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQXMxTlRIc1BLR2FXTXdCUHJlUUh5Z01SRUhweEkxOElLb1lPSEZJSDkzcUNRTVNzaWlBd1pxcHNjSlQ4aVJKaDhwLXF2dmZJRlpRLURJSkhlWm8tLWNDd25LYXhuSFA0eU9NMTQ1dFJaeW4zZTBGdjF0WXZzUVQxOWpkbmMybi1oemJGYmRHYTlvM3FOb09Ta1VaMHNveGR2dTZfX2R5VjRNeW8zWjJpRjdXMTR5VlBnOWZYZFRTVjVDYXZTbWZ1dzdlOGdtSHhhR0g2emZ5cDhTelIzdUE?oc=5",
-      "published": "Sat, 10 Oct 2026 07:00:00 GMT",
-      "snippet": "⚽ BSC Glasgow October Week Football Camp ⚽ Looking for something to keep the kids active during the October Week holiday? Come along to BSC Glasgow’s October Week Football Camp at Peterson Park for some fun, friendly football sessions. 📍 Peterso &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "⚽️ Play for BSC Glasgow this season! ⚽️ We are recruiting players for ALL age groups: U5 to U18 & Adult Amateur! Sign up now for 'The Next Challenge' at the SFA Quality Mark Platinum Legacy club. Email admin@bscglasgow.co.uk for details. #BSCGlasg - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZl9RX3N1Q2lOV0p1aHF0a3RXVnk3aWZwSHRxd25HLUN1OEM1VmwtYldZWDBxX1VEZGFWcFJ0VFFXdVdpV3lCaTlfQlFWQUFsNEhLemg1X29vVm9DLUJwbHhJOXh2ZlFzNnd1cEtvRkZLY2dGNXBQVFBFbW5BVUZPUGRRM0F1TjFfVllrWmZxVUZXbjljX3gzOTF2cmZIemdnVVlVT3VwWkRiLUlfQUxpMkFpajVCSHdBZEFpV3lZckpmYlRnUF83RWxTNDFXREtVSHdMbDczQ0NhS3EzRWhtMHhTR3B5MWhJeUplOWRXMlFzWGM?oc=5",
-      "published": "Sat, 01 Aug 2026 07:00:00 GMT",
-      "snippet": "⚽️ Play for BSC Glasgow this season! ⚽️ We are recruiting players for ALL age groups: U5 to U18 & Adult Amateur! Sign up now for 'The Next Challenge' at the SFA Quality Mark Platinum Legacy club. Email admin@bscglasgow.co.uk for details. #BSCGlasg &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC Glasgow",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "🍀⚽ Celtic Camp 2026 – Week 2, Day 1 ⚽🍀 💚 What a fantastic start to Week 2 of our Celtic Camp at Leafair! 💚 👏 It was brilliant to welcome all of our players today, who worked incredibly hard alongside the Celtic Academy coaches throughout the sessions. ⚽ T - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcUpHekJEbE1nNXRnbWMzeUtGcGJocVNLb1J6Y3lpcExMdVZUeTNqUXBVUjNNMjhGaENLZ3NaTklmaG00XzBpNjA2RlVZRkQybElhZnZER1dwbHVlN0stREV0bi1RaFY2ZEFDMWxXRVZneUk0X2pxMFNmSFFTWnh5U3ZOWXZjVVFrQzRPTXFLTW9tUHN3UWNqY0ZmNlNVakZhMzZpSHhKVG56YnlmeXlGWG5CM0lkWVNaWE5uNkxWS2RIWURDek03UGJOZlFscDRrZ2tjS2NOY0s?oc=5",
-      "published": "Mon, 13 Jul 2026 07:00:00 GMT",
-      "snippet": "🍀⚽ Celtic Camp 2026 – Week 2, Day 1 ⚽🍀 💚 What a fantastic start to Week 2 of our Celtic Camp at Leafair! 💚 👏 It was brilliant to welcome all of our players today, who worked incredibly hard alongside the Celtic Academy coaches throughout the sessions. ⚽ T &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"Celtic FC Academy\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
     },
     {
       "title": "Vacancy – Academy Coach (under-17s & Under-19s) - Queen's Park Football Club",
@@ -273,51 +86,7 @@
       "source": "Queen's Park Football Club",
       "query": "\"Queens Park\" academy coach vacancy Glasgow",
       "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "Job Alert: Lead Coach of Football Development, Caledonian Braves F.C (Scotland) Caledonian Braves FC is seeking an ambitious, motivated and forward-thinking coach to lead our U20 and Edusport programmes as part of our expanding player development - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMV9hTnphTURUUV9jazdKdGxjOEUwejZZY0NHa0plbHdTMXFqUnVQOGJIRnd2U1VkZ0F0TjFXVmI0bzdXNGRaVVhTYVl2VzVpLVNsdF9oZi1WajRMOEhXUlVKVHhRdWtaMV9vM3lWWktTWUJSQ1g4eEh6QXZfck5FVklDbFNPdWlYRFV4c0RIeklNYWZnNUZYVzcxWnhfNDkwc05mNGV5S2N0TVozSmFndXVZZEtxYjczcUpnNUxwWW1ONmJoekZBT0tGZk9ZY3RwZ0hGS2VsVEdkZm1WLXVhQXFNblEtQQ?oc=5",
-      "published": "Mon, 06 Jul 2026 07:00:00 GMT",
-      "snippet": "Job Alert: Lead Coach of Football Development, Caledonian Braves F.C (Scotland) Caledonian Braves FC is seeking an ambitious, motivated and forward-thinking coach to lead our U20 and Edusport programmes as part of our expanding player development &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"U20\" coach Glasgow",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "Duncan Weir reflects on transition into coaching after joining the Scotland U20 coaching staff, along with Henry Pyrgos, ahead of the Junior World Championships this year 🙌 - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYlhuXzBLZjZzNmVUVjVjWW1EM2xvVWpDZS1IOWgxc0I0WXZTejZyU1IyTTNFdXp0Z1pYQXZnQzM4QVdvYW1IWHJ6OHZnYXpqaTRaZFJXS1RtdkFMSFFvZ01jeEpraXE4S2JvaURIRzZYYWRBMF9pUWREMjRCcW5DV0JwdHlScTZqcXhNeUtXcUJCanR4ZTRkaVkxdENyOW0wOUtNT24yQTZtUlFnYkktM2dlamlJT1pQQkxhZHZXNzhQVXQ0SkFoQnREMUo0RGtNTUZwYU5oWTVWc3Fs?oc=5",
-      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "snippet": "Duncan Weir reflects on transition into coaching after joining the Scotland U20 coaching staff, along with Henry Pyrgos, ahead of the Junior World Championships this year 🙌 &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"U20\" coach Glasgow",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "📸 GET CREATIVE WITH BSC GLASGOW! We're looking for enthusiastic Social Media Volunteers with a flair for photography, videography and content creation! From football matches and training sessions to dance classes, Men's Shed activities, award cerem - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMlRwaTB4WnJEZUZzQ2NySW5xZ3o5czh3UDhoNTlrNHpGdFpVQ2Z3OG96a0JHRDF0SE5TOWNGeUpESl82Tm5RejFTaXBXU1c2dWxHTlNzYWhsSlUwZUNzQTFSajJDWWVOMW5qRXVPcFRXVy03ZnRqcWNDaGxQVFpZUUNVc3FYM0JNaG1HeFhjRDZsU0dobUpjeW42TWsxa1lMUHZlY1g5bUF4UkVmTzhJNDJkbUt0Qi01UlBzWDRDd3VoQzRheDdlMHcxSkJtVWx2LWxzZmZDOWliOGwzN2c?oc=5",
-      "published": "Fri, 30 Oct 2026 15:01:45 GMT",
-      "snippet": "📸 GET CREATIVE WITH BSC GLASGOW! We're looking for enthusiastic Social Media Volunteers with a flair for photography, videography and content creation! From football matches and training sessions to dance classes, Men's Shed activities, award cerem &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC GLASGOW",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "SAINT ANTHONY’S NEEDS MORE THAN 11 PLAYERS There’s a lot more to running a football club than what happens on the pitch and The Ants are looking for more people to become part of the team behind the team. Whether you can spare a few hours oc - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc29NM3EyRVFaX05JaUI0X3RPOUIyTm1jelFkRlNkck1ySW52Nmg4dFR0NFpiOTJzc2lub1ZtSkc2c3ZPWnpwajEtSVRwWDZoMllGODVuUHU2NjVHdXk5ZnBOXy1HWHRTQ3RzRnlDQzBCWE8ySmZ6MmpocFBpSjQ5V2pNaktWU2lFWHV4b29YR2RtckNMZllRUl9sWkRHcm9HSVlnaXBkZnBnd3Q5TWFwR0l0b2pCc2VfWlZZZ2R2RWxOcm1mLURsM3NiNGlqTlhvTUJKQUZaSG9VeUw4a2c?oc=5",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "snippet": "SAINT ANTHONY’S NEEDS MORE THAN 11 PLAYERS There’s a lot more to running a football club than what happens on the pitch and The Ants are looking for more people to become part of the team behind the team. Whether you can spare a few hours oc &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"St Anthony's FC\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "",
-      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "verification_status": "Explicit coaching/management recruitment wording found — verify original advert and details",
       "discovery_method": "Public indexed search"
     }
   ],
