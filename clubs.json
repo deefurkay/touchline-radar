@@ -23,7 +23,9 @@
       "notes": "Southside youth football coaching provider; possible coaching employer, separate from club teams.",
       "sources": [
         "https://1sttouchfootball.uk/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "2 Hazelden Park, Giffnock, Glasgow G44 3HQ (listed address)"
     },
     {
       "id": "arthurlie-fc",
@@ -43,7 +45,9 @@
       "notes": "Monitor senior men's team and any boys' youth/development coaching. Barrhead is a plausible edge-of-radius location; verify straight-line distance from Shawlands before classifying a role as in scope.",
       "sources": [
         "https://www.scottishjuniorfa.com/scottish-community-fa/clubs/ground-locations/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Dunterlie Park, 42 Carlibar Road, Barrhead G78 1AA"
     },
     {
       "id": "ashfield-fc",
@@ -64,7 +68,9 @@
       "sources": [
         "https://www.ashfieldfootballclub.com/",
         "https://www.ashfieldfootballclub.com/about"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Stepford Football Centre, 1514 Edinburgh Road, Glasgow G33 4EG"
     },
     {
       "id": "benburb-fc",
@@ -85,7 +91,9 @@
       "sources": [
         "https://benburbfootballclub.com/",
         "https://glasgowlife.sportsuite.co.uk/directory/benburb-fc"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "New Tinto Park, 282 Craigton Road, Glasgow G51 4XG"
     },
     {
       "id": "bsc-glasgow",
@@ -93,7 +101,7 @@
       "category": "Senior men's football / boys' youth / academy",
       "homeGround": "Peterson Park, Yoker Mill Road, Glasgow G13 4PF",
       "trainingBase": "Multiple West End venues including Peterson Park; confirm the specific boys' team base",
-      "distanceMiles": null,
+      "distanceMiles": 5.8,
       "locationStatus": "Official club confirms Peterson Park and several training venues; verify specific venue distance",
       "website": "https://www.bscglasgow.co.uk/",
       "social": {
@@ -106,7 +114,10 @@
       "sources": [
         "https://www.bscglasgow.co.uk/",
         "https://www.bscglasgow.co.uk/contact-bsc-glasgow.html"
-      ]
+      ],
+      "distanceStatus": "Within 10 miles",
+      "distanceBasis": "Home ground proxy — team training base not verified",
+      "geocodedVenue": "Peterson Park Post Office, Yoker Mill Road, Old Drumchapel, Yoker, Glasgow, Glasgow City, Alba / Scotland, G13 4PF, United Kingdom"
     },
     {
       "id": "castlemilk-community-fc",
@@ -127,7 +138,9 @@
       "sources": [
         "https://www.castlemilkcommunityfootballclub.com/",
         "https://barlia.co.uk/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Barlia Sports Complex, 60 Glenwood Path, Glasgow G45 9UD"
     },
     {
       "id": "celtic-fc-academy",
@@ -148,7 +161,9 @@
       "sources": [
         "https://www.celticfc.com/academy/boys-academy/academy-faqs/",
         "https://www.celticfc.com/news/2023/september/15/celtic-s-fantastic-new-training-complex-gets-the-green-light/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Barrowfield for U18 / junior groups; other age groups also use Lennoxtown and St Ninian's"
     },
     {
       "id": "finnart-fc",
@@ -169,7 +184,9 @@
       "sources": [
         "https://glasgowlife.sportsuite.co.uk/directory/finnart-football-academy1",
         "https://www.scottishjuniorfa.com/west-region/clubs/finnart-fc/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Glasgow Green Football Centre; Glasgow Life lists this as the academy address"
     },
     {
       "id": "giffnock-sc",
@@ -177,7 +194,7 @@
       "category": "Senior WOSFL / youth",
       "homeGround": "GSC Auldhouse, 180 Thornliebank Road, Thornliebank, Glasgow G46 7RQ",
       "trainingBase": "Eastwood Park, G46 6UG",
-      "distanceMiles": null,
+      "distanceMiles": 2.5,
       "locationStatus": "Club confirms match and training venues; verify exact straight-line distance from Shawlands",
       "website": "https://pages.giffnocksoccercentre.com/home",
       "social": {
@@ -190,7 +207,10 @@
       "sources": [
         "https://pages.giffnocksoccercentre.com/home",
         "https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC053323"
-      ]
+      ],
+      "distanceStatus": "Within 10 miles",
+      "distanceBasis": "Training base",
+      "geocodedVenue": "Eastwood Park, Rouken Glen Road, Mains, Lower Whitecraigs, Thornliebank, East Renfrewshire, Alba / Scotland, G46 7JZ, United Kingdom"
     },
     {
       "id": "glasgow-perthshire-fc",
@@ -198,7 +218,7 @@
       "category": "Senior men's football · WOSFL",
       "homeGround": "Keppoch Park, Ashfield Street, Possilpark, Glasgow G22 5HE",
       "trainingBase": "Keppoch Park is the published ground; regular training base to confirm",
-      "distanceMiles": null,
+      "distanceMiles": 4.1,
       "locationStatus": "Ground address identified in football ground directory; confirm official club details and radius",
       "website": "",
       "social": {
@@ -210,7 +230,10 @@
       "notes": "Monitor senior men's coaching and management opportunities. Verify current operational status and actual team base before treating as in-scope.",
       "sources": [
         "https://www.scottishjuniorfa.com/scottish-community-fa/clubs/ground-locations/"
-      ]
+      ],
+      "distanceStatus": "Within 10 miles",
+      "distanceBasis": "Home ground proxy — team training base not verified",
+      "geocodedVenue": "Keppoch Park, Ashfield Street, Keppochhill, Possilpark, Glasgow, Glasgow City, Alba / Scotland, G22 5SH, United Kingdom"
     },
     {
       "id": "glasgow-united-fc",
@@ -231,7 +254,9 @@
       "sources": [
         "https://greenfieldfootballcentre.co.uk/",
         "https://find-and-update.company-information.service.gov.uk/company/SC711300"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Greenfield Park, 401 Old Shettleston Road, Glasgow G32 7JN"
     },
     {
       "id": "glasgow-dukes",
@@ -251,7 +276,9 @@
       "notes": "Monitor men's amateur first-team coaching and management opportunities. Training and match venues differ, so verify the base attached to any role.",
       "sources": [
         "https://glasgowdukes.co.uk/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Ibrox Training Complex, Thursday evenings; home matches at Greenfield Football Centre"
     },
     {
       "id": "harmony-row-yc",
@@ -271,7 +298,9 @@
       "notes": "Football teams from age five upwards; club also emphasises coach education across age groups. Strong youth coaching employer candidate.",
       "sources": [
         "https://harmonyrowyouthclub.co.uk/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "8 Row Avenue, Govan, Glasgow G51 4SY"
     },
     {
       "id": "hillwood-boys-club",
@@ -292,7 +321,9 @@
       "sources": [
         "https://www.hillwoodfc.co.uk/",
         "https://glasgowlife.sportsuite.co.uk/directory/hillwood-football-club"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Hillwood Park / Hillwood Sports Hub, Pollok, Glasgow G53 6NZ"
     },
     {
       "id": "little-dynamos",
@@ -312,7 +343,9 @@
       "notes": "Volunteer-led boys' football academy with stated local coaching/volunteering opportunities. Monitor coaching recruitment; boys' provision only.",
       "sources": [
         "https://glasgowlife.sportsuite.co.uk/directory/little-dynamos-football"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Barlia Football Complex, Castlemilk"
     },
     {
       "id": "maryhill-fc",
@@ -333,7 +366,9 @@
       "sources": [
         "https://www.beithjuniors.com/location/1067/27",
         "https://www.scottishjuniorfa.com/scottish-community-fa/clubs/ground-locations/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Lochburn Park, 18 Lochburn Road, Glasgow G20 9AQ"
     },
     {
       "id": "muirend-afc",
@@ -353,7 +388,9 @@
       "notes": "Monitor adult men's and U21 coaching opportunities. Current listing is third-party and should be reconfirmed with the club.",
       "sources": [
         "https://www.playerwanted.co.uk/team/www-clubwebsite-co-uk-muirendafc"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Bogton Playing Fields, Glasgow G44 3HQ"
     },
     {
       "id": "park-villa-bc",
@@ -374,7 +411,9 @@
       "sources": [
         "https://glasgowlife.sportsuite.co.uk/directory/park-villa-football-development",
         "https://parkvilla.weebly.com/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Park Villa Community Sports Hub and partner venues; check squad-specific timetable"
     },
     {
       "id": "partick-thistle-academy",
@@ -396,7 +435,9 @@
         "https://www.ptfc.co.uk/contact-us/",
         "https://www.ptfc.co.uk/team/modern-apprentices/",
         "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "The WrightKerr Stadium at Firhill, 80 Firhill Road, Glasgow G20 7AL"
     },
     {
       "id": "petershill-fc",
@@ -417,7 +458,9 @@
       "sources": [
         "https://petershillfc.co.uk/page20.html",
         "https://www.scottishjuniorfa.com/scottish-community-fa/clubs/ground-locations/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Petershill Park, 28–30 Adamswell Street, Glasgow G21 4DD"
     },
     {
       "id": "pollok-fc",
@@ -438,7 +481,9 @@
       "sources": [
         "https://www.pollokfc.com/newlandsfield/",
         "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Newlandsfield Park, Newlandsfield Road, Shawlands, Glasgow G43 2XR"
     },
     {
       "id": "pollok-united",
@@ -459,7 +504,9 @@
       "sources": [
         "https://pollokunited.org.uk/",
         "https://glasgowlife.sportsuite.co.uk/directory/pollok-united-scio"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Nethercraigs Sports Complex, 355 Corkerhill Road, Glasgow G52 1RR"
     },
     {
       "id": "pro-football-academy-glasgow-south",
@@ -479,7 +526,9 @@
       "notes": "Coaching programme for ages 5–14. Professional coaching employer, not a club or professional academy.",
       "sources": [
         "https://profootballacademy.com/uk/locations/glasgow-south/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Goals Glasgow South"
     },
     {
       "id": "queens-park-academy",
@@ -501,7 +550,9 @@
         "https://queensparkfc.co.uk/academy/",
         "https://queensparkfc.co.uk/working-together-with-queens-park-fc/",
         "https://www.scottishfa.co.uk/en/news/club-academy-scotland-cas-leagues-get-underway-for-2026-2027-season/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "City Stadium / Lesser Hampden, Letherby Drive, Glasgow G42 9BA"
     },
     {
       "id": "renfrew-fc",
@@ -522,7 +573,9 @@
       "sources": [
         "https://www.renfrewfc.co.uk/renfrew-fc",
         "https://www.renfrewfc.co.uk/home"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "New Western Park, 1 Argyll Avenue, Renfrew PA4 9EF"
     },
     {
       "id": "rossvale-fc",
@@ -543,7 +596,9 @@
       "sources": [
         "https://rossvalefcacademy.co.uk/work-with-us/",
         "https://www.scottishjuniorfa.com/scottish-community-fa/clubs/ground-locations/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Petershill Park, 28–30 Adamswell Street, Glasgow G21 4DD"
     },
     {
       "id": "rutherglen-glencairn",
@@ -564,7 +619,9 @@
       "sources": [
         "https://www.rutherglenglencairn.com/contact/1016",
         "https://www.rutherglenglencairn.com/downloads/rgfc/5.3---Contingency-plan%281%29.pdf"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Hamish B. Allan Stadium, 69 Toryglen Road, Rutherglen G73 1HZ"
     },
     {
       "id": "st-anthonys-fc",
@@ -584,7 +641,9 @@
       "notes": "Senior first team and youth pathway. Official club website confirms the managerial departure announced on 3 November 2026. Treat this as a first-team manager vacancy lead; separately verify application instructions, closing date and the team's regular training base.",
       "sources": [
         "https://www.theants.co.uk/ants-part-ways-with-mccolgan/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "McKenna Park, 2 Fulbar Road, Glasgow"
     },
     {
       "id": "st-cadocs-yc",
@@ -604,7 +663,9 @@
       "notes": "Official club site confirms U20s and a senior team. Include senior vacancies at any league level and all youth, reserve and development coaching opportunities, subject to the actual team base being within 10 miles.",
       "sources": [
         "https://www.stcadocs.co.uk/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "The Pitches, 137 Shawbridge Street, Pollokshaws, Glasgow G43 1QQ (listed venue)"
     },
     {
       "id": "st-mirren-academy",
@@ -626,7 +687,9 @@
         "https://www.stmirren.com/teams/academy-staff",
         "https://www.stmirren.com/club/about",
         "https://thescottishfootballpartnership.com/new-3g-surface-at-st-mirren-f-c-s-training-ground/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "Ralston training base, Paisley"
     },
     {
       "id": "st-mirren-youth-fc",
@@ -647,7 +710,9 @@
       "sources": [
         "https://stmirrenyfc.org/meet-the-teams/",
         "https://stmirrenyfc.org/about-the-club/"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "The Tyres, India Tyres Playing Fields, Inchinnan, Renfrewshire"
     },
     {
       "id": "stamperland-fc",
@@ -667,7 +732,9 @@
       "notes": "Monitor boys age-group coaching roles only, where the actual base qualifies.",
       "sources": [
         "https://www.stamperlandfc.co.uk/about"
-      ]
+      ],
+      "distanceStatus": "Unverified — exact team venue needed",
+      "distanceBasis": "No sufficiently precise venue supplied"
     },
     {
       "id": "w-academy",
@@ -688,7 +755,9 @@
       "sources": [
         "https://praxis-performance.classforkids.io/venue/2/the-w-academy-pollok-park",
         "https://praxis-performance.classforkids.io/venue/5/praxis-performance-hub-at-the-w-academy"
-      ]
+      ],
+      "distanceStatus": "Unverified — venue could not be geocoded",
+      "distanceBasis": "The W Academy, Pollok Country Park"
     },
     {
       "id": "vale-of-clyde-fc",
@@ -696,7 +765,7 @@
       "category": "Senior men's football · WOSFL",
       "homeGround": "Fullarton Park, Easterhill Street, Tollcross, Glasgow",
       "trainingBase": "Fullarton Park is the published home ground; training base to confirm",
-      "distanceMiles": null,
+      "distanceMiles": 4.4,
       "locationStatus": "Ground location identified; verify address, training base and radius",
       "website": "",
       "social": {
@@ -708,9 +777,19 @@
       "notes": "Monitor senior men's coaching and management opportunities. Verify actual base against the Shawlands radius.",
       "sources": [
         "https://scottishfootballhistory.scot/places/glasgow/"
-      ]
+      ],
+      "distanceStatus": "Within 10 miles",
+      "distanceBasis": "Home ground proxy — team training base not verified",
+      "geocodedVenue": "Fullarton Park, Easterhill Street, Auchenshuggle, Braidfauld, Tollcross, Glasgow, Glasgow City, Alba / Scotland, G32 8LN, United Kingdom"
     }
   ],
   "reference_policy": "Only list links that directly relate to the named club or academy. Generic league pages and unrelated club directories are not club references. If no direct source has been verified, leave sources empty and mark the entry provisional.",
-  "discovery_policy": "Daily workflow scans public grassroots club directories and league membership listings for new men's and boys' football organisations. New names are added to a separate candidate queue for location and scope screening; only organisations with a relevant team and home/training base verified within 10 miles of Shawlands are promoted to this directory. Women's and girls' football excluded."
+  "discovery_policy": "Daily workflow scans public grassroots club directories and league membership listings for new men's and boys' football organisations. New names are added to a separate candidate queue for location and scope screening; only organisations with a relevant team and home/training base verified within 10 miles of Shawlands are promoted to this directory. Women's and girls' football excluded.",
+  "distance_check": {
+    "centre": "Shawlands Cross, Glasgow",
+    "radius_miles": 10.0,
+    "method": "Straight-line distance from Shawlands Cross to the geocoded training venue; home ground is used only as a clearly labelled proxy where no precise training venue is recorded.",
+    "checked_at": "2026-11-04T00:52:23.671057+00:00",
+    "provider": "OpenStreetMap Nominatim"
+  }
 }

@@ -1,13 +1,59 @@
 {
-  "checked_at": null,
+  "checked_at": "2026-11-04T00:51:30.621358+00:00",
   "sources": [
     "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
-    "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league"
+    "https://www.juniorgrassrootshub.com/football-in-glasgow",
+    "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+    "https://www.juniorgrassrootshub.com/football-in-renfrewshire",
+    "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+    "https://csfa.football/club-directory/"
   ],
-  "candidate_count": 25,
-  "new_candidates_this_run": 0,
-  "note": "Expanded screening list from Glasgow and Renfrewshire club/academy directories plus CSFA. These are leads only: exclude girls'/women's teams, verify men's/boys' role relevance and geocode the actual training base before promoting to the in-radius directory.",
+  "candidate_count": 154,
+  "new_candidates_this_run": 129,
+  "note": "These are screening leads, not confirmed in-radius organisations. Verify team gender/level and actual venue before promoting to clubs.json.",
   "candidates": [
+    {
+      "name": "7 Clubs",
+      "source_url": "https://www.juniorgrassrootshub.com#clubs",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620897+00:00"
+    },
+    {
+      "name": "Antonine Academy",
+      "source_url": "https://csfa.football/clubprofile/84216",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620951+00:00"
+    },
+    {
+      "name": "Armadale CFC",
+      "source_url": "https://csfa.football/clubprofile/88252",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620953+00:00"
+    },
+    {
+      "name": "Baljaffray FC",
+      "source_url": "https://csfa.football/clubprofile/84219",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620955+00:00"
+    },
+    {
+      "name": "Bannockburn AFC",
+      "source_url": "https://csfa.football/clubprofile/84221",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620956+00:00"
+    },
+    {
+      "name": "Benburb FC Glasgow City U13 U15 U16",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/benburb-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620836+00:00"
+    },
     {
       "name": "Bishopton FC",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
@@ -16,11 +62,277 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Bishopton FC Renfrewshire U13 U14 U17",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/bishopton-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620911+00:00"
+    },
+    {
+      "name": "Bishopton FC U13 U14 U17",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/bishopton-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620941+00:00"
+    },
+    {
+      "name": "Blantyre Boys Club",
+      "source_url": "https://csfa.football/clubprofile/91622",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620958+00:00"
+    },
+    {
+      "name": "Blantyre Celtic YFC",
+      "source_url": "https://csfa.football/clubprofile/91556",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620960+00:00"
+    },
+    {
+      "name": "Boness Utd CFC",
+      "source_url": "https://csfa.football/clubprofile/84225",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620962+00:00"
+    },
+    {
+      "name": "Bonnybridge YFC",
+      "source_url": "https://csfa.football/clubprofile/84226",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620963+00:00"
+    },
+    {
+      "name": "Braehead FC",
+      "source_url": "https://csfa.football/clubprofile/84227",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620965+00:00"
+    },
+    {
+      "name": "Braes FC",
+      "source_url": "https://csfa.football/clubprofile/93382",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620966+00:00"
+    },
+    {
       "name": "Bridge of Weir United",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Burnbank FC",
+      "source_url": "https://csfa.football/clubprofile/84229",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620968+00:00"
+    },
+    {
+      "name": "Calderbraes FC",
+      "source_url": "https://csfa.football/clubprofile/84231",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620970+00:00"
+    },
+    {
+      "name": "Caledonia FC",
+      "source_url": "https://csfa.football/clubprofile/90780",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620971+00:00"
+    },
+    {
+      "name": "Callander Thistle YFC",
+      "source_url": "https://csfa.football/clubprofile/84233",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620973+00:00"
+    },
+    {
+      "name": "Cambuslang FC",
+      "source_url": "https://csfa.football/clubprofile/91557",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620974+00:00"
+    },
+    {
+      "name": "Cambuslang Rangers FC",
+      "source_url": "https://csfa.football/clubprofile/85014",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620976+00:00"
+    },
+    {
+      "name": "Camelon Juniors FC",
+      "source_url": "https://csfa.football/clubprofile/84235",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620978+00:00"
+    },
+    {
+      "name": "Carbrain FC",
+      "source_url": "https://csfa.football/clubprofile/84237",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620980+00:00"
+    },
+    {
+      "name": "Castlemilk Community FC Glasgow City U16 U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/castlemilk-community-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620840+00:00"
+    },
+    {
+      "name": "Central FC",
+      "source_url": "https://csfa.football/clubprofile/91623",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620982+00:00"
+    },
+    {
+      "name": "Clackmannan CFC",
+      "source_url": "https://csfa.football/clubprofile/84776",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620983+00:00"
+    },
+    {
+      "name": "Claremont AFC",
+      "source_url": "https://csfa.football/clubprofile/84241",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620985+00:00"
+    },
+    {
+      "name": "CLUB DIRECTORY",
+      "source_url": "https://csfa.football/club-directory/",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620950+00:00"
+    },
+    {
+      "name": "Clubs",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620817+00:00"
+    },
+    {
+      "name": "Clubs in Renfrewshire",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620948+00:00"
+    },
+    {
+      "name": "Clyde Apollo FC Glasgow City U13",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/clyde-apollo-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620844+00:00"
+    },
+    {
+      "name": "Clyde FC Comm",
+      "source_url": "https://csfa.football/clubprofile/84245",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620987+00:00"
+    },
+    {
+      "name": "CM Charlie Miller Football Academy Glasgow City U14",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/charlie-miller-football-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620842+00:00"
+    },
+    {
+      "name": "Coasters FC",
+      "source_url": "https://csfa.football/clubprofile/88260",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620988+00:00"
+    },
+    {
+      "name": "Coatbridge Rovers FC",
+      "source_url": "https://csfa.football/clubprofile/84246",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620990+00:00"
+    },
+    {
+      "name": "Condorrat FC",
+      "source_url": "https://csfa.football/clubprofile/84247",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620991+00:00"
+    },
+    {
+      "name": "CS Central Scotland Football Association",
+      "source_url": "https://www.juniorgrassrootshub.com/leagues/central-scotland-football-association",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620906+00:00"
+    },
+    {
+      "name": "Dollar Glen FC",
+      "source_url": "https://csfa.football/clubprofile/88258",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620993+00:00"
+    },
+    {
+      "name": "Dunbeth FC",
+      "source_url": "https://csfa.football/clubprofile/84253",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620995+00:00"
+    },
+    {
+      "name": "Dunipace FC",
+      "source_url": "https://csfa.football/clubprofile/84255",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620996+00:00"
+    },
+    {
+      "name": "Eagles FC",
+      "source_url": "https://csfa.football/clubprofile/91553",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621000+00:00"
+    },
+    {
+      "name": "East Kilbride FC",
+      "source_url": "https://csfa.football/clubprofile/84258",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621001+00:00"
+    },
+    {
+      "name": "East Kilbride YC",
+      "source_url": "https://csfa.football/clubprofile/84503",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621003+00:00"
+    },
+    {
+      "name": "Eddlewood FC",
+      "source_url": "https://csfa.football/clubprofile/84262",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621005+00:00"
+    },
+    {
+      "name": "EDFC",
+      "source_url": "https://csfa.football/clubprofile/84257",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620998+00:00"
     },
     {
       "name": "EE East End BC",
@@ -37,6 +349,20 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Erskine Youth FC Renfrewshire U15 U17 U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/erskine-youth-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620912+00:00"
+    },
+    {
+      "name": "Erskine Youth FC U15 U17 U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/erskine-youth-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620943+00:00"
+    },
+    {
       "name": "Evro Youth Academy",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
@@ -44,11 +370,102 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Evro Youth Academy Renfrewshire U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/evro-youth-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620914+00:00"
+    },
+    {
+      "name": "Evro Youth Academy U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/evro-youth-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620945+00:00"
+    },
+    {
+      "name": "Falkirk FCF",
+      "source_url": "https://csfa.football/clubprofile/84263",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621009+00:00"
+    },
+    {
+      "name": "Falkirk Soccer Academy",
+      "source_url": "https://csfa.football/clubprofile/88251",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621010+00:00"
+    },
+    {
+      "name": "Finnart FC",
+      "source_url": "https://csfa.football/clubprofile/88254",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621012+00:00"
+    },
+    {
+      "name": "Football Associations",
+      "source_url": "https://www.juniorgrassrootshub.com/football-associations",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620896+00:00"
+    },
+    {
+      "name": "For new committee volunteers How to start a grassroots football club in the UK",
+      "source_url": "https://www.juniorgrassrootshub.com/guides/start-a-grassroots-football-club",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620882+00:00"
+    },
+    {
+      "name": "For parents How to find the right football club for your child",
+      "source_url": "https://www.juniorgrassrootshub.com/guides/finding-a-club-for-your-child",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620884+00:00"
+    },
+    {
+      "name": "For parents Junior football kit guide: what your child actually needs",
+      "source_url": "https://www.juniorgrassrootshub.com/guides/junior-football-kit-guide",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620886+00:00"
+    },
+    {
+      "name": "For volunteer coaches How to plan a junior football training session",
+      "source_url": "https://www.juniorgrassrootshub.com/guides/plan-junior-training-session",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620888+00:00"
+    },
+    {
+      "name": "Forth Valley FC",
+      "source_url": "https://csfa.football/clubprofile/93384",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621013+00:00"
+    },
+    {
       "name": "FS Ferguslie Star",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "GA Glasgow Argyle Football Academy Glasgow City",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/glasgow-argyle-football-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620854+00:00"
+    },
+    {
+      "name": "Glasgow and District Youth Football League",
+      "source_url": "https://www.juniorgrassrootshub.com/leagues/glasgow-and-district-youth-football-league",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620902+00:00"
     },
     {
       "name": "Glasgow Argyle Football Academy",
@@ -65,11 +482,32 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Glasgow Athletic FC Glasgow City U16",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/glasgow-athletic-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620856+00:00"
+    },
+    {
+      "name": "Glasgow City Football",
+      "source_url": "https://www.juniorgrassrootshub.com/glasgow-city-football",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620899+00:00"
+    },
+    {
       "name": "Glasgow South FC",
       "source_url": "https://www.juniorgrassrootshub.com/football-in-glasgow",
       "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Glasgow Vale FC",
+      "source_url": "https://csfa.football/clubprofile/90760",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621015+00:00"
     },
     {
       "name": "Gleniffer Thistle",
@@ -86,11 +524,109 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Glenvale FC Renfrewshire U14 U15 U16 + 1",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/glenvale",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620915+00:00"
+    },
+    {
+      "name": "Grahamston FC",
+      "source_url": "https://csfa.football/clubprofile/84268",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621017+00:00"
+    },
+    {
+      "name": "Grangemouth YFC",
+      "source_url": "https://csfa.football/clubprofile/93386",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621019+00:00"
+    },
+    {
+      "name": "grassroots club in Renfrewshire",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620938+00:00"
+    },
+    {
+      "name": "Grassroots Football Guides",
+      "source_url": "https://www.juniorgrassrootshub.com/guides",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620894+00:00"
+    },
+    {
+      "name": "GS Glasgow South FC Glasgow City U12",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/glasgow-south-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620858+00:00"
+    },
+    {
+      "name": "Hampden FC",
+      "source_url": "https://csfa.football/clubprofile/91561",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621020+00:00"
+    },
+    {
+      "name": "Harmony Row YC Glasgow City U13 U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/harmony-row-yc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620862+00:00"
+    },
+    {
+      "name": "Helix Thistle FC",
+      "source_url": "https://csfa.football/clubprofile/92929",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621022+00:00"
+    },
+    {
+      "name": "HF Hampden Football Club Glasgow City",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/hampden-football-club",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620860+00:00"
+    },
+    {
+      "name": "Hillwood FC Renfrewshire U16",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/hillwood-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620917+00:00"
+    },
+    {
       "name": "Houston United FC",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Houston United FC Renfrewshire U13 U15 U17",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/houston-united-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620919+00:00"
+    },
+    {
+      "name": "Illustrative image Performance St Mirren Youth Academy St Mirren FC Paisley, Renfrewshire Men’s Scottish Premiership",
+      "source_url": "https://www.juniorgrassrootshub.com/academies/st-mirren-youth-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620940+00:00"
+    },
+    {
+      "name": "Jimmy Johnstone Academy Glasgow City U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/jimmy-johnstone-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620864+00:00"
     },
     {
       "name": "Johnstone Burgh FC",
@@ -100,11 +636,137 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Knightswood Football Club Glasgow City U14 U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/knightswood-football-club",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620866+00:00"
+    },
+    {
+      "name": "KR Knightswood Red Star FC Glasgow City U16",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/knightswood-red-star-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620867+00:00"
+    },
+    {
+      "name": "Larbert FC",
+      "source_url": "https://csfa.football/clubprofile/84280",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621023+00:00"
+    },
+    {
+      "name": "Lenzie YC",
+      "source_url": "https://csfa.football/clubprofile/84282",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621025+00:00"
+    },
+    {
+      "name": "Linlithgow Rose CFC",
+      "source_url": "https://csfa.football/clubprofile/88242",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621027+00:00"
+    },
+    {
       "name": "Linwood Rangers YC",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Linwood Rangers YC Renfrewshire U13 U14",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/linwood-rangers-yc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620921+00:00"
+    },
+    {
+      "name": "Livingston FCC",
+      "source_url": "https://csfa.football/clubprofile/88253",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621028+00:00"
+    },
+    {
+      "name": "Maryhill FC Glasgow City",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/maryhill-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620869+00:00"
+    },
+    {
+      "name": "Milan FC",
+      "source_url": "https://csfa.football/clubprofile/84287",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621030+00:00"
+    },
+    {
+      "name": "Milngavie FC",
+      "source_url": "https://csfa.football/clubprofile/84288",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621031+00:00"
+    },
+    {
+      "name": "Milton FC",
+      "source_url": "https://csfa.football/clubprofile/84289",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621033+00:00"
+    },
+    {
+      "name": "Moorlands FC",
+      "source_url": "https://csfa.football/clubprofile/84290",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621035+00:00"
+    },
+    {
+      "name": "Motherwell FC CT",
+      "source_url": "https://csfa.football/clubprofile/84291",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621037+00:00"
+    },
+    {
+      "name": "Newmains Utd FC",
+      "source_url": "https://csfa.football/clubprofile/84293",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621038+00:00"
+    },
+    {
+      "name": "North Motherwell FC",
+      "source_url": "https://csfa.football/clubprofile/84294",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621040+00:00"
+    },
+    {
+      "name": "Old Monkland FC",
+      "source_url": "https://csfa.football/clubprofile/84777",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621041+00:00"
+    },
+    {
+      "name": "On The Ball Academy Glasgow City U13 U14",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/on-the-ball-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620871+00:00"
+    },
+    {
+      "name": "Paisley Johnstone and District Youth Football League",
+      "source_url": "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620904+00:00"
     },
     {
       "name": "Paisley North FC",
@@ -128,11 +790,116 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "Parkmoor FC Renfrewshire U13 U14 U16 + 1",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/parkmoor-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620925+00:00"
+    },
+    {
+      "name": "Petershill FC. Artificial grass (3G) Directions →",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=55.8777405,-4.2297611",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620909+00:00"
+    },
+    {
+      "name": "Plean FC",
+      "source_url": "https://csfa.football/clubprofile/93385",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621043+00:00"
+    },
+    {
+      "name": "PN Paisley North FC Renfrewshire U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/paisley-north-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620923+00:00"
+    },
+    {
+      "name": "Queen's Park FCF Glasgow City U13 U14 U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/queen-s-park-fcf",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620873+00:00"
+    },
+    {
+      "name": "Regional hub Part of grassroots football in Glasgow City",
+      "source_url": "https://www.juniorgrassrootshub.com/glasgow-city-football",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620889+00:00"
+    },
+    {
+      "name": "Regional hub Part of grassroots football in Renfrewshire",
+      "source_url": "https://www.juniorgrassrootshub.com/renfrewshire-football",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620936+00:00"
+    },
+    {
+      "name": "Register a Club",
+      "source_url": "https://www.juniorgrassrootshub.com/join/club",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620892+00:00"
+    },
+    {
+      "name": "Register your club — free",
+      "source_url": "https://www.juniorgrassrootshub.com/join/club",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620891+00:00"
+    },
+    {
+      "name": "Renfrew Football Club Renfrewshire U14 U15 U18",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/renfrew-football-club",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620926+00:00"
+    },
+    {
       "name": "Renfrew Victoria YFC",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Renfrew Victoria YFC Renfrewshire U14",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/renfrew-victoria-yfc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620928+00:00"
+    },
+    {
+      "name": "Riverside FC",
+      "source_url": "https://csfa.football/clubprofile/84295",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621044+00:00"
+    },
+    {
+      "name": "Sauchie Amateurs FC",
+      "source_url": "https://csfa.football/clubprofile/84298",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621046+00:00"
+    },
+    {
+      "name": "Sauchie Juniors FC",
+      "source_url": "https://csfa.football/clubprofile/84299",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621048+00:00"
+    },
+    {
+      "name": "Scottish Youth Football",
+      "source_url": "https://www.juniorgrassrootshub.com/leagues/scottish-youth-football",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620907+00:00"
     },
     {
       "name": "Scoutable United",
@@ -142,11 +909,32 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "See all grassroots football in Glasgow City",
+      "source_url": "https://www.juniorgrassrootshub.com/glasgow-city-football",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620901+00:00"
+    },
+    {
+      "name": "Seven Lochs FC",
+      "source_url": "https://csfa.football/clubprofile/93383",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621049+00:00"
+    },
+    {
       "name": "St Convals FC",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "St Mirren Youth FC Renfrewshire U14",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/st-mirren-youth-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620930+00:00"
     },
     {
       "name": "St Peters FC",
@@ -156,11 +944,95 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "St Peters FC Renfrewshire U13 U14",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/st-peters",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620931+00:00"
+    },
+    {
+      "name": "St. Patrick's Sports Academy",
+      "source_url": "https://csfa.football/clubprofile/84302",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621051+00:00"
+    },
+    {
+      "name": "Stenhousemuir FC Comm",
+      "source_url": "https://csfa.football/clubprofile/84305",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621053+00:00"
+    },
+    {
+      "name": "Step by Step Academy",
+      "source_url": "https://csfa.football/clubprofile/88256",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621055+00:00"
+    },
+    {
+      "name": "Strathaven Dynamo FC",
+      "source_url": "https://csfa.football/clubprofile/84307",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621056+00:00"
+    },
+    {
+      "name": "Strathendrick FC",
+      "source_url": "https://csfa.football/clubprofile/84308",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621058+00:00"
+    },
+    {
+      "name": "Summerston YFC",
+      "source_url": "https://csfa.football/clubprofile/91563",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621059+00:00"
+    },
+    {
+      "name": "Summerston YFC Glasgow City U13 U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/summerston-yfc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620875+00:00"
+    },
+    {
+      "name": "Third Lanark AFC Glasgow City U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/third-lanark-afc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620877+00:00"
+    },
+    {
       "name": "Thorn Athletic",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Thorniewood Utd FC",
+      "source_url": "https://csfa.football/clubprofile/88244",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621061+00:00"
+    },
+    {
+      "name": "Torrance FC",
+      "source_url": "https://csfa.football/clubprofile/84311",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621063+00:00"
+    },
+    {
+      "name": "UF United Football Academy Glasgow City U17",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/united-football-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620879+00:00"
     },
     {
       "name": "Union Thistle FC",
@@ -177,11 +1049,46 @@
       "discovered_at": "2026-11-04T00:00:00Z"
     },
     {
+      "name": "United Juniors Paisley FC Renfrewshire U15",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/united-juniors-paisley-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620934+00:00"
+    },
+    {
+      "name": "UT Union Thistle FC Renfrewshire U17",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/union-thistle-fc",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620933+00:00"
+    },
+    {
+      "name": "View all clubs in Renfrewshire",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620946+00:00"
+    },
+    {
+      "name": "W Academy Glasgow City U15 U16",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/w-academy",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.620880+00:00"
+    },
+    {
       "name": "West End BC",
       "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
       "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
       "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Whitburn FC",
+      "source_url": "https://csfa.football/clubprofile/91567",
+      "discovered_from": "https://csfa.football/club-directory/",
+      "status": "New candidate — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:51:30.621064+00:00"
     }
   ]
 }
