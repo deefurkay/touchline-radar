@@ -3,7 +3,7 @@
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
   "policy": "Search within 10 miles of Shawlands based on the actual home ground or regular training base of the specific team. Do not infer a team's base from a club's postal address or unrelated venue. Keep unknown distances provisional. Include senior men's teams at ALL league levels, with no WOSFL division restriction; U18/U20/U21/reserve/development teams; professional academies; grassroots youth clubs; and relevant local private football coaching employers. Treat social handles as verified only where linked by official club or trusted local authority directory.",
-  "last_reviewed": "2026-11-03",
+  "last_reviewed": "2026-11-04",
   "clubs": [
     {
       "id": "pollok-fc",
@@ -34,15 +34,17 @@
       "trainingBase": "To confirm",
       "distanceMiles": null,
       "locationStatus": "Home ground address identified; calculate distance and confirm training base",
-      "website": "",
+      "website": "https://www.theants.co.uk/",
       "social": {
         "facebook": "https://www.facebook.com/SaintAnthonysFC/",
         "instagram": "",
         "x": "https://x.com/SaintAnthonysFC",
         "verification": "Handles listed by Glasgow Life."
       },
-      "notes": "Senior team and youth pathway; current WOSFL division and age-group structure should be checked each season. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
-      "sources": []
+      "notes": "Senior first team and youth pathway. Official club website confirms the managerial departure announced on 3 November 2026. Treat this as a first-team manager vacancy lead; separately verify application instructions, closing date and the team's regular training base.",
+      "sources": [
+        "https://www.theants.co.uk/ants-part-ways-with-mccolgan/"
+      ]
     },
     {
       "id": "st-cadocs-yc",
@@ -294,7 +296,7 @@
       "trainingBase": "Three facilities in Corkerhill; confirm team-specific pitch",
       "distanceMiles": null,
       "locationStatus": "Address confirmed in Corkerhill; exact team bases and radius still to measure",
-      "website": "https://www.pollokunited.org.uk/",
+      "website": "https://pollokunited.org.uk/",
       "social": {
         "facebook": "https://www.facebook.com/PollokUnited",
         "instagram": "https://www.instagram.com/pollokunited/",
@@ -303,7 +305,7 @@
       },
       "notes": "18 teams across age groups and abilities; explicitly welcomes people interested in coaching. Corkerhill base. Strong target for coaching opportunities.",
       "sources": [
-        "https://www.pollokunited.org.uk/",
+        "https://pollokunited.org.uk/",
         "https://glasgowlife.sportsuite.co.uk/directory/pollok-united-scio"
       ]
     },
@@ -312,7 +314,7 @@
       "name": "Stamperland FC",
       "category": "Grassroots / youth / girls",
       "homeGround": "East Renfrewshire / South Glasgow (multiple venues)",
-      "trainingBase": "Muirend / Clarkston area; squad-specific bases to confirm",
+      "trainingBase": "South Glasgow (Muirend / Clarkston); 2010s train Mondays and Wednesdays; exact pitch not stated",
       "distanceMiles": null,
       "locationStatus": "Likely relevant Southside candidate; verify exact squad venue within 10 miles",
       "website": "https://www.stamperlandfc.co.uk/",
