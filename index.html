@@ -40,8 +40,63 @@ section h2{font-size:18px;margin:22px 0 9px}.actions a.source{display:inline-fle
 dialog{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:15px;width:min(600px,calc(100% - 24px));padding:20px}dialog::backdrop{background:#020813cc}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.field{display:grid;gap:5px}.field label{font-size:12px;color:var(--muted)}.field input,.field select,.field textarea{width:100%}.full{grid-column:1/-1}.form-actions{display:flex;justify-content:end;gap:8px;margin-top:15px}
 footer{text-align:center;color:var(--muted);font-size:12px;padding:18px;border-top:1px solid var(--line)}
 @media(max-width:650px){.hero{align-items:start;flex-direction:column}.stats{grid-template-columns:repeat(2,1fr)}.formgrid{grid-template-columns:1fr}.full{grid-column:auto}}
+
+/* FM-inspired charcoal dashboard skin */
+:root{color-scheme:dark;--bg:#111719;--panel:#1b2224;--line:#394447;--muted:#aab5b6;--text:#edf1ef;--lime:#e4bd32;--blue:#75c8ef;--green:#176d43}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:linear-gradient(135deg,#172226,#101517 55%,#141b1e);font:14px/1.42 Arial,Helvetica,sans-serif;color:var(--text);padding-left:178px}
+header{height:64px;padding:0 22px;display:flex;align-items:center;background:#171e20;border-bottom:1px solid #465052;box-shadow:0 3px 14px #0007}
+.brand{gap:13px}.mark{border-radius:3px;background:#26383c;color:#e7c33f;border:1px solid #526166;width:42px;height:42px}
+h1{font-size:21px;letter-spacing:-.4px}header p{font-size:12px;margin:1px 0}
+main{max-width:none;margin:0;padding:18px 20px 40px}
+body:before{content:"TOUCHLINE  /  RADAR";position:fixed;z-index:8;left:0;top:0;width:178px;height:63px;display:flex;align-items:center;justify-content:center;background:#1c292d;border-right:1px solid #3b484b;border-bottom:1px solid #465052;color:#e4bd32;font-weight:800;letter-spacing:1.3px;font-size:14px}
+body:after{content:"";position:fixed;z-index:7;left:0;top:64px;bottom:0;width:177px;background:linear-gradient(180deg,#20292b,#151c1e);border-right:1px solid #394447;pointer-events:none}
+#fmNav{position:fixed;z-index:9;left:0;top:64px;width:178px;padding:13px 0;display:flex;flex-direction:column;gap:2px}
+#fmNav a{color:#dce3e1;text-decoration:none;padding:12px 18px;border-left:3px solid transparent;font-size:13px}
+#fmNav a:hover,#fmNav a.active{background:#303a3c;border-left-color:#e4bd32;color:#fff}
+#fmTopNav{display:flex;gap:0;margin-left:34px;height:100%;align-items:stretch}
+#fmTopNav a{padding:0 15px;display:flex;align-items:center;color:#d5dddd;text-decoration:none;border-bottom:3px solid transparent;font-size:13px}
+#fmTopNav a:hover{background:#242e30;border-bottom-color:#e4bd32}
+.hero{display:none}
+.radar-section{display:grid;grid-template-columns:minmax(300px,.78fr) minmax(440px,1.45fr);grid-template-rows:auto auto auto 1fr;gap:0 14px;margin:0}
+.radar-section>.section-head{grid-column:1/-1;align-items:center;border-bottom:1px solid #495456;padding:0 4px 13px;margin-bottom:12px}
+.radar-section>.section-head h2{font-size:26px;margin:0;letter-spacing:-.5px}
+.radar-section>.section-head .eyebrow{display:none}
+.radar-section>.section-head .muted{font-size:12px;margin-top:3px}
+.radar-section>.section-head .actions{margin:0}
+.radar-section>.section-head .actions button{border-radius:3px;background:#176b43;color:#fff;border:1px solid #3b9364;padding:10px 15px}
+.radar-section>.section-head .actions #runSearchBtn{background:#303b3e;border-color:#596669}
+.feed-summary{grid-column:1/-1;margin:0 0 9px;gap:7px}
+.feed-pill{background:#202a2d;border:1px solid #3b484b;border-radius:3px;color:#d8e0dd;padding:6px 10px}
+#feedCoverage{grid-column:1/-1;margin:0 0 10px;font-size:11px}
+#discovered{grid-column:1/-1;display:grid;grid-template-columns:minmax(300px,.78fr) minmax(440px,1.45fr);gap:12px;align-items:stretch}
+.lead-list{display:grid;gap:7px;align-content:start;max-height:540px;overflow:auto;padding-right:3px}
+.lead-row{display:block;width:100%;text-align:left;background:#222b2d;border:1px solid #414c4e;border-radius:3px;color:var(--text);padding:12px;cursor:pointer}
+.lead-row.selected{background:linear-gradient(90deg,#54451c,#30302a);border:1px solid #d5ae28;box-shadow:inset 3px 0 #e4bd32}
+.lead-row h3{font-size:14px;margin:0 0 5px}.lead-row .meta{font-size:11px}
+.lead-detail{background:#20282a;border:1px solid #465154;border-radius:4px;padding:18px;min-height:250px}
+.lead-detail h3{font-size:21px;margin:0 0 5px}.lead-detail .desc{font-size:13px;line-height:1.55}
+.lead-detail .detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
+.lead-detail .detail-actions a{background:#e4bd32;color:#171b1c;padding:9px 14px;border-radius:3px;font-weight:700;text-decoration:none}
+.lead-detail .detail-actions button{background:#303a3c;color:#fff;border:1px solid #4b575a;border-radius:3px}
+.tag{border-radius:3px}.tag.new{color:#dff7e8;border-color:#31845a;background:#17472f}
+.stat,.card,.notice,.panel,.club-card{background:#20292b;border:1px solid #3b484b;border-radius:4px}
+.stats{gap:7px}.stat{padding:9px 12px}.stat b{font-size:22px;color:#fff}
+section h2{font-size:18px}.section-head{align-items:center}
+button{border-radius:3px;background:#e4bd32;color:#171b1c}button.secondary{background:#303b3e;color:#e6ece9;border:1px solid #566265}
+input,select,textarea{background:#151d1f;border:1px solid #465356;border-radius:3px}
+.list{gap:7px}.card{padding:13px}.card h3{font-size:16px}
+#clubDirectory{margin-top:15px;border-radius:4px;overflow:hidden}
+.directory-toggle{background:#222b2d;border-color:#465154;border-radius:3px;padding:13px 16px}
+.directory-body{background:#171f21;border-color:#465154}
+.club-card{border-radius:3px}.data-chip{border-radius:3px;background:#303b3e}
+.panel{margin-top:15px}.panel h2{margin-top:0}
+dialog{border-radius:4px;background:#20292b}
+footer{border-color:#394447}
+@media(max-width:1050px){body{padding-left:0}body:before,body:after,#fmNav{display:none}header{padding:0 15px}#fmTopNav{margin-left:auto}main{padding:14px}.radar-section,#discovered{grid-template-columns:1fr}.lead-list{max-height:260px}}
+@media(max-width:650px){header{height:auto;min-height:64px;flex-wrap:wrap;padding:10px 13px}#fmTopNav{order:2;width:100%;overflow:auto;margin:5px 0 0}#fmTopNav a{padding:10px 9px;white-space:nowrap;font-size:12px}.radar-section>.section-head{align-items:flex-start;flex-direction:column}.radar-section>.section-head .actions{flex-wrap:wrap}.stats{grid-template-columns:repeat(3,1fr)}.directory-grid{grid-template-columns:1fr}}
 </style></head><body>
-<header><div class="brand"><div class="mark">T</div><div><h1>Touchline Radar</h1><p>Scottish football coaching opportunities · Shawlands, Glasgow</p></div></div></header>
+<header><div class="brand"><div class="mark">T</div><div><h1>Touchline Radar</h1><p>Scottish football coaching opportunities · Shawlands, Glasgow</p></div></div><nav id="fmTopNav"><a href="#vacancyRadar">Overview</a><a href="#vacancyRadar">Vacancies</a><a href="#clubDirectory">Club Directory</a><a href="#savedVacancies">Tracked Applications</a><a href="#searchCoverage">Search & Alerts</a></nav></header>
+<nav id="fmNav"><a class="active" href="#vacancyRadar">⌂ &nbsp; Overview</a><a href="#vacancyRadar">▣ &nbsp; Vacancies</a><a href="#clubDirectory">♧ &nbsp; Club Directory</a><a href="#savedVacancies">▤ &nbsp; Tracked</a><a href="#vacancyRadar">⌕ &nbsp; Search</a><a href="#searchCoverage">⚙ &nbsp; Settings</a></nav>
 <main>
 <section class="radar-section" id="vacancyRadar">
  <div class="section-head"><div><div class="eyebrow">Daily discovery</div><h2>Vacancy radar</h2><p class="muted" id="feedUpdated">Loading latest search…</p></div><div class="actions"><button id="refreshFeedBtn">↻ Refresh vacancies</button><button id="runSearchBtn" class="secondary">Run a new search ↗</button></div></div>
@@ -51,9 +106,9 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:18px;border-t
  <div class="list" id="discovered"><div class="empty">Loading candidate adverts…</div></div>
 </section>
 <div class="hero compact-hero"><div><div class="eyebrow">Your local coaching search</div><h2>Football coaching vacancies</h2><p>Shawlands, Glasgow · 10-mile search radius · Men’s and boys’ football</p></div></div>
-<section><div class="section-head"><div><h2>Your saved vacancies</h2><p class="muted">Keep promising opportunities, track applications and follow up.</p></div><button id="addBtn" class="secondary">＋ Save a vacancy I've found</button><div class="stats" style="margin:0"><div class="stat"><b id="total">0</b><span>Saved</span></div><div class="stat"><b id="newCount">0</b><span>New</span></div><div class="stat"><b id="openCount">0</b><span>Open</span></div></div></div> <div class="toolbar"><input id="search" placeholder="Search club, role, team or advert…"><select id="statusFilter"><option value="all">All tracked statuses</option><option>New</option><option>Interested</option><option>Applied</option><option>Closed</option></select><select id="levelFilter"><option value="all">All levels</option><option>U18</option><option>U20</option><option>U21</option><option>Reserves</option><option>Development</option><option>Senior WOSFL</option></select><button class="secondary" id="exportBtn">Export tracked CSV</button></div><div class="list" id="vacancies"></div></section>
+<section id="savedVacancies"><div class="section-head"><div><h2>Tracked Applications</h2><p class="muted">Keep promising opportunities, track applications and follow up.</p></div><button id="addBtn" class="secondary">＋ Save a vacancy I've found</button><div class="stats" style="margin:0"><div class="stat"><b id="total">0</b><span>Saved</span></div><div class="stat"><b id="newCount">0</b><span>New</span></div><div class="stat"><b id="openCount">0</b><span>Open</span></div></div></div> <div class="toolbar"><input id="search" placeholder="Search club, role, team or advert…"><select id="statusFilter"><option value="all">All tracked statuses</option><option>New</option><option>Interested</option><option>Applied</option><option>Closed</option></select><select id="levelFilter"><option value="all">All levels</option><option>U18</option><option>U20</option><option>U21</option><option>Reserves</option><option>Development</option><option>Senior WOSFL</option></select><button class="secondary" id="exportBtn">Export tracked CSV</button></div><div class="list" id="vacancies"></div></section>
 <details id="clubDirectory"><summary class="directory-toggle"><span><b>Club & academy directory</b><br><small class="muted">Reference list, not the vacancy feed · <span id="clubCount">Loading clubs…</span></small></span><span>＋</span></summary><div class="directory-body"><p class="muted">Only confirmed details are labelled as such. Missing information is shown explicitly rather than guessed. Check the relevant team's actual base before treating it as inside the 10-mile radius.</p><div class="toolbar"><input id="clubSearch" placeholder="Find a club, academy or coaching employer…"><select id="clubTypeFilter"><option value="all">All organisation types</option><option value="professional">Professional academies</option><option value="grassroots">Grassroots clubs</option><option value="senior">Senior clubs</option><option value="private">Private academies</option></select></div><div class="directory-grid" id="clubWatchlist"><div class="empty">Loading club directory…</div></div><div id="clubCandidates" class="candidate-note" hidden></div></div></details>
-<section class="panel"><h2>Search coverage</h2><p><b>Area:</b> Shawlands, Glasgow. A team qualifies only when its actual home ground or regular training base is within 10 miles.</p><p><b>Teams:</b> Senior men's teams at every league level, professional academies, youth, U18, U20, U21, reserves and development squads.</p><p><b>Sources:</b> Club websites and publicly indexed Facebook, Instagram and X posts. Private or unindexed social content cannot currently be searched.</p></section>
+<section class="panel" id="searchCoverage"><h2>Search coverage</h2><p><b>Area:</b> Shawlands, Glasgow. A team qualifies only when its actual home ground or regular training base is within 10 miles.</p><p><b>Teams:</b> Senior men's teams at every league level, professional academies, youth, U18, U20, U21, reserves and development squads.</p><p><b>Sources:</b> Club websites and publicly indexed Facebook, Instagram and X posts. Private or unindexed social content cannot currently be searched.</p></section>
 
 </main>
 <dialog id="editor"><form id="vacancyForm"><h2 id="formTitle">Add vacancy</h2><input type="hidden" id="editId"><div class="formgrid">
@@ -70,7 +125,24 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 function save(){localStorage.setItem(KEY,JSON.stringify(items));render()}
 function render(){const q=$('search').value.toLowerCase(),st=$('statusFilter').value,lv=$('levelFilter').value;const rows=items.filter(x=>(st==='all'||x.status===st)&&(lv==='all'||x.team===lv)&&[x.club,x.role,x.team,x.location,x.notes].join(' ').toLowerCase().includes(q));$('total').textContent=items.length;$('newCount').textContent=items.filter(x=>x.status==='New').length;$('openCount').textContent=items.filter(x=>x.status!=='Closed').length;
 $('vacancies').innerHTML=rows.length?rows.sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(x=>'<article class="card"><h3>'+esc(x.club)+' · '+esc(x.role)+'</h3><div class="meta">'+esc(x.team)+' · '+esc(x.location||'Location not recorded')+' · '+esc(x.distance)+' miles from Shawlands</div><span class="tag '+(x.status==='New'?'new':'')+'">'+esc(x.status)+'</span><span class="tag">Found '+esc(x.date||'date unknown')+'</span>'+(x.deadline?'<span class="tag">Deadline '+esc(x.deadline)+'</span>':'')+(x.notes?'<p class="desc">'+esc(x.notes)+'</p>':'')+(x.url?'<a class="source" href="'+esc(x.url)+'" target="_blank" rel="noopener">Original advert ↗</a>':'<span class="meta">No advert link recorded</span>')+'<div class="actions"><button class="secondary" onclick="editItem(\''+x.id+'\')">Edit</button><button class="secondary" onclick="cycleStatus(\''+x.id+'\')">Next status</button><button class="danger" onclick="deleteItem(\''+x.id+'\')">Delete</button></div></article>').join(''):'<div class="empty">No vacancies yet. Add one when you spot an advert or receive a lead.</div>'}
-function renderDiscovered(){const box=$('discovered');if(!box)return;const excluded=/\\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\\b/i;discovered=discovered.filter(x=>!excluded.test([x.title,x.club,x.team,x.role,x.snippet,x.source].join(' ')));if(!discovered.length){box.innerHTML='<div class="empty">No new leads were found in the latest completed search. This does not mean there are no vacancies: some clubs publish only on social media.</div>';return;}box.innerHTML=discovered.map(x=>'<article class="card"><h3>'+esc(x.title)+'</h3><div class="meta">'+esc(x.club||x.source||'Club not identified')+' · '+esc(x.published||'Date unavailable')+'</div><p class="desc">'+esc(x.snippet||'No preview available')+'</p><div class="actions"><a class="source" href="'+esc(x.url)+'" target="_blank" rel="noopener">Open original source ↗</a><span class="tag">'+esc(x.verification_status||'Unverified lead')+'</span></div></article>').join('')}
+let selectedLead=0;
+function renderDiscovered(){
+ const box=$('discovered');if(!box)return;
+ const excluded=/\\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\\b/i;
+ discovered=discovered.filter(x=>!excluded.test([x.title,x.club,x.team,x.role,x.snippet,x.source].join(' ')));
+ if(!discovered.length){box.innerHTML='<div class="empty">No new leads in the latest completed search. Some clubs publish only on social media, so an empty feed is not proof that no vacancies exist.</div>';return;}
+ if(selectedLead>=discovered.length)selectedLead=0;
+ const x=discovered[selectedLead];
+ const date=x.published?new Date(x.published).toLocaleDateString('en-GB'):'Date unavailable';
+ const role=x.role||'Coaching opportunity';
+ const club=x.club||x.source||'Club not identified';
+ const status=x.verification_status||'Unverified lead';
+ const rows=discovered.map((v,i)=>'<button class="lead-row '+(i===selectedLead?'selected':'')+'" data-lead="'+i+'"><h3>'+esc(v.club||v.title)+'</h3><div>'+esc(v.role||v.title)+'</div><div class="meta">'+esc(v.source||'Source not identified')+' · '+esc(v.published||'Date unavailable')+'</div><span class="tag">'+esc(v.verification_status||'Unverified')+'</span></button>').join('');
+ const url=x.url||'';
+ box.innerHTML='<div class="lead-list">'+rows+'</div><article class="lead-detail"><div class="meta">VACANCY / PUBLIC RECRUITMENT LEAD · '+esc(date)+'</div><h3>'+esc(club)+'</h3><h4>'+esc(role)+'</h4><span class="tag new">'+esc(status)+'</span><p class="desc">'+esc(x.snippet||'No advert summary available. Open the original source to inspect the full notice.')+'</p><div class="meta">Team: '+esc(x.team||'Not confirmed')+' · Location: '+esc(x.location||'Not confirmed')+'</div><div class="detail-actions">'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">Open original advert ↗</a>':'')+'<button type="button" id="saveLeadBtn">Save to tracked vacancies</button></div><p class="meta">Always verify the original post, role, team and actual training base before applying.</p></article>';
+ box.querySelectorAll('[data-lead]').forEach(b=>b.addEventListener('click',()=>{selectedLead=Number(b.dataset.lead);renderDiscovered()}));
+ const saveBtn=$('saveLeadBtn');if(saveBtn)saveBtn.onclick=()=>{const lead=discovered[selectedLead];const record={id:crypto.randomUUID(),club:lead.club||lead.source||lead.title,team:lead.team||'Development',role:lead.role||'Coach',distance:lead.distance_miles??'',location:lead.location||'',date:new Date().toISOString().slice(0,10),status:'Interested',deadline:'',url:lead.url||'',notes:lead.snippet||'Saved from public vacancy discovery feed.'};items.unshift(record);save();saveBtn.textContent='Saved to tracked vacancies';};
+}
 async function loadDiscovery(){try{const r=await fetch('./vacancies-feed.json?'+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('Feed not available');const data=await r.json();discovered=data.items||[];$('feedUpdated').textContent=data.generated_at?'Last completed search: '+new Date(data.generated_at).toLocaleString():'Daily search has not run yet.';$('leadCount').textContent=discovered.length+' candidate lead'+(discovered.length===1?'':'s')+' found';$('feedCoverage').textContent=data.coverage_note||'Publicly indexed results only. Social feeds are not comprehensively indexed.';renderDiscovered()}catch(e){$('feedUpdated').textContent='Daily discovery feed is not available yet.';$('leadCount').textContent='Feed unavailable';renderDiscovered()}}
 function showForm(x){$('vacancyForm').reset();$('editId').value=x?.id||'';$('formTitle').textContent=x?'Edit vacancy':'Add vacancy';if(x)for(const k of ['club','team','role','distance','location','date','status','deadline','url','notes'])$(k).value=x[k]??'';$('editor').showModal()}
 window.editItem=id=>showForm(items.find(x=>x.id===id));window.deleteItem=id=>{if(confirm('Delete this vacancy?')){items=items.filter(x=>x.id!==id);save()}};window.cycleStatus=id=>{const order=['New','Interested','Applied','Closed'];items=items.map(x=>x.id===id?{...x,status:order[(order.indexOf(x.status)+1)%order.length]}:x);save()};
