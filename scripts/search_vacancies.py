@@ -142,22 +142,40 @@ for query in QUERIES:
 # Add direct official and specialist noticeboard pages to indexed search results.
 for direct_item in fetch_direct_pages(): unique.setdefault(direct_item['url'],direct_item)
 
-# Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
-intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|looking to add|wanted|seeking|join (our|the)|join our coaching staff|coach(es)? required|volunteer coach|academy coach(es)?|soccer coach(es)?|football coach(es)?|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|seeking a coach|coach vacancy|coaching staff|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
-football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\b",re.I)
+# Keep only explicit coaching and management recruitment, not general club posts.
+# Require an explicit coaching/management role AND explicit recruitment language.
+# Generic club updates, player recruitment, camps and off-pitch volunteering are not vacancies.
+ROLE_RECRUITMENT = re.compile(
+ r"(?:"
+ r"\\b(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)?\\s*(?:football\\s+)?coach(?:es)?\\s+(?:wanted|required|needed|sought|vacanc(?:y|ies))\\b"
+ r"|\\b(?:first[ -]?team\\s+)?manager\\s+(?:wanted|required|needed|sought|vacanc(?:y|ies))\\b"
+ r"|\\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|paid position|applications? (?:are )?open)\\b.{0,120}\\b(?:coach|manager|coaching staff)\\b"
+ r"|\\b(?:coach|manager|coaching staff)\\b.{0,120}\\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|wanted|required|needed|apply|applications? open|paid position)\\b"
+ r"|\\blooking for (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\\s+)?(?:football\\s+)?(?:coach|manager)\\b"
+ r"|\\bseeking (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\\s+)?(?:football\\s+)?(?:coach|manager)\\b"
+ r"|\\b(?:join|joining) (?:our|the) coaching (?:team|staff)\\b"
+ r"|\\b(?:appoint|appointing|appointment of)\\b.{0,100}\\b(?:coach|manager)\\b"
+ r"|\\b(?:coach|manager)\\b.{0,100}\\b(?:steps down|resigns?|departs?|leaves|parts ways)\\b"
+ r")", re.I)
+NON_JOB_CONTEXT = re.compile(
+ r"\\b(?:looking for players|recruiting players|players wanted|player recruitment|open for bookings|book now|football camp|holiday camp|tots classes|sessions? for children|social media volunteers?|fundraising|sponsors? wanted|team behind the team|help behind the scenes)\\b",
+ re.I)
+def is_coaching_vacancy(text):
+ return bool(ROLE_RECRUITMENT.search(text)) and not bool(NON_JOB_CONTEXT.search(text))
+
+football=re.compile(r"\\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\\b",re.I)
 club_names=[c.get("name","") for c in WATCH_CLUBS if c.get("name")]
 club_pattern=re.compile("|".join(re.escape(n) for n in sorted(club_names,key=len,reverse=True)),re.I) if club_names else None
-noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball|women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b",re.I)
-local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|harmony row|pro football academy|1st touch|bearsden|milngavie|scotland)\b",re.I)
+noise=re.compile(r"\\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball|women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\\b",re.I)
+local=re.compile(r"\\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|harmony row|pro football academy|1st touch|bearsden|milngavie|scotland)\\b",re.I)
 filtered=[]
 for item in unique.values():
  text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source","")])
- if noise.search(text): continue
- if not intent.search(text) or not football.search(text): continue
+ if noise.search(text) or not football.search(text) or not is_coaching_vacancy(text): continue
  matched=club_pattern.search(text) if club_pattern else None
  if not local.search(text) and not matched: continue
  item["club"]=matched.group(0) if matched else ""
- item["verification_status"]="Unverified lead — check original post, team level and actual base within 10 miles"
+ item["verification_status"]="Coaching/management recruitment signal found — verify original advert, team level and base"
  item["discovery_method"]="Club watchlist" if matched else "Public indexed search"
  filtered.append(item)
 # Discard stale indexed results and sort newest first.
