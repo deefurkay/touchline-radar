@@ -60,6 +60,21 @@ QUERIES = [
  '"Hillwood Boys Club" coach vacancy Glasgow',
  'site:gadyfl.com coaches required Glasgow',
 ]
+
+# Build club-by-club public-index searches from the maintained local directory.
+# Club names help match posts that omit a town or venue.
+try:
+ clubs_data=json.loads(Path("clubs.json").read_text(encoding="utf-8"))
+ WATCH_CLUBS=[c for c in clubs_data.get("clubs",[]) if c.get("name")]
+except Exception:
+ WATCH_CLUBS=[]
+for club in WATCH_CLUBS:
+ name=club["name"]
+ QUERIES.extend([
+  f'"{name}" (coach OR manager OR "looking for" OR wanted OR vacancy OR recruitment)',
+  f'site:facebook.com "{name}" (coach OR manager OR "looking for" OR wanted OR recruitment)',
+  f'(site:instagram.com OR site:x.com OR site:twitter.com) "{name}" (coach OR manager OR vacancy OR wanted)',
+ ])
 def fetch(query):
  url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"en-GB","gl":"GB","ceid":"GB:en"})
  req=urllib.request.Request(url,headers={"User-Agent":"TouchlineRadar/0.1"})
@@ -79,7 +94,9 @@ for query in QUERIES:
  except Exception as exc: errors.append({"query":query,"error":str(exc)[:250]})
 # Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
 intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
-football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves)\b",re.I)
+football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\b",re.I)
+club_names=[c.get("name","") for c in WATCH_CLUBS if c.get("name")]
+club_pattern=re.compile("|".join(re.escape(n) for n in sorted(club_names,key=len,reverse=True)),re.I) if club_names else None
 noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball)\b",re.I)
 local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|harmony row|pro football academy|1st touch|bearsden|milngavie|scotland)\b",re.I)
 filtered=[]
@@ -87,8 +104,11 @@ for item in unique.values():
  text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source","")])
  if noise.search(item.get("title","")): continue
  if not intent.search(text) or not football.search(text): continue
- if not local.search(text): continue
- item["verification_status"]="Unverified lead — check original post, club and location"
+ matched=club_pattern.search(text) if club_pattern else None
+ if not local.search(text) and not matched: continue
+ item["club"]=matched.group(0) if matched else ""
+ item["verification_status"]="Unverified lead — check original post, team level and actual base within 10 miles"
+ item["discovery_method"]="Club watchlist" if matched else "Public indexed search"
  filtered.append(item)
 # Discard stale indexed results and sort newest first.
 from email.utils import parsedate_to_datetime
@@ -107,6 +127,6 @@ try:
 except Exception:
  pinned=[]
 items=pinned+[x for x in items if x.get('url') not in {p.get('url') for p in pinned}]
-payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Not exhaustive social-media access. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.","query_count":len(QUERIES),"raw_result_count":len(unique),"result_count":len(items),"errors":errors,"items":items[:150]}
+payload={"generated_at":datetime.now(timezone.utc).isoformat(),"coverage_note":"Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands.","query_count":len(QUERIES),"club_watchlist_count":len(WATCH_CLUBS),"discovery_sources":["public indexed Facebook posts","public indexed Instagram posts","public indexed X posts","club websites and news"],"raw_result_count":len(unique),"result_count":len(items),"errors":errors,"items":items[:150]}
 Path("vacancies-feed.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 print(f"Wrote {len(payload['items'])} candidate links; {len(errors)} query errors.")
