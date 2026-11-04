@@ -6,6 +6,28 @@
   "last_reviewed": "2026-11-04",
   "clubs": [
     {
+      "id": "partick-thistle-academy",
+      "name": "Partick Thistle FC · First Team & Thistle Weir Youth Academy",
+      "category": "Senior SPFL Championship / professional boys academy",
+      "homeGround": "The WrightKerr Stadium at Firhill, 80 Firhill Road, Glasgow G20 7AL",
+      "trainingBase": "Firhill is the confirmed home ground; first-team and academy training bases are team-specific and must be confirmed",
+      "distanceMiles": null,
+      "locationStatus": "Major local club added to priority position; Firhill address and official channels verified; team training bases and distance check outstanding",
+      "website": "https://www.ptfc.co.uk/",
+      "social": {
+        "facebook": "https://www.facebook.com/partickthistlefc",
+        "instagram": "https://www.instagram.com/partickthistleofficial/",
+        "x": "https://x.com/PartickThistle",
+        "verification": "Official club contact page lists Facebook, X and Instagram."
+      },
+      "notes": "Priority organisation. Monitor first-team staff, Thistle Weir boys academy (U11-U17) and grassroots boys teams. Exclude women's team and all women's/girls recruitment. Confirm actual team training base before treating a specific role as within the 10-mile radius.",
+      "sources": [
+        "https://www.ptfc.co.uk/contact-us/",
+        "https://www.ptfc.co.uk/team/modern-apprentices/",
+        "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/"
+      ]
+    },
+    {
       "id": "pollok-fc",
       "name": "Pollok FC",
       "category": "U20 / youth",
@@ -90,12 +112,12 @@
     {
       "id": "finnart-fc",
       "name": "Finnart FC / Finnart Football Academy",
-      "category": "Senior / youth",
-      "homeGround": "Glasgow Green Football Centre, 40 Kings Drive, Glasgow G40 1HB (academy directory)",
-      "trainingBase": "Confirm current senior and youth team bases",
+      "category": "Senior WoSFL / football academy",
+      "homeGround": "Glasgow Green Football Centre, 40 Kings Drive, Glasgow G40 1HB",
+      "trainingBase": "Glasgow Green Football Centre; Glasgow Life lists this as the academy address",
       "distanceMiles": null,
-      "locationStatus": "Published academy address; verify club team base and distance",
-      "website": "",
+      "locationStatus": "Glasgow Life venue and official social listing verified; distance from Shawlands to be checked",
+      "website": "https://www.facebook.com/Finnartfootballacademy/",
       "social": {
         "facebook": "https://www.facebook.com/Finnartfootballacademy/",
         "instagram": "",
@@ -104,7 +126,8 @@
       },
       "notes": "Glasgow Life directory lists Facebook name Finnartfootballacademy and X @Finnartstarwos. Verify current account URLs and which teams share this base.",
       "sources": [
-        "https://glasgowlife.sportsuite.co.uk/directory/finnart-football-academy1"
+        "https://glasgowlife.sportsuite.co.uk/directory/finnart-football-academy1",
+        "https://www.scottishjuniorfa.com/west-region/clubs/finnart-fc/"
       ]
     },
     {
@@ -131,12 +154,12 @@
     {
       "id": "renfrew-fc",
       "name": "Renfrew FC",
-      "category": "Youth / development",
-      "homeGround": "New Western Park, Renfrew (exact address to confirm)",
-      "trainingBase": "To confirm",
+      "category": "Senior Lowland League West / U20 development",
+      "homeGround": "New Western Park, 1 Argyll Avenue, Renfrew PA4 9EF",
+      "trainingBase": "New Western Park is the confirmed home ground; youth team training venues require confirmation",
       "distanceMiles": null,
-      "locationStatus": "Provisional; exact venue and relevant age-group base required",
-      "website": "",
+      "locationStatus": "Home ground and official club website verified; youth training venue and Shawlands radius check outstanding",
+      "website": "https://www.renfrewfc.co.uk/",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -144,17 +167,20 @@
         "verification": "Official website links to Facebook and X, exact profile URLs not yet resolved."
       },
       "notes": "Retain as a youth/development candidate only until relevant age groups and base are verified. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
-      "sources": []
+      "sources": [
+        "https://www.renfrewfc.co.uk/renfrew-fc",
+        "https://www.renfrewfc.co.uk/home"
+      ]
     },
     {
       "id": "benburb-fc",
       "name": "Benburb FC",
-      "category": "Youth / development",
+      "category": "Senior WoSFL Premier Division / youth",
       "homeGround": "New Tinto Park, 282 Craigton Road, Glasgow G51 4XG",
-      "trainingBase": "To confirm",
+      "trainingBase": "New Tinto Park is the confirmed home ground; team training venue not separately verified",
       "distanceMiles": null,
-      "locationStatus": "Ground address identified; verify whether within 10 miles of Shawlands",
-      "website": "",
+      "locationStatus": "Official club site, home ground and Glasgow Life listing verified; distance from Shawlands to be checked",
+      "website": "https://benburbfootballclub.com/",
       "social": {
         "facebook": "https://www.facebook.com/benburbfootballclub/",
         "instagram": "",
@@ -162,17 +188,20 @@
         "verification": "Handles listed by Glasgow Life."
       },
       "notes": "Senior division may fall outside the user's qualifying WOSFL tier; retain only for youth teams if a qualifying base is confirmed. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
-      "sources": []
+      "sources": [
+        "https://benburbfootballclub.com/",
+        "https://glasgowlife.sportsuite.co.uk/directory/benburb-fc"
+      ]
     },
     {
       "id": "rutherglen-glencairn",
       "name": "Rutherglen Glencairn",
       "category": "Youth / development",
-      "homeGround": "Hamish B Allan Stadium, Rutherglen (exact address to confirm)",
-      "trainingBase": "To confirm",
+      "homeGround": "Hamish B. Allan Stadium, 69 Toryglen Road, Rutherglen G73 1HZ",
+      "trainingBase": "Hamish B. Allan Stadium is the confirmed home ground; team training venue not separately verified",
       "distanceMiles": null,
-      "locationStatus": "Provisional; verify exact ground and training base",
-      "website": "",
+      "locationStatus": "Official club website and stadium address verified; distance from Shawlands to be checked",
+      "website": "https://www.rutherglenglencairn.com/",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -180,7 +209,10 @@
         "verification": "Not yet verified."
       },
       "notes": "Senior division may be above the qualifying range; monitor only qualifying youth/development teams unless league status changes. No club-specific reference link currently verified; this entry remains provisional and needs primary-source confirmation.",
-      "sources": []
+      "sources": [
+        "https://www.rutherglenglencairn.com/contact/1016",
+        "https://www.rutherglenglencairn.com/downloads/rgfc/5.3---Contingency-plan%281%29.pdf"
+      ]
     },
     {
       "id": "celtic-fc-academy",
@@ -223,27 +255,6 @@
         "https://queensparkfc.co.uk/academy/",
         "https://queensparkfc.co.uk/working-together-with-queens-park-fc/",
         "https://www.scottishfa.co.uk/en/news/club-academy-scotland-cas-leagues-get-underway-for-2026-2027-season/"
-      ]
-    },
-    {
-      "id": "partick-thistle-academy",
-      "name": "Partick Thistle FC · Thistle Weir Youth Academy",
-      "category": "Professional academy · boys",
-      "homeGround": "Firhill, 80 Firhill Road, Glasgow G20 7AL",
-      "trainingBase": "Firhill / team-specific training venues to confirm",
-      "distanceMiles": null,
-      "locationStatus": "Likely within 10 miles; confirm actual academy training venues",
-      "website": "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/",
-      "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": "",
-        "verification": "Academy-specific profiles not yet verified."
-      },
-      "notes": "Monitor boys academy recruitment and coaching vacancies only.",
-      "sources": [
-        "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/",
-        "https://www.ptfc.co.uk/contact-us/"
       ]
     },
     {
@@ -409,12 +420,12 @@
     {
       "id": "castlemilk-community-fc",
       "name": "Castlemilk Community FC",
-      "category": "Grassroots youth / community club",
-      "homeGround": "Castlemilk, Glasgow (team venue to confirm)",
-      "trainingBase": "Castlemilk community pitches; exact squad base to confirm",
+      "category": "Senior WoSFL / U20 development / grassroots",
+      "homeGround": "Barlia Sports Complex, 60 Glenwood Path, Glasgow G45 9UD",
+      "trainingBase": "Barlia Sports Complex; team-specific pitch allocation to confirm",
       "distanceMiles": null,
-      "locationStatus": "Southside candidate; exact team venue and distance to verify",
-      "website": "",
+      "locationStatus": "Official club site and Barlia base verified; distance from Shawlands to be checked",
+      "website": "https://www.castlemilkcommunityfootballclub.com/",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -423,7 +434,8 @@
       },
       "notes": "Listed in Glasgow youth football club directories and local leagues. Candidate for age-group coaching roles.",
       "sources": [
-        "https://www.juniorgrassrootshub.com/glasgow-city-football"
+        "https://www.castlemilkcommunityfootballclub.com/",
+        "https://barlia.co.uk/"
       ]
     },
     {
@@ -448,13 +460,13 @@
     },
     {
       "id": "hillwood-boys-club",
-      "name": "Hillwood Boys Club",
+      "name": "Hillwood Football Club",
       "category": "Grassroots youth club",
-      "homeGround": "40 Shields Court, Glasgow G53 6NZ",
-      "trainingBase": "To confirm by age group",
+      "homeGround": "Hillwood Park / Hillwood Sports Hub, Pollok, Glasgow G53 6NZ",
+      "trainingBase": "Hillwood Sports Hub; team-specific pitch and age-group schedules to confirm",
       "distanceMiles": null,
-      "locationStatus": "Address identified; confirm team base and measure radius",
-      "website": "",
+      "locationStatus": "Official club website and Glasgow Life directory verified; exact venue distance to be checked",
+      "website": "https://www.hillwoodfc.co.uk/",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -462,7 +474,10 @@
         "verification": "Business listing only; official social links not yet confirmed."
       },
       "notes": "South-west Glasgow youth football club. Candidate pending team venue and radius check.",
-      "sources": []
+      "sources": [
+        "https://www.hillwoodfc.co.uk/",
+        "https://glasgowlife.sportsuite.co.uk/directory/hillwood-football-club"
+      ]
     }
   ],
   "reference_policy": "Only list links that directly relate to the named club or academy. Generic league pages and unrelated club directories are not club references. If no direct source has been verified, leave sources empty and mark the entry provisional."
