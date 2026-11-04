@@ -18,8 +18,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Discover new Glasgow-area club candidates
+      - name: Discover new Glasgow and Renfrewshire club candidates
         run: python scripts/discover_clubs.py
+      - name: Verify club base distances from Shawlands
+        run: python scripts/geocode_clubs.py
       - name: Search public indexed vacancy results
         run: python scripts/search_vacancies.py
       - name: Ingest direct social platform posts (when credentials are configured)
