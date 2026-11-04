@@ -12,16 +12,19 @@ from pathlib import Path
 
 FEED=Path("vacancies-feed.json")
 NOW=datetime.now(timezone.utc)
-VACANCY=re.compile(r"\b(vacan|recruit|looking for|wanted|seeking|coach|manager|assistant manager|head coach|join our|applications? open|apply now|staff required|part ways|parts ways|steps down|resigns?|appointed)\b",re.I)
 FOOTBALL=re.compile(r"\b(football|soccer|wosfl|academy|youth|u18|u19|u20|u21|reserve|development|first team|senior team|coach|manager)\b",re.I)
 EXCLUDED=re.compile(r"\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b",re.I)
+ROLE_RECRUITMENT=re.compile(r"(?:\b(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)?\s*(?:football\s+)?coach(?:es)?\s+(?:wanted|required|needed|sought|vacanc(?:y|ies))\b|\b(?:first[ -]?team\s+)?manager\s+(?:wanted|required|needed|sought|vacanc(?:y|ies))\b|\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|paid position|applications? (?:are )?open)\b.{0,120}\b(?:coach|manager|coaching staff)\b|\b(?:coach|manager|coaching staff)\b.{0,120}\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|wanted|required|needed|apply|applications? open|paid position)\b|\blooking for (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\s+)?(?:football\s+)?(?:coach|manager)\b|\bseeking (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\s+)?(?:football\s+)?(?:coach|manager)\b|\b(?:join|joining) (?:our|the) coaching (?:team|staff)\b|\b(?:appoint|appointing|appointment of)\b.{0,100}\b(?:coach|manager)\b|\b(?:coach|manager)\b.{0,100}\b(?:steps down|resigns?|departs?|leaves|parts ways)\b)",re.I)
+NON_JOB_CONTEXT=re.compile(r"\b(?:looking for players|recruiting players|players wanted|player recruitment|open for bookings|book now|football camp|holiday camp|tots classes|sessions? for children|social media volunteers?|fundraising|sponsors? wanted|team behind the team|help behind the scenes)\b",re.I)
+def is_coaching_vacancy(text):
+ return bool(ROLE_RECRUITMENT.search(text)) and not bool(NON_JOB_CONTEXT.search(text))
 def get(url, token):
  req=urllib.request.Request(url,headers={"Authorization":"Bearer "+token,"User-Agent":"TouchlineRadar/1.0"})
  with urllib.request.urlopen(req,timeout=25) as r:return json.loads(r.read())
 def make_item(title,url,created,text,source,club=""):
  body=(title+" "+text).strip()
  if EXCLUDED.search(body):return None
- if not VACANCY.search(body) or not FOOTBALL.search(body):return None
+ if not is_coaching_vacancy(body) or not FOOTBALL.search(body):return None
  return {"id":"social-"+str(abs(hash(url))),"title":title or "Football coaching recruitment post","url":url,"published":created or NOW.isoformat(),"snippet":text[:700],"source":source,"verification_status":"Social post lead — verify original advert and role","lead_type":"social_api","club":club or "Unmatched club","query":"Direct social API"}
 items=[];status={}
 # X recent search
@@ -82,6 +85,11 @@ else:status["instagram"]="not configured (requires Meta approval, INSTAGRAM_USER
 try:feed=json.loads(FEED.read_text(encoding="utf-8"))
 except Exception:feed={"items":[],"errors":[]}
 existing=feed.get("items",[])
+# Purge legacy false positives on every run; retain only manually pinned leads or
+# items that independently pass the strict coaching-role test.
+existing=[x for x in existing if x.get("lead_type") in ("user_reported","official_departure") or
+          (is_coaching_vacancy(" ".join([x.get("title",""),x.get("snippet",""),x.get("role","")])) and
+           not EXCLUDED.search(" ".join([x.get("title",""),x.get("snippet",""),x.get("role","")])))]
 seen={x.get("url") for x in existing}
 for x in items:
  if x and x.get("url") and x["url"] not in seen:
