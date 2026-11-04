@@ -134,7 +134,13 @@ let selectedLead=0;
 function renderDiscovered(){
  const box=$('discovered');if(!box)return;
  const excluded=/\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b/i;
- discovered=discovered.filter(x=>!excluded.test([x.title,x.club,x.team,x.role,x.snippet,x.source].join(' ')));
+ const recruitment=/\b(?:coach(?:es)?|manager|coaching staff)\b.{0,120}\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|wanted|required|needed|apply|applications? open|paid position)\b|\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|paid position|applications? open)\b.{0,120}\b(?:coach|manager|coaching staff)\b|\blooking for (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\s+)?(?:football\s+)?(?:coach|manager)\b|\bseeking (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\s+)?(?:football\s+)?(?:coach|manager)\b|\b(?:join|joining) (?:our|the) coaching (?:team|staff)\b/i;
+ const nonVacancy=/\b(?:looking for players|recruiting players|players wanted|player recruitment|open for bookings|book now|football camp|holiday camp|tots classes|sessions? for children|social media volunteers?|fundraising|sponsors? wanted|team behind the team|help behind the scenes)\b/i;
+ discovered=discovered.filter(x=>{
+  const text=[x.title,x.club,x.team,x.role,x.snippet,x.source].join(' ');
+  const manuallyPinned=['user_reported','official_departure'].includes(x.lead_type);
+  return !excluded.test(text)&&(manuallyPinned||(recruitment.test(text)&&!nonVacancy.test(text)));
+ });
  if(!discovered.length){box.innerHTML='<div class="empty">No new leads in the latest completed search. Some clubs publish only on social media, so an empty feed is not proof that no vacancies exist.</div>';return;}
  if(selectedLead>=discovered.length)selectedLead=0;
  const x=discovered[selectedLead];
