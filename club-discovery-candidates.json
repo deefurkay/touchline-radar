@@ -4,8 +4,184 @@
     "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
     "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league"
   ],
-  "candidate_count": 0,
+  "candidate_count": 25,
   "new_candidates_this_run": 0,
-  "note": "New directory entries are screening leads, not confirmed in-radius organisations. Verify team gender/level and actual venue before promoting to clubs.json.",
-  "candidates": []
+  "note": "Expanded screening list from Glasgow and Renfrewshire club/academy directories plus CSFA. These are leads only: exclude girls'/women's teams, verify men's/boys' role relevance and geocode the actual training base before promoting to the in-radius directory.",
+  "candidates": [
+    {
+      "name": "Bishopton FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Bridge of Weir United",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "EE East End BC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Erskine Youth FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Evro Youth Academy",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "FS Ferguslie Star",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Glasgow Argyle Football Academy",
+      "source_url": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Glasgow Athletic FC",
+      "source_url": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Glasgow South FC",
+      "source_url": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "discovered_from": "https://www.juniorgrassrootshub.com/football-in-glasgow",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Gleniffer Thistle",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Glenvale FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Houston United FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Johnstone Burgh FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Linwood Rangers YC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Paisley North FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Park Sports Project",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Parkmoor FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Renfrew Victoria YFC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Scoutable United",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "St Convals FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "St Peters FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Thorn Athletic",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "Union Thistle FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "United Juniors Paisley FC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    },
+    {
+      "name": "West End BC",
+      "source_url": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "discovered_from": "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+      "status": "Regional directory lead — verify men's/boys' team and actual home/training base within 10 miles of Shawlands",
+      "discovered_at": "2026-11-04T00:00:00Z"
+    }
+  ]
 }
