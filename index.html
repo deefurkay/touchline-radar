@@ -1,307 +1,79 @@
 <!doctype html>
-<html lang="en-GB"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#101b2b"><meta name="description" content="Scottish football coaching vacancy tracker centred on Shawlands, Glasgow.">
-<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
-<title>Touchline Radar</title>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101b22"><meta name="description" content="Men's and boys' football coaching opportunities around Shawlands.">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg"><title>Touchline Radar</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1320;--panel:#142236;--line:#2b405a;--muted:#9aabc0;--text:#f4f7fb;--lime:#c5f36b;--blue:#8ec5ff}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#203a4d 0,transparent 36%),var(--bg);color:var(--text);font:15px/1.5 system-ui,sans-serif}
-header{padding:25px max(20px,calc((100vw - 1050px)/2));border-bottom:1px solid var(--line);background:#101b2bdd}.brand{display:flex;gap:12px;align-items:center}.mark{width:42px;height:42px;border-radius:13px;background:var(--lime);color:#142236;display:grid;place-items:center;font-weight:900;font-size:21px}h1{font-size:24px;margin:0;line-height:1.2}header p{margin:5px 0 0;color:var(--muted)}
-main{max-width:1220px;margin:auto;padding:25px 24px 60px}
-header{position:sticky;top:0;z-index:5;backdrop-filter:blur(14px)}
-.hero{padding:22px 24px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(120deg,#172b40,#142236 65%,#1b3444);box-shadow:0 18px 50px #0002}
-.hero h2{letter-spacing:-.035em}.hero p{font-size:14px}
-.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap}
-.radar-section{margin-top:4px}.radar-section .section-head{align-items:center}.radar-section h2{font-size:25px}.radar-section h2{font-size:22px;margin:0}
-.feed-summary{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
-.feed-pill{padding:8px 11px;border:1px solid var(--line);border-radius:10px;background:#142236;color:#dce8f5;font-size:12px}
-#clubDirectory{margin-top:28px}
-.directory-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;text-align:left;background:#142236;color:var(--text);border:1px solid var(--line);padding:15px 17px}
-#clubDirectory[open] .directory-toggle{border-radius:12px 12px 0 0}
-.directory-body{padding:16px;border:1px solid var(--line);border-top:0;border-radius:0 0 12px 12px;background:#101d2c}
-.directory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.club-card{padding:13px;border:1px solid var(--line);border-radius:11px;background:#142236}
-.club-card h3{font-size:15px}.club-card .meta{line-height:1.5}
-.club-data{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-.data-chip{font-size:11px;border-radius:6px;padding:3px 7px;background:#26384b;color:#d7e5f3}
-.data-chip.missing{background:#3a2c27;color:#ffc9a8}
-.toolbar{margin:14px 0}
-#discovered{grid-template-columns:repeat(2,minmax(0,1fr))}
-@media(max-width:760px){#discovered,.directory-grid{grid-template-columns:1fr}}
-.hero{display:flex;justify-content:space-between;align-items:end;gap:18px}.compact-hero{margin-top:26px;padding:14px 18px;box-shadow:none}.compact-hero h2{font-size:20px}.compact-hero p{font-size:13px}.eyebrow{color:var(--lime);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.hero h2{font-size:clamp(25px,4vw,36px);margin:4px 0}.hero p{margin:0;color:var(--muted)}
-button{border:0;border-radius:10px;padding:10px 14px;background:var(--lime);color:#152235;font:inherit;font-weight:750;cursor:pointer}.secondary{background:#243951;border:1px solid var(--line);color:var(--text)}.danger{background:#492b32;color:#ffd8d2}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:20px 0}.stat,.card,.notice{background:var(--panel);border:1px solid var(--line);border-radius:14px}.stat{padding:14px}.stat b{font-size:26px;display:block}.stat span,.muted{font-size:13px;color:var(--muted)}
-.notice{padding:13px 15px;margin:15px 0;color:#d4e0ec;font-size:13px;line-height:1.5;background:#17283b}
-.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.toolbar input{flex:2;min-width:190px}.toolbar select{flex:1;min-width:140px}
-input,select,textarea{background:#0d1929;border:1px solid var(--line);color:var(--text);border-radius:9px;padding:11px;font:inherit;min-width:0}
-.list{display:grid;gap:10px}.card{padding:16px}.card h3{margin:0 0 3px;font-size:18px}.meta{color:var(--muted);font-size:13px}.tag{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:3px 8px;font-size:11px;margin:9px 5px 5px 0}.tag.new{color:var(--lime);border-color:#648b37}.desc{margin:8px 0;color:#d6e0eb;font-size:14px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}.actions button{font-size:12px;padding:7px 9px}.source{font-size:13px;color:var(--blue);text-decoration:none}.empty{padding:30px;text-align:center;border:1px dashed var(--line);border-radius:14px;color:var(--muted)}
-section h2{font-size:18px;margin:22px 0 9px}.actions a.source{display:inline-flex;align-items:center;padding:7px 0}.card .tag{max-width:100%;white-space:normal}.notice{border-left:3px solid var(--lime)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:20px}.panel p{margin:6px 0;color:var(--muted);font-size:13px}
-dialog{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:15px;width:min(600px,calc(100% - 24px));padding:20px}dialog::backdrop{background:#020813cc}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.field{display:grid;gap:5px}.field label{font-size:12px;color:var(--muted)}.field input,.field select,.field textarea{width:100%}.full{grid-column:1/-1}.form-actions{display:flex;justify-content:end;gap:8px;margin-top:15px}
-footer{text-align:center;color:var(--muted);font-size:12px;padding:18px;border-top:1px solid var(--line)}
-@media(max-width:650px){.hero{align-items:start;flex-direction:column}.stats{grid-template-columns:repeat(2,1fr)}.formgrid{grid-template-columns:1fr}.full{grid-column:auto}}
-
-/* FM-inspired charcoal dashboard skin */@media(max-width:1050px){.fm-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.radar-section,#discovered{min-width:0;width:100%}#discovered{grid-template-columns:minmax(0,1fr)}.lead-list{max-height:240px}} #discovered{min-width:0}.lead-detail,.lead-list{min-width:0}
-.fm-metrics{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0 0 10px}
-.fm-metrics>div{background:linear-gradient(120deg,#242e30,#1b2426);border:1px solid #414d50;border-radius:3px;padding:9px 12px;min-height:58px}
-.fm-metrics b{display:block;font-size:21px;color:#f5f6f2;line-height:1.2}.fm-metrics span{font-size:11px;color:#aab5b6}
-@media(max-width:650px){.fm-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-:root{color-scheme:dark;--bg:#111719;--panel:#1b2224;--line:#394447;--muted:#aab5b6;--text:#edf1ef;--lime:#e4bd32;--blue:#75c8ef;--green:#176d43}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:linear-gradient(135deg,#172226,#101517 55%,#141b1e);font:14px/1.42 Arial,Helvetica,sans-serif;color:var(--text);padding-left:178px}
-header{height:64px;padding:0 22px;display:flex;align-items:center;background:#171e20;border-bottom:1px solid #465052;box-shadow:0 3px 14px #0007}
-.brand{gap:13px}.mark{border-radius:3px;background:#26383c;color:#e7c33f;border:1px solid #526166;width:42px;height:42px}
-h1{font-size:21px;letter-spacing:-.4px}header p{font-size:12px;margin:1px 0}
-main{max-width:none;margin:0;padding:18px 20px 40px}
-body:before{content:"TOUCHLINE  /  RADAR";position:fixed;z-index:8;left:0;top:0;width:178px;height:63px;display:flex;align-items:center;justify-content:center;background:#1c292d;border-right:1px solid #3b484b;border-bottom:1px solid #465052;color:#e4bd32;font-weight:800;letter-spacing:1.3px;font-size:14px}
-body:after{content:"";position:fixed;z-index:7;left:0;top:64px;bottom:0;width:177px;background:linear-gradient(180deg,#20292b,#151c1e);border-right:1px solid #394447;pointer-events:none}
-#fmNav{position:fixed;z-index:9;left:0;top:64px;width:178px;padding:13px 0;display:flex;flex-direction:column;gap:2px}
-#fmNav a{color:#dce3e1;text-decoration:none;padding:12px 18px;border-left:3px solid transparent;font-size:13px}
-#fmNav a:hover,#fmNav a.active{background:#303a3c;border-left-color:#e4bd32;color:#fff}
-#fmTopNav{display:flex;gap:0;margin-left:34px;height:100%;align-items:stretch}
-#fmTopNav a{padding:0 15px;display:flex;align-items:center;color:#d5dddd;text-decoration:none;border-bottom:3px solid transparent;font-size:13px}
-#fmTopNav a:hover{background:#242e30;border-bottom-color:#e4bd32}
-.hero{display:none}
-.radar-section{display:grid;grid-template-columns:minmax(300px,.78fr) minmax(440px,1.45fr);grid-template-rows:auto auto auto 1fr;gap:0 14px;margin:0}
-.radar-section>.section-head{grid-column:1/-1;align-items:center;border-bottom:1px solid #495456;padding:0 4px 13px;margin-bottom:12px}
-.radar-section>.section-head h2{font-size:26px;margin:0;letter-spacing:-.5px}
-.radar-section>.section-head .eyebrow{display:none}
-.radar-section>.section-head .muted{font-size:12px;margin-top:3px}
-.radar-section>.section-head .actions{margin:0}
-.radar-section>.section-head .actions button{border-radius:3px;background:#176b43;color:#fff;border:1px solid #3b9364;padding:10px 15px}
-.radar-section>.section-head .actions #runSearchBtn{background:#303b3e;border-color:#596669}
-.feed-summary{grid-column:1/-1;margin:0 0 9px;gap:7px}
-.feed-pill{background:#202a2d;border:1px solid #3b484b;border-radius:3px;color:#d8e0dd;padding:6px 10px}
-#feedCoverage{grid-column:1/-1;margin:0 0 10px;font-size:11px}
-#discovered{grid-column:1/-1;display:grid;grid-template-columns:minmax(300px,.78fr) minmax(440px,1.45fr);gap:12px;align-items:stretch}
-.lead-list{display:grid;gap:7px;align-content:start;max-height:540px;overflow:auto;padding-right:3px}
-.lead-row{display:block;width:100%;text-align:left;background:#222b2d;border:1px solid #414c4e;border-radius:3px;color:var(--text);padding:12px;cursor:pointer}
-.lead-row.selected{background:linear-gradient(90deg,#54451c,#30302a);border:1px solid #d5ae28;box-shadow:inset 3px 0 #e4bd32}
-.lead-row h3{font-size:14px;margin:0 0 5px}.lead-row .meta{font-size:11px}
-.lead-detail{background:#20282a;border:1px solid #465154;border-radius:4px;padding:18px;min-height:250px}
-.lead-detail h3{font-size:21px;margin:0 0 5px}.lead-detail .desc{font-size:13px;line-height:1.55}
-.lead-detail .detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
-.lead-detail .detail-actions a{background:#e4bd32;color:#171b1c;padding:9px 14px;border-radius:3px;font-weight:700;text-decoration:none}
-.lead-detail .detail-actions button{background:#303a3c;color:#fff;border:1px solid #4b575a;border-radius:3px}
-.tag{border-radius:3px}.tag.new{color:#dff7e8;border-color:#31845a;background:#17472f}
-.stat,.card,.notice,.panel,.club-card{background:#20292b;border:1px solid #3b484b;border-radius:4px}
-.stats{gap:7px}.stat{padding:9px 12px}.stat b{font-size:22px;color:#fff}
-section h2{font-size:18px}.section-head{align-items:center}
-button{border-radius:3px;background:#e4bd32;color:#171b1c}button.secondary{background:#303b3e;color:#e6ece9;border:1px solid #566265}
-input,select,textarea{background:#151d1f;border:1px solid #465356;border-radius:3px}
-.list{gap:7px}.card{padding:13px}.card h3{font-size:16px}
-#clubDirectory{margin-top:15px;border-radius:4px;overflow:hidden}
-.directory-toggle{background:#222b2d;border-color:#465154;border-radius:3px;padding:13px 16px}
-.directory-body{background:#171f21;border-color:#465154}
-.club-card{border-radius:3px}.data-chip{border-radius:3px;background:#303b3e}
-.panel{margin-top:15px}.panel h2{margin-top:0}
-dialog{border-radius:4px;background:#20292b}
-footer{border-color:#394447}
-@media(max-width:1050px){body{padding-left:0}body:before,body:after,#fmNav{display:none}header{padding:0 15px}#fmTopNav{margin-left:auto}main{padding:14px}.radar-section,#discovered{grid-template-columns:1fr}.lead-list{max-height:260px}}
-@media(max-width:650px){header{height:auto;min-height:64px;flex-wrap:wrap;padding:10px 13px}#fmTopNav{order:2;width:100%;overflow:auto;margin:5px 0 0}#fmTopNav a{padding:10px 9px;white-space:nowrap;font-size:12px}.radar-section>.section-head{align-items:flex-start;flex-direction:column}.radar-section>.section-head .actions{flex-wrap:wrap}.stats{grid-template-columns:repeat(3,1fr)}.directory-grid{grid-template-columns:1fr}}
-
-/* Reference-inspired Touchline Radar dashboard */
-:root{--bg:#0b1419;--panel:#121e24;--line:#2d4148;--muted:#a7b6bd;--text:#f4f7f8;--lime:#e6b923;--green:#13804c}
-body{background:linear-gradient(120deg,#14252d 0,#0b1419 38%,#101c23 100%);font-family:Inter,Arial,Helvetica,sans-serif;padding-left:150px}
-header{height:88px;background:#101c23;border-bottom:1px solid #2a3e46;padding:0 22px;align-items:flex-start;position:sticky}
-.brand{height:52px}.mark{width:40px;height:40px;border:0;background:transparent;color:#f7f7f7;font-size:27px;font-style:italic}.brand h1{font-size:18px}.brand p{font-size:12px}
-body:before{width:150px;height:88px;background:linear-gradient(140deg,#123349,#152731 65%,#102028);content:"⚽   TR";color:white;font:italic 800 25px Georgia,serif}
-body:after{top:88px;width:149px;background:#111d23}
-#fmNav{top:95px;width:150px}#fmNav a{padding:11px 13px;font-size:12px;border-left-color:transparent}
-#fmNav a.active,#fmNav a:hover{border-left-color:#12a56d;background:#24353d}
-#fmTopNav{position:absolute;bottom:0;left:0;margin-left:0;height:35px;padding-left:12px}
-#fmTopNav a{font-size:12px;padding:0 14px}#fmTopNav a:first-child{border-bottom-color:#e6b923}
-main{padding:14px 14px 40px}
-.radar-section{display:block}
-.radar-section>.section-head{border:0;padding:0 6px 13px;margin:0;min-height:67px}
-.radar-section>.section-head h2{font-size:25px}
-.radar-section>.section-head h2:before{content:"▣";color:#6cbdf1;font-size:26px;margin-right:18px}
-.radar-section>.section-head .actions #refreshFeedBtn{background:#07653c;border-color:#087a48;padding:11px 17px}
-.radar-section>.section-head .actions #runSearchBtn{background:#24343b}
-.fm-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 12px}
-.fm-metrics>div{background:#14232b;border:1px solid #30434c;border-radius:7px;padding:12px 16px;min-height:67px}
-.fm-metrics b{font-size:24px}.fm-metrics span{font-size:12px}
-.feed-summary{margin:4px 0 12px}.feed-pill{border-radius:5px;background:#1c2b32}
-#feedCoverage{font-size:11px;margin:0 0 12px}
-#discovered{display:grid;grid-template-columns:minmax(280px,.45fr) minmax(460px,1fr);gap:12px;align-items:stretch}
-.lead-list,.lead-detail,.overview-card{background:#131f26;border:1px solid #30414b;border-radius:9px;padding:12px}
-.lead-list{max-height:490px;overflow:auto;gap:6px}
-.lead-list:before{content:"ALL VACANCY LEADS";display:block;font-size:11px;color:#b9c6cb;letter-spacing:.07em;padding:0 4px 8px}
-.lead-row{border-radius:6px;background:#17252c;border:1px solid transparent;padding:12px 13px}
-.lead-row.selected{border-color:#dcb526;background:linear-gradient(95deg,#38351c,#222a27);box-shadow:inset 3px 0 #e4bd32}
-.lead-row h3{font-size:15px;margin-bottom:3px}.lead-row .meta{font-size:11px}
-.lead-detail{min-height:350px;padding:20px 22px}
-.lead-detail h3{font-size:24px;margin:3px 0}.lead-detail h4{font-size:15px;color:#c5d0d4;margin:0 0 14px}
-.lead-detail .desc{font-size:14px;max-width:730px}
-.lead-detail .detail-actions a{background:#e7b921;color:#151d21;padding:12px 18px}
-.lead-detail .detail-actions button{padding:12px 18px}
-.lead-detail .tag{font-size:11px;padding:5px 9px;display:inline-block;max-width:100%;white-space:normal}
-.dashboard-lower{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:12px}
-.overview-card{padding:14px 17px;min-height:190px}
-.overview-card h3{margin:0 0 11px;font-size:15px;padding-bottom:10px;border-bottom:1px solid #33464d}
-.overview-card .summary-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid #293c43;font-size:12px}
-.overview-card .summary-row span:first-child{color:#b5c2c6}
-.overview-card .summary-row span:last-child{text-align:right}
-.overview-card a{color:#8ed0ed;text-decoration:none}
-#savedVacancies{margin-top:14px;padding:16px;background:#131f26;border:1px solid #30414b;border-radius:9px}
-#clubDirectory{margin-top:14px}
-.panel{background:#131f26}
-@media(max-width:1250px){.dashboard-lower{grid-template-columns:1fr 1fr}#discovered{grid-template-columns:minmax(260px,.6fr) minmax(350px,1fr)}}
-@media(max-width:1000px){body{padding-left:0}body:before,body:after,#fmNav{display:none}header{height:88px}#fmTopNav{left:0}#discovered{grid-template-columns:1fr}.dashboard-lower{grid-template-columns:1fr 1fr}.lead-list{max-height:260px}}
-@media(max-width:650px){header{height:auto;min-height:96px;padding:8px 12px 40px}#fmTopNav{overflow-x:auto;width:100%;white-space:nowrap}main{padding:10px}.radar-section>.section-head h2{font-size:21px}.radar-section>.section-head h2:before{margin-right:9px}.fm-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-lower{grid-template-columns:1fr}.lead-detail{padding:16px}.lead-list{max-height:340px}}
-.club-badge{width:43px;height:43px;flex:0 0 43px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #60717a;border-radius:50%;background:radial-gradient(circle,#364d56,#172b34);color:#dce9eb;font-weight:800;font-size:12px;overflow:hidden}.club-badge img{width:100%;height:100%;object-fit:contain;background:#f5f6f6}.club-badge.large{width:68px;height:68px;flex-basis:68px;font-size:18px}.lead-heading,.club-heading{display:flex;align-items:center;gap:12px}.lead-heading h3,.club-heading h3{margin:0}.lead-heading .club-badge{width:38px;height:38px;flex-basis:38px}.lead-detail-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:12px}.club-photo{margin:12px 0 15px;position:relative;width:100%;height:190px;overflow:hidden;border:1px solid #35464e;border-radius:7px;background:linear-gradient(130deg,#1a333e,#112028)}.club-photo img{display:block;width:100%;height:100%;object-fit:cover}.club-photo figcaption{position:absolute;bottom:0;left:0;right:0;padding:8px 10px;background:linear-gradient(transparent,#071319e8);font-size:11px;color:#e5ecef}.club-photo.no-photo,.club-photo.photo-failed{height:92px;display:grid;place-items:center;color:#829aa5;font-size:11px}.club-photo.photo-failed img,.club-photo.photo-failed figcaption{display:none}.mini-club{display:flex;align-items:center;gap:10px;padding:5px 0;border-bottom:1px solid #293c43;font-size:12px}.mini-club .club-badge{width:26px;height:26px;flex-basis:26px;font-size:9px}@media(max-width:650px){.club-photo{height:150px}}/* Compact Football Manager-style vacancy cards */
-#discovered{grid-template-columns:minmax(290px,34%) minmax(0,1fr)}
-.lead-list{max-height:455px;overflow:auto;padding:10px}
-.lead-row{padding:10px 12px!important;display:block!important;min-height:70px}
-.lead-row h3{font-size:14px!important;line-height:1.25!important;letter-spacing:0!important;overflow-wrap:anywhere;font-weight:700}
-.lead-row .lead-role{font-size:12px!important;font-weight:400!important;line-height:1.3!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#cbd5d9;margin:3px 0 4px 50px}
-.lead-row .meta{font-size:10px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-left:50px}
-.lead-row .tag{display:none}
-.lead-heading{gap:10px}.lead-heading .club-badge{width:37px;height:37px;flex-basis:37px}
-.lead-detail{min-width:0;overflow-wrap:anywhere}
-.lead-detail .tag{max-width:100%}
-@media(max-width:1000px){#discovered{grid-template-columns:1fr}}
+:root{color-scheme:dark;--bg:#0b151a;--surface:#121f26;--surface2:#182831;--border:#2d4049;--text:#eef4f5;--muted:#9bafb8;--yellow:#e7b923;--green:#12844f}
+*{box-sizing:border-box}html{scroll-behaviour:smooth}body{margin:0;background:#0b151a;color:var(--text);font:14px/1.45 Inter,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit}
+.shell{display:grid;grid-template-columns:158px minmax(0,1fr);min-height:100vh}
+.sidebar{position:sticky;top:0;height:100vh;background:linear-gradient(165deg,#142c39,#0d1a22 40%);border-right:1px solid var(--border);overflow:auto}
+.logo{height:82px;display:flex;align-items:center;justify-content:center;gap:12px;border-bottom:1px solid var(--border);font:italic bold 26px Georgia,serif;letter-spacing:.03em}.logo .ball{font:24px Arial}
+.side-nav{display:grid;gap:3px;padding:15px 0}.side-nav button{background:none;color:#d6e1e5;border:0;text-align:left;padding:13px 17px;font-size:13px;border-left:3px solid transparent}.side-nav button.active{background:#263b44;border-left-color:#14b678;color:white}.side-nav button:hover{background:#20333c}
+.content{min-width:0}.topbar{height:90px;background:#101c23;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:5}
+.topline{height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 20px}.identity{display:flex;align-items:center;gap:12px}.identity .brand{font:italic bold 28px Georgia,serif}.identity strong{font-size:17px;display:block}.identity small{color:var(--muted);font-size:12px}.top-actions{display:flex;align-items:center;gap:12px}.clock{font-size:12px;color:#c4d1d6}.top-actions button{background:#087342;border:1px solid #0b9556;border-radius:5px;color:white;padding:9px 14px;font-weight:700}
+.tabs{display:flex;align-items:stretch;gap:2px;padding:0 14px;height:38px;overflow:auto;scrollbar-width:none}.tabs button{background:none;color:#d5e0e4;border:0;padding:0 14px;white-space:nowrap;font-size:12px;border-bottom:3px solid transparent}.tabs button.active{border-bottom-color:var(--yellow);color:white}
+main{padding:14px;max-width:1700px;margin:auto}.page{display:none}.page.active{display:block}
+.page-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 12px;min-height:58px}.page-title h1{font-size:24px;letter-spacing:-.025em;margin:0}.page-title p{margin:2px 0;color:#b3c2c9;font-size:12px}
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:12px}.metric{display:flex;align-items:center;gap:13px;border:1px solid var(--border);background:var(--surface);border-radius:8px;padding:13px 15px;min-width:0}.metric .symbol{font-size:23px;color:#b7cbd4}.metric strong{display:block;font-size:22px;line-height:1.1}.metric small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:9px;min-width:0;overflow:hidden}.panel-heading{padding:13px 15px;border-bottom:1px solid var(--border);font-size:14px;font-weight:700}.panel-body{padding:14px}
+.vacancy-grid{display:grid;grid-template-columns:minmax(285px,34%) minmax(0,1fr);gap:12px;align-items:stretch}
+.list-panel{display:flex;flex-direction:column;height:415px}.list-toolbar{padding:10px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:8px}.list-toolbar select{max-width:100%;min-width:0;background:#24343c;border:1px solid var(--border);border-radius:5px;color:white;padding:8px;font-size:12px}.lead-list{overflow:auto;padding:8px;flex:1;scrollbar-width:thin}
+.lead{display:flex;align-items:center;gap:10px;text-align:left;width:100%;padding:11px 9px;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--text);margin:0 0 5px;min-height:65px}.lead:hover{background:#20313a}.lead.active{background:linear-gradient(90deg,#39381f,#222d2b);border-color:var(--yellow);box-shadow:inset 3px 0 var(--yellow)}.lead-info{flex:1;min-width:0}.lead strong{display:block;font-size:13px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lead small{display:block;color:#b7c5cb;font-size:12px;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lead .tiny{font-size:10px;color:#9db2ba}
+.crest{width:39px;height:39px;flex:0 0 39px;display:flex;align-items:center;justify-content:center;border:1px solid #536d79;border-radius:50%;background:radial-gradient(circle,#334c56,#1a2e37);font-weight:800;color:#e2eef1;font-size:12px;overflow:hidden}.crest.large{width:61px;height:61px;flex-basis:61px;font-size:17px}.crest img{width:100%;height:100%;object-fit:contain;background:#fff}
+.detail-panel{height:415px;display:grid;grid-template-columns:minmax(0,1fr) 235px;gap:0}.detail-main{padding:19px;min-width:0;overflow:auto}.detail-heading{display:flex;align-items:center;gap:13px}.detail-heading h2{font-size:22px;line-height:1.15;margin:0}.detail-heading p{color:#d4dfe2;margin:4px 0 0}.detail-label{color:var(--yellow);font-size:11px;margin:15px 0 7px;font-weight:700}.detail-description{color:#d0dce0;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere;font-size:13px}.detail-meta{border-top:1px solid var(--border);padding-top:11px;color:#b8c9ce;font-size:12px}.detail-side{border-left:1px solid var(--border);padding:12px;display:flex;flex-direction:column;gap:8px}.photo{height:130px;border:1px solid var(--border);border-radius:6px;background:linear-gradient(135deg,#213b46,#102029);display:flex;align-items:center;justify-content:center;color:#93a9b2;font-size:11px;text-align:center;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover}.action{display:block;text-align:center;text-decoration:none;background:#273841;color:white;border:1px solid var(--border);padding:10px;border-radius:5px;font-weight:700;font-size:12px;width:100%}.action.primary{background:var(--yellow);color:#172126;border-color:#e8c132}.action.green{background:#0b7546;color:white;border-color:#158854}.action:disabled{opacity:.45;cursor:default}
+.lower-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:12px}.lower-grid .panel{min-height:190px}.summary-line{display:flex;justify-content:space-between;gap:8px;padding:7px 0;border-bottom:1px solid #293c44;font-size:12px}.summary-line span:first-child{color:#a9bac1}.summary-line span:last-child{text-align:right}.mini-row{display:flex;align-items:center;gap:9px;border-bottom:1px solid #293c44;padding:6px 0;font-size:12px}.mini-row .crest{width:26px;height:26px;flex-basis:26px;font-size:9px}.mini-row span:nth-child(2){flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.mini-row small{color:#a5b8c0}.footer-link{display:block;text-align:right;margin-top:9px;color:#85c8e7;background:none;border:0;font-size:12px;cursor:pointer}
+.input{width:100%;background:#1c2d35;border:1px solid #39515b;color:white;border-radius:5px;padding:10px}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 12px}.toolbar .input{max-width:350px}.club-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.club-card{padding:15px}.club-card h3{margin:0;font-size:15px}.club-card p{font-size:12px;color:#aabec6}.club-card .club-heading{display:flex;align-items:center;gap:10px}.club-card a{font-size:12px;color:#83c7e5}
+.tracked-list{display:grid;gap:10px}.tracked-card{padding:15px}.tracked-card h3{margin:0 0 5px;font-size:15px}.tracked-card p{font-size:12px;color:#aebfc6}.tracked-actions{display:flex;gap:7px;flex-wrap:wrap}.tracked-actions button{background:#253a44;border:1px solid #3b515b;border-radius:4px;color:white;padding:7px 10px}.empty{padding:22px;color:#a8bac2;font-size:13px}.muted{color:var(--muted);font-size:12px}
+dialog{background:#15252d;color:white;border:1px solid #455b66;border-radius:10px;width:min(540px,95vw);padding:20px}dialog::backdrop{background:#000a}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.form-grid label{font-size:12px;color:#b9cbd2}.form-grid input,.form-grid select,.form-grid textarea{width:100%;margin-top:5px;background:#21343d;border:1px solid #415762;border-radius:5px;padding:9px;color:white}.form-grid .wide{grid-column:1/-1}.form-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:15px}
+@media(max-width:1200px){.detail-panel{grid-template-columns:minmax(0,1fr) 190px}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:950px){.shell{grid-template-columns:1fr}.sidebar{display:none}.topbar{position:relative}.vacancy-grid{grid-template-columns:1fr}.list-panel{height:auto;max-height:320px}.detail-panel{height:auto;min-height:340px}.lower-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){body{font-size:13px}.topbar{height:101px}.topline{height:57px;padding:0 12px}.identity strong{font-size:17px}.identity small{font-size:10px}.identity .brand{font-size:25px}.top-actions .clock{display:none}.top-actions button{padding:8px;font-size:11px}.tabs{height:44px;padding:0 4px}.tabs button{font-size:12px;padding:0 12px}main{padding:10px}.page-title h1{font-size:20px}.page-title p{font-size:11px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.metric{padding:10px;gap:8px}.metric strong{font-size:19px}.metric .symbol{font-size:18px}.metric small{font-size:10px}.list-panel{max-height:265px}.lead{min-height:56px;padding:8px}.lead strong{font-size:13px}.lead small{font-size:11px}.detail-panel{display:block}.detail-main{padding:14px}.detail-heading h2{font-size:20px}.detail-side{border-left:0;border-top:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;gap:8px}.detail-side .photo{grid-column:1/-1;height:105px}.lower-grid,.club-grid{grid-template-columns:1fr}.lower-grid .panel{min-height:0}.form-grid{grid-template-columns:1fr}}
 </style></head><body>
-<header><div class="brand"><div class="mark">T</div><div><h1>Touchline Radar</h1><p>Scottish football coaching opportunities · Shawlands, Glasgow</p></div></div><nav id="fmTopNav"><a href="#vacancyRadar">Overview</a><a href="#vacancyRadar">Vacancies</a><a href="#clubDirectory">Club Directory</a><a href="#savedVacancies">Tracked Applications</a><a href="#searchCoverage">Search & Alerts</a></nav></header>
-<nav id="fmNav"><a class="active" href="#vacancyRadar">⌂ &nbsp; Overview</a><a href="#vacancyRadar">▣ &nbsp; Vacancies</a><a href="#clubDirectory">♧ &nbsp; Club Directory</a><a href="#savedVacancies">▤ &nbsp; Tracked</a><a href="#vacancyRadar">⌕ &nbsp; Search</a><a href="#searchCoverage">⚙ &nbsp; Settings</a></nav>
+<div class="shell"><aside class="sidebar"><div class="logo"><span class="ball">⚽</span> TR</div><nav class="side-nav" id="sideNav"><button data-page="overview" class="active">⌂ &nbsp; Overview</button><button data-page="vacancies">▣ &nbsp; Vacancies</button><button data-page="clubs">▦ &nbsp; Club Directory</button><button data-page="tracked">▤ &nbsp; Tracked</button><button data-page="search">⌕ &nbsp; Search</button></nav></aside>
+<div class="content"><header class="topbar"><div class="topline"><div class="identity"><span class="brand">TR</span><div><strong>Touchline Radar</strong><small>Coaching Opportunities · Shawlands, Glasgow</small></div></div><div class="top-actions"><span class="clock" id="clock"></span><button id="refreshTop">↻ Refresh Search</button></div></div><nav class="tabs" id="tabs"><button class="active" data-page="overview">Overview</button><button data-page="vacancies">Vacancies</button><button data-page="clubs">Club Directory</button><button data-page="tracked">Tracked Applications</button><button data-page="search">Search &amp; Alerts</button></nav></header>
 <main>
-<section class="radar-section" id="vacancyRadar">
- <div class="section-head"><div><div class="eyebrow">Daily discovery</div><h2>Coaching Vacancies</h2><p class="muted" id="feedUpdated">Loading latest search…</p></div><div class="actions"><button id="refreshFeedBtn">↻ Reload latest feed</button><button id="runSearchBtn" class="secondary">Start a new search ↗</button></div></div>
- <div class="feed-summary"><span class="feed-pill" id="leadCount">Loading leads…</span><span class="feed-pill">Daily automatic search · 07:30 UTC</span><span class="feed-pill">Check original adverts before applying</span></div> <div class="fm-metrics"><div><b id="metricVacancies">—</b><span>Active leads</span></div><div><b id="metricClubs">—</b><span>Clubs monitored</span></div><div><b id="metricUpdated">—</b><span>Last search</span></div><div><b>10 mi</b><span>Search radius</span></div></div>
- <p class="muted" id="feedCoverage">The feed currently contains candidate leads from public search results. It is not a complete view of social media.</p>
-
- <div class="list" id="discovered"><div class="empty">Loading candidate adverts…</div></div>
-</section>
-<div class="dashboard-lower">
- <section class="overview-card"><h3>⌕ &nbsp; Search Summary</h3>
-  <div class="summary-row"><span>Area</span><span>Within 10 miles of Shawlands</span></div>
-  <div class="summary-row"><span>Football</span><span>Men's and boys'</span></div>
-  <div class="summary-row"><span>Levels</span><span>U18–U21, reserves and eligible senior</span></div>
-  <div class="summary-row"><span>Latest check</span><span id="lowerSearchTime">See above</span></div>
- </section>
- <section class="overview-card"><h3>▣ &nbsp; Tracked Applications</h3><p class="muted" id="overviewTracked">Your saved applications appear below.</p><a href="#savedVacancies">View tracked applications →</a></section>
- <section class="overview-card"><h3>♧ &nbsp; Nearby Clubs</h3><p class="muted" id="overviewClubs">Loading the club directory…</p><a href="#clubDirectory" id="overviewClubsLink">View club directory →</a></section>
-</div>
-<div class="hero compact-hero"><div><div class="eyebrow">Your local coaching search</div><h2>Football coaching vacancies</h2><p>Shawlands, Glasgow · 10-mile search radius · Men’s and boys’ football</p></div></div>
-<section id="savedVacancies"><div class="section-head"><div><h2>Tracked Applications</h2><p class="muted">Keep promising opportunities, track applications and follow up.</p></div><button id="addBtn" class="secondary">＋ Save a vacancy I've found</button><div class="stats" style="margin:0"><div class="stat"><b id="total">0</b><span>Saved</span></div><div class="stat"><b id="newCount">0</b><span>New</span></div><div class="stat"><b id="openCount">0</b><span>Open</span></div></div></div> <div class="toolbar"><input id="search" placeholder="Search club, role, team or advert…"><select id="statusFilter"><option value="all">All tracked statuses</option><option>New</option><option>Interested</option><option>Applied</option><option>Closed</option></select><select id="levelFilter"><option value="all">All levels</option><option>U18</option><option>U20</option><option>U21</option><option>Reserves</option><option>Development</option><option>Senior WOSFL</option></select><button class="secondary" id="exportBtn">Export tracked CSV</button></div><div class="list" id="vacancies"></div></section>
-<details id="clubDirectory"><summary class="directory-toggle"><span><b>Club & academy directory</b><br><small class="muted">Reference list, not the vacancy feed · <span id="clubCount">Loading clubs…</span></small></span><span>＋</span></summary><div class="directory-body"><p class="muted">Only confirmed details are labelled as such. Missing information is shown explicitly rather than guessed. Check the relevant team's actual base before treating it as inside the 10-mile radius.</p><div class="toolbar"><input id="clubSearch" placeholder="Find a club, academy or coaching employer…"><select id="clubTypeFilter"><option value="all">All organisation types</option><option value="professional">Professional academies</option><option value="grassroots">Grassroots clubs</option><option value="senior">Senior clubs</option><option value="private">Private academies</option></select></div><div class="directory-grid" id="clubWatchlist"><div class="empty">Loading club directory…</div></div><div id="clubCandidates" class="candidate-note" hidden></div></div></details>
-<section class="panel" id="searchCoverage"><h2>Search coverage</h2><p><b>Area:</b> Shawlands, Glasgow. A team qualifies only when its actual home ground or regular training base is within 10 miles.</p><p><b>Teams:</b> Senior men's teams at every league level, professional academies, youth, U18, U20, U21, reserves and development squads.</p><p><b>Sources:</b> Club websites and publicly indexed Facebook, Instagram and X posts. Private or unindexed social content cannot currently be searched.</p></section>
-
-</main>
-<dialog id="editor"><form id="vacancyForm"><h2 id="formTitle">Add vacancy</h2><input type="hidden" id="editId"><div class="formgrid">
-<div class="field"><label for="club">Club</label><input id="club" required></div><div class="field"><label for="team">Team / level</label><select id="team"><option>U18</option><option>U20</option><option>U21</option><option>Reserves</option><option>Development</option><option>Senior WOSFL</option></select></div>
-<div class="field"><label for="role">Role</label><select id="role"><option>Manager</option><option>Head Coach</option><option>Assistant Manager</option><option>Assistant Coach</option><option>Coach</option></select></div><div class="field"><label for="distance">Distance from Shawlands (miles)</label><input id="distance" type="number" min="0" max="10" step=".1" required></div>
-<div class="field"><label for="location">Ground / training location</label><input id="location"></div><div class="field"><label for="date">Date found</label><input id="date" type="date"></div>
-<div class="field"><label for="status">Status</label><select id="status"><option>New</option><option>Interested</option><option>Applied</option><option>Closed</option></select></div><div class="field"><label for="deadline">Deadline (if known)</label><input id="deadline" type="date"></div>
-<div class="field full"><label for="url">Original advert link</label><input id="url" type="url" placeholder="https://"></div><div class="field full"><label for="notes">Notes / contact details</label><textarea id="notes" rows="3"></textarea></div></div>
-<div class="form-actions"><button type="button" class="secondary" id="cancelBtn">Cancel</button><button type="submit">Save vacancy</button></div></form></dialog>
-<footer>Touchline Radar · Built for the Scottish grassroots and development game</footer>
+<section class="page active" id="page-overview"><div class="page-title"><div><h1>▣ &nbsp; Coaching Vacancies</h1><p>Men's and boys' football · Within 10 miles of Shawlands</p></div></div>
+<div class="metrics"><div class="metric"><span class="symbol">▣</span><div><strong id="mVac">—</strong><small>Candidate vacancies</small></div></div><div class="metric"><span class="symbol">♧</span><div><strong id="mClubs">—</strong><small>Clubs in directory</small></div></div><div class="metric"><span class="symbol">↻</span><div><strong id="mTime">—</strong><small>Last search</small></div></div><div class="metric"><span class="symbol">◎</span><div><strong>10 mi</strong><small>Search radius</small></div></div></div>
+<div class="vacancy-grid"><section class="panel list-panel"><div class="list-toolbar"><select id="leadFilter" aria-label="Filter vacancy leads"><option value="all">All vacancies</option><option value="senior">Senior management</option><option value="coaching">Coaching positions</option></select><span class="muted">Select a vacancy</span></div><div class="lead-list" id="leadList"><div class="empty">Loading vacancies…</div></div></section><section class="panel detail-panel" id="detail"><div class="empty">Loading selected vacancy…</div></section></div>
+<div class="lower-grid"><section class="panel"><div class="panel-heading">⌕ &nbsp; Search Summary</div><div class="panel-body"><div class="summary-line"><span>Area</span><span>10 miles from Shawlands</span></div><div class="summary-line"><span>Football</span><span>Men's and boys'</span></div><div class="summary-line"><span>Levels</span><span>Academy, youth, senior</span></div><div class="summary-line"><span>Last search</span><span id="summaryTime">Loading…</span></div><div class="summary-line"><span>Next automatic check</span><span>07:30 UTC daily</span></div></div></section>
+<section class="panel"><div class="panel-heading">▣ &nbsp; Tracked Applications <span id="trackedCount"></span></div><div class="panel-body" id="trackedPreview"></div></section>
+<section class="panel"><div class="panel-heading">♧ &nbsp; Nearby Clubs</div><div class="panel-body"><div id="clubPreview"></div><button class="footer-link" data-page="clubs">View full directory ›</button></div></section></div></section>
+<section class="page" id="page-vacancies"><div class="page-title"><div><h1>Coaching Vacancies</h1><p>Public recruitment leads · Original adverts must be checked</p></div></div><div class="vacancy-grid"><section class="panel list-panel"><div class="list-toolbar"><span>Vacancy leads</span></div><div class="lead-list" id="leadListFull"></div></section><section class="panel detail-panel" id="detailFull"></section></div></section>
+<section class="page" id="page-clubs"><div class="page-title"><div><h1>Club Directory</h1><p>Local men's and boys' football organisations · Sorted A–Z</p></div></div><div class="toolbar"><input class="input" id="clubSearch" placeholder="Search clubs, grounds or categories"><select class="input" id="clubType" style="max-width:190px"><option value="all">All clubs</option><option value="professional">Professional</option><option value="senior">Senior</option><option value="grassroots">Grassroots</option><option value="private">Private coaching</option></select></div><div class="club-grid" id="clubGrid"></div></section>
+<section class="page" id="page-tracked"><div class="page-title"><div><h1>Tracked Applications</h1><p>Saved locally in this browser</p></div><button class="action green" style="width:auto" id="addTracked">+ Add vacancy</button></div><div class="tracked-list" id="trackedList"></div></section>
+<section class="page" id="page-search"><div class="page-title"><div><h1>Search &amp; Alerts</h1><p>Daily discovery and source coverage</p></div></div><section class="panel"><div class="panel-body"><p>Searches run automatically at 07:30 UTC. This dashboard reads the latest published results, not live social media.</p><p id="feedStatus" class="muted">Loading feed status…</p><p id="feedCoverage" class="muted"></p><button class="action green" id="refreshSearch" style="max-width:220px">Reload latest results</button><p class="muted">To start a new GitHub Actions discovery run, use the workflow page.</p><a class="action" style="max-width:240px" target="_blank" rel="noopener" href="https://github.com/deefurkay/touchline-radar/actions/workflows/daily-vacancy-discovery.yml">Open search workflow ↗</a></div></section></section>
+</main></div></div>
+<dialog id="editor"><form id="editForm"><h2 id="editTitle">Track a vacancy</h2><input type="hidden" id="editId"><div class="form-grid"><label>Club<input id="eClub" required></label><label>Role<input id="eRole" required></label><label>Team<input id="eTeam"></label><label>Status<select id="eStatus"><option>Interested</option><option>Applied</option><option>New</option><option>Closed</option></select></label><label>Location<input id="eLocation"></label><label>Found date<input id="eDate" type="date"></label><label class="wide">Original advert URL<input id="eUrl" type="url"></label><label class="wide">Notes<textarea id="eNotes" rows="3"></textarea></label></div><div class="form-actions"><button type="button" class="action" style="width:auto" id="cancelEdit">Cancel</button><button class="action primary" style="width:auto" type="submit">Save</button></div></form></dialog>
 <script>
-const KEY='touchline-radar-v1';let items=JSON.parse(localStorage.getItem(KEY)||'[]');let discovered=[];const $=id=>document.getElementById(id);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-const CLUB_ART={'celtic fc':'Celtic_F.C.','celtic':'Celtic_F.C.','partick thistle fc':'Partick_Thistle_F.C.','partick thistle':'Partick_Thistle_F.C.',"queen's park fc":"Queen%27s_Park_F.C.","queen's park":"Queen%27s_Park_F.C.",'pollok fc':'Pollok_F.C.','pollok':'Pollok_F.C.','st mirren fc':'St_Mirren_F.C.','st mirren':'St_Mirren_F.C.',"st anthony's fc":"St_Anthony%27s_F.C.","saint anthony's fc":"St_Anthony%27s_F.C.",'rangers fc':'Rangers_F.C.','motherwell fc':'Motherwell_F.C.','clyde fc':'Clyde_F.C.','clydebank fc':'Clydebank_F.C.','maryhill fc':'Maryhill_F.C.'};
-const CLUB_PHOTOS={}; // Only add imagery after confirming the actual file and permission.
-const badgeCache={};
-function clubKey(name){return String(name||'').toLowerCase().replace(/[’]/g,"'").replace(/^the /,'').trim()}
-function badgeMarkup(name,cls=''){const key=clubKey(name),initials=String(name||'FC').replace(/\b(fc|football|club|the)\b/gi,'').trim().split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase()||'FC';return '<span class="club-badge '+cls+'" data-club-key="'+esc(key)+'"><span>'+esc(initials)+'</span></span>'}
-function photoMarkup(name){const p=CLUB_PHOTOS[clubKey(name)];return p?'<figure class="club-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(p[0])+'" alt="'+esc(p[1])+'" loading="lazy" onerror="this.closest(\'.club-photo\').classList.add(\'photo-failed\')"><figcaption>'+esc(p[1])+' · Wikimedia Commons</figcaption></figure>':'<div class="club-photo no-photo">Club photograph unavailable</div>'}
-async function hydrateBadges(root=document){const groups={};root.querySelectorAll('.club-badge[data-club-key]').forEach(el=>(groups[el.dataset.clubKey]??=[]).push(el));await Promise.all(Object.keys(groups).map(async key=>{const article=CLUB_ART[key];if(!article)return;if(!(key in badgeCache)){try{const response=await fetchWithTimeout('https://en.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&pithumbsize=160&redirects=1&origin=*&titles='+article,5500);const data=await response.json(),page=Object.values(data.query?.pages||{})[0],img=page?.thumbnail?.source||'';badgeCache[key]=/^https:\/\/upload\.wikimedia\.org\//.test(img)&&/logo|crest|badge|emblem|escudo|wappen/i.test(decodeURIComponent(img))?img:null}catch(e){badgeCache[key]=null}}if(badgeCache[key])for(const el of groups[key])if(el.isConnected)el.innerHTML='<img src="'+esc(badgeCache[key])+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">'}))}
-
-function save(){localStorage.setItem(KEY,JSON.stringify(items));render()}
-function render(){const q=$('search').value.toLowerCase(),st=$('statusFilter').value,lv=$('levelFilter').value;const rows=items.filter(x=>(st==='all'||x.status===st)&&(lv==='all'||x.team===lv)&&[x.club,x.role,x.team,x.location,x.notes].join(' ').toLowerCase().includes(q));$('total').textContent=items.length;$('newCount').textContent=items.filter(x=>x.status==='New').length;$('openCount').textContent=items.filter(x=>x.status!=='Closed').length;
-$('vacancies').innerHTML=rows.length?rows.sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(x=>'<article class="card"><h3>'+esc(x.club)+' · '+esc(x.role)+'</h3><div class="meta">'+esc(x.team)+' · '+esc(x.location||'Location not recorded')+' · '+(x.distance!==''&&x.distance!=null?esc(x.distance)+' miles from Shawlands':'Distance not verified')+'</div><span class="tag '+(x.status==='New'?'new':'')+'">'+esc(x.status)+'</span><span class="tag">Found '+esc(x.date||'date unknown')+'</span>'+(x.deadline?'<span class="tag">Deadline '+esc(x.deadline)+'</span>':'')+(x.notes?'<p class="desc">'+esc(x.notes)+'</p>':'')+(x.url?'<a class="source" href="'+esc(x.url)+'" target="_blank" rel="noopener">Original advert ↗</a>':'<span class="meta">No advert link recorded</span>')+'<div class="actions"><button class="secondary" onclick="editItem(\''+x.id+'\')">Edit</button><button class="secondary" onclick="cycleStatus(\''+x.id+'\')">Next status</button><button class="danger" onclick="deleteItem(\''+x.id+'\')">Delete</button></div></article>').join(''):'<div class="empty">No vacancies yet. Add one when you spot an advert or receive a lead.</div>'}
-let selectedLead=0;
-function renderDiscovered(){
- const box=$('discovered');if(!box)return;
- const excluded=/\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b/i;
- const recruitment=/\b(?:coach(?:es)?|manager|coaching staff)\b.{0,120}\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|wanted|required|needed|apply|applications? open|paid position)\b|\b(?:vacanc(?:y|ies)|recruit(?:ing|ment)?|paid position|applications? open)\b.{0,120}\b(?:coach|manager|coaching staff)\b|\blooking for (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\s+)?(?:football\s+)?(?:coach|manager)\b|\bseeking (?:an? )?(?:(?:head|assistant|goalkeeping|academy|youth|first[ -]?team|development)\s+)?(?:football\s+)?(?:coach|manager)\b|\b(?:join|joining) (?:our|the) coaching (?:team|staff)\b/i;
- const nonVacancy=/\b(?:looking for players|recruiting players|players wanted|player recruitment|open for bookings|book now|football camp|holiday camp|tots classes|sessions? for children|social media volunteers?|fundraising|sponsors? wanted|team behind the team|help behind the scenes)\b/i;
- discovered=discovered.filter(x=>{
-  const text=[x.title,x.club,x.team,x.role,x.snippet,x.source].join(' ');
-  const manuallyPinned=['user_reported','official_departure'].includes(x.lead_type);
-  return !excluded.test(text)&&(manuallyPinned||(recruitment.test(text)&&!nonVacancy.test(text)));
- });
- if(!discovered.length){box.innerHTML='<div class="empty">No new leads in the latest completed search. Some clubs publish only on social media, so an empty feed is not proof that no vacancies exist.</div>';return;}
- if(selectedLead>=discovered.length)selectedLead=0;
- const x=discovered[selectedLead];
- const parsedDate=x.published?new Date(x.published):null;const date=parsedDate&&!Number.isNaN(parsedDate.getTime())?parsedDate.toLocaleDateString('en-GB'):(x.published?.match(/\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{4}/)?.[0]||'Date not confirmed');
- const role=x.role||'Coaching opportunity';
- const club=x.club||x.source||'Club not identified';
- const status=x.verification_status||'Unverified lead';
- const rows=discovered.map((v,i)=>'<button class="lead-row '+(i===selectedLead?'selected':'')+'" data-lead="'+i+'"><div class="lead-heading">'+badgeMarkup(v.club||v.title)+'<h3>'+esc(v.club||v.title)+'</h3></div><div class="lead-role">'+esc(v.role||'Coaching position — verify original advert')+'</div><div class="meta">'+esc(v.source||'Source not identified')+'</div></button>').join('');
- const url=x.url||'';
- box.innerHTML='<div class="lead-list">'+rows+'</div><article class="lead-detail"><div class="lead-detail-top"><div><div class="meta">VACANCY / PUBLIC RECRUITMENT LEAD · '+esc(date)+'</div><h3>'+esc(club)+'</h3><h4>'+esc(role)+'</h4></div>'+badgeMarkup(club,'large')+'</div>'+photoMarkup(club)+'<span class="tag new">'+esc(status)+'</span><p class="desc">'+esc(x.snippet||'No advert summary available. Open the original source to inspect the full notice.')+'</p><div class="meta">Team: '+esc(x.team||'Not confirmed')+' · Location: '+esc(x.location||'Not confirmed')+'</div><div class="detail-actions">'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">Open original advert ↗</a>':'')+'<button type="button" id="saveLeadBtn">Save to tracked vacancies</button></div><p class="meta">Always verify the original post, role, team and actual training base before applying.</p></article>';
- box.querySelectorAll('[data-lead]').forEach(b=>b.addEventListener('click',()=>{selectedLead=Number(b.dataset.lead);renderDiscovered()}));
- hydrateBadges(box);
- const saveBtn=$('saveLeadBtn');if(saveBtn)saveBtn.onclick=()=>{const lead=discovered[selectedLead];const record={id:crypto.randomUUID(),club:lead.club||lead.source||lead.title,team:lead.team||'Development',role:lead.role||'Coach',distance:lead.distance_miles??'',location:lead.location||'',date:new Date().toISOString().slice(0,10),status:'Interested',deadline:'',url:lead.url||'',notes:lead.snippet||'Saved from public vacancy discovery feed.'};items.unshift(record);save();saveBtn.textContent='Saved to tracked vacancies';};
-}
-async function fetchWithTimeout(url,ms=12000){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),ms);try{return await fetch(url,{cache:'no-store',signal:controller.signal})}finally{clearTimeout(timer)}}
-async function loadDiscovery(){
- const box=$('discovered');
- try{
-  $('feedUpdated').textContent='Connecting to the latest vacancy feed…';
-  const r=await fetchWithTimeout('./vacancies-feed.json?'+Date.now());
-  if(!r.ok)throw new Error('Feed request returned HTTP '+r.status);
-  const data=await r.json();
-  if(!Array.isArray(data.items))throw new Error('Vacancy feed has an unexpected format');
-  discovered=data.items;
-  $('metricVacancies').textContent=discovered.length;
-  $('feedUpdated').textContent=data.generated_at?'Last completed search: '+new Date(data.generated_at).toLocaleString():'Daily search has not run yet.';
-  $('metricUpdated').textContent=data.generated_at?new Date(data.generated_at).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}):'Pending';
-  $('lowerSearchTime').textContent=$('metricUpdated').textContent;
-  $('leadCount').textContent=discovered.length+' candidate lead'+(discovered.length===1?'':'s')+' found';
-  $('feedCoverage').textContent=data.coverage_note||'Publicly indexed results only. Social feeds are not comprehensively indexed.';
-  renderDiscovered();
- }catch(e){
-  console.error('Touchline Radar vacancy feed:',e);
-  $('feedUpdated').textContent='Could not load the vacancy feed.';
-  $('leadCount').textContent='Feed connection failed';
-  if(box)box.innerHTML='<div class="empty">The vacancy feed did not respond. Check your connection and use “Reload latest feed” to try again. If this continues, the feed file or hosting service needs attention.</div>';
- }
-}
-function showForm(x){$('vacancyForm').reset();$('editId').value=x?.id||'';$('formTitle').textContent=x?'Edit vacancy':'Add vacancy';if(x)for(const k of ['club','team','role','distance','location','date','status','deadline','url','notes'])$(k).value=x[k]??'';$('editor').showModal()}
-window.editItem=id=>showForm(items.find(x=>x.id===id));window.deleteItem=id=>{if(confirm('Delete this vacancy?')){items=items.filter(x=>x.id!==id);save()}};window.cycleStatus=id=>{const order=['New','Interested','Applied','Closed'];items=items.map(x=>x.id===id?{...x,status:order[(order.indexOf(x.status)+1)%order.length]}:x);save()};
-$('addBtn').onclick=()=>showForm();$('cancelBtn').onclick=()=>$('editor').close();$('search').oninput=render;$('statusFilter').onchange=render;$('levelFilter').onchange=render;$('clubSearch').oninput=renderClubs;$('clubTypeFilter').onchange=renderClubs;
-$('vacancyForm').onsubmit=e=>{e.preventDefault();const id=$('editId').value,x={id:id||crypto.randomUUID()};for(const k of ['club','team','role','distance','location','date','status','deadline','url','notes'])x[k]=$(k).value.trim();x.distance=Number(x.distance);if(x.distance>10){alert('This tracker is limited to 10 miles from Shawlands.');return}if(id)items=items.map(v=>v.id===id?x:v);else items.unshift(x);$('editor').close();save()};
-$('exportBtn').onclick=()=>{const keys=['club','team','role','distance','location','date','status','deadline','url','notes'];const csv=[keys.join(','),...items.map(x=>keys.map(k=>'"'+String(x[k]??'').replace(/"/g,'""')+'"').join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='touchline-radar-vacancies.csv';a.click();URL.revokeObjectURL(a.href)};
-let clubRecords=[];
-function renderClubs(){
- const q=($('clubSearch')?.value||'').toLowerCase(),type=$('clubTypeFilter')?.value||'all';
- const shown=clubRecords.filter(c=>{
-  const t=(c.name+' '+c.category+' '+(c.homeGround||'')+' '+(c.trainingBase||'')).toLowerCase();
-  const cat=(c.category||'').toLowerCase();
-  const ok=type==='all'||(type==='professional'&&cat.includes('professional'))||(type==='grassroots'&&(cat.includes('grassroots')||cat.includes('community'))) ||(type==='senior'&&cat.includes('senior'))||(type==='private'&&(cat.includes('private')||cat.includes('coaching')));
-  return ok&&t.includes(q);
- });
- $('clubCount').textContent=clubRecords.length+' organisations · '+shown.length+' shown';
- $('clubWatchlist').innerHTML=shown.map(c=>{
-  const s=c.social||{},links=[['Website',c.website],['Facebook',s.facebook],['Instagram',s.instagram],['X',s.x]].filter(x=>x[1]);
-  const distance=c.distanceMiles!=null?'<span class="data-chip">'+esc(c.distanceMiles)+' mi · '+esc(c.distanceStatus||'Distance checked')+'</span>':'<span class="meta">'+esc(c.distanceStatus||'Distance not yet verified')+'</span>';
-  const basis=c.distanceBasis?'<div class="meta">Distance based on: '+esc(c.distanceBasis)+'</div>':'';
-  const refs=c.sources?.length?'<p class="meta">Sources: '+c.sources.length+'</p>':'';
-  return '<article class="club-card"><div class="club-heading">'+badgeMarkup(c.name)+'<h3>'+esc(c.name)+'</h3></div><div class="meta">'+esc(c.category||'Organisation type not recorded')+'</div><p class="desc">Home ground: '+esc(c.homeGround||'Not published')+'</p><div class="meta">Training base: '+esc(c.trainingBase||'Not published')+'</div><div class="club-data">'+distance+'</div>'+basis+'<div class="actions">'+links.map(x=>'<a class="source" href="'+esc(x[1])+'" target="_blank" rel="noopener">'+x[0]+' ↗</a>').join('')+'</div>'+refs+'</article>'
- }).join('')||'<div class="empty">No matching organisations.</div>';
- hydrateBadges($('clubWatchlist'));
-}
-async function loadClubs(){
- const box=$('clubWatchlist');
- try{
-  const res=await fetchWithTimeout('./clubs.json?'+Date.now());
-  if(!res.ok)throw new Error('Club directory request returned HTTP '+res.status);
-  const data=await res.json();
-  clubRecords=(data.clubs||[]).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));
-  $('metricClubs').textContent=clubRecords.length;renderClubs();
-  $('overviewClubs').innerHTML=clubRecords.slice(0,5).map(c=>'<div class="mini-club">'+badgeMarkup(c.name)+'<span>'+esc(c.name)+'</span></div>').join('')||'No clubs in the directory yet.';
-  hydrateBadges($('overviewClubs'));
-  const c=await fetchWithTimeout('./club-discovery-candidates.json?'+Date.now(),6000).then(r=>r.ok?r.json():null).catch(()=>null);
-  const panel=$('clubCandidates');
-  if(c&&c.candidates?.length){panel.hidden=false;panel.innerHTML='<h3>New clubs being screened ('+c.candidates.length+')</h3><p class="muted">Daily checks find additional organisations in local football directories. These are not added to the main list until a men’s or boys’ team and its actual base are verified within 10 miles of Shawlands.</p><ul>'+c.candidates.slice(0,25).map(x=>'<li><a href="'+esc(x.source_url)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a> <small>· location screening needed</small></li>').join('')+'</ul>';}
- }catch(e){console.error('Touchline Radar club directory:',e);if(box)box.innerHTML='<div class="empty">Club directory could not be loaded. Try refreshing the page.</div>';}
-}
-$('refreshFeedBtn').onclick=async()=>{const b=$('refreshFeedBtn');b.disabled=true;b.textContent='↻ Checking…';await loadDiscovery();b.disabled=false;b.textContent='↻ Reload latest feed'};$('runSearchBtn').onclick=()=>window.open('https://github.com/deefurkay/touchline-radar/actions/workflows/daily-vacancy-discovery.yml','_blank','noopener');
-if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(e=>console.warn('Offline cache unavailable:',e)));
-try{render()}catch(e){console.error('Touchline Radar saved vacancies:',e);$('vacancies').innerHTML='<div class="empty">Saved vacancies could not be read in this browser. The live vacancy feed will still load.</div>'}
-loadDiscovery();loadClubs();
-$('overviewTracked').textContent=items.length?items.slice(0,3).map(x=>x.club+' — '+x.role+' ('+x.status+')').join(' · '):'No applications tracked yet.';
+const $=id=>document.getElementById(id), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const KEY='touchline-radar-v1';let tracked=[];try{tracked=JSON.parse(localStorage.getItem(KEY)||'[]');if(!Array.isArray(tracked))tracked=[]}catch(e){tracked=[]}
+let leads=[],clubs=[],selected=0,page='overview',lastSearch='';
+const canon=s=>String(s||'').toLowerCase().replace(/[’]/g,"'").replace(/\b(football club|fc|afc)\b/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const knownClubs=["Saint Anthony's FC","BSC Glasgow","Queen's Park FC","Celtic FC","Partick Thistle FC","St Mirren FC","Pollok FC","Renfrew FC","Maryhill FC","Clyde FC","Motherwell FC","Rangers FC"];
+function inferClub(x){if(x.club&&x.club.trim().length<65)return x.club.trim();const text=(x.title||'')+' '+(x.snippet||'');for(const n of knownClubs){const pattern=canon(n);if(canon(text).includes(pattern))return n}const m=text.match(/\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2})\s+(?:FC|Football Club)\b/);return m?m[0]:''}
+function inferRole(x){if(x.role&&x.role.length<80)return x.role;const t=(x.title||'')+' '+(x.snippet||'');if(/(?:first.team.manager|manager.{0,25}first.team)/i.test(t))return 'First Team Manager';if(/head.{0,12}goalkeeping.coach/i.test(t))return 'Head Goalkeeping Coach';if(/goalkeeping.coach/i.test(t))return 'Goalkeeping Coach';if(/academy.coach/i.test(t))return 'Academy Coach';if(/assistant.manager/i.test(t))return 'Assistant Manager';if(/head.coach/i.test(t))return 'Head Coach';if(/football.coach|coaching.position|coaching.staff/i.test(t))return 'Football Coach';return 'Coaching position — check advert'}
+function initials(s){return String(s||'FC').replace(/\b(fc|football|club|the)\b/gi,'').trim().split(/\s+/).slice(0,2).map(x=>x[0]||'').join('').toUpperCase()||'FC'}
+function crest(s,large=false){return '<span class="crest '+(large?'large':'')+'" aria-hidden="true">'+esc(initials(s))+'</span>'}
+function fmtDate(s){if(!s)return 'Date unconfirmed';const d=new Date(s);if(!isNaN(d.getTime()))return d.toLocaleDateString('en-GB');const m=String(s).match(/\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{4}/);return m?m[0]:'Date unconfirmed'}
+function normalise(raw){const club=inferClub(raw),role=inferRole(raw);return {...raw,club:club||'Club to verify',role,rawTitle:raw.title||'',isSenior:/manager|first.team/i.test(role),key:canon(club)+'|'+canon(role)}}
+function dedupe(arr){const map=new Map();for(const x of arr){if(!map.has(x.key))map.set(x.key,x);else{const prior=map.get(x.key);const quality=y=>(y.club!=='Club to verify'?4:0)+(y.role&&!y.role.includes('check advert')?2:0)+(y.lead_type==='official_departure'?2:0)+(y.url&&!y.url.includes('news.google.com')?1:0);if(quality(x)>quality(prior))map.set(x.key,x)}}return [...map.values()]}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(tracked))}catch(e){}renderTracked()}
+function navigate(p){page=p;document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id==='page-'+p));document.querySelectorAll('[data-page]').forEach(el=>el.classList.toggle('active',el.dataset.page===p));if(p==='vacancies')renderLeads();if(p==='clubs')renderClubs();if(p==='tracked')renderTracked();window.scrollTo({top:0,behavior:'instant'})}
+document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.page)));
+function renderLeads(){const filter=$('leadFilter').value;const shown=leads.filter(x=>filter==='all'||(filter==='senior'?x.isSenior:!x.isSenior));if(!shown.includes(leads[selected]))selected=Math.max(0,leads.findIndex(x=>shown.includes(x)));for(const id of ['leadList','leadListFull']){const el=$(id);el.innerHTML=shown.length?shown.map(x=>{const idx=leads.indexOf(x);return '<button class="lead '+(idx===selected?'active':'')+'" data-lead="'+idx+'">'+crest(x.club)+'<span class="lead-info"><strong>'+esc(x.club)+'</strong><small>'+esc(x.role)+'</small><span class="tiny">'+esc(x.lead_type==='official_departure'?'Managerial departure · advert not verified':x.source||'Public recruitment lead')+'</span></span></button>'}).join(''):'<div class="empty">No matching coaching leads in the latest feed.</div>';el.querySelectorAll('[data-lead]').forEach(b=>b.onclick=()=>{selected=Number(b.dataset.lead);renderLeads()})}renderDetail()}
+function renderDetail(){const x=leads[selected];for(const id of ['detail','detailFull']){const el=$(id);if(!x){el.innerHTML='<div class="empty">No vacancy selected.</div>';continue}const hasUrl=/^https?:\/\//.test(x.url||'');const description=x.snippet||x.rawTitle||'Open the original source to confirm the role and requirements.';const saved=tracked.some(t=>t.url&&t.url===x.url);el.innerHTML='<div class="detail-main"><div class="detail-heading">'+crest(x.club,true)+'<div><h2>'+esc(x.club)+'</h2><p>'+esc(x.role)+'</p></div></div><div class="detail-label">'+esc(x.lead_type==='official_departure'?'MANAGERIAL DEPARTURE · NOT A CONFIRMED OPEN ADVERT':'PUBLIC RECRUITMENT LEAD · VERIFY BEFORE APPLYING')+'</div><div class="detail-description">'+esc(description)+'</div><p class="detail-meta">Source: '+esc(x.source||'Not recorded')+' · '+esc(fmtDate(x.published))+'<br>Team: '+esc(x.team||'Not confirmed')+' · Base: '+esc(x.location||'Not confirmed')+'</p></div><div class="detail-side"><div class="photo">Club photograph not verified</div>'+(hasUrl?'<a class="action primary" target="_blank" rel="noopener" href="'+esc(x.url)+'">↗ View original source</a>':'<button class="action" disabled>Source unavailable</button>')+'<button class="action" data-save="'+selected+'">'+(saved?'✓ Already tracked':'☆ Track opportunity')+'</button><button class="action" data-prepare="'+selected+'">▤ Prepare application</button></div>';el.querySelector('[data-save]').onclick=()=>trackLead(x);el.querySelector('[data-prepare]').onclick=()=>{trackLead(x);navigate('tracked')}}}
+function trackLead(x){if(tracked.some(t=>t.url&&x.url&&t.url===x.url))return;tracked.unshift({id:crypto.randomUUID(),club:x.club,role:x.role,team:x.team||'',location:x.location||'',date:new Date().toISOString().slice(0,10),status:'Interested',deadline:'',url:x.url||'',notes:x.snippet||''});save();renderDetail()}
+function renderTracked(){const container=$('trackedList');container.innerHTML=tracked.length?tracked.map(x=>'<article class="panel tracked-card"><h3>'+esc(x.club||'Unknown club')+' · '+esc(x.role||'Coaching role')+'</h3><p>'+esc(x.team||'Team not recorded')+' · '+esc(x.status||'Interested')+' · '+esc(x.date||'Date unknown')+'</p>'+(x.notes?'<p>'+esc(x.notes)+'</p>':'')+'<div class="tracked-actions"><button data-edit="'+esc(x.id)+'">Edit</button><button data-cycle="'+esc(x.id)+'">Change status</button><button data-delete="'+esc(x.id)+'">Delete</button>'+(x.url?'<a class="action" style="width:auto" href="'+esc(x.url)+'" target="_blank" rel="noopener">Original source ↗</a>':'')+'</div></article>').join(''):'<div class="panel empty">No applications tracked yet. Select a vacancy and choose Track opportunity.</div>';container.querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>openEditor(tracked.find(x=>x.id===b.dataset.edit)));container.querySelectorAll('[data-cycle]').forEach(b=>b.onclick=()=>{const x=tracked.find(x=>x.id===b.dataset.cycle);if(x){const statuses=['Interested','Applied','Closed','New'];x.status=statuses[(statuses.indexOf(x.status)+1)%statuses.length];save()}});container.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{if(confirm('Delete tracked vacancy?')){tracked=tracked.filter(x=>x.id!==b.dataset.delete);save()}});$('trackedCount').textContent='('+tracked.length+')';$('trackedPreview').innerHTML=tracked.length?tracked.slice(0,4).map(x=>'<div class="mini-row">'+crest(x.club)+'<span>'+esc(x.club)+' · '+esc(x.role)+'</span><small>'+esc(x.status||'Interested')+'</small></div>').join(''):'<p class="muted">No applications tracked yet.</p>';renderDetail()}
+function openEditor(x){$('editTitle').textContent=x?'Edit tracked vacancy':'Track a vacancy';$('editId').value=x?.id||'';for(const [id,key] of [['eClub','club'],['eRole','role'],['eTeam','team'],['eStatus','status'],['eLocation','location'],['eDate','date'],['eUrl','url'],['eNotes','notes']])$(id).value=x?.[key]??(key==='status'?'Interested':'');$('editor').showModal()}
+$('addTracked').onclick=()=>openEditor();$('cancelEdit').onclick=()=>$('editor').close();
+$('editForm').onsubmit=e=>{e.preventDefault();const x={id:$('editId').value||crypto.randomUUID()};for(const [id,key] of [['eClub','club'],['eRole','role'],['eTeam','team'],['eStatus','status'],['eLocation','location'],['eDate','date'],['eUrl','url'],['eNotes','notes']])x[key]=$(id).value.trim();const index=tracked.findIndex(t=>t.id===x.id);if(index>=0)tracked[index]={...tracked[index],...x};else tracked.unshift(x);$('editor').close();save()};
+function renderClubs(){const q=$('clubSearch').value.toLowerCase(),type=$('clubType').value;const shown=clubs.filter(c=>{const hay=[c.name,c.category,c.homeGround,c.trainingBase].join(' ').toLowerCase();const cat=(c.category||'').toLowerCase();return hay.includes(q)&&(type==='all'||(type==='professional'?cat.includes('professional'):type==='grassroots'?/grassroots|community/.test(cat):type==='senior'?cat.includes('senior'):/private|coaching/.test(cat)))});$('clubGrid').innerHTML=shown.map(c=>{const links=[['Website',c.website],['Facebook',c.social?.facebook],['Instagram',c.social?.instagram],['X',c.social?.x]].filter(x=>/^https?:\/\//.test(x[1]||''));return '<article class="panel club-card"><div class="club-heading">'+crest(c.name)+'<h3>'+esc(c.name)+'</h3></div><p>'+esc(c.category||'Football organisation')+'</p><p>Ground: '+esc(c.homeGround||'Not confirmed')+'<br>Training base: '+esc(c.trainingBase||'Not confirmed')+'</p><p>'+esc(c.distanceMiles!=null?c.distanceMiles+' miles from Shawlands':c.distanceStatus||'Distance not verified')+'</p>'+links.map(x=>'<a target="_blank" rel="noopener" href="'+esc(x[1])+'">'+esc(x[0])+' ↗</a>').join(' · ')+'</article>'}).join('')||'<div class="empty">No clubs match those filters.</div>'}
+$('clubSearch').oninput=renderClubs;$('clubType').onchange=renderClubs;$('leadFilter').onchange=renderLeads;
+function renderClubPreview(){$('clubPreview').innerHTML=clubs.filter(x=>x.distanceMiles!=null).sort((a,b)=>a.distanceMiles-b.distanceMiles).slice(0,5).map(c=>'<div class="mini-row">'+crest(c.name)+'<span>'+esc(c.name)+'</span><small>'+esc(c.distanceMiles)+' mi</small></div>').join('')||'<p class="muted">Club distances are being verified.</p>'}
+async function fetchJSON(file){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);try{const r=await fetch('./'+file+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(timer)}}
+async function reload(){for(const b of [$('refreshTop'),$('refreshSearch')]){b.disabled=true}try{const [feed,dir]=await Promise.allSettled([fetchJSON('vacancies-feed.json'),fetchJSON('clubs.json')]);if(feed.status==='fulfilled'){leads=dedupe((feed.value.items||[]).map(normalise));$('mVac').textContent=leads.length;lastSearch=feed.value.generated_at||'';const date=new Date(lastSearch);const stamp=!isNaN(date.getTime())?date.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}):'Pending';$('mTime').textContent=stamp;$('summaryTime').textContent=stamp;$('feedStatus').textContent=lastSearch?'Feed generated: '+date.toLocaleString('en-GB'):'No completed search timestamp';$('feedCoverage').textContent=feed.value.coverage_note||'Results are candidates, not verified active vacancies.';renderLeads()}else{$('leadList').innerHTML='<div class="empty">Vacancy feed unavailable. Try Refresh Search.</div>';$('feedStatus').textContent='Could not load vacancy feed: '+feed.reason.message}if(dir.status==='fulfilled'){clubs=(dir.value.clubs||[]).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));$('mClubs').textContent=clubs.length;renderClubPreview();renderClubs()}else{$('clubPreview').innerHTML='<p class="muted">Club directory unavailable.</p>'}}finally{for(const b of [$('refreshTop'),$('refreshSearch')])b.disabled=false}}
+$('refreshTop').onclick=reload;$('refreshSearch').onclick=reload;
+$('clock').textContent=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+renderTracked();reload();
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 </script></body></html>
