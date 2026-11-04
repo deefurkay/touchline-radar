@@ -71,6 +71,6 @@ data["distance_check"]={
     "provider":"OpenStreetMap Nominatim"
 }
 data["clubs"].sort(key=lambda c:c.get("name","").casefold())
-path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+chr(10),encoding="utf-8")
 verified=sum(1 for c in data["clubs"] if c.get("distanceMiles") is not None)
 print("Distance checks:",verified,"of",len(data["clubs"]))
