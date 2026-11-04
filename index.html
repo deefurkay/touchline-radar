@@ -73,6 +73,35 @@ dialog{background:#15252d;color:white;border:1px solid #455b66;border-radius:10p
  .info-grid{grid-template-columns:1fr 1fr}
  .detail-side .photo{height:125px;flex:auto}
 }
+
+/* Fill the club-side rail with verified club information, rather than a blank photo slot. */
+.detail-side{padding:12px;justify-content:flex-start;gap:8px;overflow:auto;scrollbar-width:thin}
+.detail-side:not(:has(.photo)){justify-content:flex-start}
+.club-brief{order:0;background:linear-gradient(160deg,#1b323b,#13252d);border:1px solid #36515b;border-radius:6px;padding:12px;margin:0 0 5px}
+.club-brief-heading{font-weight:800;letter-spacing:.1em;font-size:10px;color:#e7b923;margin-bottom:12px}
+.club-brief-identity{display:flex;align-items:center;gap:9px;margin-bottom:12px;min-width:0}
+.club-brief-identity .crest{width:43px;height:43px;flex-basis:43px}
+.club-brief-identity div{min-width:0}
+.club-brief-identity strong{font-size:12px;line-height:1.2;display:block}
+.club-brief-identity small{display:block;color:#a4bac4;font-size:10px;line-height:1.35;margin-top:3px}
+.club-brief-field{border-top:1px solid #314650;padding:9px 0 0;margin-top:8px}
+.club-brief-field span{display:block;color:#8daab4;font-size:10px;margin-bottom:3px}
+.club-brief-field strong{font-size:11px;line-height:1.35;font-weight:600;display:block}
+.club-brief-link{display:block;border:1px solid #41616b;border-radius:4px;margin-top:12px;padding:7px 5px;text-align:center;color:#c2e5ee;text-decoration:none;font-size:11px}
+.club-brief-link:hover{background:#29464f}
+.media-credit{display:block;font-size:9px;margin-top:7px}
+.media-credit a{color:#829aa4}
+.detail-side .photo{order:-1;flex:0 0 105px;height:105px}
+.detail-side .photo img{object-position:center 22%}
+.detail-side .action{order:1;padding:9px 6px}
+@media(max-width:950px) and (min-width:601px){.detail-side{display:flex}}
+@media(max-width:600px){
+ .detail-side{display:flex;flex-direction:column;border-top:1px solid #36505b}
+ .detail-side .club-brief{order:1}
+ .detail-side .action{order:0}
+ .detail-side .photo{order:-1;height:150px;flex:0 0 150px}
+ .club-brief{padding:11px}
+}
 </style></head><body>
 <div class="shell"><aside class="sidebar"><div class="logo"><span class="ball">⚽</span> TR</div><nav class="side-nav" id="sideNav"><button data-page="overview" class="active">⌂ &nbsp; Overview</button><button data-page="vacancies">▣ &nbsp; Vacancies</button><button data-page="clubs">▦ &nbsp; Club Directory</button><button data-page="tracked">▤ &nbsp; Tracked</button><button data-page="search">⌕ &nbsp; Search</button></nav></aside>
 <div class="content"><header class="topbar"><div class="topline"><div class="identity"><span class="brand">TR</span><div><strong>Touchline Radar</strong><small>Coaching Opportunities · Shawlands, Glasgow</small></div></div><div class="top-actions"><span class="clock" id="clock"></span><button id="refreshTop">↻ Refresh Search</button></div></div><nav class="tabs" id="tabs"><button class="active" data-page="overview">Overview</button><button data-page="vacancies">Vacancies</button><button data-page="clubs">Club Directory</button><button data-page="tracked">Tracked Applications</button><button data-page="search">Search &amp; Alerts</button></nav></header>
@@ -104,14 +133,14 @@ const MEDIA={
  "queen s park":{wiki:"Queen's_Park_F.C.",crest:"https://r2.thesportsdb.com/images/media/team/badge/lf1cb41750743489.png",photoUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lesser_Hampden_-_geograph-1920423.jpg/960px-Lesser_Hampden_-_geograph-1920423.jpg.webp",credit:"Lesser Hampden · Wikimedia Commons"},
  "saint anthony s":{wiki:"St_Anthony's_F.C.",crest:"https://www.snapsponsorship.com/sites/snap.production.o5813381727.v7.s8.lon.boa.io/files/styles/large_thumbnail/public/news_article_antslogoemailsig_Thu%2C%2025/09/2025%20-%2019%3A20.png?itok=-XOtsZ1N"},
  "st anthony s":{wiki:"St_Anthony's_F.C.",crest:"https://www.snapsponsorship.com/sites/snap.production.o5813381727.v7.s8.lon.boa.io/files/styles/large_thumbnail/public/news_article_antslogoemailsig_Thu%2C%2025/09/2025%20-%2019%3A20.png?itok=-XOtsZ1N"},
- "bsc glasgow":{wiki:"BSC_Glasgow_F.C.",crest:"https://pbs.twimg.com/profile_images/1075036448095723522/Fa8dKfgz.jpg",photoUrl:"https://www.bscglasgow.co.uk/images/2023/slider/25-26-mens-team-photo-1.jpg",credit:"BSC Glasgow Men's Team · Official club site"},
+ "bsc glasgow":{wiki:"BSC_Glasgow_F.C.",crest:"https://commons.wikimedia.org/wiki/Special:FilePath/BSC_Glasgow_Club_Logo.png",photoUrl:"https://www.bscglasgow.co.uk/images/2023/slider/25-26-mens-team-photo-1.jpg",credit:"BSC Glasgow Men's Team · Official club site"},
  "st mirren":{wiki:"St_Mirren_F.C."},
  "pollok":{wiki:"Pollok_F.C."},
  "rangers":{wiki:"Rangers_F.C."},
  "motherwell":{wiki:"Motherwell_F.C."},
  "clyde":{wiki:"Clyde_F.C."}
 };
-const mediaKey=s=>canon(s).replace(/\b(saint|st)\b/g,'saint').replace(/\s+/g,' ').trim();
+const mediaKey=s=>canon(s).replace(/\b(saint|st)\b/g,'saint').replace(/\b(academy|youth|boys)\b/g,'').replace(/\s+/g,' ').trim();
 function mediaFor(s){return MEDIA[mediaKey(s)]||MEDIA[canon(s)]||null}
 const crestImages={};
 function crest(s,large=false){
@@ -166,17 +195,20 @@ function renderDetail(){
   const el=$(id);
   if(!x){el.innerHTML='<div class="empty">No vacancy selected.</div>';continue}
   const hasUrl=/^https?:\/\//.test(x.url||''),googleResult=/^https:\/\/news\.google\.com\//.test(x.url||'');
-  const description=cleanText(x.snippet||x.rawTitle||'Open the original source to confirm the role and requirements.');
+  let description=cleanText(x.snippet||x.rawTitle||'Open the original source to confirm the role and requirements.');
+  if(/saint anthony/i.test(x.club)&&/first team manager/i.test(x.role)&&/APPLICATIONS OPEN/i.test(x.rawTitle||''))description="Saint Anthony's FC are inviting applications for First Team Manager, based at McKenna Park in Govan. Consult the original post for eligibility, application instructions and closing date.";
+  if(/queen.s park/i.test(x.club)&&/academy coach/i.test(x.role))description="Academy coaching vacancy for Under-17 and Under-19 teams. Check the club's original advert for qualifications, duties and how to apply.";
   const saved=tracked.some(t=>t.url&&t.url===x.url);
-  const ci=clubs.find(c=>canon(c.name)===canon(x.club))||{};
-  const ground=ci.homeGround||'Not confirmed';
+  const ci=clubs.find(c=>mediaKey(c.name)===mediaKey(x.club))||{};
+  const ground=ci.homeGround||'Not confirmed';const team=x.team||(/first team manager/i.test(x.role)?'Men\'s first team':/under-17s?\s*&\s*under-19s?/i.test(x.rawTitle||'')?'Boys\' U17 / U19':'Not confirmed');
   const status=x.lead_type==='official_departure'?'Departure only · applications unconfirmed':'Recruitment advertised · verify details';
   const meta=(label,value)=>'<div class="info-cell"><span>'+esc(label)+'</span><strong>'+esc(value)+'</strong></div>';
   el.innerHTML='<div class="detail-main"><div class="detail-heading">'+crest(x.club,true)+'<div><h2>'+esc(x.club)+'</h2><p>'+esc(x.role)+'</p></div></div>'
-   +'<div class="detail-label">OPPORTUNITY OVERVIEW</div><div class="info-grid">'+meta('Recruitment status',status)+meta('Advert date',fmtDate(x.published))+meta('Team',x.team||'Not confirmed')+meta('Home ground',ground)+'</div>'
+   +'<div class="detail-label">OPPORTUNITY OVERVIEW</div><div class="info-grid">'+meta('Recruitment status',status)+meta('Advert date',fmtDate(x.published))+meta('Team',team)+meta('Home ground',ground)+'</div>'
    +'<div class="detail-section-title">RECRUITMENT INFORMATION</div><div class="detail-description">'+esc(description)+'</div>'
    +'<div class="detail-source"><span>Source: '+esc(x.source||'Not recorded')+'</span>'+(googleResult?'<span>Google News link · confirm on club page</span>':'')+'</div>'
    +'</div><div class="detail-side">'+photoMarkup(x.club)
+   +'<div class="club-brief"><div class="club-brief-heading">CLUB PROFILE</div><div class="club-brief-identity">'+crest(x.club,true)+'<div><strong>'+esc(x.club)+'</strong><small>'+esc(ci.category||'Football club')+'</small></div></div><div class="club-brief-field"><span>Home ground</span><strong>'+esc(ground)+'</strong></div>'+(ci.distanceMiles!=null?'<div class="club-brief-field"><span>Approx. distance</span><strong>'+esc(ci.distanceMiles)+' miles from Shawlands</strong></div>':'')+(ci.website?'<a class="club-brief-link" target="_blank" rel="noopener" href="'+esc(ci.website)+'">Official club website ↗</a>':'')+(mediaKey(x.club)==='bsc glasgow'?'<small class="media-credit"><a href="https://commons.wikimedia.org/wiki/File:BSC_Glasgow_Club_Logo.png" target="_blank" rel="noopener">Crest: BSC Glasgow FC · CC BY-SA 4.0</a></small>':'')+'</div>'
    +(hasUrl?'<a class="action primary" target="_blank" rel="noopener" href="'+esc(x.url)+'">↗ '+(googleResult?'Open recruitment link':'View original source')+'</a>':'<button class="action" disabled>Source unavailable</button>')
    +'<button class="action" data-save="'+selected+'">'+(saved?'✓ Already tracked':'☆ Track opportunity')+'</button><button class="action" data-prepare="'+selected+'">▤ Prepare application</button></div>';
   el.querySelector('[data-save]').onclick=()=>trackLead(x);
