@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-11-03T23:30:06.109399+00:00",
-  "coverage_note": "Saint Anthony's first-team managerial departure is linked to the club's own announcement supplied by the user. Treat as a confirmed manager vacancy lead; check for separate application instructions and closing date.",
+  "generated_at": "2026-11-04T00:15:00+00:00",
+  "coverage_note": "Two distinct leads are retained: Celtic FC's live official Soccer Academy Coach listing, and Saint Anthony's official managerial departure supplied by the user (vacancy lead, application details still to verify). Automated public-index searches have not yet produced additional validated local coaching adverts. This is not a comprehensive Facebook or Instagram search.",
   "query_count": 40,
   "raw_result_count": 665,
-  "result_count": 1,
+  "result_count": 2,
   "errors": [],
   "items": [
+    {
+      "id": "celtic-soccer-academy-coaches-20261104",
+      "title": "Celtic FC — Soccer Academy Coaches (Part-time)",
+      "url": "https://www.celticfc.com/club/jobs-at-celtic/permanent-and-fixed-term-roles/soccer-academy-coaches/",
+      "published": "Listed on Celtic FC official jobs page · checked 4 November 2026",
+      "snippet": "Celtic FC is advertising part-time Soccer Academy Coaches within its Soccer Academy department. The role involves planning and delivering academy sessions, holiday camps, club support programmes, tours and other Soccer Academy initiatives. The official club careers page currently lists the role. Confirm the specific delivery venue and session schedule with Celtic before applying.",
+      "source": "Celtic FC — official careers page",
+      "query": "Official club careers page checked 4 November 2026",
+      "verification_status": "Official club vacancy listing currently live; confirm local delivery base and role details",
+      "lead_type": "official_vacancy",
+      "club": "Celtic FC",
+      "role": "Soccer Academy Coach",
+      "team": "Soccer Academy",
+      "location": "Celtic Soccer Academy programmes; Glasgow delivery venue to confirm",
+      "distance_miles": null
+    },
     {
       "id": "user-reported-saint-anthonys-first-team-manager-20261103",
       "title": "Saint Anthony's FC — First Team Manager",
