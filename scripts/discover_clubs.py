@@ -10,6 +10,11 @@ from datetime import datetime, timezone
 
 SOURCES = [
     "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
+    "https://www.juniorgrassrootshub.com/football-in-glasgow",
+    "https://www.juniorgrassrootshub.com/clubs/in/renfrewshire",
+    "https://www.juniorgrassrootshub.com/football-in-renfrewshire",
+    "https://www.juniorgrassrootshub.com/academies/in/renfrewshire",
+    "https://csfa.football/club-directory/",
 ]
 EXCLUDE = re.compile(r"women|girls|female|ladies|wfc|women's", re.I)
 LOCAL = re.compile(r"Glasgow City|Renfrewshire|East Renfrewshire", re.I)
