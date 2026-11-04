@@ -324,11 +324,11 @@
       "id": "w-academy",
       "name": "The W Academy",
       "category": "Private football academy",
-      "homeGround": "Shawholm, 2060 Pollokshaws Road, Glasgow G43 1AT",
-      "trainingBase": "Shawholm facility",
+      "homeGround": "The W Academy, Pollok Country Park, 2060 Pollokshaws Road, Glasgow G43 1AT",
+      "trainingBase": "The W Academy, Pollok Country Park",
       "distanceMiles": null,
-      "locationStatus": "Address in Shawlands area; verify whether coaching vacancies are relevant and within radius",
-      "website": "",
+      "locationStatus": "Published venue address and current booking page verified",
+      "website": "https://praxis-performance.classforkids.io/venue/2/the-w-academy-pollok-park",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -336,7 +336,10 @@
         "verification": "Business listing located; official social profile URLs not yet verified."
       },
       "notes": "Private academy rather than club. Added as an optional coaching-employer lead because it operates a football academy locally. Keep separate from club and professional academy categories.",
-      "sources": []
+      "sources": [
+        "https://praxis-performance.classforkids.io/venue/2/the-w-academy-pollok-park",
+        "https://praxis-performance.classforkids.io/venue/5/praxis-performance-hub-at-the-w-academy"
+      ]
     },
     {
       "id": "st-mirren-youth-fc",
@@ -404,10 +407,10 @@
       "name": "1st Touch Football",
       "category": "Private football coaching",
       "homeGround": "2 Hazelden Park, Giffnock, Glasgow G44 3HQ (listed address)",
-      "trainingBase": "Multiple Southside venues; verify session-specific base",
+      "trainingBase": "Session venues published by the provider; check the live timetable for the venue attached to each session",
       "distanceMiles": null,
-      "locationStatus": "Giffnock address identified; verify active coaching venue and radius",
-      "website": "",
+      "locationStatus": "Official coaching provider website verified; individual session venues vary",
+      "website": "https://1sttouchfootball.uk/",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -415,7 +418,9 @@
         "verification": "Official profiles not yet verified."
       },
       "notes": "Southside youth football coaching provider; possible coaching employer, separate from club teams.",
-      "sources": []
+      "sources": [
+        "https://1sttouchfootball.uk/"
+      ]
     },
     {
       "id": "castlemilk-community-fc",
@@ -440,22 +445,23 @@
     },
     {
       "id": "park-villa-bc",
-      "name": "Park Villa Boys Club",
+      "name": "Park Villa Football Development",
       "category": "Grassroots youth club",
-      "homeGround": "Govan, Glasgow (exact pitch address to confirm)",
-      "trainingBase": "Govan Sports Hub / associated facilities; team venue to confirm",
+      "homeGround": "Park Villa Community Sports Hub, 337 Langlands Road, Glasgow G51 4AW",
+      "trainingBase": "Park Villa Community Sports Hub and partner venues; check squad-specific timetable",
       "distanceMiles": null,
-      "locationStatus": "Govan club identified; exact team training base to verify",
-      "website": "",
+      "locationStatus": "Glasgow Life directory confirms address, contact and official website",
+      "website": "https://parkvilla.weebly.com/",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/parkvillahub/",
         "instagram": "",
         "x": "",
-        "verification": "Listed by sportscotland Govan Sports Hub."
+        "verification": "Official Glasgow Life directory lists the club's website and social account."
       },
       "notes": "Youth football club associated with Govan Sports Hub. Candidate for youth coaching opportunities.",
       "sources": [
-        "https://sportscotland.org.uk/clubs/community-sport-hubs/govan-sports-hub"
+        "https://glasgowlife.sportsuite.co.uk/directory/park-villa-football-development",
+        "https://parkvilla.weebly.com/"
       ]
     },
     {
