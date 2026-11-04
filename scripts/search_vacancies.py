@@ -93,7 +93,7 @@ for query in QUERIES:
   for item in fetch(query): unique.setdefault(item["url"].split("&ved=")[0],item)
  except Exception as exc: errors.append({"query":query,"error":str(exc)[:250]})
 # Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
-intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
+intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|academy coach(es)?|soccer coach(es)?|football coach(es)?|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
 football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\b",re.I)
 club_names=[c.get("name","") for c in WATCH_CLUBS if c.get("name")]
 club_pattern=re.compile("|".join(re.escape(n) for n in sorted(club_names,key=len,reverse=True)),re.I) if club_names else None
