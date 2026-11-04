@@ -1,5 +1,5 @@
-const CACHE='touchline-radar-v13';
-const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./clubs.json','./vacancies-feed.json'];
+const CACHE='touchline-radar-v14';
+const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./clubs.json','./vacancies-feed.json','./club-discovery-candidates.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
