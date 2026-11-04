@@ -89,9 +89,9 @@ function renderClubs(){
  $('clubCount').textContent=clubRecords.length+' organisations · '+shown.length+' shown';
  $('clubWatchlist').innerHTML=shown.map(c=>{
   const s=c.social||{},links=[['Website',c.website],['Facebook',s.facebook],['Instagram',s.instagram],['X',s.x]].filter(x=>x[1]);
-  const training=c.trainingBase&&!/confirm|unknown|to be/i.test(c.trainingBase);
-  const distance=c.distanceMiles!=null?c.distanceMiles+' mi':'Not measured';
-  return '<article class="club-card"><h3>'+esc(c.name)+'</h3><div class="meta">'+esc(c.category||'Organisation type not recorded')+'</div><p class="desc">'+esc(c.homeGround||'Home ground not recorded')+'</p><div class="meta">Training: '+esc(c.trainingBase||'Not recorded')+'</div><div class="club-data"><span class="data-chip '+(training?'':'missing')+'">'+(training?'Training base listed':'Training base unverified')+'</span><span class="data-chip '+(c.distanceMiles!=null?'':'missing')+'">'+esc(distance)+'</span><span class="data-chip '+(c.website?'':'missing')+'">'+(c.website?'Website':'Website missing')+'</span><span class="data-chip '+(links.length>1?'':'missing')+'">'+links.length+' links</span></div><div class="actions">'+links.map(x=>'<a class="source" href="'+esc(x[1])+'" target="_blank" rel="noopener">'+x[0]+' ↗</a>').join('')+'</div>'+(c.sources?.length?'<p class="meta">'+c.sources.length+' reference link(s)</p>':'<p class="meta">No reference links recorded</p>')+'</article>'
+  const distance=c.distanceMiles!=null?'<span class="data-chip">'+esc(c.distanceMiles)+' mi from Shawlands</span>':'';
+  const refs=c.sources?.length?'<p class="meta">'+c.sources.length+' verified reference link(s)</p>':'';
+  return '<article class="club-card"><h3>'+esc(c.name)+'</h3><div class="meta">'+esc(c.category||'Organisation type not recorded')+'</div><p class="desc">Home: '+esc(c.homeGround||'Address to be confirmed')+'</p><div class="meta">Team training: '+esc(c.trainingBase||'Contact club to confirm')+'</div>'+(distance?'<div class="club-data">'+distance+'</div>':'')+'<div class="actions">'+links.map(x=>'<a class="source" href="'+esc(x[1])+'" target="_blank" rel="noopener">'+x[0]+' ↗</a>').join('')+'</div>'+refs+'</article>'
  }).join('')||'<div class="empty">No matching organisations.</div>';
 }
 async function loadClubs(){
