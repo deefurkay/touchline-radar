@@ -295,9 +295,9 @@ function renderClubs(){
  });
  $('clubGrid').innerHTML=shown.map(c=>{
   const links=[['Club website',c.website],['Facebook',c.social?.facebook],['Instagram',c.social?.instagram],['X',c.social?.x]].filter(x=>/^https?:\/\//.test(x[1]||''));
-  const crestType=mediaFor(c.name)?.crest?'CLUB CREST':siteIcons[mediaKey(c.name)]?'WEBSITE ICON':'CLUB DIRECTORY';
+
   return '<article class="panel club-card">'
-    +'<div class="club-heading">'+crest(c.name,true)+'<div class="club-header-info"><div class="club-heading-kicker">'+crestType+'</div><h3>'+esc(c.name)+'</h3><div class="club-header-category">'+esc(c.category||'Football organisation')+'</div></div></div>'
+    +'<div class="club-heading">'+crest(c.name,true)+'<div class="club-header-info"><h3>'+esc(c.name)+'</h3><div class="club-header-category">'+esc(c.category||'Football organisation')+'</div></div></div>'
     +'<div class="club-card-details"><div class="club-line"><span>Home ground</span><strong>'+esc(c.homeGround||'Not confirmed')+'</strong></div><div class="club-line"><span>Training base</span><strong>'+esc(c.trainingBase||'Not confirmed')+'</strong></div><div class="club-line"><span>Distance</span><strong>'+esc(c.distanceMiles!=null?c.distanceMiles+' miles from Shawlands':c.distanceStatus||'Distance not verified')+'</strong></div></div>'
     +'<div class="club-card-links">'+links.map(x=>'<a target="_blank" rel="noopener" href="'+esc(x[1])+'">'+esc(x[0])+' ↗</a>').join('')+'</div>'
     +'</article>'
