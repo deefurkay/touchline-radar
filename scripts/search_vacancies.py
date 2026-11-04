@@ -42,7 +42,6 @@ QUERIES = [
  '"Giffnock SC" coaching vacancy',
  '"Stamperland FC" coach required',
  '"The W Academy" Glasgow coach vacancy',
- '"Glasgow City Academy" coach vacancy',
  '"Saint Anthony\'s FC" "first team manager"',
  '"Saint Anthonys FC" "manager wanted"',
  'site:theants.co.uk manager OR "part ways" OR departure',
@@ -77,9 +76,7 @@ for club in WATCH_CLUBS:
  ])
 
 DIRECT_SOURCES = [
- ("Scottish Women's Football noticeboard","https://scotwomensfootball.com/club-noticeboard/"),
  ("sportscotland jobs","https://sportscotland.org.uk/jobs/"),
- ("Parent Community Sports Trust / BSC Glasgow","https://www.pcst.org.uk/"),
  ("Rossvale FC Academy work with us","https://rossvalefcacademy.co.uk/work-with-us/"),
 ]
 
@@ -150,12 +147,12 @@ intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|looking to add|want
 football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\b",re.I)
 club_names=[c.get("name","") for c in WATCH_CLUBS if c.get("name")]
 club_pattern=re.compile("|".join(re.escape(n) for n in sorted(club_names,key=len,reverse=True)),re.I) if club_names else None
-noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball)\b",re.I)
+noise=re.compile(r"\b(rugby|basketball|cricket|hockey|american football|nfl|gaelic|netball|women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b",re.I)
 local=re.compile(r"\b(glasgow|renfrewshire|paisley|johnstone|renfrew|barrhead|giffnock|shawlands|pollok|cathcart|gov(an)?|rutherglen|cambuslang|east kilbride|east renfrewshire|south lanarkshire|clydebank|pollok united|stamperland|st cadoc|saint anthony|st anthony|finnart|glasgow united|queen.?s park|partick thistle|celtic|st mirren|the w academy|harmony row|pro football academy|1st touch|bearsden|milngavie|scotland)\b",re.I)
 filtered=[]
 for item in unique.values():
  text=" ".join([item.get("title",""),item.get("snippet",""),item.get("source","")])
- if noise.search(item.get("title","")): continue
+ if noise.search(text): continue
  if not intent.search(text) or not football.search(text): continue
  matched=club_pattern.search(text) if club_pattern else None
  if not local.search(text) and not matched: continue
