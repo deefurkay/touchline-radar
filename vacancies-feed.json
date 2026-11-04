@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T00:53:33.893050+00:00",
+  "generated_at": "2026-11-04T08:32:18.739807+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,12 +9,12 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 3156,
-  "result_count": 24,
+  "raw_result_count": 3277,
+  "result_count": 27,
   "errors": [
     {
       "source": "Petershill FC official website",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     }
   ],
   "items": [
@@ -121,6 +121,17 @@
       "club": "BSC Glasgow",
       "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
       "discovery_method": "Club watchlist"
+    },
+    {
+      "title": "FIRST TEAM MANAGER | APPLICATIONS OPEN Saint Anthony’s FC are inviting applications for the position of First Team Manager. Based at McKenna Park in Greater Govan and competing in the West of Scotland Football League Third Division, we’re lookin - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVEJjYU9aaGItUWpqMk1ZZHNibndEU3h2QTJycng2TWVPeXlMM25aWHNTSTRvdWYtTzRuOS03SDFtZjNSYTJJanZ4VUc0UXlNaTdUcEdPYUJNQjJxaXhMamN1N1ItVC1Gd2JxeFlGVzhwS0dlSjAwZllaM00zU0FYVG8wVWFHRUtIQlNDUlk5UFoyYmlyY1RkSHhVQXdXRnN3U2Jhc2JKX1JEWC1ucUI5YWVycWpjWHk2ZlRDektTOFJuN2Q5YTRyVjUxZGY2OFdJcDRzbUFwV3QzNjJwTmc?oc=5",
+      "published": "Tue, 03 Nov 2026 09:00:58 GMT",
+      "snippet": "FIRST TEAM MANAGER | APPLICATIONS OPEN Saint Anthony’s FC are inviting applications for the position of First Team Manager. Based at McKenna Park in Greater Govan and competing in the West of Scotland Football League Third Division, we’re lookin &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "club": "",
+      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "discovery_method": "Public indexed search"
     },
     {
       "title": "1st Touch Football. Bag Raiders · Shooting Stars. Football coach by title, whatever the team needs by necessity 🤣⚽️ First aider, DJ, entertainer, judge… you name it, our coaches have done it! #footballcoach #footballcoaching #coaching #football #glasgow - Facebook",
@@ -266,6 +277,28 @@
       "discovery_method": "Public indexed search"
     },
     {
+      "title": "Job Alert: Lead Coach of Football Development, Caledonian Braves F.C (Scotland) Caledonian Braves FC is seeking an ambitious, motivated and forward-thinking coach to lead our U20 and Edusport programmes as part of our expanding player development - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMV9hTnphTURUUV9jazdKdGxjOEUwejZZY0NHa0plbHdTMXFqUnVQOGJIRnd2U1VkZ0F0TjFXVmI0bzdXNGRaVVhTYVl2VzVpLVNsdF9oZi1WajRMOEhXUlVKVHhRdWtaMV9vM3lWWktTWUJSQ1g4eEh6QXZfck5FVklDbFNPdWlYRFV4c0RIeklNYWZnNUZYVzcxWnhfNDkwc05mNGV5S2N0TVozSmFndXVZZEtxYjczcUpnNUxwWW1ONmJoekZBT0tGZk9ZY3RwZ0hGS2VsVEdkZm1WLXVhQXFNblEtQQ?oc=5",
+      "published": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "snippet": "Job Alert: Lead Coach of Football Development, Caledonian Braves F.C (Scotland) Caledonian Braves FC is seeking an ambitious, motivated and forward-thinking coach to lead our U20 and Edusport programmes as part of our expanding player development &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "club": "",
+      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "discovery_method": "Public indexed search"
+    },
+    {
+      "title": "Duncan Weir reflects on transition into coaching after joining the Scotland U20 coaching staff, along with Henry Pyrgos, ahead of the Junior World Championships this year 🙌 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYlhuXzBLZjZzNmVUVjVjWW1EM2xvVWpDZS1IOWgxc0I0WXZTejZyU1IyTTNFdXp0Z1pYQXZnQzM4QVdvYW1IWHJ6OHZnYXpqaTRaZFJXS1RtdkFMSFFvZ01jeEpraXE4S2JvaURIRzZYYWRBMF9pUWREMjRCcW5DV0JwdHlScTZqcXhNeUtXcUJCanR4ZTRkaVkxdENyOW0wOUtNT24yQTZtUlFnYkktM2dlamlJT1pQQkxhZHZXNzhQVXQ0SkFoQnREMUo0RGtNTUZwYU5oWTVWc3Fs?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "snippet": "Duncan Weir reflects on transition into coaching after joining the Scotland U20 coaching staff, along with Henry Pyrgos, ahead of the Junior World Championships this year 🙌 &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
+      "club": "",
+      "verification_status": "Unverified lead — check original post, team level and actual base within 10 miles",
+      "discovery_method": "Public indexed search"
+    },
+    {
       "title": "📸 GET CREATIVE WITH BSC GLASGOW! We're looking for enthusiastic Social Media Volunteers with a flair for photography, videography and content creation! From football matches and training sessions to dance classes, Men's Shed activities, award cerem - Facebook",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMlRwaTB4WnJEZUZzQ2NySW5xZ3o5czh3UDhoNTlrNHpGdFpVQ2Z3OG96a0JHRDF0SE5TOWNGeUpESl82Tm5RejFTaXBXU1c2dWxHTlNzYWhsSlUwZUNzQTFSajJDWWVOMW5qRXVPcFRXVy03ZnRqcWNDaGxQVFpZUUNVc3FYM0JNaG1HeFhjRDZsU0dobUpjeW42TWsxa1lMUHZlY1g5bUF4UkVmTzhJNDJkbUt0Qi01UlBzWDRDd3VoQzRheDdlMHcxSkJtVWx2LWxzZmZDOWliOGwzN2c?oc=5",
       "published": "Fri, 30 Oct 2026 15:01:45 GMT",
@@ -293,5 +326,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-04T00:53:33.974009+00:00"
+  "social_api_checked_at": "2026-11-04T08:32:18.818396+00:00"
 }

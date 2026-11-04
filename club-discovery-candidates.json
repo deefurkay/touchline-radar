@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T00:51:30.621358+00:00",
+  "checked_at": "2026-11-04T08:30:06.715219+00:00",
   "sources": [
     "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
     "https://www.juniorgrassrootshub.com/football-in-glasgow",
@@ -9,7 +9,7 @@
     "https://csfa.football/club-directory/"
   ],
   "candidate_count": 154,
-  "new_candidates_this_run": 129,
+  "new_candidates_this_run": 0,
   "note": "These are screening leads, not confirmed in-radius organisations. Verify team gender/level and actual venue before promoting to clubs.json.",
   "candidates": [
     {
