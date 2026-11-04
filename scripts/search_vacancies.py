@@ -75,6 +75,43 @@ for club in WATCH_CLUBS:
   f'site:facebook.com "{name}" (coach OR manager OR "looking for" OR wanted OR recruitment)',
   f'(site:instagram.com OR site:x.com OR site:twitter.com) "{name}" (coach OR manager OR vacancy OR wanted)',
  ])
+
+def fetch_direct_pages():
+ from html.parser import HTMLParser
+ class PageText(HTMLParser):
+  def __init__(self): super().__init__(); self.parts=[]; self.links=[]; self.href=None; self.anchor=[]
+  def handle_starttag(self,tag,attrs):
+   attrs=dict(attrs)
+   if tag=="a": self.href=attrs.get("href"); self.anchor=[]
+  def handle_data(self,data):
+   text=re.sub(r"\s+"," ",data).strip()
+   if text:
+    self.parts.append(text)
+    if self.href:self.anchor.append(text)
+  def handle_endtag(self,tag):
+   if tag=="a" and self.href:
+    self.links.append(( " ".join(self.anchor), self.href))
+    self.href=None;self.anchor=[]
+ direct=[]
+ for source,url in DIRECT_SOURCES:
+  try:
+   req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 TouchlineRadar/1.0"})
+   with urllib.request.urlopen(req,timeout=20) as response:
+    page=response.read().decode("utf-8","ignore")
+    final=response.geturl()
+   parser=PageText();parser.feed(page)
+   body=" ".join(parser.parts)
+   # Keep only role-relevant pages; use the actual page URL unless a specific
+   # advert link appears in the same page.
+   if not re.search(r"(coach|manager|recruit|vacan|assistant coach|goalkeeping coach)",body,re.I):continue
+   candidates=[(t,h) for t,h in parser.links if re.search(r"(coach|manager|recruit|vacan|apply|career|job)",t,re.I)]
+   title=(candidates[0][0] if candidates else source)
+   link=(urllib.parse.urljoin(final,candidates[0][1]) if candidates else final)
+   direct.append({"title":title+" — "+source,"url":link,"published":datetime.now(timezone.utc).isoformat(),"snippet":body[:900],"source":source,"query":"Direct official noticeboard check","club":"","verification_status":"Official noticeboard page; individual role and local team base require confirmation","discovery_method":"Direct source"})
+  except Exception as exc:
+   errors.append({"source":source,"error":str(exc)[:200]})
+ return direct
+
 def fetch(query):
  url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"en-GB","gl":"GB","ceid":"GB:en"})
  req=urllib.request.Request(url,headers={"User-Agent":"TouchlineRadar/0.1"})
@@ -92,6 +129,9 @@ for query in QUERIES:
  try:
   for item in fetch(query): unique.setdefault(item["url"].split("&ved=")[0],item)
  except Exception as exc: errors.append({"query":query,"error":str(exc)[:250]})
+# Add direct official and specialist noticeboard pages to indexed search results.
+for direct_item in fetch_direct_pages(): unique.setdefault(direct_item['url'],direct_item)
+
 # Keep likely recruitment posts and filter obvious non-football / non-vacancy noise.
 intent=re.compile(r"\b(vacanc|recruit|recruiting|looking for|wanted|seeking|join (our|the)|coach(es)? required|academy coach(es)?|soccer coach(es)?|football coach(es)?|manager required|manager wanted|manager vacancy|first team manager|parts ways with|part ways with|manager leaves|manager departs|manager resignation|manager steps down|assistant manager required|head coach required|coach wanted|applications? (are )?open|apply now|trial(s)? for)\b",re.I)
 football=re.compile(r"\b(football|soccer|wosfl|west of scotland|academy|junior football|amateur football|youth football|u18|u19|u20|u21|reserves|coach|manager)\b",re.I)
