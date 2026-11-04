@@ -10,7 +10,6 @@ from datetime import datetime, timezone
 
 SOURCES = [
     "https://www.juniorgrassrootshub.com/clubs/in/glasgow-city",
-    "https://www.juniorgrassrootshub.com/leagues/paisley-johnstone-and-district-youth-football-league",
 ]
 EXCLUDE = re.compile(r"women|girls|female|ladies|wfc|women's", re.I)
 LOCAL = re.compile(r"Glasgow City|Renfrewshire|East Renfrewshire", re.I)
@@ -63,5 +62,5 @@ for item in all_items:
     key=re.sub(r"[^a-z0-9]","",item.get("name","").lower())
     if key: dedup.setdefault(key,item)
 payload={"checked_at":datetime.now(timezone.utc).isoformat(),"sources":SOURCES,"candidate_count":len(dedup),"new_candidates_this_run":len(new),"note":"These are screening leads, not confirmed in-radius organisations. Verify team gender/level and actual venue before promoting to clubs.json.","candidates":sorted(dedup.values(),key=lambda x:x["name"].casefold())}
-Path("club-discovery-candidates.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+Path("club-discovery-candidates.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+chr(10),encoding="utf-8")
 print("New candidates:",len(new),"Total screening queue:",len(dedup))
