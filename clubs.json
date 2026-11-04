@@ -2,7 +2,7 @@
   "schema_version": 1,
   "centre": "Shawlands, Glasgow",
   "radius_miles": 10,
-  "policy": "Search within 10 miles of Shawlands based on the actual home ground or regular training base of the specific team. Do not infer a team's base from a club's postal address or unrelated venue. Keep unknown distances provisional. Include senior men's teams at ALL league levels, with no WOSFL division restriction; U18/U20/U21/reserve/development teams; professional academies; grassroots youth clubs; and relevant local private football coaching employers. Treat social handles as verified only where linked by official club or trusted local authority directory.",
+  "policy": "Search within 10 miles of Shawlands based on the actual home ground or regular training base of the specific team. Do not infer a team's base from a club's postal address or unrelated venue. Keep unknown distances provisional. Include senior men's teams at ALL league levels, with no WOSFL division restriction; U18/U20/U21/reserve/development teams; professional academies; grassroots youth clubs; and relevant local private football coaching employers. Treat social handles as verified only where linked by official club or trusted local authority directory. Exclude women's and girls' football teams, programmes, vacancies and recruitment posts. Monitor men's and boys' football only.",
   "last_reviewed": "2026-11-04",
   "clubs": [
     {
@@ -105,27 +105,6 @@
       "notes": "Glasgow Life directory lists Facebook name Finnartfootballacademy and X @Finnartstarwos. Verify current account URLs and which teams share this base.",
       "sources": [
         "https://glasgowlife.sportsuite.co.uk/directory/finnart-football-academy1"
-      ]
-    },
-    {
-      "id": "bsc-glasgow",
-      "name": "BSC Glasgow / BSC Glasgow Women",
-      "category": "Senior women's football / youth / community coaching",
-      "homeGround": "Peterson Park, Knightswood, Glasgow (senior women's home venue listed)",
-      "trainingBase": "Glasgow West End; Tuesday and Thursday sessions advertised; exact squad venue to confirm",
-      "distanceMiles": null,
-      "locationStatus": "Potentially within 10 miles; measure actual regular training venue before qualifying",
-      "website": "https://www.pcst.org.uk/",
-      "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": "",
-        "verification": "Official recruitment page is Parent Community Sports Trust; social profiles not yet confirmed."
-      },
-      "notes": "Official Scottish Women's Football noticeboard advertised Head Coach and Goalkeeping Coach roles on 31 October 2026. Parent Community Sports Trust page also advertises BSC Girls community coaches and youth team coaches. Contact mail@bscglasgow.co.uk. Confirm current availability, paid/volunteer status and precise training venue.",
-      "sources": [
-        "https://scotwomensfootball.com/club-noticeboard/",
-        "https://www.pcst.org.uk/"
       ]
     },
     {
@@ -249,7 +228,7 @@
     {
       "id": "partick-thistle-academy",
       "name": "Partick Thistle FC · Thistle Weir Youth Academy",
-      "category": "Professional academy · boys and girls",
+      "category": "Professional academy · boys",
       "homeGround": "Firhill, 80 Firhill Road, Glasgow G20 7AL",
       "trainingBase": "Firhill / team-specific training venues to confirm",
       "distanceMiles": null,
@@ -261,7 +240,7 @@
         "x": "",
         "verification": "Academy-specific profiles not yet verified."
       },
-      "notes": "Club states academy pathway U11-U18 in Club Academy Scotland. Club's official contact page lists Facebook and X accounts. Monitor academy recruitment and coaching vacancies.",
+      "notes": "Monitor boys academy recruitment and coaching vacancies only.",
       "sources": [
         "https://www.ptfc.co.uk/club/partick-thistle-youth-academy/about-the-academy/",
         "https://www.ptfc.co.uk/contact-us/"
@@ -290,26 +269,6 @@
       ]
     },
     {
-      "id": "glasgow-city-academy",
-      "name": "Glasgow City FC · NextGen Academy",
-      "category": "Professional academy · girls and women",
-      "homeGround": "Petershill Park, 28 Adamswell Street, Glasgow G21 4DD (verify current programme venue)",
-      "trainingBase": "Team-specific academy training venue to confirm",
-      "distanceMiles": null,
-      "locationStatus": "Provisional; verify training base and distance before inclusion",
-      "website": "https://glasgowcityfc.co.uk/blogs/latest/register-interest-in-the-glasgow-city-academy-programme",
-      "social": {
-        "facebook": "",
-        "instagram": "",
-        "x": "",
-        "verification": "Academy-specific profiles not yet verified."
-      },
-      "notes": "Category One academy. Added to the candidate list because it is a professional academy in Glasgow; only monitor if the relevant coaching role is based within 10 miles of Shawlands.",
-      "sources": [
-        "https://glasgowcityfc.co.uk/blogs/latest/register-interest-in-the-glasgow-city-academy-programme"
-      ]
-    },
-    {
       "id": "pollok-united",
       "name": "Pollok United",
       "category": "Grassroots / youth / adult",
@@ -333,7 +292,7 @@
     {
       "id": "stamperland-fc",
       "name": "Stamperland FC",
-      "category": "Grassroots / youth / girls",
+      "category": "Grassroots / boys youth",
       "homeGround": "East Renfrewshire / South Glasgow (multiple venues)",
       "trainingBase": "South Glasgow (Muirend / Clarkston); 2010s train Mondays and Wednesdays; exact pitch not stated",
       "distanceMiles": null,
@@ -345,7 +304,7 @@
         "x": "",
         "verification": "Official club website states Facebook and Twitter channels; exact links not yet resolved."
       },
-      "notes": "Community youth club serving South Glasgow and East Renfrewshire, with boys and girls sections up to U19. Monitor relevant age-group coach roles only where actual base qualifies.",
+      "notes": "Monitor boys age-group coaching roles only, where the actual base qualifies.",
       "sources": [
         "https://www.stamperlandfc.co.uk/about"
       ]
