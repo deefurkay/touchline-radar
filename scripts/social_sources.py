@@ -14,11 +14,13 @@ FEED=Path("vacancies-feed.json")
 NOW=datetime.now(timezone.utc)
 VACANCY=re.compile(r"\b(vacan|recruit|looking for|wanted|seeking|coach|manager|assistant manager|head coach|join our|applications? open|apply now|staff required|part ways|parts ways|steps down|resigns?|appointed)\b",re.I)
 FOOTBALL=re.compile(r"\b(football|soccer|wosfl|academy|youth|u18|u19|u20|u21|reserve|development|first team|senior team|coach|manager)\b",re.I)
+EXCLUDED=re.compile(r"\b(women.?s football|girls.? football|female football|women.?s team|girls.? team|bsc glasgow women|glasgow city fc)\b",re.I)
 def get(url, token):
  req=urllib.request.Request(url,headers={"Authorization":"Bearer "+token,"User-Agent":"TouchlineRadar/1.0"})
  with urllib.request.urlopen(req,timeout=25) as r:return json.loads(r.read())
 def make_item(title,url,created,text,source,club=""):
  body=(title+" "+text).strip()
+ if EXCLUDED.search(body):return None
  if not VACANCY.search(body) or not FOOTBALL.search(body):return None
  return {"id":"social-"+str(abs(hash(url))),"title":title or "Football coaching recruitment post","url":url,"published":created or NOW.isoformat(),"snippet":text[:700],"source":source,"verification_status":"Social post lead — verify original advert and role","lead_type":"social_api","club":club or "Unmatched club","query":"Direct social API"}
 items=[];status={}
