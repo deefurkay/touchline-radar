@@ -39,6 +39,40 @@ dialog{background:#15252d;color:white;border:1px solid #455b66;border-radius:10p
 .detail-meta{font-size:11px;line-height:1.6}
 .crest img{display:block;width:100%;height:100%;object-fit:contain}
 @media(max-width:600px){.detail-side:not(:has(.photo)){display:flex}.detail-side .photo{height:110px;flex:auto}}
+
+/* Football Manager-style opportunity detail panel */
+.crest{position:relative}
+.crest-fallback{position:relative;z-index:0}
+.crest img{position:absolute;inset:0;z-index:1;display:block;width:100%;height:100%;object-fit:contain;background:#eff3f2}
+.lead.active{background:linear-gradient(95deg,#293a33,#263330)}
+.detail-main{background:linear-gradient(180deg,#182b32 0,#132229 105px,#121f26 280px)}
+.detail-heading{padding-bottom:15px;border-bottom:1px solid #364b53}
+.detail-heading h2{font-size:21px}
+.detail-heading p{color:#d9e3e5;font-size:13px}
+.detail-label{color:var(--yellow);font-size:10px;margin:15px 0 8px;letter-spacing:.09em}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid #354951;border-radius:5px;overflow:hidden;margin-bottom:17px}
+.info-cell{padding:9px 11px;min-width:0;background:#172b33;border-right:1px solid #354951;border-bottom:1px solid #354951}
+.info-cell:nth-child(even){border-right:0}
+.info-cell:nth-last-child(-n+2){border-bottom:0}
+.info-cell span{color:#96afb8;font-size:10px;letter-spacing:.03em;display:block}
+.info-cell strong{display:block;font-size:12px;font-weight:600;color:#f1f5f5;line-height:1.3;margin-top:4px;overflow-wrap:anywhere}
+.detail-section-title{color:#dfe8e8;font-size:11px;font-weight:800;letter-spacing:.08em;border-bottom:1px solid #334953;padding-bottom:6px;margin-bottom:9px}
+.detail-description{font-size:12px;color:#c6d5dc;line-height:1.5}
+.detail-source{margin-top:13px;color:#93aab2;border-top:1px solid #31434b;padding-top:9px;display:flex;flex-wrap:wrap;gap:7px 18px;font-size:11px}
+.detail-side{background:#102029}
+.detail-side .photo{height:155px;flex:0 0 155px}
+.detail-side:not(:has(.photo)){justify-content:center}
+@media(max-width:600px){
+ #page-overview.active{display:flex;flex-direction:column}
+ #page-overview .page-title{order:0}
+ #page-overview .vacancy-grid{order:1}
+ #page-overview .metrics{order:2;margin:12px 0}
+ #page-overview .lower-grid{order:3}
+ .detail-panel{min-height:0}
+ .detail-main{padding:13px}
+ .info-grid{grid-template-columns:1fr 1fr}
+ .detail-side .photo{height:125px;flex:auto}
+}
 </style></head><body>
 <div class="shell"><aside class="sidebar"><div class="logo"><span class="ball">⚽</span> TR</div><nav class="side-nav" id="sideNav"><button data-page="overview" class="active">⌂ &nbsp; Overview</button><button data-page="vacancies">▣ &nbsp; Vacancies</button><button data-page="clubs">▦ &nbsp; Club Directory</button><button data-page="tracked">▤ &nbsp; Tracked</button><button data-page="search">⌕ &nbsp; Search</button></nav></aside>
 <div class="content"><header class="topbar"><div class="topline"><div class="identity"><span class="brand">TR</span><div><strong>Touchline Radar</strong><small>Coaching Opportunities · Shawlands, Glasgow</small></div></div><div class="top-actions"><span class="clock" id="clock"></span><button id="refreshTop">↻ Refresh Search</button></div></div><nav class="tabs" id="tabs"><button class="active" data-page="overview">Overview</button><button data-page="vacancies">Vacancies</button><button data-page="clubs">Club Directory</button><button data-page="tracked">Tracked Applications</button><button data-page="search">Search &amp; Alerts</button></nav></header>
@@ -67,10 +101,10 @@ function initials(s){return String(s||'FC').replace(/\b(fc|football|club|the)\b/
 const MEDIA={
  "celtic":{wiki:"Celtic_F.C.",photo:"Lennoxtown training complex from the air.jpg",credit:"Tam Nugent · Wikimedia Commons"},
  "partick thistle":{wiki:"Partick_Thistle_F.C.",photo:"Partick Thistle Firhill Stadium.JPG",credit:"LordHorst · Wikimedia Commons"},
- "queen s park":{wiki:"Queen's_Park_F.C."},
- "saint anthony s":{wiki:"St_Anthony's_F.C."},
- "st anthony s":{wiki:"St_Anthony's_F.C."},
- "bsc glasgow":{wiki:"BSC_Glasgow_F.C."},
+ "queen s park":{wiki:"Queen's_Park_F.C.",crest:"https://r2.thesportsdb.com/images/media/team/badge/lf1cb41750743489.png",photoUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lesser_Hampden_-_geograph-1920423.jpg/960px-Lesser_Hampden_-_geograph-1920423.jpg.webp",credit:"Lesser Hampden · Wikimedia Commons"},
+ "saint anthony s":{wiki:"St_Anthony's_F.C.",crest:"https://www.snapsponsorship.com/sites/snap.production.o5813381727.v7.s8.lon.boa.io/files/styles/large_thumbnail/public/news_article_antslogoemailsig_Thu%2C%2025/09/2025%20-%2019%3A20.png?itok=-XOtsZ1N"},
+ "st anthony s":{wiki:"St_Anthony's_F.C.",crest:"https://www.snapsponsorship.com/sites/snap.production.o5813381727.v7.s8.lon.boa.io/files/styles/large_thumbnail/public/news_article_antslogoemailsig_Thu%2C%2025/09/2025%20-%2019%3A20.png?itok=-XOtsZ1N"},
+ "bsc glasgow":{wiki:"BSC_Glasgow_F.C.",crest:"https://pbs.twimg.com/profile_images/1075036448095723522/Fa8dKfgz.jpg",photoUrl:"https://www.bscglasgow.co.uk/images/2023/slider/25-26-mens-team-photo-1.jpg",credit:"BSC Glasgow Men's Team · Official club site"},
  "st mirren":{wiki:"St_Mirren_F.C."},
  "pollok":{wiki:"Pollok_F.C."},
  "rangers":{wiki:"Rangers_F.C."},
@@ -80,29 +114,35 @@ const MEDIA={
 const mediaKey=s=>canon(s).replace(/\b(saint|st)\b/g,'saint').replace(/\s+/g,' ').trim();
 function mediaFor(s){return MEDIA[mediaKey(s)]||MEDIA[canon(s)]||null}
 const crestImages={};
-function crest(s,large=false){const key=mediaKey(s),src=crestImages[key];return '<span class="crest '+(large?'large':'')+'" data-crest="'+esc(key)+'" aria-hidden="true">'+(src?'<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.remove()">':esc(initials(s)))+'</span>'}
+function crest(s,large=false){
+ const key=mediaKey(s),src=mediaFor(s)?.crest||crestImages[key]||'';
+ return '<span class="crest '+(large?'large':'')+'" data-crest="'+esc(key)+'" aria-hidden="true"><span class="crest-fallback">'+esc(initials(s))+'</span>'+(src?'<img src="'+esc(src)+'" alt="" loading="eager" referrerpolicy="no-referrer" onerror="this.remove()">':'')+'</span>'
+}
 async function loadCrests(){
  const names=[...new Set([...clubs.map(c=>c.name),...leads.map(l=>l.club)])];
- const entries=names.map(n=>[mediaKey(n),mediaFor(n)]).filter(x=>x[1]?.wiki);
+ const entries=names.map(n=>[mediaKey(n),mediaFor(n)]).filter(x=>x[1]?.wiki&&!x[1]?.crest);
  await Promise.all(entries.map(async ([key,info])=>{
   if(key in crestImages)return;
   crestImages[key]=null;
   try{
    const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),6500);
-   const response=await fetch('https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&prop=pageimages&redirects=1&pithumbsize=140&titles='+encodeURIComponent(info.wiki),{signal:ctrl.signal});
+   const response=await fetch('https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&prop=pageimages&pilicense=any&redirects=1&pithumbsize=140&titles='+encodeURIComponent(info.wiki),{signal:ctrl.signal});
    clearTimeout(timer);
    if(!response.ok)return;
    const data=await response.json(),p=Object.values(data.query?.pages||{})[0],src=p?.thumbnail?.source||'';
    if(/^https:\/\/upload\.wikimedia\.org\//.test(src)&&/\.(png|svg|webp|jpg|jpeg)(?:\/|$)/i.test(decodeURIComponent(src))){crestImages[key]=src}
   }catch(e){}
  }));
- document.querySelectorAll('[data-crest]').forEach(el=>{const src=crestImages[el.dataset.crest];if(src&&!el.querySelector('img'))el.innerHTML='<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.remove()">'});
+ document.querySelectorAll('[data-crest]').forEach(el=>{const src=crestImages[el.dataset.crest];if(src&&!el.querySelector('img'))el.insertAdjacentHTML('beforeend','<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.remove()">')});
 }
 function photoMarkup(s){
  const m=mediaFor(s);
- if(!m?.photo)return '';
- const url='https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(m.photo);
- return '<figure class="photo"><img src="'+esc(url)+'" alt="'+esc(s)+' football ground or training centre" loading="lazy" onerror="this.closest(\'.photo\').remove()"><figcaption>'+esc(m.credit)+'</figcaption></figure>';
+ if(!m?.photo&&!m?.photoUrl)return '';
+ const url=m.photoUrl||'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(m.photo);
+ return '<figure class="photo"><img src="'+esc(url)+'" alt="'+esc(s)+' club or home ground" loading="lazy" onerror="this.closest(\'.photo\').remove()"><figcaption>'+esc(m.credit||s)+'</figcaption></figure>';
+}
+function cleanText(s){
+ return String(s||'').replace(/&nbsp;|&#160;/gi,' ').replace(/<[^>]*>/g,' ').replace(/^\s*(?:FIRST TEAM MANAGER\s*\|\s*APPLICATIONS OPEN)\s*/i,'').replace(/\s*-\s*(Facebook|X)\s*$/i,'').replace(/\s+/g,' ').trim();
 }
 function fmtDate(s){if(!s)return 'Date unconfirmed';const d=new Date(s);if(!isNaN(d.getTime()))return d.toLocaleDateString('en-GB');const m=String(s).match(/\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{4}/);return m?m[0]:'Date unconfirmed'}
 function normalise(raw){const club=inferClub(raw),role=inferRole(raw);return {...raw,club:club||'Club to verify',role,rawTitle:raw.title||'',isSenior:/manager|first.team/i.test(role),key:canon(club)+'|'+canon(role)}}
@@ -120,7 +160,29 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(tracked))}catch(e){}
 function navigate(p){page=p;document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id==='page-'+p));document.querySelectorAll('[data-page]').forEach(el=>el.classList.toggle('active',el.dataset.page===p));if(p==='vacancies')renderLeads();if(p==='clubs')renderClubs();if(p==='tracked')renderTracked();window.scrollTo({top:0,behavior:'instant'})}
 document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.page)));
 function renderLeads(){const filter=$('leadFilter').value;const shown=leads.filter(x=>filter==='all'||(filter==='senior'?x.isSenior:!x.isSenior));if(!shown.includes(leads[selected]))selected=Math.max(0,leads.findIndex(x=>shown.includes(x)));for(const id of ['leadList','leadListFull']){const el=$(id);el.innerHTML=shown.length?shown.map(x=>{const idx=leads.indexOf(x);return '<button class="lead '+(idx===selected?'active':'')+'" data-lead="'+idx+'">'+crest(x.club)+'<span class="lead-info"><strong>'+esc(x.club)+'</strong><small>'+esc(x.role)+'</small><span class="tiny">'+esc(x.lead_type==='official_departure'?'Managerial departure · advert not verified':x.source||'Public recruitment lead')+'</span></span></button>'}).join(''):'<div class="empty">No matching coaching leads in the latest feed.</div>';el.querySelectorAll('[data-lead]').forEach(b=>b.onclick=()=>{selected=Number(b.dataset.lead);renderLeads()})}renderDetail()}
-function renderDetail(){const x=leads[selected];for(const id of ['detail','detailFull']){const el=$(id);if(!x){el.innerHTML='<div class="empty">No vacancy selected.</div>';continue}const hasUrl=/^https?:\/\//.test(x.url||'');const description=x.snippet||x.rawTitle||'Open the original source to confirm the role and requirements.';const saved=tracked.some(t=>t.url&&t.url===x.url);el.innerHTML='<div class="detail-main"><div class="detail-heading">'+crest(x.club,true)+'<div><h2>'+esc(x.club)+'</h2><p>'+esc(x.role)+'</p></div></div><div class="detail-label">'+esc(x.lead_type==='official_departure'?'MANAGERIAL DEPARTURE · NOT A CONFIRMED OPEN ADVERT':'PUBLIC RECRUITMENT LEAD · VERIFY BEFORE APPLYING')+'</div><div class="detail-description">'+esc(description)+'</div><p class="detail-meta">Source: '+esc(x.source||'Not recorded')+' · '+esc(fmtDate(x.published))+'<br>Team: '+esc(x.team||'Not confirmed')+' · Base: '+esc(x.location||'Not confirmed')+'</p></div><div class="detail-side">'+photoMarkup(x.club)+(hasUrl?'<a class="action primary" target="_blank" rel="noopener" href="'+esc(x.url)+'">↗ View original source</a>':'<button class="action" disabled>Source unavailable</button>')+'<button class="action" data-save="'+selected+'">'+(saved?'✓ Already tracked':'☆ Track opportunity')+'</button><button class="action" data-prepare="'+selected+'">▤ Prepare application</button></div>';el.querySelector('[data-save]').onclick=()=>trackLead(x);el.querySelector('[data-prepare]').onclick=()=>{trackLead(x);navigate('tracked')}}}
+function renderDetail(){
+ const x=leads[selected];
+ for(const id of ['detail','detailFull']){
+  const el=$(id);
+  if(!x){el.innerHTML='<div class="empty">No vacancy selected.</div>';continue}
+  const hasUrl=/^https?:\/\//.test(x.url||''),googleResult=/^https:\/\/news\.google\.com\//.test(x.url||'');
+  const description=cleanText(x.snippet||x.rawTitle||'Open the original source to confirm the role and requirements.');
+  const saved=tracked.some(t=>t.url&&t.url===x.url);
+  const ci=clubs.find(c=>canon(c.name)===canon(x.club))||{};
+  const ground=ci.homeGround||'Not confirmed';
+  const status=x.lead_type==='official_departure'?'Departure only · applications unconfirmed':'Recruitment advertised · verify details';
+  const meta=(label,value)=>'<div class="info-cell"><span>'+esc(label)+'</span><strong>'+esc(value)+'</strong></div>';
+  el.innerHTML='<div class="detail-main"><div class="detail-heading">'+crest(x.club,true)+'<div><h2>'+esc(x.club)+'</h2><p>'+esc(x.role)+'</p></div></div>'
+   +'<div class="detail-label">OPPORTUNITY OVERVIEW</div><div class="info-grid">'+meta('Recruitment status',status)+meta('Advert date',fmtDate(x.published))+meta('Team',x.team||'Not confirmed')+meta('Home ground',ground)+'</div>'
+   +'<div class="detail-section-title">RECRUITMENT INFORMATION</div><div class="detail-description">'+esc(description)+'</div>'
+   +'<div class="detail-source"><span>Source: '+esc(x.source||'Not recorded')+'</span>'+(googleResult?'<span>Google News link · confirm on club page</span>':'')+'</div>'
+   +'</div><div class="detail-side">'+photoMarkup(x.club)
+   +(hasUrl?'<a class="action primary" target="_blank" rel="noopener" href="'+esc(x.url)+'">↗ '+(googleResult?'Open recruitment link':'View original source')+'</a>':'<button class="action" disabled>Source unavailable</button>')
+   +'<button class="action" data-save="'+selected+'">'+(saved?'✓ Already tracked':'☆ Track opportunity')+'</button><button class="action" data-prepare="'+selected+'">▤ Prepare application</button></div>';
+  el.querySelector('[data-save]').onclick=()=>trackLead(x);
+  el.querySelector('[data-prepare]').onclick=()=>{trackLead(x);navigate('tracked')};
+ }
+}
 function trackLead(x){if(tracked.some(t=>t.url&&x.url&&t.url===x.url))return;tracked.unshift({id:crypto.randomUUID(),club:x.club,role:x.role,team:x.team||'',location:x.location||'',date:new Date().toISOString().slice(0,10),status:'Interested',deadline:'',url:x.url||'',notes:x.snippet||''});save();renderDetail()}
 function renderTracked(){const container=$('trackedList');container.innerHTML=tracked.length?tracked.map(x=>'<article class="panel tracked-card"><h3>'+esc(x.club||'Unknown club')+' · '+esc(x.role||'Coaching role')+'</h3><p>'+esc(x.team||'Team not recorded')+' · '+esc(x.status||'Interested')+' · '+esc(x.date||'Date unknown')+'</p>'+(x.notes?'<p>'+esc(x.notes)+'</p>':'')+'<div class="tracked-actions"><button data-edit="'+esc(x.id)+'">Edit</button><button data-cycle="'+esc(x.id)+'">Change status</button><button data-delete="'+esc(x.id)+'">Delete</button>'+(x.url?'<a class="action" style="width:auto" href="'+esc(x.url)+'" target="_blank" rel="noopener">Original source ↗</a>':'')+'</div></article>').join(''):'<div class="panel empty">No applications tracked yet. Select a vacancy and choose Track opportunity.</div>';container.querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>openEditor(tracked.find(x=>x.id===b.dataset.edit)));container.querySelectorAll('[data-cycle]').forEach(b=>b.onclick=()=>{const x=tracked.find(x=>x.id===b.dataset.cycle);if(x){const statuses=['Interested','Applied','Closed','New'];x.status=statuses[(statuses.indexOf(x.status)+1)%statuses.length];save()}});container.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{if(confirm('Delete tracked vacancy?')){tracked=tracked.filter(x=>x.id!==b.dataset.delete);save()}});$('trackedCount').textContent='('+tracked.length+')';$('trackedPreview').innerHTML=tracked.length?tracked.slice(0,4).map(x=>'<div class="mini-row">'+crest(x.club)+'<span>'+esc(x.club)+' · '+esc(x.role)+'</span><small>'+esc(x.status||'Interested')+'</small></div>').join(''):'<p class="muted">No applications tracked yet.</p>';renderDetail()}
 function openEditor(x){$('editTitle').textContent=x?'Edit tracked vacancy':'Track a vacancy';$('editId').value=x?.id||'';for(const [id,key] of [['eClub','club'],['eRole','role'],['eTeam','team'],['eStatus','status'],['eLocation','location'],['eDate','date'],['eUrl','url'],['eNotes','notes']])$(id).value=x?.[key]??(key==='status'?'Interested':'');$('editor').showModal()}
