@@ -23,7 +23,7 @@ class Links(HTMLParser):
         if self.href: self.label.append(data.strip())
     def handle_endtag(self, tag):
         if tag=="a" and self.href:
-            name=re.sub(r"\\s+"," "," ".join(x for x in self.label if x)).strip()
+            name=re.sub(r"\s+"," "," ".join(x for x in self.label if x)).strip()
             if name: self.items.append((name,self.href))
             self.href=None; self.label=[]
 
