@@ -122,9 +122,22 @@ dialog{background:#15252d;color:white;border:1px solid #455b66;border-radius:10p
 .club-card-links a:hover{text-decoration:underline}
 @media(max-width:1200px){.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.club-grid{grid-template-columns:1fr}.club-card .club-heading .crest{width:65px;height:65px;flex-basis:65px}.club-card{min-height:0}.club-line{grid-template-columns:80px 1fr}}
+
+/* Distinguish checking published results from starting a new discovery run. */
+.refresh-notice{position:fixed;z-index:100;right:20px;top:108px;max-width:min(440px,calc(100vw - 32px));padding:12px 15px;border-radius:6px;border:1px solid #547886;background:#1b313b;box-shadow:0 8px 28px #0008;color:#ecf5f5;font-size:12px;line-height:1.5}
+.refresh-notice[hidden]{display:none}
+.refresh-notice.success{border-color:#219660;background:#113a2c}
+.refresh-notice.error{border-color:#ba6058;background:#46252a}
+#refreshTop:disabled,#refreshSearch:disabled{opacity:.75;cursor:progress}
+.workflow-help{margin-top:17px;border:1px solid #37535d;border-radius:6px;background:#1a2d35;padding:15px;max-width:630px}
+.workflow-help strong{font-size:13px}
+.workflow-help p{color:#b9cbd2;font-size:12px;line-height:1.6}
+.workflow-help b{color:#f1f3f2}
+@media(max-width:600px){.refresh-notice{top:auto;right:12px;left:12px;bottom:20px;max-width:none}.workflow-help{padding:12px}}
 </style></head><body>
 <div class="shell"><aside class="sidebar"><div class="logo"><span class="ball">⚽</span> TR</div><nav class="side-nav" id="sideNav"><button data-page="overview" class="active">⌂ &nbsp; Overview</button><button data-page="vacancies">▣ &nbsp; Vacancies</button><button data-page="clubs">▦ &nbsp; Club Directory</button><button data-page="tracked">▤ &nbsp; Tracked</button><button data-page="search">⌕ &nbsp; Search</button></nav></aside>
-<div class="content"><header class="topbar"><div class="topline"><div class="identity"><span class="brand">TR</span><div><strong>Touchline Radar</strong><small>Coaching Opportunities · Shawlands, Glasgow</small></div></div><div class="top-actions"><span class="clock" id="clock"></span><button id="refreshTop">↻ Refresh Search</button></div></div><nav class="tabs" id="tabs"><button class="active" data-page="overview">Overview</button><button data-page="vacancies">Vacancies</button><button data-page="clubs">Club Directory</button><button data-page="tracked">Tracked Applications</button><button data-page="search">Search &amp; Alerts</button></nav></header>
+<div class="content"><header class="topbar"><div class="topline"><div class="identity"><span class="brand">TR</span><div><strong>Touchline Radar</strong><small>Coaching Opportunities · Shawlands, Glasgow</small></div></div><div class="top-actions"><span class="clock" id="clock"></span><button id="refreshTop" type="button" title="Check for newly published vacancy results">↻ Check for Updates</button></div></div><nav class="tabs" id="tabs"><button class="active" data-page="overview">Overview</button><button data-page="vacancies">Vacancies</button><button data-page="clubs">Club Directory</button><button data-page="tracked">Tracked Applications</button><button data-page="search">Search &amp; Alerts</button></nav></header>
+<div id="refreshNotice" class="refresh-notice" role="status" aria-live="polite" hidden></div>
 <main>
 <section class="page active" id="page-overview"><div class="page-title"><div><h1>▣ &nbsp; Coaching Vacancies</h1><p>Men's and boys' football · Within 10 miles of Shawlands</p></div></div>
 <div class="metrics"><div class="metric"><span class="symbol">▣</span><div><strong id="mVac">—</strong><small>Candidate vacancies</small></div></div><div class="metric"><span class="symbol">♧</span><div><strong id="mClubs">—</strong><small>Clubs in directory</small></div></div><div class="metric"><span class="symbol">↻</span><div><strong id="mTime">—</strong><small>Last search</small></div></div><div class="metric"><span class="symbol">◎</span><div><strong>10 mi</strong><small>Search radius</small></div></div></div>
@@ -135,7 +148,9 @@ dialog{background:#15252d;color:white;border:1px solid #455b66;border-radius:10p
 <section class="page" id="page-vacancies"><div class="page-title"><div><h1>Coaching Vacancies</h1><p>Public recruitment leads · Original adverts must be checked</p></div></div><div class="vacancy-grid"><section class="panel list-panel"><div class="list-toolbar"><span>Vacancy leads</span></div><div class="lead-list" id="leadListFull"></div></section><section class="panel detail-panel" id="detailFull"></section></div></section>
 <section class="page" id="page-clubs"><div class="page-title"><div><h1>Club Directory</h1><p>Local men's and boys' football organisations · Sorted A–Z</p></div></div><div class="toolbar"><input class="input" id="clubSearch" placeholder="Search clubs, grounds or categories"><select class="input" id="clubType" style="max-width:190px"><option value="all">All clubs</option><option value="professional">Professional</option><option value="senior">Senior</option><option value="grassroots">Grassroots</option><option value="private">Private coaching</option></select></div><div class="club-grid" id="clubGrid"></div></section>
 <section class="page" id="page-tracked"><div class="page-title"><div><h1>Tracked Applications</h1><p>Saved locally in this browser</p></div><button class="action green" style="width:auto" id="addTracked">+ Add vacancy</button></div><div class="tracked-list" id="trackedList"></div></section>
-<section class="page" id="page-search"><div class="page-title"><div><h1>Search &amp; Alerts</h1><p>Daily discovery and source coverage</p></div></div><section class="panel"><div class="panel-body"><p>Searches run automatically at 07:30 UTC. This dashboard reads the latest published results, not live social media.</p><p id="feedStatus" class="muted">Loading feed status…</p><p id="feedCoverage" class="muted"></p><button class="action green" id="refreshSearch" style="max-width:220px">Reload latest results</button><p class="muted">To start a new GitHub Actions discovery run, use the workflow page.</p><a class="action" style="max-width:240px" target="_blank" rel="noopener" href="https://github.com/deefurkay/touchline-radar/actions/workflows/daily-vacancy-discovery.yml">Open search workflow ↗</a></div></section></section>
+<section class="page" id="page-search"><div class="page-title"><div><h1>Search &amp; Alerts</h1><p>Daily discovery and source coverage</p></div></div><section class="panel"><div class="panel-body"><p>The automatic discovery runs each morning at 07:30 UTC. Checking for updates reads the latest published results; it does not run a new search.</p><p id="lastCheck" class="muted">No manual check yet.</p><p id="feedStatus" class="muted">Loading feed status…</p><p id="feedCoverage" class="muted"></p><button class="action green" id="refreshSearch" type="button" style="max-width:230px">↻ Check published results</button>
+<div class="workflow-help"><strong>Want to search for vacancies right now?</strong><p>Open the GitHub workflow, select <b>Run workflow</b>, then confirm <b>Run workflow</b>. GitHub will publish the results after the job finishes. Return here and press Check for Updates.</p>
+<a class="action" style="max-width:275px" target="_blank" rel="noopener" href="https://github.com/deefurkay/touchline-radar/actions/workflows/daily-vacancy-discovery.yml">↗ Start a new search on GitHub</a></div></div></section></section>
 </main></div></div>
 <dialog id="editor"><form id="editForm"><h2 id="editTitle">Track a vacancy</h2><input type="hidden" id="editId"><div class="form-grid"><label>Club<input id="eClub" required></label><label>Role<input id="eRole" required></label><label>Team<input id="eTeam"></label><label>Status<select id="eStatus"><option>Interested</option><option>Applied</option><option>New</option><option>Closed</option></select></label><label>Location<input id="eLocation"></label><label>Found date<input id="eDate" type="date"></label><label class="wide">Original advert URL<input id="eUrl" type="url"></label><label class="wide">Notes<textarea id="eNotes" rows="3"></textarea></label></div><div class="form-actions"><button type="button" class="action" style="width:auto" id="cancelEdit">Cancel</button><button class="action primary" style="width:auto" type="submit">Save</button></div></form></dialog>
 <script>
@@ -306,8 +321,83 @@ function renderClubs(){
 $('clubSearch').oninput=renderClubs;$('clubType').onchange=renderClubs;$('leadFilter').onchange=renderLeads;
 function renderClubPreview(){$('clubPreview').innerHTML=clubs.filter(x=>x.distanceMiles!=null).sort((a,b)=>a.distanceMiles-b.distanceMiles).slice(0,5).map(c=>'<div class="mini-row">'+crest(c.name)+'<span>'+esc(c.name)+'</span><small>'+esc(c.distanceMiles)+' mi</small></div>').join('')||'<p class="muted">Club distances are being verified.</p>'}
 async function fetchJSON(file){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);try{const r=await fetch('./'+file+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(timer)}}
-async function reload(){for(const b of [$('refreshTop'),$('refreshSearch')]){b.disabled=true}try{const [feed,dir]=await Promise.allSettled([fetchJSON('vacancies-feed.json'),fetchJSON('clubs.json')]);if(feed.status==='fulfilled'){leads=dedupe((feed.value.items||[]).map(normalise));$('mVac').textContent=leads.length;lastSearch=feed.value.generated_at||'';const date=new Date(lastSearch);const stamp=!isNaN(date.getTime())?date.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}):'Pending';$('mTime').textContent=stamp;$('summaryTime').textContent=stamp;$('feedStatus').textContent=lastSearch?'Feed generated: '+date.toLocaleString('en-GB'):'No completed search timestamp';$('feedCoverage').textContent=feed.value.coverage_note||'Results are candidates, not verified active vacancies.';renderLeads();loadCrests()}else{$('leadList').innerHTML='<div class="empty">Vacancy feed unavailable. Try Refresh Search.</div>';$('feedStatus').textContent='Could not load vacancy feed: '+feed.reason.message}if(dir.status==='fulfilled'){clubs=(dir.value.clubs||[]).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));for(const c of clubs){const u=siteIconFor(c);if(u)siteIcons[mediaKey(c.name)]=u}$('mClubs').textContent=clubs.length;renderClubPreview();renderClubs();renderDetail();loadCrests()}else{$('clubPreview').innerHTML='<p class="muted">Club directory unavailable.</p>'}}finally{for(const b of [$('refreshTop'),$('refreshSearch')])b.disabled=false}}
-$('refreshTop').onclick=reload;$('refreshSearch').onclick=reload;
+let refreshNoticeTimer=0;
+function refreshMessage(message,kind='info',autoHide=true){
+ const note=$('refreshNotice');
+ note.textContent=message;
+ note.className='refresh-notice '+kind;
+ note.hidden=false;
+ clearTimeout(refreshNoticeTimer);
+ if(autoHide)refreshNoticeTimer=setTimeout(()=>{note.hidden=true},8000);
+}
+async function reload(manual=false){
+ const buttons=[$('refreshTop'),$('refreshSearch')];
+ const prevTimestamp=lastSearch;
+ const prevKeys=leads.map(l=>l.key).join('|');
+ buttons.forEach(b=>b.disabled=true);
+ if(manual){
+  $('refreshTop').textContent='↻ Checking…';
+  $('refreshSearch').textContent='Checking…';
+  refreshMessage('Checking the latest published vacancy feed…','info',false);
+ }
+ let feedOK=false,clubsOK=false,errorText='';
+ try{
+  const [feed,dir]=await Promise.allSettled([fetchJSON('vacancies-feed.json'),fetchJSON('clubs.json')]);
+  if(feed.status==='fulfilled'){
+   const data=feed.value;
+   leads=dedupe((data.items||[]).map(normalise));
+   $('mVac').textContent=leads.length;
+   lastSearch=data.generated_at||'';
+   const date=new Date(lastSearch);
+   const validTime=lastSearch&&!Number.isNaN(date.getTime());
+   const stamp=validTime?date.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}):'Pending';
+   $('mTime').textContent=stamp;
+   $('summaryTime').textContent=stamp;
+   $('feedStatus').textContent=validTime?'Latest published search: '+date.toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):'No published search timestamp';
+   $('feedCoverage').textContent=data.coverage_note||'Results are potential vacancies, not verified active job offers.';
+   renderLeads();
+   feedOK=true;
+  }else{
+   errorText='Could not retrieve the vacancy feed. '+(feed.reason?.message||'Network error');
+   $('feedStatus').textContent=errorText;
+  }
+  if(dir.status==='fulfilled'){
+   clubs=(dir.value.clubs||[]).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));
+   for(const c of clubs){const u=siteIconFor(c);if(u)siteIcons[mediaKey(c.name)]=u}
+   $('mClubs').textContent=clubs.length;
+   renderClubPreview();
+   renderClubs();
+   renderDetail();
+   clubsOK=true;
+  }else{
+   if(!errorText)errorText='Could not retrieve the club directory. '+(dir.reason?.message||'Network error');
+   if(!clubs.length)$('clubPreview').innerHTML='<p class="muted">Club directory unavailable.</p>';
+  }
+  if(feedOK||clubsOK)loadCrests();
+  if(manual){
+   const checked=new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+   $('lastCheck').textContent='Last checked at '+checked+' on this device.';
+   if(!feedOK)refreshMessage(errorText||'Could not check published results. Try again.','error');
+   else{
+    const changed=prevTimestamp!==lastSearch||prevKeys!==leads.map(l=>l.key).join('|');
+    const date=new Date(lastSearch);
+    const lastPublished=!Number.isNaN(date.getTime())?date.toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):'unknown time';
+    const message=changed?'Updated: '+leads.length+' candidate vacancies. Published '+lastPublished+'.':'No newer search published. Showing '+leads.length+' candidate vacancies from '+lastPublished+'.';
+    refreshMessage(message,changed?'success':'info');
+   }
+  }
+ }catch(err){
+  const message='Unable to check for updates. '+(err?.message||'Unknown error');
+  if(manual)refreshMessage(message,'error');
+  $('feedStatus').textContent=message;
+ }finally{
+  buttons.forEach(b=>b.disabled=false);
+  $('refreshTop').textContent='↻ Check for Updates';
+  $('refreshSearch').textContent='↻ Check published results';
+ }
+}
+$('refreshTop').onclick=()=>reload(true);
+$('refreshSearch').onclick=()=>reload(true);
 $('clock').textContent=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
 renderTracked();reload();
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
