@@ -76,6 +76,13 @@ for club in WATCH_CLUBS:
   f'(site:instagram.com OR site:x.com OR site:twitter.com) "{name}" (coach OR manager OR vacancy OR wanted)',
  ])
 
+DIRECT_SOURCES = [
+ ("Scottish Women's Football noticeboard","https://scotwomensfootball.com/club-noticeboard/"),
+ ("sportscotland jobs","https://sportscotland.org.uk/jobs/"),
+ ("Parent Community Sports Trust / BSC Glasgow","https://www.pcst.org.uk/"),
+ ("Rossvale FC Academy work with us","https://rossvalefcacademy.co.uk/work-with-us/"),
+]
+
 def fetch_direct_pages():
  from html.parser import HTMLParser
  class PageText(HTMLParser):
