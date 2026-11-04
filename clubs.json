@@ -108,6 +108,27 @@
       ]
     },
     {
+      "id": "bsc-glasgow",
+      "name": "BSC Glasgow / BSC Glasgow Women",
+      "category": "Senior women's football / youth / community coaching",
+      "homeGround": "Peterson Park, Knightswood, Glasgow (senior women's home venue listed)",
+      "trainingBase": "Glasgow West End; Tuesday and Thursday sessions advertised; exact squad venue to confirm",
+      "distanceMiles": null,
+      "locationStatus": "Potentially within 10 miles; measure actual regular training venue before qualifying",
+      "website": "https://www.pcst.org.uk/",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "x": "",
+        "verification": "Official recruitment page is Parent Community Sports Trust; social profiles not yet confirmed."
+      },
+      "notes": "Official Scottish Women's Football noticeboard advertised Head Coach and Goalkeeping Coach roles on 31 October 2026. Parent Community Sports Trust page also advertises BSC Girls community coaches and youth team coaches. Contact mail@bscglasgow.co.uk. Confirm current availability, paid/volunteer status and precise training venue.",
+      "sources": [
+        "https://scotwomensfootball.com/club-noticeboard/",
+        "https://www.pcst.org.uk/"
+      ]
+    },
+    {
       "id": "glasgow-united-fc",
       "name": "Glasgow United FC",
       "category": "Senior WOSFL / youth",
