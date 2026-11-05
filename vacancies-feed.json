@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:36:20.377435+00:00",
+  "generated_at": "2026-11-05T08:34:16.956683+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,8 +9,8 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2562,
-  "result_count": 7,
+  "raw_result_count": 2571,
+  "result_count": 8,
   "errors": [
     {
       "source": "Petershill FC official website",
@@ -68,23 +68,34 @@
       "discovery_method": "Public indexed search"
     },
     {
+      "title": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for an experienced Goalkeeping Coach to join our team. You'll lead sessions at Peterson Park, helping develop our goalkeepers across the club. 📩 Interested? Get in to - X",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4TlJOeGVzNUlyWXR6cGg3cUJnWl9yQUcxZWJBYktuaUpIVzlLd1Z2UUJRT3VRRFRuamRoNlFsc0ZWbVNyVjlhRlp0cHM3b2hqYzBZejFhdDl0eUZrUTV5Yw?oc=5",
+      "published": "Thu, 29 Oct 2026 09:01:42 GMT",
+      "snippet": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for an experienced Goalkeeping Coach to join our team. You'll lead sessions at Peterson Park, helping develop our goalkeepers across the club. 📩 Interested? Get in to &nbsp;&nbsp; X",
+      "source": "X",
+      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"BSC Glasgow\" (coach OR manager OR vacancy OR wanted)",
+      "club": "BSC Glasgow",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Club watchlist"
+    },
+    {
+      "title": "🚨 VACANCY: General Manager GSC Auldhouse Foundation - the charity behind Scotland's largest grassroots football club - are hiring a new General Manager ⤵️ 🕰️ Full time 💰 Salary dependent on experience 🗓️ Deadline: 15 Oct ➡️ More details and app - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPamc3b3haRW9feXFFMjhFbDBkT1N3NVBVSE95UDhiTUpkRUNLbFhlSTU5YmMzLTMyOFJKZDhXaXJKMFRwamo3OHFabjd3R3FCY2h0M05zcXR1NDE3a0IwUFVfWjI3RDFPVDB4aGFHWVZ1bW84ajMyS0toaWJESnJjSURxb0hLZ3gyNnBjdm10NVc2aDZHZlpOc3ZROGdOTklGb21ub0Z0VEY5UExsNGY0ZmNzWUxFcUdpQ1YwSm9jOXh6NHFKLWtRMGl1VnZoc25iNWF4d0k2MA?oc=5",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT",
+      "snippet": "🚨 VACANCY: General Manager GSC Auldhouse Foundation - the charity behind Scotland's largest grassroots football club - are hiring a new General Manager ⤵️ 🕰️ Full time 💰 Salary dependent on experience 🗓️ Deadline: 15 Oct ➡️ More details and app &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com \"Giffnock Soccer Centre\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
+      "club": "",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Public indexed search"
+    },
+    {
       "title": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for a passionate, motivated and experienced Goalkeeping Coach to join our coaching team. You'll lead weekly Sunday sessions at Peterson Park, helping develop our - Facebook",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUUtWNEpJbExZMHprVWJDYndxNFNRUmRjdWtqcV83c0dpVEUxNHJ4ZVRacVUtWmx4eEZUYkFKUi1Zc25zZWZCT1JYYnE5ZkRRT2lEaks5TlhieC1WR2pEYzg2a2podHVkeHo5LURJN2tjRzFGSmZFc3hQaTRreTVjZmx3M2RraXdBYmdDR3MyY3NMUDBvTDc0ZHFhaXAzdlpIQ0FCanBVS2VyVzFEdmFfVFprWVJkRlh5UlYwdDhCQTNLVm1vSHRCSk9QUlYzUVNqaVpKaUZDTjlucGdRdVE?oc=5",
       "published": "Sun, 25 Oct 2026 15:45:19 GMT",
       "snippet": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for a passionate, motivated and experienced Goalkeeping Coach to join our coaching team. You'll lead weekly Sunday sessions at Peterson Park, helping develop our &nbsp;&nbsp; Facebook",
       "source": "Facebook",
       "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC Glasgow",
-      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
-      "discovery_method": "Club watchlist"
-    },
-    {
-      "title": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for an experienced Goalkeeping Coach to join our team. You'll lead sessions at Peterson Park, helping develop our goalkeepers across the club. 📩 Interested? Get in to - X",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zRGx3eXZPMG12UjVybzNKVjVUQTlFWG5TZEhtVWFmQlJZb0hnN0FRM0U3Q0FvaUEzN04wRy14em5ydmVROTBmakVUOEFzUHBJRjM0TDU2bzZrNUIzYWdCUg?oc=5",
-      "published": "Sat, 31 Oct 2026 08:21:01 GMT",
-      "snippet": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for an experienced Goalkeeping Coach to join our team. You'll lead sessions at Peterson Park, helping develop our goalkeepers across the club. 📩 Interested? Get in to &nbsp;&nbsp; X",
-      "source": "X",
-      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"BSC Glasgow\" (coach OR manager OR vacancy OR wanted)",
       "club": "BSC Glasgow",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Club watchlist"
@@ -106,5 +117,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-04T21:36:20.453175+00:00"
+  "social_api_checked_at": "2026-11-05T08:34:17.033642+00:00"
 }
