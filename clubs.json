@@ -468,7 +468,7 @@
       "category": "U20 / youth",
       "homeGround": "Newlandsfield Park, Newlandsfield Road, Shawlands, Glasgow G43 2XR",
       "trainingBase": "To confirm",
-      "distanceMiles": null,
+      "distanceMiles": 0.5,
       "locationStatus": "Home ground confirmed in Shawlands; training base to confirm",
       "website": "https://www.pollokfc.com/",
       "social": {
@@ -482,8 +482,8 @@
         "https://www.pollokfc.com/newlandsfield/",
         "https://www.pollokfc.com/team/pollok-football-club/pollok-under-20s/"
       ],
-      "distanceStatus": "Unverified — venue could not be geocoded",
-      "distanceBasis": "Newlandsfield Park, Newlandsfield Road, Shawlands, Glasgow G43 2XR",
+      "distanceStatus": "Within 10 miles",
+      "distanceBasis": "Home ground proxy — team training base not verified",
       "geocodedVenue": "Newlandsfield Park, Newlandsfield Road, Shawlands, Glasgow, Glasgow City, Alba / Scotland, G43 2XU, United Kingdom"
     },
     {
@@ -790,7 +790,7 @@
     "centre": "Shawlands Cross, Glasgow",
     "radius_miles": 10.0,
     "method": "Straight-line distance from Shawlands Cross to the geocoded training venue; home ground is used only as a clearly labelled proxy where no precise training venue is recorded.",
-    "checked_at": "2026-11-08T08:18:51.913043+00:00",
+    "checked_at": "2026-11-09T08:43:39.585288+00:00",
     "provider": "OpenStreetMap Nominatim"
   }
 }
