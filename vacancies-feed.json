@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:44:54.498111+00:00",
+  "generated_at": "2026-11-10T08:31:24.717474+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,7 +9,7 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2554,
+  "raw_result_count": 2631,
   "result_count": 9,
   "errors": [
     {
@@ -128,5 +128,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-09T08:44:54.557287+00:00"
+  "social_api_checked_at": "2026-11-10T08:31:24.797862+00:00"
 }
