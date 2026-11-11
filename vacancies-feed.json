@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:31:24.717474+00:00",
+  "generated_at": "2026-11-11T08:30:45.842326+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,7 +9,7 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2631,
+  "raw_result_count": 2598,
   "result_count": 9,
   "errors": [
     {
@@ -52,6 +52,17 @@
       "snippet": "Vacancy – Academy Goalkeeping Coach (part-time) &nbsp;&nbsp; Queen's Park Football Club",
       "source": "Queen's Park Football Club",
       "query": "\"Queens Park\" academy coach vacancy Glasgow",
+      "club": "",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Public indexed search"
+    },
+    {
+      "title": "⚽ FIRST TEAM COACH WANTED CONDORRAT AMATEURS FC 📍 Cumbernauld | Greater Glasgow Premier AFL Division One. 🏆 SFA Bronze Accredited Club 📅 Saturday Afternoon Football AN EXCITING OPPORTUNITY TO JOIN OUR MANAGEMENT TEA - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQmpJMnJwMjEwV0JjbUM1emhuTS1zY0w0cVRQX1p0bGZOcDNsenlDNE44NkVFWEdJaEZEbEpCdk9kaHR2SVc3N0lhZ0xwODZDMVAzbDMwS2prRDNzRXo5QXdsLTdORnhxRmJ0eDFhbTlxTGs0TmMtdUt6UTBEcWowY2RVYjRCZG52V1FvMU5CTjkzZWxkeWQydm9ncW9HakNLa0x5cWRjbFJxN1lIbmZ4aDd5WmlZdDlpYjlMcC1idFpsRU9PQUZlOUxzWDZqb2JscG1iTnpYZWlNdw?oc=5",
+      "published": "Tue, 10 Nov 2026 08:23:13 GMT",
+      "snippet": "⚽ FIRST TEAM COACH WANTED CONDORRAT AMATEURS FC 📍 Cumbernauld | Greater Glasgow Premier AFL Division One. 🏆 SFA Bronze Accredited Club 📅 Saturday Afternoon Football AN EXCITING OPPORTUNITY TO JOIN OUR MANAGEMENT TEA &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
       "club": "",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Public indexed search"
@@ -101,17 +112,6 @@
       "discovery_method": "Club watchlist"
     },
     {
-      "title": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for a passionate, motivated and experienced Goalkeeping Coach to join our coaching team. You'll lead weekly Sunday sessions at Peterson Park, helping develop our - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUUtWNEpJbExZMHprVWJDYndxNFNRUmRjdWtqcV83c0dpVEUxNHJ4ZVRacVUtWmx4eEZUYkFKUi1Zc25zZWZCT1JYYnE5ZkRRT2lEaks5TlhieC1WR2pEYzg2a2podHVkeHo5LURJN2tjRzFGSmZFc3hQaTRreTVjZmx3M2RraXdBYmdDR3MyY3NMUDBvTDc0ZHFhaXAzdlpIQ0FCanBVS2VyVzFEdmFfVFprWVJkRlh5UlYwdDhCQTNLVm1vSHRCSk9QUlYzUVNqaVpKaUZDTjlucGdRdVE?oc=5",
-      "published": "Sun, 25 Oct 2026 07:00:00 GMT",
-      "snippet": "PAID POSITION: WE'RE RECRUITING A GOALKEEPING COACH BSC Glasgow is looking for a passionate, motivated and experienced Goalkeeping Coach to join our coaching team. You'll lead weekly Sunday sessions at Peterson Park, helping develop our &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC Glasgow",
-      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
-      "discovery_method": "Club watchlist"
-    },
-    {
       "title": "Vacancy – Academy Coach (under-17s & Under-19s) - Queen's Park Football Club",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05V1hjTFFOVUNXY054NmlZNlFOSTJjRFVzMC1Ca3VWVmNsYXVocXJOWW1rcVc5M19kTEFFdnRtTkRFc1RNRE9tU2doN1poWGJYWlZJalIyS1h0ZHRrdk9DWFpaakMxa3diSTRPaFpVTzhOZFpoR29vQg?oc=5",
       "published": "Mon, 10 Aug 2026 17:51:19 GMT",
@@ -128,5 +128,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-10T08:31:24.797862+00:00"
+  "social_api_checked_at": "2026-11-11T08:30:45.910219+00:00"
 }

@@ -790,7 +790,7 @@
     "centre": "Shawlands Cross, Glasgow",
     "radius_miles": 10.0,
     "method": "Straight-line distance from Shawlands Cross to the geocoded training venue; home ground is used only as a clearly labelled proxy where no precise training venue is recorded.",
-    "checked_at": "2026-11-10T08:30:10.962853+00:00",
+    "checked_at": "2026-11-11T08:29:43.030339+00:00",
     "provider": "OpenStreetMap Nominatim"
   }
 }
