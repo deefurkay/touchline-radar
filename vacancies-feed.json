@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T08:30:45.842326+00:00",
+  "generated_at": "2026-11-12T08:35:18.949728+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,7 +9,7 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2598,
+  "raw_result_count": 2570,
   "result_count": 9,
   "errors": [
     {
@@ -84,7 +84,7 @@
       "published": "Thu, 17 Sep 2026 07:00:00 GMT",
       "snippet": "🚨 VACANCY: General Manager GSC Auldhouse Foundation - the charity behind Scotland's largest grassroots football club - are hiring a new General Manager ⤵️ 🕰️ Full time 💰 Salary dependent on experience 🗓️ Deadline: 15 Oct ➡️ More details and app &nbsp;&nbsp; Facebook",
       "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
+      "query": "site:facebook.com \"Giffnock Soccer Centre\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
       "club": "",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Public indexed search"
@@ -128,5 +128,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-11T08:30:45.910219+00:00"
+  "social_api_checked_at": "2026-11-12T08:35:19.003780+00:00"
 }
