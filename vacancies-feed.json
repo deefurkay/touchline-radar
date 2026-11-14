@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:31:57.238954+00:00",
+  "generated_at": "2026-11-14T08:21:05.402620+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,7 +9,7 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2565,
+  "raw_result_count": 2554,
   "result_count": 8,
   "errors": [
     {
@@ -68,17 +68,6 @@
       "discovery_method": "Public indexed search"
     },
     {
-      "title": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcS1ITWI1RFk5elJ2Z1c2U3BRckEzWm1jUE16QzRQdklidzUtX1ZHMVhCYVFzQW9EVGVLdUE5QUhZaFlPX01pM3J6YW5OQjNGeElGMWtVdGF1aTZjTUhyTTlwdkQ0T0Z3LWlwSFdZOUFnMHBOdk56S25fTTJ0U0gweWgycFlVeDUtNDBVbVh1RUZramVTMGh1eGh6ZzlxaXp1eHNhaDFtLVZpZ2RSbkVXNVo2SHdXU0J0M21CZHBoazRDY2JaZDgya2ZDOWZNNVhjVW5MU0xyMEdDOXhnbUE?oc=5",
-      "published": "Thu, 29 Oct 2026 07:01:52 GMT",
-      "snippet": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
-      "club": "BSC Glasgow",
-      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
-      "discovery_method": "Club watchlist"
-    },
-    {
       "title": "🚨 VACANCY: General Manager GSC Auldhouse Foundation - the charity behind Scotland's largest grassroots football club - are hiring a new General Manager ⤵️ 🕰️ Full time 💰 Salary dependent on experience 🗓️ Deadline: 15 Oct ➡️ More details and app - Facebook",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPamc3b3haRW9feXFFMjhFbDBkT1N3NVBVSE95UDhiTUpkRUNLbFhlSTU5YmMzLTMyOFJKZDhXaXJKMFRwamo3OHFabjd3R3FCY2h0M05zcXR1NDE3a0IwUFVfWjI3RDFPVDB4aGFHWVZ1bW84ajMyS0toaWJESnJjSURxb0hLZ3gyNnBjdm10NVc2aDZHZlpOc3ZROGdOTklGb21ub0Z0VEY5UExsNGY0ZmNzWUxFcUdpQ1YwSm9jOXh6NHFKLWtRMGl1VnZoc25iNWF4d0k2MA?oc=5",
       "published": "Thu, 17 Sep 2026 07:00:00 GMT",
@@ -110,6 +99,17 @@
       "club": "",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Public indexed search"
+    },
+    {
+      "title": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTkRkOC1JaGM3U0wwSU5tZmFWc1RPWV9ZemRRT2lYWUJsMjhlQTVzLTl0bV90SW8tZE81ajM1dG9sWjJvd1FLLVQtem1QTG9xZENYVGk2TmxURHJTam01dEZlN3FBQl9XbTQtd1NxcEpIalFvMWlrWXBUc21BZ1JZMy03UUtHSXFkbDJtVWc1RzZZRWYxLWFzRVViQ1UyR0tnTjcxRlh4TlBrckhHdlhyak9aOF91WjJsd0pQdXFPRlA0LVB0QVE1QnphUjRSYzljeHFaRF92Xy1CZ2JEX3c?oc=5",
+      "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+      "snippet": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with &nbsp;&nbsp; Facebook",
+      "source": "Facebook",
+      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
+      "club": "BSC Glasgow",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Club watchlist"
     }
   ],
   "social_api_status": {
@@ -117,5 +117,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-13T08:31:57.307887+00:00"
+  "social_api_checked_at": "2026-11-14T08:21:05.473890+00:00"
 }
