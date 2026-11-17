@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:01:04.684387+00:00",
+  "generated_at": "2026-11-17T08:36:27.190095+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,9 +9,17 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2546,
-  "result_count": 8,
+  "raw_result_count": 2497,
+  "result_count": 7,
   "errors": [
+    {
+      "query": "\"looking for a manager\" football Glasgow OR Renfrewshire OR Paisley",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"Rossvale FC\" (coach OR manager OR vacancy OR wanted)",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
     {
       "source": "Petershill FC official website",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
@@ -46,20 +54,9 @@
       "discovery_method": "Public indexed search"
     },
     {
-      "title": "⚽ FIRST TEAM COACH WANTED CONDORRAT AMATEURS FC 📍 Cumbernauld | Greater Glasgow Premier AFL Division One. 🏆 SFA Bronze Accredited Club 📅 Saturday Afternoon Football AN EXCITING OPPORTUNITY TO JOIN OUR MANAGEMENT TEA - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQmpJMnJwMjEwV0JjbUM1emhuTS1zY0w0cVRQX1p0bGZOcDNsenlDNE44NkVFWEdJaEZEbEpCdk9kaHR2SVc3N0lhZ0xwODZDMVAzbDMwS2prRDNzRXo5QXdsLTdORnhxRmJ0eDFhbTlxTGs0TmMtdUt6UTBEcWowY2RVYjRCZG52V1FvMU5CTjkzZWxkeWQydm9ncW9HakNLa0x5cWRjbFJxN1lIbmZ4aDd5WmlZdDlpYjlMcC1idFpsRU9PQUZlOUxzWDZqb2JscG1iTnpYZWlNdw?oc=5",
-      "published": "Tue, 10 Nov 2026 08:23:13 GMT",
-      "snippet": "⚽ FIRST TEAM COACH WANTED CONDORRAT AMATEURS FC 📍 Cumbernauld | Greater Glasgow Premier AFL Division One. 🏆 SFA Bronze Accredited Club 📅 Saturday Afternoon Football AN EXCITING OPPORTUNITY TO JOIN OUR MANAGEMENT TEA &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
-      "club": "",
-      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
-      "discovery_method": "Public indexed search"
-    },
-    {
       "title": "FIRST TEAM MANAGER | APPLICATIONS OPEN Saint Anthony’s FC are inviting applications for the position of First Team Manager. Based at McKenna Park in Greater Govan and competing in the West of Scotland Football League Third Division, we’re lookin - Facebook",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVEJjYU9aaGItUWpqMk1ZZHNibndEU3h2QTJycng2TWVPeXlMM25aWHNTSTRvdWYtTzRuOS03SDFtZjNSYTJJanZ4VUc0UXlNaTdUcEdPYUJNQjJxaXhMamN1N1ItVC1Gd2JxeFlGVzhwS0dlSjAwZllaM00zU0FYVG8wVWFHRUtIQlNDUlk5UFoyYmlyY1RkSHhVQXdXRnN3U2Jhc2JKX1JEWC1ucUI5YWVycWpjWHk2ZlRDektTOFJuN2Q5YTRyVjUxZGY2OFdJcDRzbUFwV3QzNjJwTmc?oc=5",
-      "published": "Tue, 03 Nov 2026 09:00:58 GMT",
+      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
       "snippet": "FIRST TEAM MANAGER | APPLICATIONS OPEN Saint Anthony’s FC are inviting applications for the position of First Team Manager. Based at McKenna Park in Greater Govan and competing in the West of Scotland Football League Third Division, we’re lookin &nbsp;&nbsp; Facebook",
       "source": "Facebook",
       "query": "site:facebook.com football \"manager wanted\" Glasgow club",
@@ -117,5 +114,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-16T10:01:04.752569+00:00"
+  "social_api_checked_at": "2026-11-17T08:36:27.270346+00:00"
 }
