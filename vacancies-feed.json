@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:37:31.907254+00:00",
+  "generated_at": "2026-11-19T08:41:05.198560+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,17 +9,9 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 2537,
+  "raw_result_count": 2672,
   "result_count": 7,
   "errors": [
-    {
-      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"Partick Thistle FC · First Team & Thistle Weir Youth Academy\" (coach OR manager OR vacancy OR wanted)",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"Renfrew FC\" (coach OR manager OR vacancy OR wanted)",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
     {
       "source": "Petershill FC official website",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
@@ -49,17 +41,6 @@
       "snippet": "Vacancy – Academy Goalkeeping Coach (part-time) &nbsp;&nbsp; Queen's Park Football Club",
       "source": "Queen's Park Football Club",
       "query": "\"Queens Park\" academy coach vacancy Glasgow",
-      "club": "",
-      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
-      "discovery_method": "Public indexed search"
-    },
-    {
-      "title": "FIRST TEAM MANAGER | APPLICATIONS OPEN Saint Anthony’s FC are inviting applications for the position of First Team Manager. Based at McKenna Park in Greater Govan and competing in the West of Scotland Football League Third Division, we’re lookin - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVEJjYU9aaGItUWpqMk1ZZHNibndEU3h2QTJycng2TWVPeXlMM25aWHNTSTRvdWYtTzRuOS03SDFtZjNSYTJJanZ4VUc0UXlNaTdUcEdPYUJNQjJxaXhMamN1N1ItVC1Gd2JxeFlGVzhwS0dlSjAwZllaM00zU0FYVG8wVWFHRUtIQlNDUlk5UFoyYmlyY1RkSHhVQXdXRnN3U2Jhc2JKX1JEWC1ucUI5YWVycWpjWHk2ZlRDektTOFJuN2Q5YTRyVjUxZGY2OFdJcDRzbUFwV3QzNjJwTmc?oc=5",
-      "published": "Tue, 03 Nov 2026 09:00:58 GMT",
-      "snippet": "FIRST TEAM MANAGER | APPLICATIONS OPEN Saint Anthony’s FC are inviting applications for the position of First Team Manager. Based at McKenna Park in Greater Govan and competing in the West of Scotland Football League Third Division, we’re lookin &nbsp;&nbsp; Facebook",
-      "source": "Facebook",
-      "query": "site:facebook.com football \"manager wanted\" Glasgow club",
       "club": "",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Public indexed search"
@@ -98,6 +79,17 @@
       "discovery_method": "Club watchlist"
     },
     {
+      "title": "GLASGOW CLAN APPOINT JACK SKILLE AS NEW HEAD COACH - Glasgow Clan",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyM1ZpWFVJZnJPVEV0MDZkRW41Z09iUGJPTXNCOHBBc0ZLcU1MNEt0OEl3TTl4SWNqU21YSENZeHd0X1RxWUZLMlRyNjFNQnVtek14VkNITC1VRTgtcDFRRVFEa1pteF84RUlzLVBvYThuMTNGWVJkRldDMA?oc=5",
+      "published": "Mon, 26 Oct 2026 18:03:35 GMT",
+      "snippet": "GLASGOW CLAN APPOINT JACK SKILLE AS NEW HEAD COACH &nbsp;&nbsp; Glasgow Clan",
+      "source": "Glasgow Clan",
+      "query": "\"assistant coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "club": "",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Public indexed search"
+    },
+    {
       "title": "Vacancy – Academy Coach (under-17s & Under-19s) - Queen's Park Football Club",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05V1hjTFFOVUNXY054NmlZNlFOSTJjRFVzMC1Ca3VWVmNsYXVocXJOWW1rcVc5M19kTEFFdnRtTkRFc1RNRE9tU2doN1poWGJYWlZJalIyS1h0ZHRrdk9DWFpaakMxa3diSTRPaFpVTzhOZFpoR29vQg?oc=5",
       "published": "Mon, 10 Aug 2026 17:51:19 GMT",
@@ -114,5 +106,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-18T08:37:31.993506+00:00"
+  "social_api_checked_at": "2026-11-19T08:41:05.281707+00:00"
 }
