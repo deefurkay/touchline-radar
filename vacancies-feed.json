@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:44:27.237764+00:00",
+  "generated_at": "2026-11-28T08:29:20.054211+00:00",
   "coverage_note": "Recent candidate recruitment posts from public search-indexed results. Search query text is never used to classify a result. Results older than 180 days are excluded. Club-specific searches cover publicly indexed Facebook, Instagram and X posts where search engines expose them; this is not direct platform API access and cannot see every post. Every lead remains unverified; confirm the original post, club, team level and base within 10 miles of Shawlands. Direct social APIs run when their GitHub secrets and platform approvals are configured.",
   "query_count": 152,
   "club_watchlist_count": 34,
@@ -9,17 +9,9 @@
     "public indexed X posts",
     "club websites and news"
   ],
-  "raw_result_count": 3154,
-  "result_count": 8,
+  "raw_result_count": 3333,
+  "result_count": 10,
   "errors": [
-    {
-      "query": "\"St Mirren\" academy coach vacancy Paisley",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "query": "site:theants.co.uk manager OR \"part ways\" OR departure",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
     {
       "source": "Petershill FC official website",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
@@ -70,7 +62,7 @@
       "published": "Thu, 29 Oct 2026 07:01:52 GMT",
       "snippet": "🧤⚽ PAID POSITION: HEAD GOALKEEPING COACH WANTED! BSC Glasgow is looking for a passionate and experienced Head Goalkeeping Coach to lead and develop goalkeeper coaching at Peterson Park. 🌟 What's on offer? ✅ Paid coaching position with &nbsp;&nbsp; Facebook",
       "source": "Facebook",
-      "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
+      "query": "site:facebook.com football \"U20\" coach Glasgow",
       "club": "BSC Glasgow",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Club watchlist"
@@ -87,10 +79,10 @@
       "discovery_method": "Public indexed search"
     },
     {
-      "title": "⚽ WE'RE RECRUITING! | Induction & Coach Support Coordinator Want to make a real difference at BSC Glasgow? We're looking for a friendly, organised volunteer to help welcome new volunteers and coaches into the club, making sure they feel supported an - Facebook",
+      "title": "⚽ WE'RE RECRUITING! | Induction & Coach Support Coordinator\n\nWant to make a real difference at BSC Glasgow?\n\nWe're looking for a friendly, organised volunteer to help welcome new volunteers and coaches into the club, making sure they feel supported and confident as they get started.\n\nYou don't need to be a football expert. Just a willingness to help people, a bit of organisation and a positive attitude!\n\nWhat's involved?\n\n✅ Helping onboard new volunteers and coaches\n✅ Providing support with the SFA COMET system\n✅ A flexible role to fit around your availability\n✅ Training and guidance provided\n\nWhether you can give a little time or a little more, your contribution will be valued.\n\n📩 Interested? Get in touch today! : mail@bscglasgow.co.uk - Facebook",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNc1lTajQtSm5hLXVuR3YzeTJTRWM2VEFPU3RvSFZnVUZwNzZpX3oxRlR1UkxjZERVa1lNcS05Q2p3M3p5c0lRdXM3dVFqOTEwSVQ1dlJiZXZrVHJsUWY2VFFMM2dyTkxWejdtMVRNQTNUZXJyd1hYSWxfZTFUMjdhVlJOMUlOYVR0MVdLdUtOZVA1NEpBUWwtRDhhUlhwVWtYSW94Rjdnc2RDbG1LdmpaZ1YwQXZ6c0Q4UlNRUEtZR0E1dUt0UFhHenI5SzBkSlhGdFdXX1FKaFlkQ0swT2c?oc=5",
       "published": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "snippet": "⚽ WE'RE RECRUITING! | Induction & Coach Support Coordinator Want to make a real difference at BSC Glasgow? We're looking for a friendly, organised volunteer to help welcome new volunteers and coaches into the club, making sure they feel supported an &nbsp;&nbsp; Facebook",
+      "snippet": "⚽ WE'RE RECRUITING! | Induction & Coach Support Coordinator Want to make a real difference at BSC Glasgow? We're looking for a friendly, organised volunteer to help welcome new volunteers and coaches into the club, making sure they feel supported and confident as they get started. You don't need to be a football expert. Just a willingness to help people, a bit of organisation and a positive attitude! What's involved? ✅ Helping onboard new volunteers and coaches ✅ Providing support with the SFA C",
       "source": "Facebook",
       "query": "site:facebook.com \"BSC Glasgow\" (coach OR manager OR \"looking for\" OR wanted OR recruitment)",
       "club": "BSC Glasgow",
@@ -109,12 +101,34 @@
       "discovery_method": "Public indexed search"
     },
     {
+      "title": "GLASGOW CLAN APPOINT JACK SKILLE AS NEW HEAD COACH - Glasgow Clan",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyM1ZpWFVJZnJPVEV0MDZkRW41Z09iUGJPTXNCOHBBc0ZLcU1MNEt0OEl3TTl4SWNqU21YSENZeHd0X1RxWUZLMlRyNjFNQnVtek14VkNITC1VRTgtcDFRRVFEa1pteF84RUlzLVBvYThuMTNGWVJkRldDMA?oc=5",
+      "published": "Mon, 26 Oct 2026 18:03:35 GMT",
+      "snippet": "GLASGOW CLAN APPOINT JACK SKILLE AS NEW HEAD COACH &nbsp;&nbsp; Glasgow Clan",
+      "source": "Glasgow Clan",
+      "query": "\"head coach\" football vacancy Glasgow OR Renfrewshire OR Paisley",
+      "club": "",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Public indexed search"
+    },
+    {
       "title": "Vacancy – Academy Coach (under-17s & Under-19s) - Queen's Park Football Club",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05V1hjTFFOVUNXY054NmlZNlFOSTJjRFVzMC1Ca3VWVmNsYXVocXJOWW1rcVc5M19kTEFFdnRtTkRFc1RNRE9tU2doN1poWGJYWlZJalIyS1h0ZHRrdk9DWFpaakMxa3diSTRPaFpVTzhOZFpoR29vQg?oc=5",
       "published": "Mon, 10 Aug 2026 17:51:19 GMT",
       "snippet": "Vacancy – Academy Coach (under-17s & Under-19s) &nbsp;&nbsp; Queen's Park Football Club",
       "source": "Queen's Park Football Club",
       "query": "\"Queens Park\" academy coach vacancy Glasgow",
+      "club": "",
+      "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
+      "discovery_method": "Public indexed search"
+    },
+    {
+      "title": "🧤 WE’RE RECRUITING | GOALKEEPING COACH St Mirren Women & Girls FC are looking for an enthusiastic, committed and motivated Goalkeeping Coach to join our coaching team and help drive forward the development of our Goalkeeping Academy. This - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lNjdVYWVMbzQwSXR3UWFJZl83LUJ5cDBkQXJTdWJJeDFSd2ZPYVhGbWlRTUhBVjNkZDItZFVGSWFYU3VmZzZvWlgtT29tUHRRckE?oc=5",
+      "published": "Fri, 20 Nov 2026 08:06:27 GMT",
+      "snippet": "🧤 WE’RE RECRUITING | GOALKEEPING COACH St Mirren Women & Girls FC are looking for an enthusiastic, committed and motivated Goalkeeping Coach to join our coaching team and help drive forward the development of our Goalkeeping Academy. This &nbsp;&nbsp; Instagram",
+      "source": "Instagram",
+      "query": "(site:instagram.com OR site:x.com OR site:twitter.com) \"BSC Glasgow\" (coach OR manager OR vacancy OR wanted)",
       "club": "",
       "verification_status": "Coaching/management recruitment signal found — verify original advert, team level and base",
       "discovery_method": "Public indexed search"
@@ -125,5 +139,5 @@
     "facebook": "not configured (requires approved Meta access, META_ACCESS_TOKEN and META_PAGE_IDS)",
     "instagram": "not configured (requires Meta approval, INSTAGRAM_USER_ID and META_ACCESS_TOKEN)"
   },
-  "social_api_checked_at": "2026-11-27T08:44:27.328644+00:00"
+  "social_api_checked_at": "2026-11-28T08:29:20.128779+00:00"
 }
